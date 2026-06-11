@@ -1,0 +1,1731 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cocoa Editing Services | Video Editing &amp; Motion Design â€” Manchester</title>
+<meta name="description" content="Will Oldham â€” freelance video editor and motion designer based in Manchester, UK. Four years, 280+ projects, 57M+ views. Available for hire."/>
+<meta property="og:title" content="Cocoa Editing Services | Video Editing &amp; Motion Design â€” Manchester"/>
+<meta property="og:description" content="Will Oldham â€” freelance video editor and motion designer based in Manchester, UK. Four years, 280+ projects, 57M+ views. Available for hire."/>
+<meta property="og:image" content="assets/logo.png"/>
+<meta property="og:type" content="website"/>
+<link rel="icon" type="image/png" href="assets/logo.png"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    "background": "#0E0A1A",
+                    "surface": "#160E28",
+                    "raised": "#1E1535",
+                    "primary": "#3D1A8C",
+                    "primary-bright": "#5425B8",
+                    "accent": "#4A7FFF",
+                    "cream": "#E8D966",
+                    "ink": "#F0EDE0",
+                    "muted": "#9B93B8",
+                    "faint": "#5C5478",
+                    /* legacy aliases used by preserved Tetris markup/JS */
+                    "on-background": "#F0EDE0",
+                    "on-surface-variant": "#9B93B8",
+                    "surface-container-highest": "#1E1535",
+                    "secondary": "#4A7FFF",
+                    "tertiary": "#E8D966"
+                },
+                fontFamily: {
+                    "author": ["Author", "sans-serif"],
+                    "body": ["Inter", "sans-serif"]
+                }
+            }
+        }
+    }
+</script>
+<style>
+    @font-face {
+        font-family: 'Author';
+        src: url('assets/fonts/Author-Variable.ttf') format('truetype');
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Author';
+        src: url('assets/fonts/Author-VariableItalic.ttf') format('truetype');
+        font-weight: 100 900;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+    html, body { overflow-x: clip; }
+    body {
+        background: #0E0A1A;
+        color: #F0EDE0;
+        font-family: 'Inter', sans-serif;
+    }
+    ::selection { background: rgba(84, 37, 184, 0.55); }
+
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    .eyebrow {
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: #5425B8;
+    }
+
+    .nav-link {
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: #9B93B8;
+        transition: color 0.2s ease;
+    }
+    .nav-link:hover { color: #F0EDE0; }
+
+    .footer-link {
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.25em;
+        color: #5C5478;
+        transition: color 0.2s ease;
+    }
+    .footer-link:hover { color: #F0EDE0; }
+
+    .glass-card {
+        background: rgba(30, 21, 53, 0.6);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(240, 237, 224, 0.06);
+    }
+
+    /* Chromatic aberration â€” headings only */
+    .chromatic-text {
+        position: relative;
+        text-shadow: 0.5px 0 0.5px rgba(255, 0, 0, 0.2), -0.5px 0 0.5px rgba(0, 255, 255, 0.2);
+        transition: text-shadow 0.3s ease;
+    }
+    .chromatic-text:hover {
+        text-shadow: 1.5px 0 1px rgba(255, 0, 0, 0.45), -1.5px 0 1px rgba(0, 255, 255, 0.45);
+    }
+
+    .chromatic-box {
+        position: relative;
+        box-shadow: 0 0 0 0.5px rgba(255, 0, 0, 0.1), 0 0 0 0.5px rgba(0, 255, 255, 0.1);
+        transition: box-shadow 0.4s ease, transform 0.4s ease;
+    }
+    .chromatic-box:hover {
+        box-shadow: 1px 0 2px rgba(255, 0, 0, 0.35), -1px 0 2px rgba(0, 255, 255, 0.35);
+    }
+
+    /* Ghost / echo headline duplicate */
+    .ghost-echo { position: relative; z-index: 0; }
+    .ghost-echo::before {
+        content: attr(data-text);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        white-space: pre-line;
+        color: #5425B8;
+        filter: blur(14px);
+        opacity: 0.1;
+        transform: translate(3px, 3px);
+        pointer-events: none;
+        z-index: -1;
+    }
+
+    /* Buttons */
+    .btn-primary-lg {
+        display: inline-block;
+        font-family: 'Author', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        background: #3D1A8C;
+        color: #F0EDE0;
+        padding: 16px 32px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+    .btn-primary-lg:hover { box-shadow: 0 0 30px rgba(61, 26, 140, 0.5); background: #5425B8; }
+    .btn-ghost-lg {
+        display: inline-block;
+        font-family: 'Author', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        background: transparent;
+        border: 1px solid rgba(240, 237, 224, 0.2);
+        color: #F0EDE0;
+        padding: 16px 32px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+    .btn-ghost-lg:hover { background: rgba(240, 237, 224, 0.05); }
+
+    .trust-name {
+        font-family: 'Author', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        color: #F0EDE0;
+        opacity: 0.35;
+        filter: grayscale(1);
+        transition: all 0.6s ease;
+    }
+    .trust-name:hover { opacity: 1; filter: grayscale(0); }
+
+    .brand-link {
+        font-family: 'Author', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #F0EDE0;
+        opacity: 0.35;
+        transition: all 0.3s ease;
+    }
+    .brand-link:hover { opacity: 1; color: #5425B8; }
+
+    /* Marquees */
+    @keyframes scroll {
+        from { transform: translateX(0); }
+        to { transform: translateX(-50%); }
+    }
+    @keyframes scroll-reverse {
+        from { transform: translateX(-50%); }
+        to { transform: translateX(0); }
+    }
+    .animate-marquee { animation: scroll 40s linear infinite; }
+    .animate-brands { animation: scroll 60s linear infinite; }
+    .animate-brands-reverse { animation: scroll-reverse 65s linear infinite; }
+    .marquee-mask {
+        mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+        -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    }
+    .marquee-item {
+        font-family: 'Author', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #F0EDE0;
+        letter-spacing: 0.05em;
+        white-space: nowrap;
+    }
+
+    /* Animated dot grid background (kept from original implementation) */
+    .motion-canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        overflow: hidden;
+    }
+    .animated-grid-overlay {
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background-image: radial-gradient(circle, rgba(240, 237, 224, 0.5) 1px, transparent 1px);
+        background-size: 40px 40px;
+        opacity: 0.06;
+        pointer-events: none;
+        z-index: 0;
+        transform: rotate(15deg);
+        animation: grid-drift 60s linear infinite;
+    }
+    @keyframes grid-drift {
+        0% { transform: translate(0, 0) rotate(15deg); }
+        100% { transform: translate(40px, 40px) rotate(15deg); }
+    }
+
+    /* Availability toast */
+    @keyframes pulse-ring {
+        0% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.4); }
+        70% { box-shadow: 0 0 0 8px rgba(74, 222, 128, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0); }
+    }
+    .pulse-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #4ade80;
+        box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.4);
+        animation: pulse-ring 2s infinite;
+        flex-shrink: 0;
+    }
+
+    /* Form validation shake */
+    @keyframes fieldShake {
+        0%, 100% { transform: translateX(0); }
+        12.5% { transform: translateX(-4px); }
+        25% { transform: translateX(4px); }
+        37.5% { transform: translateX(-4px); }
+        50% { transform: translateX(4px); }
+        62.5% { transform: translateX(-4px); }
+        75% { transform: translateX(4px); }
+        87.5% { transform: translateX(-2px); }
+    }
+    .field-shake {
+        animation: fieldShake 0.4s ease;
+        border-color: rgba(255, 107, 107, 0.6) !important;
+    }
+
+    /* Form dissolve into Tetris (kept from original implementation) */
+    @keyframes formBlockFall {
+        0%   { transform: translateY(0) rotate(0deg) scale(1); opacity: 1; }
+        100% { transform: translateY(50px) rotate(var(--tilt, 4deg)) scale(0.85); opacity: 0; }
+    }
+    .form-group-dissolve {
+        animation: formBlockFall 0.45s cubic-bezier(0.4, 0, 1, 1) forwards;
+        animation-delay: var(--delay, 0s);
+    }
+
+    /* Contact form fields â€” input.field-input etc. outranks the Tailwind
+       forms plugin's [type='text'] reset, which otherwise paints inputs white */
+    input.field-input, select.field-input, textarea.field-input {
+        width: 100%;
+        background: rgba(30, 21, 53, 0.8);
+        border: 1px solid rgba(240, 237, 224, 0.08);
+        border-radius: 8px;
+        padding: 16px;
+        color: #F0EDE0;
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+    }
+    input.field-input::placeholder, textarea.field-input::placeholder { color: #5C5478; }
+    input.field-input:focus, select.field-input:focus, textarea.field-input:focus {
+        outline: none;
+        border-color: transparent;
+        box-shadow: 0 0 0 2px #3D1A8C;
+    }
+    .field-label {
+        display: block;
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.25em;
+        color: #9B93B8;
+        margin-bottom: 12px;
+    }
+
+    /* Budget slider */
+    input[type="range"] {
+        -webkit-appearance: none;
+        appearance: none;
+        height: 8px;
+        border-radius: 4px;
+        outline: none;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #3D1A8C 0%, #4A7FFF 100%);
+        cursor: pointer;
+        box-shadow: 0 0 15px rgba(84, 37, 184, 0.5);
+        transition: box-shadow 0.2s ease;
+    }
+    input[type="range"]::-webkit-slider-thumb:hover {
+        box-shadow: 0 0 25px rgba(84, 37, 184, 0.8);
+        transform: scale(1.1);
+    }
+    input[type="range"]::-moz-range-thumb {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #3D1A8C 0%, #4A7FFF 100%);
+        cursor: pointer;
+        border: none;
+        box-shadow: 0 0 15px rgba(84, 37, 184, 0.5);
+    }
+
+    /* Testimonial comment-bubble grid */
+    .testimonial-columns { columns: 1; column-gap: 16px; }
+    @media (min-width: 768px) { .testimonial-columns { columns: 2; } }
+    @media (min-width: 1024px) { .testimonial-columns { columns: 3; } }
+    .comment-bubble {
+        display: flex;
+        gap: 14px;
+        background: rgba(30, 21, 53, 0.6);
+        border: 1px solid rgba(240, 237, 224, 0.06);
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 16px;
+        break-inside: avoid;
+    }
+    .comment-avatar {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .comment-author {
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        color: #F0EDE0;
+    }
+    .comment-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #9B93B8;
+        margin-top: 4px;
+    }
+    .comment-text .hl { color: #F0EDE0; }
+    .comment-likes {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 12px;
+        color: #5C5478;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+    }
+    .comment-likes .material-symbols-outlined { font-size: 16px; }
+
+    /* Photo stack responsive scaling â€” JS geometry stays untouched */
+    .photo-stage { height: 920px; }
+    .photo-scale { position: relative; transform-origin: center; }
+    @media (max-width: 1279px) {
+        .photo-scale { transform: scale(0.78); }
+        .photo-stage { height: 740px; }
+    }
+    @media (max-width: 767px) {
+        .photo-scale { transform: scale(0.52); }
+        .photo-stage { height: 500px; }
+    }
+    @media (max-width: 420px) {
+        .photo-scale { transform: scale(0.42); }
+        .photo-stage { height: 410px; }
+    }
+
+    /* Tool pills */
+    .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 8px 16px;
+        border-radius: 999px;
+    }
+    .pill-filled {
+        background: rgba(61, 26, 140, 0.25);
+        border: 1px solid rgba(61, 26, 140, 0.5);
+        color: #F0EDE0;
+    }
+    .pill-outline {
+        background: transparent;
+        border: 1px solid rgba(240, 237, 224, 0.12);
+        color: #9B93B8;
+    }
+    .pill-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+
+    /* Mobile menu */
+    @keyframes menuIn {
+        from { opacity: 0; transform: translateX(24px); }
+        to { opacity: 1; transform: translateX(0); }
+    }
+    .mobile-menu-open { animation: menuIn 0.3s ease; }
+</style>
+</head>
+<body class="bg-background text-ink font-body">
+
+<!-- Animated Background Layer -->
+<div class="motion-canvas">
+    <div class="animated-grid-overlay" id="gridLayer"></div>
+</div>
+
+<!-- Navigation -->
+<nav class="fixed top-0 left-0 w-full z-50 border-b border-[rgba(240,237,224,0.06)]" style="background: rgba(14, 10, 26, 0.7); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);">
+    <div class="flex items-center justify-between px-5 md:px-8 py-4">
+        <a href="index.html" class="flex items-center gap-3 min-w-0">
+            <img src="assets/logo.png" alt="Cocoa Editing Services logo" class="w-9 h-9 shrink-0" style="height:36px;width:36px;"/>
+            <span class="font-author font-bold text-base md:text-lg text-ink tracking-tight truncate">Cocoa Editing Services</span>
+        </a>
+        <div class="flex items-center gap-4 md:gap-8">
+            <div class="hidden md:flex items-center gap-8">
+                <a class="nav-link" href="#work">Work</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+            <a href="#contact" class="font-author font-bold text-sm bg-primary hover:bg-primary-bright text-ink px-4 md:px-6 py-2.5 rounded-md transition-all duration-200 whitespace-nowrap">Start a Project</a>
+            <button class="md:hidden flex flex-col justify-center gap-1.5 w-9 h-9 shrink-0" onclick="openMobileMenu()" aria-label="Open menu">
+                <span class="block w-6 h-0.5 bg-ink"></span>
+                <span class="block w-6 h-0.5 bg-ink"></span>
+                <span class="block w-6 h-0.5 bg-ink"></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile menu overlay -->
+<div id="mobile-menu" class="fixed inset-0 z-[70] hidden" style="background: #0E0A1A;">
+    <button class="absolute top-6 right-6 w-10 h-10 flex items-center justify-center text-ink text-3xl font-light" onclick="closeMobileMenu()" aria-label="Close menu">&times;</button>
+    <nav class="h-full flex flex-col items-center justify-center gap-10">
+        <a class="font-author font-bold text-4xl text-ink" href="#work" onclick="closeMobileMenu()">Work</a>
+        <a class="font-author font-bold text-4xl text-ink" href="#services" onclick="closeMobileMenu()">Services</a>
+        <a class="font-author font-bold text-4xl text-ink" href="#about" onclick="closeMobileMenu()">About</a>
+        <a class="font-author font-bold text-4xl text-ink" href="#contact" onclick="closeMobileMenu()">Contact</a>
+    </nav>
+</div>
+
+<main class="relative z-10">
+
+    <!-- Hero -->
+    <header class="relative min-h-screen flex flex-col items-center justify-center px-6" style="padding-top: 120px; padding-bottom: 80px;">
+        <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse at 50% 30%, rgba(61, 26, 140, 0.25) 0%, transparent 65%);"></div>
+        <div class="relative w-full text-center mx-auto" style="max-width: 1100px;">
+            <div class="inline-flex items-center px-4 py-1.5 rounded-full text-[11px] font-bold uppercase" style="background: rgba(61, 26, 140, 0.3); border: 1px solid rgba(61, 26, 140, 0.6); color: #9B93B8; letter-spacing: 0.2em;">Available for hire</div>
+            <h1 class="ghost-echo chromatic-text font-author font-extrabold text-ink mt-8 text-[48px] md:text-[64px] xl:text-[140px]" style="letter-spacing: -0.03em; line-height: 0.92;" data-text="Hi, I'm Will.&#10;You Found Me.">Hi, I'm Will.<br/>You Found Me.</h1>
+            <p class="text-muted text-xl mx-auto" style="margin-top: 24px; max-width: 500px;">Video editor. Motion designer. Available for hire.</p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4" style="margin-top: 40px;">
+                <a href="#contact" class="btn-primary-lg w-full sm:w-auto">Start a Project</a>
+                <a href="#work" class="btn-ghost-lg w-full sm:w-auto">View Work</a>
+            </div>
+
+            <!-- Showreel -->
+            <div class="mx-auto w-full" style="margin-top: 64px; max-width: 900px;">
+                <div class="rounded-xl" style="box-shadow: 0 0 80px rgba(61, 26, 140, 0.3);">
+                    <div class="relative overflow-hidden rounded-xl border border-[rgba(240,237,224,0.08)]" style="aspect-ratio: 16/9;">
+                        <video class="w-full h-full object-cover" autoplay muted loop playsinline aria-label="Showreel montage of motion design and animation work">
+                            <source src="assets/montage_web.webm" type="video/webm"/>
+                            <source src="assets/montage_web.mp4" type="video/mp4"/>
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trust bar -->
+            <div style="margin-top: 64px;">
+                <p class="text-[10px] uppercase font-bold text-faint mb-8" style="letter-spacing: 0.4em;">A few familiar names</p>
+                <div class="flex flex-wrap justify-center items-center gap-10">
+                    <span class="trust-name">ANTHROPIC</span>
+                    <span class="trust-name">Microsoft</span>
+                    <span class="trust-name">NVIDIA</span>
+                    <span class="trust-name">JetBrains</span>
+                    <span class="trust-name">GitLab</span>
+                    <span class="trust-name">Docker</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Bar -->
+    <section class="border-y border-[rgba(240,237,224,0.06)]" style="background: #0E0A1A; padding: 80px 32px;">
+        <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="text-center md:border-r md:border-[rgba(240,237,224,0.06)] px-4">
+                <div id="stat-audience" class="font-author font-extrabold text-[48px] md:text-[64px] leading-none mb-3 chromatic-text" style="color: #E8D966;">57M+</div>
+                <div class="text-[10px] uppercase text-faint" style="letter-spacing: 0.25em;">Audience Reached</div>
+            </div>
+            <div class="text-center md:border-r md:border-[rgba(240,237,224,0.06)] px-4">
+                <div class="font-author font-extrabold text-[48px] md:text-[64px] leading-none mb-3 chromatic-text" style="color: #4A7FFF;">35+</div>
+                <div class="text-[10px] uppercase text-faint" style="letter-spacing: 0.25em;">Brand Campaigns</div>
+            </div>
+            <div class="text-center md:border-r md:border-[rgba(240,237,224,0.06)] px-4">
+                <div id="stat-videos" class="font-author font-extrabold text-[48px] md:text-[64px] leading-none mb-3 chromatic-text" style="color: #5425B8;">282+</div>
+                <div class="text-[10px] uppercase text-faint" style="letter-spacing: 0.25em;">Videos Delivered</div>
+            </div>
+            <div class="text-center px-4">
+                <div class="font-author font-extrabold text-[48px] md:text-[64px] leading-none mb-3 chromatic-text" style="color: #F0EDE0;">4+</div>
+                <div class="text-[10px] uppercase text-faint" style="letter-spacing: 0.25em;">Years' Experience</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Divider â€” identity -->
+    <div class="overflow-hidden marquee-mask" style="background: #3D1A8C; padding: 18px 0;">
+        <div class="flex whitespace-nowrap animate-marquee" style="width: max-content;">
+            <div class="flex">
+                <span class="marquee-item">Cocoa Editing Services&nbsp;Â·&nbsp;Video Editor&nbsp;Â·&nbsp;Motion Designer&nbsp;Â·&nbsp;Manchester&nbsp;Â·&nbsp;</span>
+                <span class="marquee-item">Cocoa Editing Services&nbsp;Â·&nbsp;Video Editor&nbsp;Â·&nbsp;Motion Designer&nbsp;Â·&nbsp;Manchester&nbsp;Â·&nbsp;</span>
+                <span class="marquee-item">Cocoa Editing Services&nbsp;Â·&nbsp;Video Editor&nbsp;Â·&nbsp;Motion Designer&nbsp;Â·&nbsp;Manchester&nbsp;Â·&nbsp;</span>
+                <span class="marquee-item">Cocoa Editing Services&nbsp;Â·&nbsp;Video Editor&nbsp;Â·&nbsp;Motion Designer&nbsp;Â·&nbsp;Manchester&nbsp;Â·&nbsp;</span>
+            </div>
+            <div class="flex" aria-hidden="true">
+                <span class="marquee-item">Cocoa Editing Services&nbsp;Â·&nbsp;Video Editor&nbsp;Â·&nbsp;Motion Designer&nbsp;Â·&nbsp;Manchester&nbsp;Â·&nbsp;</span>
+                <span class="marquee-item">Cocoa Editing Services&nbsp;Â·&nbsp;Video Editor&nbsp;Â·&nbsp;Motion Designer&nbsp;Â·&nbsp;Manchester&nbsp;Â·&nbsp;</span>
+                <span class="marquee-item">Cocoa Editing Services&nbsp;Â·&nbsp;Video Editor&nbsp;Â·&nbsp;Motion Designer&nbsp;Â·&nbsp;Manchester&nbsp;Â·&nbsp;</span>
+                <span class="marquee-item">Cocoa Editing Services&nbsp;Â·&nbsp;Video Editor&nbsp;Â·&nbsp;Motion Designer&nbsp;Â·&nbsp;Manchester&nbsp;Â·&nbsp;</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <section id="services" style="background: #160E28; padding: 160px 32px;">
+        <div class="max-w-7xl mx-auto">
+            <span class="eyebrow block mb-4">What I Do</span>
+            <h2 class="font-author font-bold text-ink tracking-tight chromatic-text text-[48px] md:text-[64px] leading-[1.02]">End-to-End Video Production</h2>
+            <p class="text-muted text-lg" style="margin-top: 16px; margin-bottom: 64px; max-width: 500px;">From raw concept to final export â€” every stage handled.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="glass-card rounded-xl p-10 hover:-translate-y-2 transition-all duration-500 group" style="transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);">
+                    <div class="w-14 h-14 rounded-lg bg-accent/10 group-hover:bg-accent/20 flex items-center justify-center mb-8 transition-colors">
+                        <span class="material-symbols-outlined text-3xl" style="color: #4A7FFF;">animation</span>
+                    </div>
+                    <h3 class="font-author font-bold text-ink text-[26px] mb-4">Motion Design</h3>
+                    <p class="text-muted leading-relaxed">Custom animations, kinetic typography, lower thirds, title sequences, and visual effects â€” all built from scratch in After Effects and Unreal Engine.</p>
+                </div>
+                <div class="glass-card rounded-xl p-10 hover:-translate-y-2 transition-all duration-500 group" style="transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);">
+                    <div class="w-14 h-14 rounded-lg bg-primary-bright/10 group-hover:bg-primary-bright/20 flex items-center justify-center mb-8 transition-colors">
+                        <span class="material-symbols-outlined text-3xl" style="color: #5425B8;">movie_edit</span>
+                    </div>
+                    <h3 class="font-author font-bold text-ink text-[26px] mb-4">Video Editing</h3>
+                    <p class="text-muted leading-relaxed">From raw footage to something you're proud to publish. Long-form, short-form, and everything in between â€” turned around without cutting corners.</p>
+                </div>
+                <div class="glass-card rounded-xl p-10 hover:-translate-y-2 transition-all duration-500 group" style="transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);">
+                    <div class="w-14 h-14 rounded-lg bg-cream/10 group-hover:bg-cream/20 flex items-center justify-center mb-8 transition-colors">
+                        <span class="material-symbols-outlined text-3xl" style="color: #E8D966;">ads_click</span>
+                    </div>
+                    <h3 class="font-author font-bold text-ink text-[26px] mb-4">Sponsored Content</h3>
+                    <p class="text-muted leading-relaxed">Brand integrations and sponsored segments that feel like part of the video, not an interruption. Thirty-five campaigns and counting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Work -->
+    <section id="work" style="background: #0E0A1A; padding: 160px 32px;">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-8">
+                <div>
+                    <span class="eyebrow block mb-4">Selected Work</span>
+                    <h2 class="font-author font-bold text-ink tracking-tight chromatic-text text-[48px] md:text-[64px] leading-[1.02]">Featured Projects</h2>
+                </div>
+                <p class="text-muted text-lg max-w-md">A rolling showcase of my most recent work, pulled straight from my portfolio.</p>
+            </div>
+            <div id="featured-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" style="margin-top: 64px;">
+                <!-- Fallback cards â€” replaced by JS from assets/projects.json -->
+                <a href="https://youtu.be/JJZQr2AuEI0" target="_blank" rel="noopener" class="group relative aspect-video rounded-xl overflow-hidden cursor-pointer chromatic-box block">
+                    <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60" alt="GitHub's Code Was Breaking Every 8 Hours" src="https://img.youtube.com/vi/JJZQr2AuEI0/maxresdefault.jpg"/>
+                    <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+                    <div class="absolute inset-0 flex flex-col justify-end p-8">
+                        <span class="text-[10px] uppercase font-bold tracking-widest text-primary-bright mb-2">Brand Campaign &middot; 41.8K views</span>
+                        <h4 class="font-author text-xl font-bold text-ink">GitHub's Code Was Breaking Every 8 Hours. Here's Why.</h4>
+                    </div>
+                    <div class="absolute inset-0 bg-primary-bright/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+                    </div>
+                </a>
+                <a href="https://youtu.be/QsTYFsmCL5E" target="_blank" rel="noopener" class="group relative aspect-video rounded-xl overflow-hidden cursor-pointer chromatic-box block">
+                    <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60" alt="Atom: The Editor That Accidentally Built Its Own Killer" src="https://img.youtube.com/vi/QsTYFsmCL5E/maxresdefault.jpg"/>
+                    <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+                    <div class="absolute inset-0 flex flex-col justify-end p-8">
+                        <span class="text-[10px] uppercase font-bold tracking-widest text-accent mb-2">Product Story &middot; 274K views</span>
+                        <h4 class="font-author text-xl font-bold text-ink">Atom: The Editor That Accidentally Built Its Own Killer</h4>
+                    </div>
+                    <div class="absolute inset-0 bg-accent/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+                    </div>
+                </a>
+                <a href="https://youtu.be/wBOW86q1Vlo" target="_blank" rel="noopener" class="group relative aspect-video rounded-xl overflow-hidden cursor-pointer chromatic-box block">
+                    <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60" alt="The Most Downvoted Stack Overflow Posts of All Time" src="https://img.youtube.com/vi/wBOW86q1Vlo/maxresdefault.jpg"/>
+                    <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+                    <div class="absolute inset-0 flex flex-col justify-end p-8">
+                        <span class="text-[10px] uppercase font-bold tracking-widest text-cream mb-2">Audience Growth &middot; 193K views</span>
+                        <h4 class="font-author text-xl font-bold text-ink">The Most Downvoted Stack Overflow Posts of All Time</h4>
+                    </div>
+                    <div class="absolute inset-0 bg-cream/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+                    </div>
+                </a>
+            </div>
+            <div class="flex justify-center mt-16">
+                <a href="portfolio.html" class="btn-ghost-lg">See Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Divider â€” brands -->
+    <section class="overflow-hidden border-y border-[rgba(240,237,224,0.06)]" style="background: #160E28; padding: 80px 0;">
+        <div class="max-w-7xl mx-auto px-8 mb-16 text-center">
+            <span class="eyebrow block mb-4">Trusted By</span>
+            <h2 class="font-author font-bold text-ink tracking-tight chromatic-text text-[36px] md:text-[48px] mb-4">Brands I've Worked With</h2>
+            <p class="text-muted max-w-xl mx-auto">From early-stage startups to global names.</p>
+        </div>
+        <div class="marquee-mask flex flex-col" style="gap: 60px;">
+            <div class="flex whitespace-nowrap animate-brands" style="width: max-content;">
+                <div class="flex items-center gap-20 px-12">
+                    <a href="https://www.anthropic.com" target="_blank" rel="noopener" class="brand-link">Anthropic</a>
+                    <a href="https://arcade.dev" target="_blank" rel="noopener" class="brand-link">Arcade Dev</a>
+                    <a href="https://argonaut.dev" target="_blank" rel="noopener" class="brand-link">Argonaut</a>
+                    <a href="https://www.benq.com" target="_blank" rel="noopener" class="brand-link">BenQ</a>
+                    <a href="https://brightdata.com" target="_blank" rel="noopener" class="brand-link">Bright Data</a>
+                    <a href="https://www.browserbase.com" target="_blank" rel="noopener" class="brand-link">BrowserBase</a>
+                    <a href="https://www.datastax.com" target="_blank" rel="noopener" class="brand-link">DataStax</a>
+                    <a href="https://www.descope.com" target="_blank" rel="noopener" class="brand-link">Descope</a>
+                    <a href="https://www.docker.com" target="_blank" rel="noopener" class="brand-link">Docker</a>
+                    <a href="https://flutterflow.io" target="_blank" rel="noopener" class="brand-link">FlutterFlow</a>
+                    <a href="https://formation.dev" target="_blank" rel="noopener" class="brand-link">Formation</a>
+                    <a href="https://www.gitkraken.com" target="_blank" rel="noopener" class="brand-link">GitKraken</a>
+                    <a href="https://about.gitlab.com" target="_blank" rel="noopener" class="brand-link">GitLab</a>
+                </div>
+                <div class="flex items-center gap-20 px-12" aria-hidden="true">
+                    <a href="https://www.anthropic.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Anthropic</a>
+                    <a href="https://arcade.dev" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Arcade Dev</a>
+                    <a href="https://argonaut.dev" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Argonaut</a>
+                    <a href="https://www.benq.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">BenQ</a>
+                    <a href="https://brightdata.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Bright Data</a>
+                    <a href="https://www.browserbase.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">BrowserBase</a>
+                    <a href="https://www.datastax.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">DataStax</a>
+                    <a href="https://www.descope.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Descope</a>
+                    <a href="https://www.docker.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Docker</a>
+                    <a href="https://flutterflow.io" target="_blank" rel="noopener" class="brand-link" tabindex="-1">FlutterFlow</a>
+                    <a href="https://formation.dev" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Formation</a>
+                    <a href="https://www.gitkraken.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">GitKraken</a>
+                    <a href="https://about.gitlab.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">GitLab</a>
+                </div>
+            </div>
+            <div class="flex whitespace-nowrap animate-brands-reverse" style="width: max-content;">
+                <div class="flex items-center gap-20 px-12">
+                    <a href="https://graphite.dev" target="_blank" rel="noopener" class="brand-link">Graphite</a>
+                    <a href="https://www.jetbrains.com" target="_blank" rel="noopener" class="brand-link">JetBrains</a>
+                    <a href="https://lovable.dev" target="_blank" rel="noopener" class="brand-link">Lovable</a>
+                    <a href="https://www.mailgun.com" target="_blank" rel="noopener" class="brand-link">Mailgun</a>
+                    <a href="https://youtube.com/@codingwithlewis" target="_blank" rel="noopener" class="brand-link">Menelaws Inc</a>
+                    <a href="https://www.microsoft.com" target="_blank" rel="noopener" class="brand-link">Microsoft</a>
+                    <a href="https://modal.com" target="_blank" rel="noopener" class="brand-link">Modal</a>
+                    <a href="https://www.nvidia.com" target="_blank" rel="noopener" class="brand-link">NVIDIA</a>
+                    <a href="https://noellesgift.ca/" target="_blank" rel="noopener" class="brand-link">Noelle's Gift</a>
+                    <a href="https://passage.1password.com" target="_blank" rel="noopener" class="brand-link">Passage</a>
+                    <a href="https://www.qodo.ai" target="_blank" rel="noopener" class="brand-link">Qodo</a>
+                    <a href="https://www.recall.ai" target="_blank" rel="noopener" class="brand-link">Recall.ai</a>
+                    <a href="https://savala.com" target="_blank" rel="noopener" class="brand-link">Savala</a>
+                    <a href="https://www.servicenow.com" target="_blank" rel="noopener" class="brand-link">ServiceNow</a>
+                    <a href="https://snyk.io" target="_blank" rel="noopener" class="brand-link">Snyk</a>
+                    <a href="https://trunk.io" target="_blank" rel="noopener" class="brand-link">Trunk.io</a>
+                    <a href="https://www.warp.dev" target="_blank" rel="noopener" class="brand-link">Warp</a>
+                    <a href="https://zerotomastery.io" target="_blank" rel="noopener" class="brand-link">Zero to Mastery</a>
+                </div>
+                <div class="flex items-center gap-20 px-12" aria-hidden="true">
+                    <a href="https://graphite.dev" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Graphite</a>
+                    <a href="https://www.jetbrains.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">JetBrains</a>
+                    <a href="https://lovable.dev" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Lovable</a>
+                    <a href="https://www.mailgun.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Mailgun</a>
+                    <a href="https://youtube.com/@codingwithlewis" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Menelaws Inc</a>
+                    <a href="https://www.microsoft.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Microsoft</a>
+                    <a href="https://modal.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Modal</a>
+                    <a href="https://www.nvidia.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">NVIDIA</a>
+                    <a href="https://noellesgift.ca/" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Noelle's Gift</a>
+                    <a href="https://passage.1password.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Passage</a>
+                    <a href="https://www.qodo.ai" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Qodo</a>
+                    <a href="https://www.recall.ai" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Recall.ai</a>
+                    <a href="https://savala.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Savala</a>
+                    <a href="https://www.servicenow.com" target="_blank" rel="noopener" class="brand-link" tabindex="-1">ServiceNow</a>
+                    <a href="https://snyk.io" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Snyk</a>
+                    <a href="https://trunk.io" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Trunk.io</a>
+                    <a href="https://www.warp.dev" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Warp</a>
+                    <a href="https://zerotomastery.io" target="_blank" rel="noopener" class="brand-link" tabindex="-1">Zero to Mastery</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section style="background: #160E28; padding: 160px 32px;">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="eyebrow block mb-4">Client Feedback</span>
+                <h2 class="font-author font-bold text-ink tracking-tight chromatic-text text-[48px] md:text-[64px]">What Clients Say</h2>
+            </div>
+
+            <!-- Featured quote cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto" style="max-width: 900px; margin-bottom: 64px;">
+                <div class="glass-card relative rounded-xl p-10">
+                    <span class="absolute font-author leading-none pointer-events-none select-none" style="top: 16px; left: 24px; font-size: 80px; opacity: 0.08; color: #5425B8;">&ldquo;</span>
+                    <p class="relative text-ink italic text-lg leading-relaxed mb-10">"Will has been an essential asset to the growth of my channel. He has provided extremely professional, fast and quality content that exceeds my standards of quality that goes on my channel. Because of this, I have been able to work on growing my channel much faster."</p>
+                    <a href="https://youtube.com/@codingwithlewis" target="_blank" rel="noopener" class="flex items-center gap-4 hover:opacity-80 transition-opacity">
+                        <img class="w-12 h-12 rounded-full object-cover" src="https://storage.ytjobs.co/channel_thumbnails/qwbHJLch3mCNcI48cpNvQPzFB7sxNVC3aTVCHCxJ.jpg" alt="Menelaws Inc channel avatar"/>
+                        <div>
+                            <div class="font-author font-bold text-ink">Menelaws Inc</div>
+                            <div class="text-xs text-muted">732K audience</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="glass-card relative rounded-xl p-10">
+                    <span class="absolute font-author leading-none pointer-events-none select-none" style="top: 16px; left: 24px; font-size: 80px; opacity: 0.08; color: #5425B8;">&ldquo;</span>
+                    <p class="relative text-ink italic text-lg leading-relaxed mb-10">"Will is communicative, friendly, and has a quick turnaround time. He has done both bright and gritty styles of video, all of them very eye-catching to viewers and helped grow our channel by tens of thousands of subscribers."</p>
+                    <a href="https://youtube.com/@waborern" target="_blank" rel="noopener" class="flex items-center gap-4 hover:opacity-80 transition-opacity">
+                        <img class="w-12 h-12 rounded-full object-cover" src="https://storage.ytjobs.co/channel_thumbnails/oOvP57q9hXNvGAcH6n6WojpkyHsTfrfuoE39bGO0.jpg" alt="Warp channel avatar"/>
+                        <div>
+                            <div class="font-author font-bold text-ink">Warp</div>
+                            <div class="text-xs text-muted">107K audience</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Comment bubble grid -->
+            <div class="testimonial-columns">
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #C55143;">H</div>
+                    <div>
+                        <div class="comment-author">@hermaeusmora69</div>
+                        <p class="comment-text">[...] <span class="hl">stunning visual effects</span> [...] <span class="hl">Am I watching all this for free??</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>169</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #8A59A1;">W</div>
+                    <div>
+                        <div class="comment-author">@wrench05</div>
+                        <p class="comment-text"><span class="hl">yk what.. make the whole video animated.. the visuals looks wayy too nice</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>158</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #3E74AD;">A</div>
+                    <div>
+                        <div class="comment-author">@arwildo</div>
+                        <p class="comment-text"><span class="hl">This is master piece, the story telling, the animation.</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>117</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #AB743C;">C</div>
+                    <div>
+                        <div class="comment-author">@CattopyTheWeb</div>
+                        <p class="comment-text"><span class="hl">Fantastic video! Great editing.</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>334</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #3C9191;">E</div>
+                    <div>
+                        <div class="comment-author">@ernestmarcinko</div>
+                        <p class="comment-text"><span class="hl">This is going viral for sure. The storytelling is top notch, so is the editing.</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>80</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #B46084;">A</div>
+                    <div>
+                        <div class="comment-author">@Android-17</div>
+                        <p class="comment-text"><span class="hl">Great editing.</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>262</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #42856D;">P</div>
+                    <div>
+                        <div class="comment-author">@pluto_1876</div>
+                        <p class="comment-text"><span class="hl">you took this to the next level!!! Love the animation, SFX and the storytelling. This one really grabbed my attention</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>24</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #AB743C;">K</div>
+                    <div>
+                        <div class="comment-author">@kinershah464</div>
+                        <p class="comment-text"><span class="hl">Man, the effort you must have spent in editing this video.</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>21</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #C55143;">B</div>
+                    <div>
+                        <div class="comment-author">@bari-qb4og</div>
+                        <p class="comment-text"><span class="hl">This editing style is the best I think I've seen in my life</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>2</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #C55143;">H</div>
+                    <div>
+                        <div class="comment-author">@hiteshrohira15</div>
+                        <p class="comment-text"><span class="hl">Damn who is doing the editing for your videos, these are so good</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>1</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #42856D;">M</div>
+                    <div>
+                        <div class="comment-author">@mortezaDev</div>
+                        <p class="comment-text"><span class="hl">the editing is INSANE!!</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>3</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #C55143;">R</div>
+                    <div>
+                        <div class="comment-author">@Rexxicon</div>
+                        <p class="comment-text"><span class="hl">Off topic, but I love your editing style. It's very unique and engaging!</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>2</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #6074A8;">N</div>
+                    <div>
+                        <div class="comment-author">@noname9305</div>
+                        <p class="comment-text"><span class="hl">The editing quality is insane, keep it up</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>0</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #B46084;">A</div>
+                    <div>
+                        <div class="comment-author">@Android-17</div>
+                        <p class="comment-text"><span class="hl">Very informative &amp; top notch editing</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>8</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #B46084;">W</div>
+                    <div>
+                        <div class="comment-author">@wassup102</div>
+                        <p class="comment-text"><span class="hl">editing is so good, i just love the way you teach stuff.. so good.. got me hooked brother</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>4</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #42856D;">W</div>
+                    <div>
+                        <div class="comment-author">@wcdcio</div>
+                        <p class="comment-text"><span class="hl">I love the fuzzy and rough, imperfect nature of the animations rather than clean sterile diagrams</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>4</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #6074A8;">M</div>
+                    <div>
+                        <div class="comment-author">@mb_skillz</div>
+                        <p class="comment-text"><span class="hl">Amazing animations!!!</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>1</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #AB743C;">P</div>
+                    <div>
+                        <div class="comment-author">@programmingcore7413</div>
+                        <p class="comment-text"><span class="hl">Wow the time put into these animations is godly they are so amazing respect</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>0</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #AB743C;">L</div>
+                    <div>
+                        <div class="comment-author">@lakshman587</div>
+                        <p class="comment-text"><span class="hl">Animations were next level!!</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>0</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #42856D;">C</div>
+                    <div>
+                        <div class="comment-author">@C&#1340;IPPY</div>
+                        <p class="comment-text"><span class="hl">Who in the world does your animations?? Fire</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>0</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #42856D;">P</div>
+                    <div>
+                        <div class="comment-author">@ParasKCD</div>
+                        <p class="comment-text"><span class="hl">Bruh the animations are top notch..! Love it..!</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>1</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #C55143;">T</div>
+                    <div>
+                        <div class="comment-author">@TheBalaloca</div>
+                        <p class="comment-text"><span class="hl">Really good editing, zooms where writing the URLs, selecting values, animation... Cant imagine how much time it took</span><br/>Loved it</p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>13</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #C55143;">0</div>
+                    <div>
+                        <div class="comment-author">@0xHush</div>
+                        <p class="comment-text"><span class="hl">Top notch documentary as always.</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>0</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #C55143;">A</div>
+                    <div>
+                        <div class="comment-author">@agustinbs</div>
+                        <p class="comment-text"><span class="hl">What a nice SQLite documentary, well done.</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>6</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #AB743C;">A</div>
+                    <div>
+                        <div class="comment-author">@annag5458</div>
+                        <p class="comment-text"><span class="hl">Excellent documentary : thank you</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>0</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #8A59A1;">A</div>
+                    <div>
+                        <div class="comment-author">@arraybytes7214</div>
+                        <p class="comment-text"><span class="hl">Incredible documentary, i learned quite a lot.</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>1</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #AB743C;">H</div>
+                    <div>
+                        <div class="comment-author">@HyperVector</div>
+                        <p class="comment-text"><span class="hl">Great storytelling!</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>6</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #B46084;">D</div>
+                    <div>
+                        <div class="comment-author">@Dakappon</div>
+                        <p class="comment-text"><span class="hl">Wow, this is Netflix level documentary!</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>1</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #AB743C;">B</div>
+                    <div>
+                        <div class="comment-author">@berkaykurkcu</div>
+                        <p class="comment-text"><span class="hl">Great video! Mad editing skills. Love the vibe of this video.</span> Felt like an episode from Mr. Robot hahah</p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>3</div>
+                    </div>
+                </div>
+                <div class="comment-bubble">
+                    <div class="comment-avatar" style="background: #3E74AD;">J</div>
+                    <div>
+                        <div class="comment-author">@Jari-c7e</div>
+                        <p class="comment-text"><span class="hl">Great documentary!</span></p>
+                        <div class="comment-likes"><span class="material-symbols-outlined">thumb_up</span>10</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" style="background: #0E0A1A; padding: 160px 32px;">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 items-center" style="gap: 80px;">
+
+                <!-- Photo stack -->
+                <div class="relative flex items-center justify-center photo-stage">
+                    <div class="absolute rounded-full blur-3xl" style="inset: -16px; background: #3D1A8C; opacity: 0.08;"></div>
+                    <div class="photo-scale">
+                        <div class="relative" style="width: 560px; height: 840px;" id="photoStack">
+                            <div class="photo-card absolute rounded-xl overflow-hidden shadow-2xl chromatic-box" style="width:560px;height:840px;">
+                                <img class="w-full h-full object-cover" src="will-photo.png" alt="Will Oldham"/>
+                            </div>
+                            <div class="photo-card absolute rounded-xl overflow-hidden shadow-2xl chromatic-box" style="width:560px;height:840px;">
+                                <img class="w-full h-full object-cover" src="assets/photo-vienna.webp" alt="Will Oldham"/>
+                            </div>
+                            <div class="photo-card absolute rounded-xl overflow-hidden shadow-2xl chromatic-box" style="width:560px;height:840px;">
+                                <img class="w-full h-full object-cover" src="assets/photo-white.webp" alt="Will Oldham"/>
+                            </div>
+                            <div class="photo-card absolute rounded-xl overflow-hidden shadow-2xl chromatic-box" style="width:560px;height:840px;">
+                                <img class="w-full h-full object-cover" src="assets/photo-colours.webp" alt="Will Oldham"/>
+                            </div>
+                            <div class="photo-card absolute rounded-xl overflow-hidden shadow-2xl chromatic-box" style="width:560px;height:840px;">
+                                <img class="w-full h-full object-cover" src="assets/photo-juice.webp" alt="Will Oldham"/>
+                            </div>
+                            <div class="photo-card absolute rounded-xl overflow-hidden shadow-2xl chromatic-box" style="width:560px;height:840px;">
+                                <img class="w-full h-full object-cover" style="object-position: 20% center;" src="assets/photo-train.webp" alt="Will Oldham"/>
+                            </div>
+                        </div>
+                        <!-- Dot indicators -->
+                        <div class="absolute flex gap-3 justify-center" style="bottom: -32px; left: 0; right: 0; z-index: 50;">
+                            <div class="stack-dot w-2 h-2 rounded-full" style="background: #5425B8; transition: opacity 0.4s ease, transform 0.4s ease;"></div>
+                            <div class="stack-dot w-2 h-2 rounded-full" style="background: #5425B8; transition: opacity 0.4s ease, transform 0.4s ease;"></div>
+                            <div class="stack-dot w-2 h-2 rounded-full" style="background: #5425B8; transition: opacity 0.4s ease, transform 0.4s ease;"></div>
+                            <div class="stack-dot w-2 h-2 rounded-full" style="background: #5425B8; transition: opacity 0.4s ease, transform 0.4s ease;"></div>
+                            <div class="stack-dot w-2 h-2 rounded-full" style="background: #5425B8; transition: opacity 0.4s ease, transform 0.4s ease;"></div>
+                            <div class="stack-dot w-2 h-2 rounded-full" style="background: #5425B8; transition: opacity 0.4s ease, transform 0.4s ease;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bio -->
+                <div>
+                    <span class="eyebrow block mb-4">About</span>
+                    <h2 class="font-author font-bold text-ink tracking-tight chromatic-text text-[44px] md:text-[56px] mb-8 leading-[1.02]">Nice to Meet You</h2>
+                    <div class="space-y-6 text-muted text-lg" style="line-height: 1.8;">
+                        <p class="font-medium text-ink">I'm Will â€” video editor, motion designer, media manager. My job lets me turn the technical into the tangible.</p>
+                        <p>Based in Manchester, UK.</p>
+                        <p>Hiring me ought to feel like a relief. I work closely with clients â€” close enough to understand the brief, and confident enough to improve on it. I'm as happy chatting small-talk as I am hitting a tight deadline. Think of it less like outsourcing a task and more like bringing someone capable into your corner.</p>
+                        <p>Four years. 282 projects. 57 million views across eight YouTube channels.</p>
+                    </div>
+                    <div class="flex flex-wrap gap-3" style="padding-top: 32px;">
+                        <span class="pill pill-filled"><span class="pill-dot" style="background: #4A7FFF;"></span>Adobe Premiere Pro</span>
+                        <span class="pill pill-filled"><span class="pill-dot" style="background: #5425B8;"></span>Adobe After Effects</span>
+                        <span class="pill pill-filled"><span class="pill-dot" style="background: #E8D966;"></span>Unreal Engine</span>
+                        <span class="pill pill-outline">Adobe Photoshop</span>
+                        <span class="pill pill-outline">Adobe Illustrator</span>
+                        <span class="pill pill-outline">Reaper</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="background: #160E28; padding: 160px 32px;">
+        <div class="mx-auto" style="max-width: 900px;">
+            <div class="text-center">
+                <span class="eyebrow block mb-4">Get In Touch</span>
+                <h2 class="font-author font-bold text-ink tracking-tight chromatic-text text-[48px] md:text-[64px]">Let's Talk</h2>
+                <p class="text-muted text-lg" style="margin-top: 16px; margin-bottom: 48px;">I respond to all enquiries within 24 hours.</p>
+            </div>
+
+            <div class="glass-card rounded-2xl overflow-hidden" id="contact-card">
+
+                <!-- Form container -->
+                <div id="form-container" class="p-8 md:p-12">
+                    <form id="contact-form" class="grid grid-cols-1 md:grid-cols-2 gap-8" novalidate>
+                        <div class="md:col-span-1 form-group">
+                            <label class="field-label" for="cf-name">Name</label>
+                            <input id="cf-name" name="name" class="field-input" placeholder="John Doe" type="text" required/>
+                        </div>
+                        <div class="md:col-span-1 form-group">
+                            <label class="field-label" for="cf-company">Company</label>
+                            <input id="cf-company" name="company" class="field-input" placeholder="Acme Inc." type="text"/>
+                        </div>
+                        <div class="md:col-span-1 form-group">
+                            <label class="field-label" for="cf-email">Email</label>
+                            <input id="cf-email" name="email" class="field-input" placeholder="john@company.com" type="email" required/>
+                        </div>
+                        <div class="md:col-span-1 form-group">
+                            <label class="field-label" for="cf-projectType">Project Type</label>
+                            <select id="cf-projectType" name="projectType" class="field-input">
+                                <option>2D &amp; 3D Motion Design</option>
+                                <option>Product Demo / Launch</option>
+                                <option>YouTube Longform</option>
+                                <option>Sponsored Content</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="md:col-span-2 form-group">
+                            <label class="field-label" for="budgetSlider">Budget Range</label>
+                            <div class="relative mt-2">
+                                <input type="range" id="budgetSlider" min="1000" max="100000" step="1000" value="5000"
+                                    class="w-full h-2 rounded-lg appearance-none cursor-pointer"
+                                    style="background: linear-gradient(to right, #3D1A8C 0%, #4A7FFF 4%, #1E1535 4%, #1E1535 100%);"
+                                    oninput="updateBudget(this)"/>
+                                <div class="flex justify-between mt-4">
+                                    <span class="text-xs text-muted">Â£1,000</span>
+                                    <span id="budgetValue" class="text-lg font-author font-bold" style="color: #E8D966;">Â£5,000</span>
+                                    <span class="text-xs text-muted">Â£100,000+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:col-span-2 form-group">
+                            <label class="field-label" for="cf-message">Message</label>
+                            <textarea id="cf-message" name="message" class="field-input" placeholder="Tell me what you're working on..." rows="5"></textarea>
+                        </div>
+                        <div class="md:col-span-2 form-group">
+                            <button type="button" onclick="triggerTetris()" class="w-full font-author font-bold text-lg text-ink py-5 rounded-lg transition-all hover:shadow-[0_0_30px_rgba(84,37,184,0.5)]" style="background: linear-gradient(135deg, #3D1A8C, #4A7FFF);">
+                                Send Enquiry
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Tetris container (hidden until form submitted) -->
+                <div id="tetris-container" style="display:none;opacity:0;" class="p-8 flex flex-col items-center transition-opacity duration-500">
+                    <div class="text-center mb-6">
+                        <p class="eyebrow mb-2" style="color: #5425B8;">Enquiry Sent</p>
+                        <p class="text-muted text-sm">I'll be in touch within 24 hours.</p>
+                        <p class="text-faint text-xs mt-1">In the meantime...</p>
+                    </div>
+                    <!-- Canvas wrapper â€” game over overlays the canvas -->
+                    <div class="relative">
+                        <canvas id="tetris-canvas" class="rounded-lg block" style="background:#0E0E13;"></canvas>
+                        <!-- Game over overlay -->
+                        <div id="tetris-gameover" style="display:none;background:rgba(14,10,26,0.88);backdrop-filter:blur(8px);" class="absolute inset-0 flex flex-col items-center justify-center rounded-lg gap-4 px-8 text-center">
+                            <h3 class="font-author font-bold text-5xl tracking-tighter text-ink chromatic-text">GAME OVER</h3>
+                            <p class="text-muted text-sm">Score: <span id="final-score" class="font-bold text-lg" style="color: #E8D966;">0</span></p>
+                            <p id="tetris-quote" class="text-muted/60 italic text-sm max-w-xs leading-relaxed"></p>
+                            <button onclick="restartTetris()" class="font-author font-bold text-ink px-8 py-3 rounded-md mt-2 transition-all hover:shadow-[0_0_30px_rgba(84,37,184,0.5)]" style="background: linear-gradient(135deg, #3D1A8C, #4A7FFF);">Play Again</button>
+                        </div>
+                    </div>
+                    <div class="flex gap-6 mt-4 font-mono text-sm text-muted">
+                        <span>Score <span id="tetris-score" class="font-bold" style="color: #E8D966;">0</span></span>
+                        <span>Level <span id="tetris-level" class="font-bold" style="color: #4A7FFF;">1</span></span>
+                        <span>Lines <span id="tetris-lines" class="font-bold" style="color: #5425B8;">0</span></span>
+                    </div>
+                    <!-- Mobile touch controls -->
+                    <div class="grid grid-cols-3 gap-2 mt-4 md:hidden" style="width:180px;">
+                        <div></div>
+                        <button class="p-3 rounded-lg bg-raised text-ink font-bold" onclick="tetrisInput('up')">â†‘</button>
+                        <div></div>
+                        <button class="p-3 rounded-lg bg-raised text-ink font-bold" onclick="tetrisInput('left')">â†</button>
+                        <button class="p-3 rounded-lg bg-raised text-ink font-bold" onclick="tetrisInput('down')">â†“</button>
+                        <button class="p-3 rounded-lg bg-raised text-ink font-bold" onclick="tetrisInput('right')">â†’</button>
+                        <div></div>
+                        <button class="col-span-3 p-3 rounded-lg bg-raised text-ink text-xs font-bold" onclick="tetrisInput('space')">DROP</button>
+                    </div>
+                    <p class="text-faint text-xs mt-4 hidden md:block tracking-widest uppercase">â† â†’ move &nbsp;Â·&nbsp; â†‘ rotate &nbsp;Â·&nbsp; â†“ drop &nbsp;Â·&nbsp; space hard drop</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Sticky availability toast -->
+<div class="fixed z-40" style="bottom: 32px; left: 50%; transform: translateX(-50%);">
+    <div class="inline-flex items-center gap-3 rounded-full" style="background: rgba(22, 14, 40, 0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(61, 26, 140, 0.4); padding: 10px 20px 10px 14px;">
+        <span class="pulse-dot"></span>
+        <img src="assets/logo.png" alt="" class="rounded-full object-cover shrink-0" style="width: 28px; height: 28px;"/>
+        <span class="text-[13px] text-ink whitespace-nowrap">Will is available for hire</span>
+        <a href="#contact" class="text-xs font-semibold text-ink rounded-full bg-primary hover:bg-primary-bright transition-colors whitespace-nowrap" style="padding: 6px 16px;">Start a Project</a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="relative z-10 border-t border-[rgba(240,237,224,0.06)]" style="background: #0A0712; padding: 80px 32px;">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="font-author font-bold text-lg text-ink">Cocoa Editing Services</div>
+        <div class="flex gap-8 items-center">
+            <a class="footer-link" href="privacy.html">Privacy Policy</a>
+            <a class="footer-link" href="privacy.html">Terms of Service</a>
+        </div>
+        <div class="footer-link" style="cursor: default;">2026 Cocoa Editing Services. Manchester, UK.</div>
+    </div>
+</footer>
+
+<script>
+    // Mobile menu
+    function openMobileMenu() {
+        var m = document.getElementById('mobile-menu');
+        m.classList.remove('hidden');
+        m.classList.add('mobile-menu-open');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeMobileMenu() {
+        var m = document.getElementById('mobile-menu');
+        m.classList.add('hidden');
+        m.classList.remove('mobile-menu-open');
+        document.body.style.overflow = '';
+    }
+
+    function updateBudget(slider) {
+        const val = parseInt(slider.value);
+        const min = parseInt(slider.min);
+        const max = parseInt(slider.max);
+        const pct = ((val - min) / (max - min)) * 100;
+        slider.style.background = `linear-gradient(to right, #3D1A8C 0%, #4A7FFF ${pct}%, #1E1535 ${pct}%, #1E1535 100%)`;
+        const label = document.getElementById('budgetValue');
+        if (val >= 100000) {
+            label.textContent = 'Â£100,000+';
+        } else {
+            label.textContent = 'Â£' + val.toLocaleString('en-GB');
+        }
+    }
+
+    // Photo stack cycling
+    (function() {
+        const cards = Array.from(document.querySelectorAll('.photo-card'));
+        const dots = Array.from(document.querySelectorAll('.stack-dot'));
+        const total = cards.length;
+
+        const opacities = [1, 0.5, 0.25, 0.12, 0.06, 0.03];
+        const offsetsX = [0, -55, -110, -165, -220, -275];
+        const TRANSITION = 'opacity 0.9s cubic-bezier(0.4,0,0.2,1), transform 0.9s cubic-bezier(0.34,1.56,0.64,1), filter 0.9s cubic-bezier(0.4,0,0.2,1)';
+
+        // order[slotIndex] = cardIndex â€” slot 0 is front
+        let order = [0, 1, 2, 3, 4, 5];
+
+        function applySlot(cardIndex, slotIndex, animate) {
+            const card = cards[cardIndex];
+            card.style.transition = animate ? TRANSITION : 'none';
+            const tx = offsetsX[slotIndex];
+            const scale = slotIndex === 0 ? 1.03 : 1;
+            card.style.transform = `translateX(${tx}px) scale(${scale})`;
+            card.style.opacity = opacities[slotIndex] ?? 0;
+            card.style.zIndex = total - slotIndex;
+            card.style.filter = slotIndex === 0 ? 'grayscale(0)' : 'grayscale(1)';
+        }
+
+        function updateDots() {
+            dots.forEach((dot, i) => {
+                const isActive = order[0] === i;
+                dot.style.opacity = isActive ? '1' : '0.3';
+                dot.style.transform = isActive ? 'scale(1.3)' : 'scale(1)';
+            });
+        }
+
+        function cycle() {
+            const exitingCard = order[0];
+
+            // 1. Front card exits upward
+            cards[exitingCard].style.transition = TRANSITION;
+            cards[exitingCard].style.transform = `translateX(${offsetsX[0]}px) translateY(-130%) scale(1.03)`;
+            cards[exitingCard].style.opacity = '0';
+
+            // 2. Remaining cards shift forward into new slots
+            order = [...order.slice(1), exitingCard];
+            order.slice(0, total - 1).forEach((cardIndex, slotIndex) => applySlot(cardIndex, slotIndex, true));
+            updateDots();
+
+            // 3. Almost immediately snap exiting card to below, then animate up into back slot
+            // Short delay gives the upward exit just enough time to clear before looping
+            setTimeout(() => {
+                cards[exitingCard].style.transition = 'none';
+                cards[exitingCard].style.transform = `translateX(${offsetsX[total - 1]}px) translateY(130%)`;
+                cards[exitingCard].style.opacity = '0';
+                cards[exitingCard].style.zIndex = '0';
+
+                // Force reflow then rise up into back slot position
+                cards[exitingCard].offsetHeight;
+                setTimeout(() => applySlot(exitingCard, total - 1, true), 20);
+            }, 150);
+        }
+
+        // Initialise without animation
+        order.forEach((cardIndex, slotIndex) => applySlot(cardIndex, slotIndex, false));
+        updateDots();
+
+        setInterval(cycle, 8000);
+    })();
+
+    // =====================
+    // TETRIS
+    // =====================
+    let T_COLS = 10, T_ROWS = 18, T_CELL = 34;
+
+    const T_QUOTES = [
+        { text: "Be the square you wish to see in the world.",              attr: "Gandhi" },
+        { text: "That's one small block for man, one giant stack for mankind.", attr: "Neil Armstrong" },
+        { text: "You miss 100% of the blocks you don't rotate.",            attr: "Wayne Gretzky" },
+        { text: "In the middle of every difficulty lies a perfectly placed cube.", attr: "Albert Einstein" },
+        { text: "Life is what happens when you're busy stacking blocks.",   attr: "John Lennon" },
+        { text: "It always seems impossible until the last block drops.",   attr: "Nelson Mandela" },
+        { text: "Ask not what your stack can do for you.",                  attr: "John F. Kennedy" },
+        { text: "The only way to do great work is to clear the line.",      attr: "Steve Jobs" },
+    ];
+
+    const PIECES = [
+        { shape: [[1,1,1,1]],           color: '#4A9EFF', colorB: '#1A6FDF' },
+        { shape: [[1,1],[1,1]],         color: '#49dadf', colorB: '#19AAAF' },
+        { shape: [[0,1,0],[1,1,1]],     color: '#d0bcff', colorB: '#A08CCF' },
+        { shape: [[0,1,1],[1,1,0]],     color: '#00B8BD', colorB: '#00888D' },
+        { shape: [[1,1,0],[0,1,1]],     color: '#AA87FF', colorB: '#7A57CF' },
+        { shape: [[1,0,0],[1,1,1]],     color: '#6cf6fb', colorB: '#3CC6CB' },
+        { shape: [[0,0,1],[1,1,1]],     color: '#a4c9ff', colorB: '#7499CF' },
+    ];
+
+    let T = null;
+
+    function tRandPiece() {
+        const p = PIECES[Math.floor(Math.random() * PIECES.length)];
+        return {
+            shape: p.shape.map(r => [...r]),
+            color: p.color, colorB: p.colorB,
+            x: Math.floor(T_COLS / 2) - Math.floor(p.shape[0].length / 2),
+            y: 0,
+        };
+    }
+
+    function tCollides(board, piece) {
+        for (let r = 0; r < piece.shape.length; r++)
+            for (let c = 0; c < piece.shape[r].length; c++) {
+                if (!piece.shape[r][c]) continue;
+                const nx = piece.x + c, ny = piece.y + r;
+                if (nx < 0 || nx >= T_COLS || ny >= T_ROWS) return true;
+                if (ny >= 0 && board[ny][nx]) return true;
+            }
+        return false;
+    }
+
+    function tRotate(shape) {
+        return shape[0].map((_, c) => shape.map(r => r[c]).reverse());
+    }
+
+    function tLock() {
+        for (let r = 0; r < T.cur.shape.length; r++)
+            for (let c = 0; c < T.cur.shape[r].length; c++) {
+                if (!T.cur.shape[r][c]) continue;
+                const ny = T.cur.y + r, nx = T.cur.x + c;
+                if (ny >= 0) T.board[ny][nx] = { color: T.cur.color, colorB: T.cur.colorB };
+            }
+        tClear();
+        T.cur = T.next;
+        T.next = tRandPiece();
+        if (tCollides(T.board, T.cur)) {
+            T.over = true;
+            document.getElementById('tetris-gameover').style.display = 'flex';
+            document.getElementById('final-score').textContent = T.score;
+            const q = T_QUOTES[Math.floor(Math.random() * T_QUOTES.length)];
+            document.getElementById('tetris-quote').innerHTML = `"${q.text}"<br><span class="not-italic text-on-surface-variant/40 text-xs mt-1 block">â€” ${q.attr}</span>`;
+        }
+        T.dropTimer = 0;
+    }
+
+    function tClear() {
+        let cleared = 0;
+        for (let r = T_ROWS - 1; r >= 0; r--) {
+            if (T.board[r].every(c => c)) {
+                T.board.splice(r, 1);
+                T.board.unshift(Array(T_COLS).fill(null));
+                cleared++; r++;
+            }
+        }
+        if (cleared) {
+            T.score += [0,100,300,500,800][cleared] * T.level;
+            T.lines += cleared;
+            T.level = Math.floor(T.lines / 10) + 1;
+            document.getElementById('tetris-score').textContent = T.score;
+            document.getElementById('tetris-level').textContent = T.level;
+            document.getElementById('tetris-lines').textContent = T.lines;
+        }
+    }
+
+    function tGhost() {
+        let g = {...T.cur, shape: T.cur.shape.map(r=>[...r])};
+        while (!tCollides(T.board, {...g, y: g.y + 1})) g = {...g, y: g.y + 1};
+        return g;
+    }
+
+    function tDrawCell(ctx, x, y, color, colorB, ghostAlpha) {
+        const px = x * T_CELL, py = y * T_CELL, sz = T_CELL;
+
+        if (ghostAlpha !== undefined) {
+            ctx.globalAlpha = ghostAlpha;
+            ctx.strokeStyle = color;
+            ctx.lineWidth = 1;
+            ctx.strokeRect(px + 0.5, py + 0.5, sz - 1, sz - 1);
+            ctx.globalAlpha = 1;
+            return;
+        }
+
+        // Glow
+        ctx.shadowBlur = 16;
+        ctx.shadowColor = color;
+
+        // Diagonal gradient â€” top-left bright, bottom-right dark
+        const grad = ctx.createLinearGradient(px, py, px + sz, py + sz);
+        grad.addColorStop(0,   color);
+        grad.addColorStop(0.5, color);
+        grad.addColorStop(1,   colorB);
+        ctx.fillStyle = grad;
+        ctx.fillRect(px, py, sz, sz);
+
+        ctx.shadowBlur = 0;
+
+        // 1px crisp highlight â€” top and left edges only
+        ctx.fillStyle = 'rgba(255,255,255,0.38)';
+        ctx.fillRect(px, py, sz, 1);       // top
+        ctx.fillRect(px, py, 1, sz);       // left
+
+        // 1px shadow â€” bottom and right edges
+        ctx.fillStyle = 'rgba(0,0,0,0.45)';
+        ctx.fillRect(px, py + sz - 1, sz, 1); // bottom
+        ctx.fillRect(px + sz - 1, py, 1, sz); // right
+    }
+
+    function tDraw() {
+        const canvas = document.getElementById('tetris-canvas');
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#0E0E13';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        // Subtle grid
+        ctx.strokeStyle = 'rgba(164,201,255,0.04)';
+        ctx.lineWidth = 0.5;
+        for (let c = 0; c <= T_COLS; c++) { ctx.beginPath(); ctx.moveTo(c*T_CELL,0); ctx.lineTo(c*T_CELL,canvas.height); ctx.stroke(); }
+        for (let r = 0; r <= T_ROWS; r++) { ctx.beginPath(); ctx.moveTo(0,r*T_CELL); ctx.lineTo(canvas.width,r*T_CELL); ctx.stroke(); }
+        // Board cells
+        for (let r = 0; r < T_ROWS; r++)
+            for (let c = 0; c < T_COLS; c++)
+                if (T.board[r][c]) tDrawCell(ctx, c, r, T.board[r][c].color, T.board[r][c].colorB);
+        // Ghost
+        const g = tGhost();
+        for (let r = 0; r < g.shape.length; r++)
+            for (let c = 0; c < g.shape[r].length; c++)
+                if (g.shape[r][c]) tDrawCell(ctx, g.x+c, g.y+r, g.color, g.colorB, 0.3);
+        // Active piece
+        for (let r = 0; r < T.cur.shape.length; r++)
+            for (let c = 0; c < T.cur.shape[r].length; c++)
+                if (T.cur.shape[r][c]) tDrawCell(ctx, T.cur.x+c, T.cur.y+r, T.cur.color, T.cur.colorB);
+    }
+
+    function tLoop(time) {
+        if (T.over) return;
+        const delta = time - T.lastTime;
+        T.lastTime = time;
+        T.dropTimer += delta;
+        const interval = Math.max(80, 1000 - (T.level - 1) * 85);
+        if (T.dropTimer >= interval) { tetrisInput('down'); T.dropTimer = 0; }
+        tDraw();
+        T.raf = requestAnimationFrame(tLoop);
+    }
+
+    function initTetris() {
+        const canvas = document.getElementById('tetris-canvas');
+        // Dimensions pre-set in triggerTetris â€” just confirm them
+        canvas.width  = T_COLS * T_CELL;
+        canvas.height = T_ROWS * T_CELL;
+        T = {
+            board: Array.from({length: T_ROWS}, () => Array(T_COLS).fill(null)),
+            cur: tRandPiece(), next: tRandPiece(),
+            score: 0, level: 1, lines: 0,
+            over: false, dropTimer: 0, lastTime: performance.now(), raf: null,
+        };
+        document.getElementById('tetris-gameover').style.display = 'none';
+        document.getElementById('tetris-score').textContent = '0';
+        document.getElementById('tetris-level').textContent = '1';
+        document.getElementById('tetris-lines').textContent = '0';
+        if (T.raf) cancelAnimationFrame(T.raf);
+        T.raf = requestAnimationFrame(tLoop);
+    }
+
+    function tetrisInput(action) {
+        if (!T || T.over) return;
+        if (action === 'left') {
+            const m = {...T.cur, x: T.cur.x - 1};
+            if (!tCollides(T.board, m)) T.cur = m;
+        } else if (action === 'right') {
+            const m = {...T.cur, x: T.cur.x + 1};
+            if (!tCollides(T.board, m)) T.cur = m;
+        } else if (action === 'down') {
+            const m = {...T.cur, y: T.cur.y + 1};
+            if (!tCollides(T.board, m)) T.cur = m; else tLock();
+        } else if (action === 'up') {
+            const rotated = {...T.cur, shape: tRotate(T.cur.shape)};
+            for (const kick of [0,1,-1,2,-2]) {
+                const k = {...rotated, x: rotated.x + kick};
+                if (!tCollides(T.board, k)) { T.cur = k; break; }
+            }
+        } else if (action === 'space') {
+            while (!tCollides(T.board, {...T.cur, y: T.cur.y + 1})) T.cur = {...T.cur, y: T.cur.y + 1};
+            tLock();
+        }
+    }
+
+    function restartTetris() { initTetris(); }
+
+    document.addEventListener('keydown', e => {
+        const tc = document.getElementById('tetris-container');
+        if (!tc || tc.style.display === 'none') return;
+        const map = { ArrowLeft:'left', ArrowRight:'right', ArrowDown:'down', ArrowUp:'up', ' ':'space' };
+        if (map[e.key]) { e.preventDefault(); tetrisInput(map[e.key]); }
+    });
+
+    function pixelTransition(card, onSwap, onDone) {
+        const W = card.offsetWidth, H = card.offsetHeight;
+        const overlay = document.createElement('canvas');
+        overlay.width = W; overlay.height = H;
+        overlay.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;pointer-events:none;border-radius:inherit;';
+        card.style.position = 'relative';
+        card.appendChild(overlay);
+        const ctx = overlay.getContext('2d');
+        const bs = 36; // block size â€” larger = chunkier, less static-like
+        const cols = Math.ceil(W / bs), rows = Math.ceil(H / bs);
+        const tColors = ['#4A9EFF','#49dadf','#d0bcff','#00B8BD','#AA87FF','#6cf6fb','#a4c9ff'];
+        const blocks = [];
+        for (let r = 0; r < rows; r++)
+            for (let c = 0; c < cols; c++)
+                blocks.push({ r, c, color: tColors[Math.floor(Math.random() * tColors.length)] });
+        // Shuffle
+        for (let i = blocks.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i+1));
+            [blocks[i], blocks[j]] = [blocks[j], blocks[i]];
+        }
+        const batch = 3; // slow, smooth fill â€” ~1.5s to cover at 60fps
+        let n = 0;
+        function fill() {
+            for (let i = 0; i < batch && n < blocks.length; i++, n++) {
+                const b = blocks[n];
+                ctx.fillStyle = b.color;
+                ctx.fillRect(b.c*bs, b.r*bs, bs, bs);
+            }
+            if (n < blocks.length) { requestAnimationFrame(fill); }
+            else {
+                onSwap();
+                // Reshuffle to reveal
+                for (let i = blocks.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i+1));
+                    [blocks[i], blocks[j]] = [blocks[j], blocks[i]];
+                }
+                let m = 0;
+                requestAnimationFrame(function reveal() {
+                    for (let i = 0; i < batch && m < blocks.length; i++, m++) {
+                        const b = blocks[m];
+                        ctx.clearRect(b.c*bs, b.r*bs, bs, bs);
+                    }
+                    if (m < blocks.length) { requestAnimationFrame(reveal); }
+                    else {
+                        // Fade out smoothly instead of hard cut
+                        overlay.style.transition = 'opacity 0.5s ease';
+                        overlay.style.opacity = '0';
+                        setTimeout(() => { overlay.remove(); onDone(); }, 500);
+                    }
+                });
+            }
+        }
+        requestAnimationFrame(fill);
+    }
+
+    function triggerTetris() {
+        // 0. Validate required fields before anything else
+        const nameField = document.getElementById('cf-name');
+        const emailField = document.getElementById('cf-email');
+        const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const invalid = [];
+        if (!nameField.value.trim()) invalid.push(nameField);
+        if (!emailField.value.trim() || !emailRe.test(emailField.value.trim())) invalid.push(emailField);
+        if (invalid.length) {
+            invalid.forEach(f => {
+                f.classList.remove('field-shake');
+                void f.offsetWidth; // restart the animation
+                f.classList.add('field-shake');
+            });
+            return;
+        }
+
+        // 0b. Fire the enquiry off to Formspree in the background â€” don't block the animation
+        const budgetVal = parseInt(document.getElementById('budgetSlider').value);
+        const payload = {
+            name: nameField.value.trim(),
+            company: document.getElementById('cf-company').value.trim(),
+            email: emailField.value.trim(),
+            projectType: document.getElementById('cf-projectType').value,
+            budget: budgetVal >= 100000 ? 'Â£100,000+' : 'Â£' + budgetVal.toLocaleString('en-GB'),
+            message: document.getElementById('cf-message').value.trim(),
+        };
+        fetch('https://formspree.io/f/YOUR_FORMSPREE_ID', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(payload),
+        }).then(r => {
+            if (!r.ok) console.error('Form submission failed with status', r.status);
+        }).catch(err => console.error('Form submission failed:', err));
+
+        const card = document.getElementById('contact-card');
+
+        // 1. Snapshot card dimensions immediately
+        const lockedH = card.offsetHeight;
+        const lockedW = card.clientWidth;
+        card.style.height = lockedH + 'px';
+        card.style.overflow = 'hidden';
+
+        // 2. Calculate and PRE-SET canvas dimensions right now
+        //    so the canvas is the correct size before anything is revealed
+        const OVERHEAD = 130; // "Enquiry Sent" header + score row + gaps
+        const PAD = 64;       // p-8 container padding (top + bottom)
+        T_COLS = 14;
+        T_CELL = Math.floor((lockedW - PAD) / T_COLS);
+        T_ROWS = Math.max(6, Math.floor((lockedH - OVERHEAD - PAD) / T_CELL));
+        const canvas = document.getElementById('tetris-canvas');
+        canvas.width  = T_COLS * T_CELL;
+        canvas.height = T_ROWS * T_CELL;
+
+        // 3. Dissolve form fields
+        const groups = document.querySelectorAll('#contact-form .form-group');
+        groups.forEach((g, i) => {
+            g.style.setProperty('--tilt', `${(Math.random()-0.5)*10}deg`);
+            g.style.setProperty('--delay', `${i * 60}ms`);
+            g.classList.add('form-group-dissolve');
+        });
+        const socials = document.getElementById('form-socials');
+        if (socials) { socials.style.transition = 'opacity 0.3s'; socials.style.opacity = '0'; }
+
+        setTimeout(() => {
+            pixelTransition(card,
+                () => {
+                    // Card is fully covered â€” swap content and START game now,
+                    // so when the overlay clears the game is already running at full size
+                    document.getElementById('form-container').style.display = 'none';
+                    const tc = document.getElementById('tetris-container');
+                    tc.style.display = 'flex';
+                    tc.style.flexDirection = 'column';
+                    tc.style.alignItems = 'center';
+                    tc.style.opacity = '1';
+                    initTetris();
+                },
+                () => { /* overlay cleared â€” game already running */ }
+            );
+        }, groups.length * 60 + 500);
+    }
+
+    window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        const gridLayer = document.getElementById('gridLayer');
+        if (gridLayer) {
+            // Subtle parallax movement based on scroll
+            const yOffset = scrolled * 0.1;
+            gridLayer.style.marginTop = `${yOffset}px`;
+        }
+    });
+</script>
+<!-- Live stats from YTJobs portfolio (refreshed daily into assets/stats.json) -->
+<script>
+    fetch('assets/stats.json', { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) {
+            if (!d) return;
+            var a = document.getElementById('stat-audience');
+            var v = document.getElementById('stat-videos');
+            if (a && d.audience_reached) a.textContent = d.audience_reached;
+            if (v && d.videos_delivered) v.textContent = d.videos_delivered;
+        })
+        .catch(function () { /* keep the hardcoded fallback values */ });
+</script>
+<!-- Featured Projects from YTJobs portfolio (refreshed daily into assets/projects.json) -->
+<script>
+    (function () {
+        var grid = document.getElementById('featured-grid');
+        if (!grid) return;
+        var accents = ['primary-bright', 'accent', 'cream'];
+        function esc(s) {
+            return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+                return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+            });
+        }
+        fetch('assets/projects.json', { cache: 'no-store' })
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (d) {
+                if (!d || !d.videos || !d.videos.length) return;
+                grid.innerHTML = d.videos.map(function (v, i) {
+                    var a = accents[i % 3];
+                    var title = esc(v.title);
+                    var views = v.views ? esc(v.views) + ' views' : '';
+                    return '<a href="' + esc(v.url) + '" target="_blank" rel="noopener" '
+                        + 'class="group relative aspect-video rounded-xl overflow-hidden cursor-pointer chromatic-box block">'
+                        + '<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60" '
+                        + 'alt="' + title + '" src="' + esc(v.thumbnail) + '" loading="lazy"/>'
+                        + '<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>'
+                        + '<div class="absolute inset-0 flex flex-col justify-end p-8">'
+                        + '<span class="text-[10px] uppercase font-bold tracking-widest text-' + a + ' mb-2">' + views + '</span>'
+                        + '<h4 class="font-author text-xl font-bold text-ink">' + title + '</h4>'
+                        + '</div>'
+                        + '<div class="absolute inset-0 bg-' + a + '/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">'
+                        + '<span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings: \'FILL\' 1;">play_circle</span>'
+                        + '</div></a>';
+                }).join('');
+            })
+            .catch(function () { /* keep the hardcoded fallback cards */ });
+    })();
+</script>
+</body>
+</html>

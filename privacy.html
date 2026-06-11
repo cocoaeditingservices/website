@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Privacy Policy — Cocoa Editing Services</title>
+<meta name="description" content="Privacy policy for Cocoa Editing Services — what we collect, how it's processed, and your rights."/>
+<link rel="icon" type="image/png" href="assets/logo.png"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    "background": "#0E0A1A",
+                    "surface": "#160E28",
+                    "raised": "#1E1535",
+                    "primary": "#3D1A8C",
+                    "primary-bright": "#5425B8",
+                    "accent": "#4A7FFF",
+                    "cream": "#E8D966",
+                    "ink": "#F0EDE0",
+                    "muted": "#9B93B8",
+                    "faint": "#5C5478"
+                },
+                fontFamily: {
+                    "author": ["Author", "sans-serif"],
+                    "body": ["Inter", "sans-serif"]
+                }
+            }
+        }
+    }
+</script>
+<style>
+    @font-face {
+        font-family: 'Author';
+        src: url('assets/fonts/Author-Variable.ttf') format('truetype');
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Author';
+        src: url('assets/fonts/Author-VariableItalic.ttf') format('truetype');
+        font-weight: 100 900;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+    html, body { overflow-x: clip; }
+    body {
+        background: #0E0A1A;
+        color: #F0EDE0;
+        font-family: 'Inter', sans-serif;
+    }
+    ::selection { background: rgba(84, 37, 184, 0.55); }
+
+    .nav-link {
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: #9B93B8;
+        transition: color 0.2s ease;
+    }
+    .nav-link:hover { color: #F0EDE0; }
+
+    .footer-link {
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.25em;
+        color: #5C5478;
+        transition: color 0.2s ease;
+    }
+    .footer-link:hover { color: #F0EDE0; }
+
+    /* Chromatic aberration — headings only */
+    .chromatic-text {
+        position: relative;
+        text-shadow: 0.5px 0 0.5px rgba(255, 0, 0, 0.2), -0.5px 0 0.5px rgba(0, 255, 255, 0.2);
+        transition: text-shadow 0.3s ease;
+    }
+    .chromatic-text:hover {
+        text-shadow: 1.5px 0 1px rgba(255, 0, 0, 0.45), -1.5px 0 1px rgba(0, 255, 255, 0.45);
+    }
+
+    /* Animated dot grid background */
+    .motion-canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        overflow: hidden;
+    }
+    .animated-grid-overlay {
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background-image: radial-gradient(circle, rgba(240, 237, 224, 0.5) 1px, transparent 1px);
+        background-size: 40px 40px;
+        opacity: 0.06;
+        pointer-events: none;
+        z-index: 0;
+        transform: rotate(15deg);
+        animation: grid-drift 60s linear infinite;
+    }
+    @keyframes grid-drift {
+        0% { transform: translate(0, 0) rotate(15deg); }
+        100% { transform: translate(40px, 40px) rotate(15deg); }
+    }
+
+    /* Mobile menu */
+    @keyframes menuIn {
+        from { opacity: 0; transform: translateX(24px); }
+        to { opacity: 1; transform: translateX(0); }
+    }
+    .mobile-menu-open { animation: menuIn 0.3s ease; }
+</style>
+</head>
+<body class="bg-background text-ink font-body">
+
+<!-- Animated Background Layer -->
+<div class="motion-canvas">
+    <div class="animated-grid-overlay" id="gridLayer"></div>
+</div>
+
+<!-- Navigation -->
+<nav class="fixed top-0 left-0 w-full z-50 border-b border-[rgba(240,237,224,0.06)]" style="background: rgba(14, 10, 26, 0.7); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);">
+    <div class="flex items-center justify-between px-5 md:px-8 py-4">
+        <a href="index.html" class="flex items-center gap-3 min-w-0">
+            <img src="assets/logo.png" alt="Cocoa Editing Services logo" class="w-9 h-9 shrink-0" style="height:36px;width:36px;"/>
+            <span class="font-author font-bold text-base md:text-lg text-ink tracking-tight truncate">Cocoa Editing Services</span>
+        </a>
+        <div class="flex items-center gap-4 md:gap-8">
+            <div class="hidden md:flex items-center gap-8">
+                <a class="nav-link" href="index.html#work">Work</a>
+                <a class="nav-link" href="index.html#services">Services</a>
+                <a class="nav-link" href="index.html#about">About</a>
+                <a class="nav-link" href="index.html#contact">Contact</a>
+            </div>
+            <a href="index.html#contact" class="font-author font-bold text-sm bg-primary hover:bg-primary-bright text-ink px-4 md:px-6 py-2.5 rounded-md transition-all duration-200 whitespace-nowrap">Start a Project</a>
+            <button class="md:hidden flex flex-col justify-center gap-1.5 w-9 h-9 shrink-0" onclick="openMobileMenu()" aria-label="Open menu">
+                <span class="block w-6 h-0.5 bg-ink"></span>
+                <span class="block w-6 h-0.5 bg-ink"></span>
+                <span class="block w-6 h-0.5 bg-ink"></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile menu overlay -->
+<div id="mobile-menu" class="fixed inset-0 z-[70] hidden" style="background: #0E0A1A;">
+    <button class="absolute top-6 right-6 w-10 h-10 flex items-center justify-center text-ink text-3xl font-light" onclick="closeMobileMenu()" aria-label="Close menu">&times;</button>
+    <nav class="h-full flex flex-col items-center justify-center gap-10">
+        <a class="font-author font-bold text-4xl text-ink" href="index.html#work" onclick="closeMobileMenu()">Work</a>
+        <a class="font-author font-bold text-4xl text-ink" href="index.html#services" onclick="closeMobileMenu()">Services</a>
+        <a class="font-author font-bold text-4xl text-ink" href="index.html#about" onclick="closeMobileMenu()">About</a>
+        <a class="font-author font-bold text-4xl text-ink" href="index.html#contact" onclick="closeMobileMenu()">Contact</a>
+    </nav>
+</div>
+
+<main class="relative z-10">
+    <div class="mx-auto px-6" style="max-width: 760px; padding-top: 160px; padding-bottom: 80px;">
+        <h1 class="font-author font-bold text-ink tracking-tight chromatic-text text-[44px] md:text-[64px]">Privacy Policy</h1>
+        <p class="text-faint text-sm mt-4 mb-16">Last updated: June 2026</p>
+
+        <div class="space-y-12">
+            <section>
+                <h2 class="font-author font-bold text-ink text-[28px] mb-4">What we collect</h2>
+                <p class="text-muted text-base" style="line-height: 1.8;">When you submit the contact form on this site, we collect your name, email address, company name (optional), project type, estimated budget, and message. This information is used solely to respond to your enquiry.</p>
+            </section>
+
+            <section>
+                <h2 class="font-author font-bold text-ink text-[28px] mb-4">How it's processed</h2>
+                <p class="text-muted text-base" style="line-height: 1.8;">Form submissions are handled by Formspree (<a class="underline hover:text-ink transition-colors" href="https://formspree.io" target="_blank" rel="noopener">formspree.io</a>), a third-party form processing service. Your data is transmitted securely and stored temporarily by Formspree to enable email delivery. Formspree's privacy policy is available at <a class="underline hover:text-ink transition-colors" href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener">formspree.io/legal/privacy-policy</a>.</p>
+            </section>
+
+            <section>
+                <h2 class="font-author font-bold text-ink text-[28px] mb-4">What we don't do</h2>
+                <p class="text-muted text-base" style="line-height: 1.8;">We do not sell, share, or distribute your personal information to any third party beyond Formspree for the purposes described above. We do not use your data for marketing without your explicit consent. We do not use cookies or tracking scripts.</p>
+            </section>
+
+            <section>
+                <h2 class="font-author font-bold text-ink text-[28px] mb-4">Your rights</h2>
+                <p class="text-muted text-base" style="line-height: 1.8;">You have the right to request deletion of any personal data submitted through this form. To do so, contact <a class="underline hover:text-ink transition-colors" href="mailto:cocoaeditingservices@gmail.com">cocoaeditingservices@gmail.com</a> with the subject line "Data Deletion Request".</p>
+            </section>
+
+            <section>
+                <h2 class="font-author font-bold text-ink text-[28px] mb-4">Contact</h2>
+                <p class="text-muted text-base" style="line-height: 1.8;">For any privacy-related questions, email <a class="underline hover:text-ink transition-colors" href="mailto:cocoaeditingservices@gmail.com">cocoaeditingservices@gmail.com</a>.</p>
+            </section>
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="relative z-10 border-t border-[rgba(240,237,224,0.06)]" style="background: #0A0712; padding: 80px 32px;">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="font-author font-bold text-lg text-ink">Cocoa Editing Services</div>
+        <div class="flex gap-8 items-center">
+            <a class="footer-link" href="privacy.html">Privacy Policy</a>
+            <a class="footer-link" href="privacy.html">Terms of Service</a>
+        </div>
+        <div class="footer-link" style="cursor: default;">2026 Cocoa Editing Services. Manchester, UK.</div>
+    </div>
+</footer>
+
+<script>
+    // Mobile menu
+    function openMobileMenu() {
+        var m = document.getElementById('mobile-menu');
+        m.classList.remove('hidden');
+        m.classList.add('mobile-menu-open');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeMobileMenu() {
+        var m = document.getElementById('mobile-menu');
+        m.classList.add('hidden');
+        m.classList.remove('mobile-menu-open');
+        document.body.style.overflow = '';
+    }
+</script>
+</body>
+</html>

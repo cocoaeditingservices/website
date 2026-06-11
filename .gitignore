@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.env
+youtube_urls.txt

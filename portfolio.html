@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio — Cocoa Editing Services</title>
+<meta name="description" content="Full video editing and motion design portfolio. 280+ videos across long-form documentaries, YouTube shorts, and branded content."/>
+<meta property="og:title" content="Portfolio — Cocoa Editing Services"/>
+<meta property="og:description" content="Full video editing and motion design portfolio. 280+ videos across long-form documentaries, YouTube shorts, and branded content."/>
+<meta property="og:image" content="assets/logo.png"/>
+<meta property="og:type" content="website"/>
+<link rel="icon" type="image/png" href="assets/logo.png"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    "background": "#0E0A1A",
+                    "surface": "#160E28",
+                    "raised": "#1E1535",
+                    "primary": "#3D1A8C",
+                    "primary-bright": "#5425B8",
+                    "accent": "#4A7FFF",
+                    "cream": "#E8D966",
+                    "ink": "#F0EDE0",
+                    "muted": "#9B93B8",
+                    "faint": "#5C5478"
+                },
+                fontFamily: {
+                    "author": ["Author", "sans-serif"],
+                    "body": ["Inter", "sans-serif"]
+                }
+            }
+        }
+    }
+</script>
+<style>
+    @font-face {
+        font-family: 'Author';
+        src: url('assets/fonts/Author-Variable.ttf') format('truetype');
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Author';
+        src: url('assets/fonts/Author-VariableItalic.ttf') format('truetype');
+        font-weight: 100 900;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+    html, body { overflow-x: clip; }
+    body {
+        background: #0E0A1A;
+        color: #F0EDE0;
+        font-family: 'Inter', sans-serif;
+    }
+    ::selection { background: rgba(84, 37, 184, 0.55); }
+
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    .eyebrow {
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: #5425B8;
+    }
+
+    .nav-link {
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: #9B93B8;
+        transition: color 0.2s ease;
+        cursor: pointer;
+    }
+    .nav-link:hover { color: #F0EDE0; }
+
+    .footer-link {
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.25em;
+        color: #5C5478;
+        transition: color 0.2s ease;
+    }
+    .footer-link:hover { color: #F0EDE0; }
+
+    .glass-card {
+        background: rgba(30, 21, 53, 0.6);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(240, 237, 224, 0.06);
+    }
+
+    /* Chromatic aberration — headings only */
+    .chromatic-text {
+        position: relative;
+        text-shadow: 0.5px 0 0.5px rgba(255, 0, 0, 0.2), -0.5px 0 0.5px rgba(0, 255, 255, 0.2);
+        transition: text-shadow 0.3s ease;
+    }
+    .chromatic-text:hover {
+        text-shadow: 1.5px 0 1px rgba(255, 0, 0, 0.45), -1.5px 0 1px rgba(0, 255, 255, 0.45);
+    }
+
+    .chromatic-box {
+        position: relative;
+        box-shadow: 0 0 0 0.5px rgba(255, 0, 0, 0.1), 0 0 0 0.5px rgba(0, 255, 255, 0.1);
+        transition: box-shadow 0.4s ease, transform 0.4s ease;
+    }
+    .chromatic-box:hover {
+        box-shadow: 1px 0 2px rgba(255, 0, 0, 0.35), -1px 0 2px rgba(0, 255, 255, 0.35);
+    }
+
+    /* Ghost / echo headline duplicate */
+    .ghost-echo { position: relative; z-index: 0; }
+    .ghost-echo::before {
+        content: attr(data-text);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        white-space: pre-line;
+        color: #5425B8;
+        filter: blur(14px);
+        opacity: 0.1;
+        transform: translate(3px, 3px);
+        pointer-events: none;
+        z-index: -1;
+    }
+
+    .stat-pill {
+        display: inline-flex;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        color: #9B93B8;
+        border: 1px solid rgba(240, 237, 224, 0.12);
+        border-radius: 999px;
+        padding: 8px 16px;
+    }
+
+    .tab-btn {
+        font-family: 'Author', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 12px 24px;
+        border-radius: 8px;
+        border: 1px solid rgba(240, 237, 224, 0.12);
+        background: transparent;
+        color: #9B93B8;
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+    .tab-btn:hover { background: rgba(240, 237, 224, 0.04); }
+    .tab-btn-active {
+        background: #3D1A8C;
+        border-color: #3D1A8C;
+        color: #F0EDE0;
+    }
+    .tab-btn-active:hover { background: #3D1A8C; }
+
+    .btn-ghost-lg {
+        display: inline-block;
+        font-family: 'Author', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        background: transparent;
+        border: 1px solid rgba(240, 237, 224, 0.2);
+        color: #F0EDE0;
+        padding: 16px 32px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+    .btn-ghost-lg:hover { background: rgba(240, 237, 224, 0.05); }
+
+    /* Animated dot grid background */
+    .motion-canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        overflow: hidden;
+    }
+    .animated-grid-overlay {
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background-image: radial-gradient(circle, rgba(240, 237, 224, 0.5) 1px, transparent 1px);
+        background-size: 40px 40px;
+        opacity: 0.06;
+        pointer-events: none;
+        z-index: 0;
+        transform: rotate(15deg);
+        animation: grid-drift 60s linear infinite;
+    }
+    @keyframes grid-drift {
+        0% { transform: translate(0, 0) rotate(15deg); }
+        100% { transform: translate(40px, 40px) rotate(15deg); }
+    }
+
+    /* Mobile menu */
+    @keyframes menuIn {
+        from { opacity: 0; transform: translateX(24px); }
+        to { opacity: 1; transform: translateX(0); }
+    }
+    .mobile-menu-open { animation: menuIn 0.3s ease; }
+</style>
+</head>
+<body class="bg-background text-ink font-body">
+
+<!-- Animated Background Layer -->
+<div class="motion-canvas">
+    <div class="animated-grid-overlay" id="gridLayer"></div>
+</div>
+
+<!-- Navigation -->
+<nav class="fixed top-0 left-0 w-full z-50 border-b border-[rgba(240,237,224,0.06)]" style="background: rgba(14, 10, 26, 0.7); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);">
+    <div class="flex items-center justify-between px-5 md:px-8 py-4">
+        <a href="index.html" class="flex items-center gap-3 min-w-0">
+            <img src="assets/logo.png" alt="Cocoa Editing Services logo" class="w-9 h-9 shrink-0" style="height:36px;width:36px;"/>
+            <span class="font-author font-bold text-base md:text-lg text-ink tracking-tight truncate">Cocoa Editing Services</span>
+        </a>
+        <div class="flex items-center gap-4 md:gap-8">
+            <div class="hidden md:flex items-center gap-8">
+                <a class="nav-link" href="index.html">Back to Home</a>
+                <a class="nav-link" href="#portfolio-grid" onclick="showPortfolioTab('longform')">All Work</a>
+                <a class="nav-link" href="#portfolio-grid" onclick="showPortfolioTab('longform')">Long-form</a>
+                <a class="nav-link" href="#portfolio-grid" onclick="showPortfolioTab('shorts')">Shorts</a>
+            </div>
+            <a href="index.html#contact" class="font-author font-bold text-sm bg-primary hover:bg-primary-bright text-ink px-4 md:px-6 py-2.5 rounded-md transition-all duration-200 whitespace-nowrap">Start a Project</a>
+            <button class="md:hidden flex flex-col justify-center gap-1.5 w-9 h-9 shrink-0" onclick="openMobileMenu()" aria-label="Open menu">
+                <span class="block w-6 h-0.5 bg-ink"></span>
+                <span class="block w-6 h-0.5 bg-ink"></span>
+                <span class="block w-6 h-0.5 bg-ink"></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile menu overlay -->
+<div id="mobile-menu" class="fixed inset-0 z-[70] hidden" style="background: #0E0A1A;">
+    <button class="absolute top-6 right-6 w-10 h-10 flex items-center justify-center text-ink text-3xl font-light" onclick="closeMobileMenu()" aria-label="Close menu">&times;</button>
+    <nav class="h-full flex flex-col items-center justify-center gap-10">
+        <a class="font-author font-bold text-4xl text-ink" href="index.html" onclick="closeMobileMenu()">Back to Home</a>
+        <a class="font-author font-bold text-4xl text-ink" href="#portfolio-grid" onclick="showPortfolioTab('longform'); closeMobileMenu();">All Work</a>
+        <a class="font-author font-bold text-4xl text-ink" href="#portfolio-grid" onclick="showPortfolioTab('longform'); closeMobileMenu();">Long-form</a>
+        <a class="font-author font-bold text-4xl text-ink" href="#portfolio-grid" onclick="showPortfolioTab('shorts'); closeMobileMenu();">Shorts</a>
+    </nav>
+</div>
+
+<main class="relative z-10">
+
+    <!-- Page Hero -->
+    <header class="text-center px-6" style="padding-top: 160px; padding-bottom: 80px;">
+        <div class="absolute inset-x-0 top-0 pointer-events-none" style="height: 640px; background: radial-gradient(ellipse at 50% 30%, rgba(61, 26, 140, 0.25) 0%, transparent 65%);"></div>
+        <div class="relative max-w-5xl mx-auto">
+            <span class="eyebrow block mb-6">Full Portfolio</span>
+            <h1 class="ghost-echo chromatic-text font-author font-extrabold text-ink text-[44px] md:text-[72px] xl:text-[96px]" style="letter-spacing: -0.03em; line-height: 0.95;" data-text="Every Project.">Every Project.</h1>
+            <p class="text-muted text-lg mt-6 max-w-xl mx-auto"><span id="hero-video-count">282+</span> videos. Long-form documentaries, shorts, and branded content.</p>
+            <div class="flex flex-wrap justify-center items-center gap-4" style="margin-top: 32px;">
+                <span class="stat-pill" id="pill-videos">282+ Videos</span>
+                <span class="stat-pill">8 Channels</span>
+                <span class="stat-pill" id="pill-views">57M+ Views</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filter tabs + grids -->
+    <section id="portfolio-grid" class="px-6 md:px-8" style="padding-bottom: 160px;">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex justify-center gap-4 mb-12">
+                <button id="tab-longform" class="tab-btn tab-btn-active" onclick="showPortfolioTab('longform')">Long-form</button>
+                <button id="tab-shorts" class="tab-btn" onclick="showPortfolioTab('shorts')">Shorts</button>
+            </div>
+
+            <!-- Long-form grid -->
+            <div id="longform-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="col-span-full text-center py-16 text-faint">Loading portfolio&hellip;</div>
+            </div>
+
+            <!-- Shorts grid (hidden until tab clicked) -->
+            <div id="shorts-grid" class="hidden grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                <!-- Empty state — replaced by JS when portfolio_shorts.json has videos -->
+                <div class="col-span-full flex justify-center">
+                    <div class="glass-card rounded-xl text-center" style="padding: 64px; max-width: 560px;">
+                        <div class="mx-auto mb-6 rounded-lg" style="width: 34px; height: 58px; border: 2px solid rgba(240, 237, 224, 0.25);"></div>
+                        <h3 class="font-author font-bold text-ink text-[32px] mb-4">Shorts Coming Soon</h3>
+                        <p class="text-muted text-base leading-relaxed mb-8">This section is being populated. Check back soon, or view the full portfolio on YTJobs.</p>
+                        <a href="https://ytjobs.co/talent/profile/48926" target="_blank" rel="noopener" class="btn-ghost-lg">View on YTJobs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="relative z-10 border-t border-[rgba(240,237,224,0.06)]" style="background: #0A0712; padding: 80px 32px;">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="font-author font-bold text-lg text-ink">Cocoa Editing Services</div>
+        <div class="flex gap-8 items-center">
+            <a class="footer-link" href="privacy.html">Privacy Policy</a>
+            <a class="footer-link" href="privacy.html">Terms of Service</a>
+        </div>
+        <div class="footer-link" style="cursor: default;">2026 Cocoa Editing Services. Manchester, UK.</div>
+    </div>
+</footer>
+
+<script src="portfolio_data.js"></script>
+<script>
+    // Mobile menu
+    function openMobileMenu() {
+        var m = document.getElementById('mobile-menu');
+        m.classList.remove('hidden');
+        m.classList.add('mobile-menu-open');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeMobileMenu() {
+        var m = document.getElementById('mobile-menu');
+        m.classList.add('hidden');
+        m.classList.remove('mobile-menu-open');
+        document.body.style.overflow = '';
+    }
+
+    // Tab switching — show/hide grids, no page reload
+    function showPortfolioTab(tab) {
+        var lf = document.getElementById('longform-grid');
+        var sh = document.getElementById('shorts-grid');
+        var btnL = document.getElementById('tab-longform');
+        var btnS = document.getElementById('tab-shorts');
+        if (tab === 'shorts') {
+            lf.classList.add('hidden');
+            sh.classList.remove('hidden');
+            btnS.classList.add('tab-btn-active');
+            btnL.classList.remove('tab-btn-active');
+        } else {
+            sh.classList.add('hidden');
+            lf.classList.remove('hidden');
+            btnL.classList.add('tab-btn-active');
+            btnS.classList.remove('tab-btn-active');
+        }
+    }
+
+    (function () {
+        var CHANNELS = { 50058: 'Coding With Lewis' };
+        var accents = ['#5425B8', '#4A7FFF', '#E8D966'];
+
+        function esc(s) {
+            return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+                return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+            });
+        }
+
+        // Prefer the data's own URL (shorts get /shorts/ links). Older data
+        // dumps had youtube_id null and youtube_url "watch?v=None" — in that
+        // case recover the real video ID from the thumbnail URL.
+        function videoHref(v) {
+            if (v.youtube_url && v.youtube_url.indexOf('None') === -1) return v.youtube_url;
+            if (v.youtube_id) return 'https://youtube.com/watch?v=' + v.youtube_id;
+            var m = /\/vi\/([a-zA-Z0-9_-]{11})\//.exec(String(v.thumbnail || ''));
+            if (m) return 'https://youtube.com/watch?v=' + m[1];
+            return '#';
+        }
+
+        function videoCard(v, i, portrait) {
+            var title = esc(v.title);
+            var channel = esc(CHANNELS[v.channel_id] || v.channel_title || '');
+            var views = v.views_formatted ? esc(v.views_formatted) + ' views' : '';
+            var meta = portrait ? views : [channel, views].filter(Boolean).join(' &middot; ');
+            var accent = accents[i % 3];
+            var aspect = portrait ? 'aspect-ratio: 9/16;' : 'aspect-ratio: 16/9;';
+            var pad = portrait ? 'p-4' : 'p-6';
+            var titleSize = portrait ? 'text-sm' : 'text-lg';
+            return '<a href="' + esc(videoHref(v)) + '" target="_blank" rel="noopener" '
+                + 'class="group relative rounded-xl overflow-hidden chromatic-box block cursor-pointer" style="' + aspect + '">'
+                + '<img loading="lazy" class="w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" '
+                + 'alt="' + title + '" src="' + esc(v.thumbnail) + '"/>'
+                + '<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>'
+                + '<div class="absolute inset-0 flex flex-col justify-end ' + pad + '">'
+                + '<span class="text-[10px] uppercase font-bold tracking-widest mb-2" style="color: ' + accent + ';">' + meta + '</span>'
+                + '<h4 class="font-author ' + titleSize + ' font-bold text-ink leading-snug">' + title + '</h4>'
+                + '</div>'
+                + '<div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center" style="background: rgba(84, 37, 184, 0.2);">'
+                + '<span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings: \'FILL\' 1;">play_circle</span>'
+                + '</div></a>';
+        }
+
+        // Fetch fresh JSON when served over http(s); fall back to the data
+        // embedded in portfolio_data.js when fetch is unavailable (file://)
+        function loadPortfolio(file, globalKey) {
+            return fetch(file, { cache: 'no-store' })
+                .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+                .catch(function () { return window[globalKey] || null; });
+        }
+
+        // Long-form
+        var lfGrid = document.getElementById('longform-grid');
+        function lfFallback() {
+            lfGrid.innerHTML = '<div class="col-span-full text-center py-16 text-muted">'
+                + 'Portfolio data unavailable &mdash; visit '
+                + '<a class="underline hover:text-ink transition-colors" href="https://ytjobs.co/talent/profile/48926" target="_blank" rel="noopener">ytjobs.co/talent/profile/48926</a>'
+                + ' to view full work.</div>';
+        }
+        loadPortfolio('portfolio_longform.json', 'PORTFOLIO_LONGFORM')
+            .then(function (d) {
+                if (!d || !d.videos || !d.videos.length) { lfFallback(); return; }
+                lfGrid.innerHTML = d.videos.map(function (v, i) { return videoCard(v, i, false); }).join('');
+            })
+            .catch(lfFallback);
+
+        // Shorts — keep the static empty state unless data exists
+        var shGrid = document.getElementById('shorts-grid');
+        loadPortfolio('portfolio_shorts.json', 'PORTFOLIO_SHORTS')
+            .then(function (d) {
+                if (!d || !d.total || !d.videos || !d.videos.length) return;
+                shGrid.innerHTML = d.videos.map(function (v, i) { return videoCard(v, i, true); }).join('');
+            })
+            .catch(function () { /* keep the empty state */ });
+    })();
+
+    // Live hero figures from YTJobs (refreshed daily into assets/stats.json);
+    // hardcoded fallbacks stay if the fetch fails (e.g. file://)
+    fetch('assets/stats.json', { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) {
+            if (!d) return;
+            if (d.videos_delivered) {
+                var c = document.getElementById('hero-video-count');
+                var p = document.getElementById('pill-videos');
+                if (c) c.textContent = d.videos_delivered;
+                if (p) p.textContent = d.videos_delivered + ' Videos';
+            }
+            if (d.audience_reached) {
+                var v = document.getElementById('pill-views');
+                if (v) v.textContent = d.audience_reached + ' Views';
+            }
+        })
+        .catch(function () { /* keep the hardcoded fallback values */ });
+</script>
+</body>
+</html>
