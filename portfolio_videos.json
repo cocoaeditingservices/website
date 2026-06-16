@@ -8,7 +8,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 209,
-      "total_views": 52590952,
+      "total_views": 52591607,
       "subscribers": "745K",
       "verified": true
     },
@@ -2185,6 +2185,20 @@
       "ytjobs_id": "2265444"
     },
     {
+      "title": "The Incredible Engineering That Saved Slack During COVID",
+      "youtube_id": "WFpEvs2sjgs",
+      "youtube_url": "https://www.youtube.com/watch?v=WFpEvs2sjgs",
+      "thumbnail": "https://i.ytimg.com/vi/WFpEvs2sjgs/mqdefault.jpg",
+      "views": 76011,
+      "views_formatted": "76.01K",
+      "likes_formatted": "3.03K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "745K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "2114113"
+    },
+    {
       "title": "Revisiting my Viral GitHub Repository #ad",
       "youtube_id": "eO1gxqzkeQw",
       "youtube_url": "https://www.youtube.com/watch?v=eO1gxqzkeQw",
@@ -2197,20 +2211,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "1551409"
-    },
-    {
-      "title": "The Incredible Engineering That Saved Slack During COVID",
-      "youtube_id": "WFpEvs2sjgs",
-      "youtube_url": "https://www.youtube.com/watch?v=WFpEvs2sjgs",
-      "thumbnail": "https://i.ytimg.com/vi/WFpEvs2sjgs/mqdefault.jpg",
-      "views": 75356,
-      "views_formatted": "75.36K",
-      "likes_formatted": "3.01K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "745K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "2114113"
     },
     {
       "title": "Google Refused to Add this Feature So I Did It Myself",
