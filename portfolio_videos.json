@@ -8,14 +8,14 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 209,
-      "total_views": 52591607,
+      "total_views": 52591936,
       "subscribers": "745K",
       "verified": true
     },
     "Warp": {
       "video_count": 54,
       "total_views": 5214022,
-      "subscribers": "111K",
+      "subscribers": "112K",
       "verified": true
     },
     "Nicholas Renotte": {
@@ -33,7 +33,7 @@
     "Debug with Lewis": {
       "video_count": 2,
       "total_views": 12419,
-      "subscribers": "3.18K",
+      "subscribers": "3.19K",
       "verified": false
     },
     "GitKraken": {
@@ -45,7 +45,7 @@
     "TheSassJacket": {
       "video_count": 1,
       "total_views": 419,
-      "subscribers": "6.1K",
+      "subscribers": "6.11K",
       "verified": true
     },
     "Fast Forward": {
@@ -2217,9 +2217,9 @@
       "youtube_id": "lhjgj45x66Y",
       "youtube_url": "https://www.youtube.com/watch?v=lhjgj45x66Y",
       "thumbnail": "https://i.ytimg.com/vi/lhjgj45x66Y/mqdefault.jpg",
-      "views": 74313,
-      "views_formatted": "74.31K",
-      "likes_formatted": "2.74K",
+      "views": 74642,
+      "views_formatted": "74.64K",
+      "likes_formatted": "2.75K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "745K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -2991,7 +2991,7 @@
       "views_formatted": "6.93K",
       "likes_formatted": "263",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.18K",
+      "channel_subscribers": "3.19K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_id": "837297"
@@ -3005,7 +3005,7 @@
       "views_formatted": "5.49K",
       "likes_formatted": "139",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.18K",
+      "channel_subscribers": "3.19K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_id": "837296"
@@ -3243,7 +3243,7 @@
       "views_formatted": "419",
       "likes_formatted": "25",
       "channel_name": "TheSassJacket",
-      "channel_subscribers": "6.1K",
+      "channel_subscribers": "6.11K",
       "channel_yt_link": "https://youtube.com/@thesassjacket",
       "channel_verified": true,
       "ytjobs_id": "837266"
@@ -3257,7 +3257,7 @@
       "views_formatted": "1.22M",
       "likes_formatted": "51.76K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869240"
@@ -3271,7 +3271,7 @@
       "views_formatted": "712.27K",
       "likes_formatted": "37.4K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869235"
@@ -3285,7 +3285,7 @@
       "views_formatted": "619.57K",
       "likes_formatted": "46.28K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869230"
@@ -3299,7 +3299,7 @@
       "views_formatted": "439.01K",
       "likes_formatted": "6.73K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869242"
@@ -3313,7 +3313,7 @@
       "views_formatted": "270.01K",
       "likes_formatted": "8.19K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "837285"
@@ -3327,7 +3327,7 @@
       "views_formatted": "218.77K",
       "likes_formatted": "11.53K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869231"
@@ -3341,7 +3341,7 @@
       "views_formatted": "153.04K",
       "likes_formatted": "9.89K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869202"
@@ -3355,7 +3355,7 @@
       "views_formatted": "127.28K",
       "likes_formatted": "3.04K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869248"
@@ -3369,7 +3369,7 @@
       "views_formatted": "121.16K",
       "likes_formatted": "3.23K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869249"
@@ -3383,7 +3383,7 @@
       "views_formatted": "107.91K",
       "likes_formatted": "4.09K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869256"
@@ -3397,7 +3397,7 @@
       "views_formatted": "104.57K",
       "likes_formatted": "4.68K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869237"
@@ -3411,7 +3411,7 @@
       "views_formatted": "98.99K",
       "likes_formatted": "7.24K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869246"
@@ -3425,7 +3425,7 @@
       "views_formatted": "93.83K",
       "likes_formatted": "5.73K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869241"
@@ -3439,7 +3439,7 @@
       "views_formatted": "80.33K",
       "likes_formatted": "4.06K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869243"
@@ -3453,7 +3453,7 @@
       "views_formatted": "74.76K",
       "likes_formatted": "3.12K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "837287"
@@ -3467,7 +3467,7 @@
       "views_formatted": "59.3K",
       "likes_formatted": "3.83K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869234"
@@ -3481,7 +3481,7 @@
       "views_formatted": "52.76K",
       "likes_formatted": "4.24K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869203"
@@ -3495,7 +3495,7 @@
       "views_formatted": "47.14K",
       "likes_formatted": "2.16K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869228"
@@ -3509,7 +3509,7 @@
       "views_formatted": "44.65K",
       "likes_formatted": "2.89K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869206"
@@ -3523,7 +3523,7 @@
       "views_formatted": "42.07K",
       "likes_formatted": "1.7K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869239"
@@ -3537,7 +3537,7 @@
       "views_formatted": "33.66K",
       "likes_formatted": "2.33K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869223"
@@ -3551,7 +3551,7 @@
       "views_formatted": "32.69K",
       "likes_formatted": "1.01K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869245"
@@ -3565,7 +3565,7 @@
       "views_formatted": "31.92K",
       "likes_formatted": "1.36K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869222"
@@ -3579,7 +3579,7 @@
       "views_formatted": "29.01K",
       "likes_formatted": "989",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869220"
@@ -3593,7 +3593,7 @@
       "views_formatted": "27.98K",
       "likes_formatted": "1.8K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869232"
@@ -3607,7 +3607,7 @@
       "views_formatted": "27.25K",
       "likes_formatted": "1.46K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869205"
@@ -3621,7 +3621,7 @@
       "views_formatted": "26.83K",
       "likes_formatted": "1.68K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869225"
@@ -3635,7 +3635,7 @@
       "views_formatted": "26.29K",
       "likes_formatted": "635",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869236"
@@ -3649,7 +3649,7 @@
       "views_formatted": "26.09K",
       "likes_formatted": "450",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869204"
@@ -3663,7 +3663,7 @@
       "views_formatted": "23.21K",
       "likes_formatted": "673",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869226"
@@ -3677,7 +3677,7 @@
       "views_formatted": "22.9K",
       "likes_formatted": "795",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869224"
@@ -3691,7 +3691,7 @@
       "views_formatted": "21.74K",
       "likes_formatted": "1.01K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869250"
@@ -3705,7 +3705,7 @@
       "views_formatted": "20.09K",
       "likes_formatted": "1.17K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869227"
@@ -3719,7 +3719,7 @@
       "views_formatted": "18.68K",
       "likes_formatted": "1.46K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869233"
@@ -3733,7 +3733,7 @@
       "views_formatted": "18.59K",
       "likes_formatted": "1.46K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869238"
@@ -3747,7 +3747,7 @@
       "views_formatted": "18.19K",
       "likes_formatted": "593",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "2121346"
@@ -3761,7 +3761,7 @@
       "views_formatted": "17.51K",
       "likes_formatted": "1.06K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869221"
@@ -3775,7 +3775,7 @@
       "views_formatted": "14.81K",
       "likes_formatted": "1.11K",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869229"
@@ -3789,7 +3789,7 @@
       "views_formatted": "11.15K",
       "likes_formatted": "577",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869247"
@@ -3803,7 +3803,7 @@
       "views_formatted": "10.82K",
       "likes_formatted": "308",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "2046041"
@@ -3817,7 +3817,7 @@
       "views_formatted": "10.23K",
       "likes_formatted": "782",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869254"
@@ -3831,7 +3831,7 @@
       "views_formatted": "8.33K",
       "likes_formatted": "460",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "837278"
@@ -3845,7 +3845,7 @@
       "views_formatted": "7.81K",
       "likes_formatted": "285",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "837284"
@@ -3859,7 +3859,7 @@
       "views_formatted": "6.19K",
       "likes_formatted": "308",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "837281"
@@ -3873,7 +3873,7 @@
       "views_formatted": "5.53K",
       "likes_formatted": "184",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "2072801"
@@ -3887,7 +3887,7 @@
       "views_formatted": "5.15K",
       "likes_formatted": "173",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869244"
@@ -3901,7 +3901,7 @@
       "views_formatted": "4.21K",
       "likes_formatted": "155",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869253"
@@ -3915,7 +3915,7 @@
       "views_formatted": "4.18K",
       "likes_formatted": "107",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "2046040"
@@ -3929,7 +3929,7 @@
       "views_formatted": "4.11K",
       "likes_formatted": "74",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "2005080"
@@ -3943,7 +3943,7 @@
       "views_formatted": "3.38K",
       "likes_formatted": "180",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869251"
@@ -3957,7 +3957,7 @@
       "views_formatted": "2.82K",
       "likes_formatted": "133",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869255"
@@ -3971,7 +3971,7 @@
       "views_formatted": "2.65K",
       "likes_formatted": "111",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "869252"
@@ -3985,7 +3985,7 @@
       "views_formatted": "1.51K",
       "likes_formatted": "50",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "837286"
@@ -3999,7 +3999,7 @@
       "views_formatted": "1.24K",
       "likes_formatted": "33",
       "channel_name": "Warp",
-      "channel_subscribers": "111K",
+      "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
       "channel_verified": true,
       "ytjobs_id": "2005081"
