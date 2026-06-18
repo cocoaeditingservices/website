@@ -361,7 +361,6 @@
 
     (function () {
         var CHANNELS = { 50058: 'Coding With Lewis' };
-        var accents = ['#5425B8', '#4A7FFF', '#E8D966'];
 
         function esc(s) {
             return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
@@ -385,7 +384,7 @@
             var channel = esc(CHANNELS[v.channel_id] || v.channel_title || '');
             var views = v.views_formatted ? esc(v.views_formatted) + ' views' : '';
             var meta = portrait ? views : [channel, views].filter(Boolean).join(' &middot; ');
-            var accent = accents[i % 3];
+            var accent = '#E8D966'; // yellow — most legible accent over thumbnails
             var aspect = portrait ? 'aspect-ratio: 9/16;' : 'aspect-ratio: 16/9;';
             var pad = portrait ? 'p-4' : 'p-6';
             var titleSize = portrait ? 'text-sm' : 'text-lg';
@@ -395,7 +394,7 @@
                 + 'alt="' + title + '" src="' + esc(v.thumbnail) + '"/>'
                 + '<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>'
                 + '<div class="absolute inset-0 flex flex-col justify-end ' + pad + '">'
-                + '<span class="text-[10px] uppercase font-bold tracking-widest mb-2" style="color: ' + accent + ';">' + meta + '</span>'
+                + '<span class="inline-block self-start text-[10px] uppercase font-bold tracking-widest mb-2 px-2 py-1 rounded-md" style="color: ' + accent + '; background: rgba(0,0,0,0.8);">' + meta + '</span>'
                 + '<h4 class="font-author ' + titleSize + ' font-bold text-ink leading-snug">' + title + '</h4>'
                 + '</div>'
                 + '<div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center" style="background: rgba(84, 37, 184, 0.2);">'
