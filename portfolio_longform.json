@@ -1,6 +1,17 @@
 {
- "total": 72,
+ "total": 73,
  "videos": [
+  {
+   "id": "3164612",
+   "title": "$1.7 billion website. 6 people enrolled.",
+   "youtube_id": "dyO7142L-_E",
+   "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
+   "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
+   "views_formatted": "32.9K",
+   "channel_title": "Coding with Lewis",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3024069",
    "title": "How Meta Went From Open Source Hero to AI's Biggest Villain",
@@ -51,7 +62,7 @@
    "youtube_id": "cjoYPSbzHV0",
    "youtube_url": "https://www.youtube.com/watch?v=cjoYPSbzHV0",
    "thumbnail": "https://i.ytimg.com/vi/cjoYPSbzHV0/mqdefault.jpg",
-   "views_formatted": "8.82K",
+   "views_formatted": "9.29K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 880
@@ -95,7 +106,7 @@
    "youtube_id": "hV6UdEf3C1I",
    "youtube_url": "https://www.youtube.com/watch?v=hV6UdEf3C1I",
    "thumbnail": "https://i.ytimg.com/vi/hV6UdEf3C1I/mqdefault.jpg",
-   "views_formatted": "18.19K",
+   "views_formatted": "18.56K",
    "channel_title": "Warp",
    "channel_id": null,
    "duration": 177
