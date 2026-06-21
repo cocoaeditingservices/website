@@ -8,7 +8,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 210,
-      "total_views": 52635543,
+      "total_views": 52637640,
       "subscribers": "747K",
       "verified": true
     },
@@ -2577,6 +2577,20 @@
       "ytjobs_id": "2132968"
     },
     {
+      "title": "$1.7 billion website. 6 people enrolled.",
+      "youtube_id": "dyO7142L-_E",
+      "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
+      "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
+      "views": 43042,
+      "views_formatted": "43.04K",
+      "likes_formatted": "2.27K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3164612"
+    },
+    {
       "title": "How Programmers SAVED the Wii 👩‍💻 #gaming #developer #tech #coder #technology #nintendo #wii",
       "youtube_id": "cVIqqUjJo0c",
       "youtube_url": "https://www.youtube.com/watch?v=cVIqqUjJo0c",
@@ -2603,20 +2617,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "1588032"
-    },
-    {
-      "title": "$1.7 billion website. 6 people enrolled.",
-      "youtube_id": "dyO7142L-_E",
-      "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
-      "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
-      "views": 40945,
-      "views_formatted": "40.95K",
-      "likes_formatted": "2.18K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3164612"
     },
     {
       "title": "Deploy Kubernetes EASILY with this 👩‍💻 #ad #tech #coder #computerprogrammer #programmer #deploy",
