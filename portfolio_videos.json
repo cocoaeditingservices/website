@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 283,
-    "total_views": "57.94M",
+    "total_views": "57.95M",
     "total_likes": "1.38M",
     "total_comments": "52.11K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 210,
-      "total_views": 52637640,
+      "total_views": 52639169,
       "subscribers": "747K",
       "verified": true
     },
@@ -2563,6 +2563,20 @@
       "ytjobs_id": "2661917"
     },
     {
+      "title": "$1.7 billion website. 6 people enrolled.",
+      "youtube_id": "dyO7142L-_E",
+      "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
+      "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
+      "views": 44528,
+      "views_formatted": "44.53K",
+      "likes_formatted": "2.32K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3164612"
+    },
+    {
       "title": "INSIDE a Data Center with 90,000+ Servers 💻",
       "youtube_id": "1jGdRjkhOYE",
       "youtube_url": "https://www.youtube.com/watch?v=1jGdRjkhOYE",
@@ -2575,20 +2589,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "2132968"
-    },
-    {
-      "title": "$1.7 billion website. 6 people enrolled.",
-      "youtube_id": "dyO7142L-_E",
-      "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
-      "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
-      "views": 43042,
-      "views_formatted": "43.04K",
-      "likes_formatted": "2.27K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3164612"
     },
     {
       "title": "How Programmers SAVED the Wii 👩‍💻 #gaming #developer #tech #coder #technology #nintendo #wii",
@@ -2609,9 +2609,9 @@
       "youtube_id": "nz0_wi1T578",
       "youtube_url": "https://www.youtube.com/watch?v=nz0_wi1T578",
       "thumbnail": "https://i.ytimg.com/vi/nz0_wi1T578/mqdefault.jpg",
-      "views": 41197,
-      "views_formatted": "41.2K",
-      "likes_formatted": "1.32K",
+      "views": 41240,
+      "views_formatted": "41.24K",
+      "likes_formatted": "1.31K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "747K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
