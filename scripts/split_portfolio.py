@@ -31,9 +31,19 @@ LENGTH = re.compile(r'"lengthSeconds":"(\d+)"')
 # Successful lookups are cached so reruns only fetch new videos —
 # YouTube rate-limits aggressive full sweeps with 429s.
 try:
-    CACHE = json.load(open(CACHE_PATH, encoding="utf-8"))
+    CACHE = json.load(open(CACHE_PATH, encoding="utf-8-sig"))
 except (FileNotFoundError, json.JSONDecodeError):
     CACHE = {}
+
+# Purge poisoned entries: a real classification always has a duration, so a
+# cached entry with duration None is a failed lookup that an older classifier
+# wrongly persisted (it would otherwise stay misclassified forever, since
+# cached videos are never re-fetched). Drop them so they get re-classified.
+_poisoned = [vid for vid, e in CACHE.items() if e.get("duration") is None]
+for vid in _poisoned:
+    del CACHE[vid]
+if _poisoned:
+    print(f"Purged {len(_poisoned)} poisoned cache entries: {', '.join(_poisoned)}")
 
 
 def fetch_watch_page(vid):
@@ -63,8 +73,9 @@ def classify(video):
     vid = video.get("youtube_id")
     if not vid:
         return "long", None
-    if vid in CACHE:
-        return CACHE[vid]["kind"], CACHE[vid]["duration"]
+    cached = CACHE.get(vid)
+    if cached and cached.get("duration") is not None:
+        return cached["kind"], cached["duration"]
     time.sleep(0.8)  # stay under YouTube's rate limit
     try:
         html = fetch_watch_page(vid)

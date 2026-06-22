@@ -1,17 +1,6 @@
 {
- "total": 73,
+ "total": 72,
  "videos": [
-  {
-   "id": "3164612",
-   "title": "$1.7 billion website. 6 people enrolled.",
-   "youtube_id": "dyO7142L-_E",
-   "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
-   "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
-   "views_formatted": "44.53K",
-   "channel_title": "Coding with Lewis",
-   "channel_id": null,
-   "duration": null
-  },
   {
    "id": "3024069",
    "title": "How Meta Went From Open Source Hero to AI's Biggest Villain",
