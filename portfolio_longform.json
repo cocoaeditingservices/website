@@ -1,6 +1,17 @@
 {
- "total": 72,
+ "total": 73,
  "videos": [
+  {
+   "id": "3186370",
+   "title": "How Postgres Quietly Became the #1 Database on Earth",
+   "youtube_id": "_CB_Aa2ODeM",
+   "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+   "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
+   "views_formatted": "94",
+   "channel_title": "Coding with Lewis",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3024069",
    "title": "How Meta Went From Open Source Hero to AI's Biggest Villain",
