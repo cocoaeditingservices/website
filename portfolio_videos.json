@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 284,
-    "total_views": "57.96M",
+    "total_views": "58.01M",
     "total_likes": "1.38M",
-    "total_comments": "52.13K"
+    "total_comments": "52.24K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 211,
-      "total_views": 52654752,
+      "total_views": 52697756,
       "subscribers": "747K",
       "verified": true
     },
@@ -2413,8 +2413,8 @@
       "youtube_id": "KjEhjA-1fGY",
       "youtube_url": "https://www.youtube.com/watch?v=KjEhjA-1fGY",
       "thumbnail": "https://i.ytimg.com/vi/KjEhjA-1fGY/mqdefault.jpg",
-      "views": 59222,
-      "views_formatted": "59.22K",
+      "views": 59455,
+      "views_formatted": "59.46K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "747K",
@@ -2521,6 +2521,34 @@
       "ytjobs_id": "212322"
     },
     {
+      "title": "INSIDE a Data Center with 90,000+ Servers 💻",
+      "youtube_id": "1jGdRjkhOYE",
+      "youtube_url": "https://www.youtube.com/watch?v=1jGdRjkhOYE",
+      "thumbnail": "https://i.ytimg.com/vi/1jGdRjkhOYE/mqdefault.jpg",
+      "views": 49074,
+      "views_formatted": "49.07K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "2132968"
+    },
+    {
+      "title": "$1.7 billion website. 6 people enrolled.",
+      "youtube_id": "dyO7142L-_E",
+      "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
+      "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
+      "views": 47705,
+      "views_formatted": "47.71K",
+      "likes_formatted": "2.48K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3164612"
+    },
+    {
       "title": "The iconic “Keygen” Software 👩‍💻💀 #software #technology #code #programming #developer #retrotech",
       "youtube_id": "nQapeCLvEJ4",
       "youtube_url": "https://www.youtube.com/watch?v=nQapeCLvEJ4",
@@ -2549,20 +2577,6 @@
       "ytjobs_id": "2071508"
     },
     {
-      "title": "$1.7 billion website. 6 people enrolled.",
-      "youtube_id": "dyO7142L-_E",
-      "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
-      "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
-      "views": 46699,
-      "views_formatted": "46.7K",
-      "likes_formatted": "2.43K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3164612"
-    },
-    {
       "title": "GitHub's Code Was Breaking Every 8 Hours. Here's Why.",
       "youtube_id": "JJZQr2AuEI0",
       "youtube_url": "https://www.youtube.com/watch?v=JJZQr2AuEI0",
@@ -2575,20 +2589,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "2661917"
-    },
-    {
-      "title": "INSIDE a Data Center with 90,000+ Servers 💻",
-      "youtube_id": "1jGdRjkhOYE",
-      "youtube_url": "https://www.youtube.com/watch?v=1jGdRjkhOYE",
-      "thumbnail": "https://i.ytimg.com/vi/1jGdRjkhOYE/mqdefault.jpg",
-      "views": 44011,
-      "views_formatted": "44.01K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "2132968"
     },
     {
       "title": "How Programmers SAVED the Wii 👩‍💻 #gaming #developer #tech #coder #technology #nintendo #wii",
@@ -2645,6 +2645,20 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "1975398"
+    },
+    {
+      "title": "The Database That Should Be Dead but Runs the Internet",
+      "youtube_id": "_CB_Aa2ODeM",
+      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
+      "views": 36796,
+      "views_formatted": "36.8K",
+      "likes_formatted": "1.96K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3186370"
     },
     {
       "title": "Here are the winners for the NVIDIA Project G-Assist Hackathon! #ad",
@@ -2995,20 +3009,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "2320464"
-    },
-    {
-      "title": "How Postgres Quietly Became the #1 Database on Earth",
-      "youtube_id": "_CB_Aa2ODeM",
-      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
-      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
-      "views": 94,
-      "views_formatted": "94",
-      "likes_formatted": "14",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3186370"
     },
     {
       "title": "Why I Stopped Using LangChain",
