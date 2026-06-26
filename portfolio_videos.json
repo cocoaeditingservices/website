@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 284,
-    "total_views": "58.01M",
-    "total_likes": "1.38M",
-    "total_comments": "52.24K"
+    "total_views": "58.04M",
+    "total_likes": "1.39M",
+    "total_comments": "52.31K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 211,
-      "total_views": 52697756,
+      "total_views": 52728970,
       "subscribers": "747K",
       "verified": true
     },
@@ -2353,6 +2353,20 @@
       "ytjobs_id": "851616"
     },
     {
+      "title": "The Database That Should Be Dead but Runs the Internet",
+      "youtube_id": "_CB_Aa2ODeM",
+      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
+      "views": 63366,
+      "views_formatted": "63.37K",
+      "likes_formatted": "3.13K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3186370"
+    },
+    {
       "title": "This History behind GIF 👩‍💻 #technology #tech #developer #software #internet #memes #computer",
       "youtube_id": "-BAViK33kb0",
       "youtube_url": "https://www.youtube.com/watch?v=-BAViK33kb0",
@@ -2539,9 +2553,9 @@
       "youtube_id": "dyO7142L-_E",
       "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
       "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
-      "views": 47705,
-      "views_formatted": "47.71K",
-      "likes_formatted": "2.48K",
+      "views": 48631,
+      "views_formatted": "48.63K",
+      "likes_formatted": "2.51K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "747K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -2645,20 +2659,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "1975398"
-    },
-    {
-      "title": "The Database That Should Be Dead but Runs the Internet",
-      "youtube_id": "_CB_Aa2ODeM",
-      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
-      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
-      "views": 36796,
-      "views_formatted": "36.8K",
-      "likes_formatted": "1.96K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3186370"
     },
     {
       "title": "Here are the winners for the NVIDIA Project G-Assist Hackathon! #ad",
@@ -2913,6 +2913,20 @@
       "ytjobs_id": "576626"
     },
     {
+      "title": "5 Things Developers Can Automate with AI #ad",
+      "youtube_id": "9pOXGoaJ2w0",
+      "youtube_url": "https://www.youtube.com/watch?v=9pOXGoaJ2w0",
+      "thumbnail": "https://i.ytimg.com/vi/9pOXGoaJ2w0/mqdefault.jpg",
+      "views": 22855,
+      "views_formatted": "22.86K",
+      "likes_formatted": "763",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "2836555"
+    },
+    {
       "title": "I Brought Your Terrible App Ideas to Life",
       "youtube_id": "mJJyzUfu8Qc",
       "youtube_url": "https://www.youtube.com/watch?v=mJJyzUfu8Qc",
@@ -2953,20 +2967,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "954079"
-    },
-    {
-      "title": "5 Things Developers Can Automate with AI #ad",
-      "youtube_id": "9pOXGoaJ2w0",
-      "youtube_url": "https://www.youtube.com/watch?v=9pOXGoaJ2w0",
-      "thumbnail": "https://i.ytimg.com/vi/9pOXGoaJ2w0/mqdefault.jpg",
-      "views": 19137,
-      "views_formatted": "19.14K",
-      "likes_formatted": "678",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "2836555"
     },
     {
       "title": "5 Software Errors That Will Destroy Your Code",
