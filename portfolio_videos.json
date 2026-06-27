@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 284,
-    "total_views": "58.04M",
+    "total_views": "58.07M",
     "total_likes": "1.39M",
-    "total_comments": "52.31K"
+    "total_comments": "52.4K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 211,
-      "total_views": 52728970,
+      "total_views": 52758088,
       "subscribers": "747K",
       "verified": true
     },
@@ -1989,6 +1989,20 @@
       "ytjobs_id": "2540812"
     },
     {
+      "title": "The Database That Should Be Dead but Runs the Internet",
+      "youtube_id": "_CB_Aa2ODeM",
+      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
+      "views": 91993,
+      "views_formatted": "91.99K",
+      "likes_formatted": "4.24K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3186370"
+    },
+    {
       "title": "Game Developers Reveal WHY Your Games Lag",
       "youtube_id": "lIiDgPxruEA",
       "youtube_url": "https://www.youtube.com/watch?v=lIiDgPxruEA",
@@ -2353,20 +2367,6 @@
       "ytjobs_id": "851616"
     },
     {
-      "title": "The Database That Should Be Dead but Runs the Internet",
-      "youtube_id": "_CB_Aa2ODeM",
-      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
-      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
-      "views": 63366,
-      "views_formatted": "63.37K",
-      "likes_formatted": "3.13K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3186370"
-    },
-    {
       "title": "This History behind GIF 👩‍💻 #technology #tech #developer #software #internet #memes #computer",
       "youtube_id": "-BAViK33kb0",
       "youtube_url": "https://www.youtube.com/watch?v=-BAViK33kb0",
@@ -2535,6 +2535,20 @@
       "ytjobs_id": "212322"
     },
     {
+      "title": "$1.7 billion website. 6 people enrolled.",
+      "youtube_id": "dyO7142L-_E",
+      "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
+      "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
+      "views": 49122,
+      "views_formatted": "49.12K",
+      "likes_formatted": "2.53K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3164612"
+    },
+    {
       "title": "INSIDE a Data Center with 90,000+ Servers 💻",
       "youtube_id": "1jGdRjkhOYE",
       "youtube_url": "https://www.youtube.com/watch?v=1jGdRjkhOYE",
@@ -2547,20 +2561,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "2132968"
-    },
-    {
-      "title": "$1.7 billion website. 6 people enrolled.",
-      "youtube_id": "dyO7142L-_E",
-      "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
-      "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
-      "views": 48631,
-      "views_formatted": "48.63K",
-      "likes_formatted": "2.51K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3164612"
     },
     {
       "title": "The iconic “Keygen” Software 👩‍💻💀 #software #technology #code #programming #developer #retrotech",
