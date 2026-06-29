@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 284,
-    "total_views": "58.09M",
+    "total_views": "58.11M",
     "total_likes": "1.39M",
-    "total_comments": "52.45K"
+    "total_comments": "52.48K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 211,
-      "total_views": 52786763,
+      "total_views": 52801684,
       "subscribers": "747K",
       "verified": true
     },
@@ -1527,6 +1527,20 @@
       "ytjobs_id": "868694"
     },
     {
+      "title": "The Database That Should Be Dead but Runs the Internet",
+      "youtube_id": "_CB_Aa2ODeM",
+      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
+      "views": 134710,
+      "views_formatted": "134.71K",
+      "likes_formatted": "5.68K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3186370"
+    },
+    {
       "title": "My DESK SETUP as a programmer👩‍💻 #programming #technology #software #tech #productivity #desksetup",
       "youtube_id": "DbWfX_ogwJ8",
       "youtube_url": "https://www.youtube.com/watch?v=DbWfX_ogwJ8",
@@ -1581,20 +1595,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "868653"
-    },
-    {
-      "title": "The Database That Should Be Dead but Runs the Internet",
-      "youtube_id": "_CB_Aa2ODeM",
-      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
-      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
-      "views": 119926,
-      "views_formatted": "119.93K",
-      "likes_formatted": "5.14K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3186370"
     },
     {
       "title": "The 2 Types of Programmers",
@@ -2749,9 +2749,9 @@
       "youtube_id": "Stcqh4BqlIY",
       "youtube_url": "https://www.youtube.com/watch?v=Stcqh4BqlIY",
       "thumbnail": "https://i.ytimg.com/vi/Stcqh4BqlIY/mqdefault.jpg",
-      "views": 30135,
-      "views_formatted": "30.14K",
-      "likes_formatted": "964",
+      "views": 30272,
+      "views_formatted": "30.27K",
+      "likes_formatted": "966",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "747K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
