@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 284,
-    "total_views": "58.11M",
+    "total_views": "58.12M",
     "total_likes": "1.39M",
-    "total_comments": "52.48K"
+    "total_comments": "52.5K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 211,
-      "total_views": 52801684,
+      "total_views": 52809695,
       "subscribers": "747K",
       "verified": true
     },
@@ -1471,6 +1471,20 @@
       "ytjobs_id": "868682"
     },
     {
+      "title": "The Database That Should Be Dead but Runs the Internet",
+      "youtube_id": "_CB_Aa2ODeM",
+      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
+      "views": 142721,
+      "views_formatted": "142.72K",
+      "likes_formatted": "6K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3186370"
+    },
+    {
       "title": "How do video game emulators work!? 👩‍💻👾 #programming #technology #software #code #gaming #tech",
       "youtube_id": "cRLo8cJsBrs",
       "youtube_url": "https://www.youtube.com/watch?v=cRLo8cJsBrs",
@@ -1525,20 +1539,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "868694"
-    },
-    {
-      "title": "The Database That Should Be Dead but Runs the Internet",
-      "youtube_id": "_CB_Aa2ODeM",
-      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
-      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
-      "views": 134710,
-      "views_formatted": "134.71K",
-      "likes_formatted": "5.68K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3186370"
     },
     {
       "title": "My DESK SETUP as a programmer👩‍💻 #programming #technology #software #tech #productivity #desksetup",
