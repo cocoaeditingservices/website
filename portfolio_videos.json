@@ -3,12 +3,12 @@
     "total_videos": 284,
     "total_views": "58.12M",
     "total_likes": "1.39M",
-    "total_comments": "52.5K"
+    "total_comments": "52.49K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 211,
-      "total_views": 52809695,
+      "total_views": 52813545,
       "subscribers": "747K",
       "verified": true
     },
@@ -411,8 +411,8 @@
       "youtube_id": "eXOvTmEDa7Y",
       "youtube_url": "https://www.youtube.com/watch?v=eXOvTmEDa7Y",
       "thumbnail": "https://i.ytimg.com/vi/eXOvTmEDa7Y/mqdefault.jpg",
-      "views": 478878,
-      "views_formatted": "478.88K",
+      "views": 479542,
+      "views_formatted": "479.54K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "747K",
@@ -1429,6 +1429,20 @@
       "ytjobs_id": "868668"
     },
     {
+      "title": "The Database That Should Be Dead but Runs the Internet",
+      "youtube_id": "_CB_Aa2ODeM",
+      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
+      "views": 145907,
+      "views_formatted": "145.91K",
+      "likes_formatted": "6.13K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3186370"
+    },
+    {
       "title": "Self Taught Programmer Roadmap (That Gets you a Job)",
       "youtube_id": "Hb9LBqnXKvo",
       "youtube_url": "https://www.youtube.com/watch?v=Hb9LBqnXKvo",
@@ -1469,20 +1483,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "868682"
-    },
-    {
-      "title": "The Database That Should Be Dead but Runs the Internet",
-      "youtube_id": "_CB_Aa2ODeM",
-      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
-      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
-      "views": 142721,
-      "views_formatted": "142.72K",
-      "likes_formatted": "6K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3186370"
     },
     {
       "title": "How do video game emulators work!? 👩‍💻👾 #programming #technology #software #code #gaming #tech",
