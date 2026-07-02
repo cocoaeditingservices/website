@@ -8,7 +8,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 211,
-      "total_views": 52813545,
+      "total_views": 52815575,
       "subscribers": "747K",
       "verified": true
     },
@@ -39,7 +39,7 @@
     "GitKraken": {
       "video_count": 1,
       "total_views": 7496,
-      "subscribers": "34.4K",
+      "subscribers": "34.5K",
       "verified": false
     },
     "TheSassJacket": {
@@ -1415,6 +1415,20 @@
       "ytjobs_id": "637439"
     },
     {
+      "title": "The Database That Should Be Dead but Runs the Internet",
+      "youtube_id": "_CB_Aa2ODeM",
+      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
+      "views": 147851,
+      "views_formatted": "147.85K",
+      "likes_formatted": "6.2K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3186370"
+    },
+    {
       "title": "Why you should SELF-HOST your software 👩‍💻 #code #programming #technology #tech #software #develop",
       "youtube_id": "du7ix1oGHtA",
       "youtube_url": "https://www.youtube.com/watch?v=du7ix1oGHtA",
@@ -1427,20 +1441,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "868668"
-    },
-    {
-      "title": "The Database That Should Be Dead but Runs the Internet",
-      "youtube_id": "_CB_Aa2ODeM",
-      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
-      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
-      "views": 145907,
-      "views_formatted": "145.91K",
-      "likes_formatted": "6.13K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3186370"
     },
     {
       "title": "Self Taught Programmer Roadmap (That Gets you a Job)",
@@ -2651,8 +2651,8 @@
       "youtube_id": "qTNICFYu8-4",
       "youtube_url": "https://www.youtube.com/watch?v=qTNICFYu8-4",
       "thumbnail": "https://i.ytimg.com/vi/qTNICFYu8-4/mqdefault.jpg",
-      "views": 39646,
-      "views_formatted": "39.65K",
+      "views": 39732,
+      "views_formatted": "39.73K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "747K",
@@ -3061,7 +3061,7 @@
       "views_formatted": "7.5K",
       "likes_formatted": "391",
       "channel_name": "GitKraken",
-      "channel_subscribers": "34.4K",
+      "channel_subscribers": "34.5K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_id": "637409"
