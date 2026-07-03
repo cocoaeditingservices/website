@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 284,
-    "total_views": "58.12M",
+    "total_views": "58.13M",
     "total_likes": "1.39M",
     "total_comments": "52.49K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 211,
-      "total_views": 52815575,
+      "total_views": 52818210,
       "subscribers": "747K",
       "verified": true
     },
@@ -33,7 +33,7 @@
     "Debug with Lewis": {
       "video_count": 2,
       "total_views": 12419,
-      "subscribers": "3.19K",
+      "subscribers": "3.23K",
       "verified": false
     },
     "GitKraken": {
@@ -45,7 +45,7 @@
     "TheSassJacket": {
       "video_count": 1,
       "total_views": 419,
-      "subscribers": "6.11K",
+      "subscribers": "6.13K",
       "verified": true
     },
     "Fast Forward": {
@@ -957,8 +957,8 @@
       "youtube_id": "AJRGxd9cVaY",
       "youtube_url": "https://www.youtube.com/watch?v=AJRGxd9cVaY",
       "thumbnail": "https://i.ytimg.com/vi/AJRGxd9cVaY/mqdefault.jpg",
-      "views": 206442,
-      "views_formatted": "206.44K",
+      "views": 207406,
+      "views_formatted": "207.41K",
       "likes_formatted": "6.74K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "747K",
@@ -1387,6 +1387,20 @@
       "ytjobs_id": "1883539"
     },
     {
+      "title": "The Database That Should Be Dead but Runs the Internet",
+      "youtube_id": "_CB_Aa2ODeM",
+      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
+      "views": 148923,
+      "views_formatted": "148.92K",
+      "likes_formatted": "6.24K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3186370"
+    },
+    {
       "title": "JavaScript is overly complex 👩‍💻 #programming #technology #software #code #business #javascript",
       "youtube_id": "XUvJ7ZaKWqY",
       "youtube_url": "https://www.youtube.com/watch?v=XUvJ7ZaKWqY",
@@ -1413,20 +1427,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "637439"
-    },
-    {
-      "title": "The Database That Should Be Dead but Runs the Internet",
-      "youtube_id": "_CB_Aa2ODeM",
-      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
-      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
-      "views": 147851,
-      "views_formatted": "147.85K",
-      "likes_formatted": "6.2K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3186370"
     },
     {
       "title": "Why you should SELF-HOST your software 👩‍💻 #code #programming #technology #tech #software #develop",
@@ -2707,9 +2707,9 @@
       "youtube_id": "wAZvPXEp3ug",
       "youtube_url": "https://www.youtube.com/watch?v=wAZvPXEp3ug",
       "thumbnail": "https://i.ytimg.com/vi/wAZvPXEp3ug/mqdefault.jpg",
-      "views": 31188,
-      "views_formatted": "31.19K",
-      "likes_formatted": "1.14K",
+      "views": 31787,
+      "views_formatted": "31.79K",
+      "likes_formatted": "1.15K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "747K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -3019,7 +3019,7 @@
       "views_formatted": "6.93K",
       "likes_formatted": "263",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.19K",
+      "channel_subscribers": "3.23K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_id": "837297"
@@ -3033,7 +3033,7 @@
       "views_formatted": "5.49K",
       "likes_formatted": "139",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.19K",
+      "channel_subscribers": "3.23K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_id": "837296"
@@ -3271,7 +3271,7 @@
       "views_formatted": "419",
       "likes_formatted": "25",
       "channel_name": "TheSassJacket",
-      "channel_subscribers": "6.11K",
+      "channel_subscribers": "6.13K",
       "channel_yt_link": "https://youtube.com/@thesassjacket",
       "channel_verified": true,
       "ytjobs_id": "837266"
