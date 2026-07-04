@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 284,
-    "total_views": "58.13M",
+    "total_views": "58.14M",
     "total_likes": "1.39M",
     "total_comments": "52.49K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 211,
-      "total_views": 52818210,
+      "total_views": 52828187,
       "subscribers": "747K",
       "verified": true
     },
@@ -2395,6 +2395,20 @@
       "ytjobs_id": "1859055"
     },
     {
+      "title": "GitHub has a malware problem",
+      "youtube_id": "w2ID4YLbzMo",
+      "youtube_url": "https://www.youtube.com/watch?v=w2ID4YLbzMo",
+      "thumbnail": "https://i.ytimg.com/vi/w2ID4YLbzMo/mqdefault.jpg",
+      "views": 61311,
+      "views_formatted": "61.31K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "747K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "2865499"
+    },
+    {
       "title": "How I make videos 👩‍💻 #programming #technology #software #code #tech #creator #creators",
       "youtube_id": "UEE3qS1u0aQ",
       "youtube_url": "https://www.youtube.com/watch?v=UEE3qS1u0aQ",
@@ -2477,20 +2491,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "2929359"
-    },
-    {
-      "title": "GitHub has a malware problem",
-      "youtube_id": "w2ID4YLbzMo",
-      "youtube_url": "https://www.youtube.com/watch?v=w2ID4YLbzMo",
-      "thumbnail": "https://i.ytimg.com/vi/w2ID4YLbzMo/mqdefault.jpg",
-      "views": 51334,
-      "views_formatted": "51.33K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "747K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "2865499"
     },
     {
       "title": "A programming language for DOGS!? 💻🐕 #programming #tech #code #software #technology #developer",
