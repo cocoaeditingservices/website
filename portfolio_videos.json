@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 284,
-    "total_views": "58.22M",
+    "total_views": "58.25M",
     "total_likes": "1.39M",
     "total_comments": "52.54K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 211,
-      "total_views": 52910946,
+      "total_views": 52940215,
       "subscribers": "750K",
       "verified": true
     },
@@ -211,6 +211,20 @@
       "ytjobs_id": "842101"
     },
     {
+      "title": "TypeScript has SWITCHED to Go Lang 💻 #software #coding #tech #javascript #programming",
+      "youtube_id": "ltjr4LN04dU",
+      "youtube_url": "https://www.youtube.com/watch?v=ltjr4LN04dU",
+      "thumbnail": "https://i.ytimg.com/vi/ltjr4LN04dU/mqdefault.jpg",
+      "views": 750058,
+      "views_formatted": "750.06K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "1346838"
+    },
+    {
       "title": "Beginner Programming Project Tier List 👩‍💻 #software #programming #technology #code",
       "youtube_id": "h2KD4kiCRAc",
       "youtube_url": "https://www.youtube.com/watch?v=h2KD4kiCRAc",
@@ -223,20 +237,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "1095191"
-    },
-    {
-      "title": "TypeScript has SWITCHED to Go Lang 💻 #software #coding #tech #javascript #programming",
-      "youtube_id": "ltjr4LN04dU",
-      "youtube_url": "https://www.youtube.com/watch?v=ltjr4LN04dU",
-      "thumbnail": "https://i.ytimg.com/vi/ltjr4LN04dU/mqdefault.jpg",
-      "views": 721785,
-      "views_formatted": "721.79K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "750K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "1346838"
     },
     {
       "title": "You can code in MINECRAFT!? 👩‍💻 #programming #technology #software #gaming #minecraft #tech",
@@ -495,8 +495,8 @@
       "youtube_id": "zWi_N_sU0uk",
       "youtube_url": "https://www.youtube.com/watch?v=zWi_N_sU0uk",
       "thumbnail": "https://i.ytimg.com/vi/zWi_N_sU0uk/mqdefault.jpg",
-      "views": 434888,
-      "views_formatted": "434.89K",
+      "views": 435819,
+      "views_formatted": "435.82K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "750K",
@@ -1279,8 +1279,8 @@
       "youtube_id": "DjjrSW5Pe-k",
       "youtube_url": "https://www.youtube.com/watch?v=DjjrSW5Pe-k",
       "thumbnail": "https://i.ytimg.com/vi/DjjrSW5Pe-k/mqdefault.jpg",
-      "views": 161439,
-      "views_formatted": "161.44K",
+      "views": 161504,
+      "views_formatted": "161.5K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "750K",
