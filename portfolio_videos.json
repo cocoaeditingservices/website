@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
-    "total_videos": 284,
+    "total_videos": 285,
     "total_views": "58.25M",
     "total_likes": "1.39M",
     "total_comments": "52.54K"
   },
   "channels": {
     "Coding with Lewis": {
-      "video_count": 211,
-      "total_views": 52940215,
+      "video_count": 212,
+      "total_views": 52940251,
       "subscribers": "750K",
       "verified": true
     },
@@ -3009,6 +3009,20 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "2320464"
+    },
+    {
+      "title": "I Built a $20,000 Robot Barista (And Opened a Real Shop)",
+      "youtube_id": "R7bC46BUEok",
+      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
+      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
+      "views": 36,
+      "views_formatted": "36",
+      "likes_formatted": "7",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3275868"
     },
     {
       "title": "Why I Stopped Using LangChain",
