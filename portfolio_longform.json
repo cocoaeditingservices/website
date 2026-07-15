@@ -1,13 +1,24 @@
 {
- "total": 74,
+ "total": 75,
  "videos": [
   {
+   "id": "3280416",
+   "title": "I Built a Robot Arm to Run My Coffee Shop",
+   "youtube_id": "fB3K0D5G6mg",
+   "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
+   "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
+   "views_formatted": "6.95K",
+   "channel_title": "Coding with Lewis",
+   "channel_id": null,
+   "duration": null
+  },
+  {
    "id": "3275868",
-   "title": "I Built a $20,000 Robot Barista (And Opened a Real Shop)",
+   "title": "I Opened a Coffee Shop Run by Claude",
    "youtube_id": "R7bC46BUEok",
    "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
    "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
-   "views_formatted": "36",
+   "views_formatted": "20.01K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null

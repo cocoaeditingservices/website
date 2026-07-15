@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
-    "total_videos": 285,
-    "total_views": "58.25M",
+    "total_videos": 286,
+    "total_views": "58.28M",
     "total_likes": "1.39M",
-    "total_comments": "52.54K"
+    "total_comments": "52.62K"
   },
   "channels": {
     "Coding with Lewis": {
-      "video_count": 212,
-      "total_views": 52940251,
+      "video_count": 213,
+      "total_views": 52967178,
       "subscribers": "750K",
       "verified": true
     },
@@ -2955,6 +2955,20 @@
       "ytjobs_id": "1014066"
     },
     {
+      "title": "I Opened a Coffee Shop Run by Claude",
+      "youtube_id": "R7bC46BUEok",
+      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
+      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
+      "views": 20010,
+      "views_formatted": "20.01K",
+      "likes_formatted": "734",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3275868"
+    },
+    {
       "title": "A brief history of Instant Messaging 💻 #tech #software #code #technology #retrotech",
       "youtube_id": "-Pbc9V8u7SM",
       "youtube_url": "https://www.youtube.com/watch?v=-Pbc9V8u7SM",
@@ -3011,18 +3025,18 @@
       "ytjobs_id": "2320464"
     },
     {
-      "title": "I Built a $20,000 Robot Barista (And Opened a Real Shop)",
-      "youtube_id": "R7bC46BUEok",
-      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
-      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
-      "views": 36,
-      "views_formatted": "36",
-      "likes_formatted": "7",
+      "title": "I Built a Robot Arm to Run My Coffee Shop",
+      "youtube_id": "fB3K0D5G6mg",
+      "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
+      "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
+      "views": 6953,
+      "views_formatted": "6.95K",
+      "likes_formatted": "343",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "750K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
-      "ytjobs_id": "3275868"
+      "ytjobs_id": "3280416"
     },
     {
       "title": "Why I Stopped Using LangChain",
