@@ -3,12 +3,12 @@
     "total_videos": 286,
     "total_views": "58.28M",
     "total_likes": "1.39M",
-    "total_comments": "52.62K"
+    "total_comments": "52.63K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 213,
-      "total_views": 52967178,
+      "total_views": 52973036,
       "subscribers": "750K",
       "verified": true
     },
@@ -2927,6 +2927,20 @@
       "ytjobs_id": "2836555"
     },
     {
+      "title": "I Opened a Coffee Shop Run by Claude",
+      "youtube_id": "R7bC46BUEok",
+      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
+      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
+      "views": 22523,
+      "views_formatted": "22.52K",
+      "likes_formatted": "875",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3275868"
+    },
+    {
       "title": "I Brought Your Terrible App Ideas to Life",
       "youtube_id": "mJJyzUfu8Qc",
       "youtube_url": "https://www.youtube.com/watch?v=mJJyzUfu8Qc",
@@ -2953,20 +2967,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "1014066"
-    },
-    {
-      "title": "I Opened a Coffee Shop Run by Claude",
-      "youtube_id": "R7bC46BUEok",
-      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
-      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
-      "views": 20010,
-      "views_formatted": "20.01K",
-      "likes_formatted": "734",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "750K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3275868"
     },
     {
       "title": "A brief history of Instant Messaging 💻 #tech #software #code #technology #retrotech",
@@ -3011,6 +3011,20 @@
       "ytjobs_id": "576636"
     },
     {
+      "title": "I Built a Robot Arm to Run My Coffee Shop",
+      "youtube_id": "fB3K0D5G6mg",
+      "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
+      "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
+      "views": 10298,
+      "views_formatted": "10.3K",
+      "likes_formatted": "543",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3280416"
+    },
+    {
       "title": "I Gave This Fish $10,000 to Trade Stocks",
       "youtube_id": "cjoYPSbzHV0",
       "youtube_url": "https://www.youtube.com/watch?v=cjoYPSbzHV0",
@@ -3023,20 +3037,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "2320464"
-    },
-    {
-      "title": "I Built a Robot Arm to Run My Coffee Shop",
-      "youtube_id": "fB3K0D5G6mg",
-      "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
-      "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
-      "views": 6953,
-      "views_formatted": "6.95K",
-      "likes_formatted": "343",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "750K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3280416"
     },
     {
       "title": "Why I Stopped Using LangChain",
