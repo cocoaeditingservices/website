@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 286,
-    "total_views": "58.28M",
+    "total_views": "58.29M",
     "total_likes": "1.39M",
-    "total_comments": "52.63K"
+    "total_comments": "52.64K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 213,
-      "total_views": 52973036,
+      "total_views": 52984264,
       "subscribers": "750K",
       "verified": true
     },
@@ -21,7 +21,7 @@
     "Nicholas Renotte": {
       "video_count": 2,
       "total_views": 49949,
-      "subscribers": "327K",
+      "subscribers": "328K",
       "verified": false
     },
     "Grow With Li": {
@@ -687,6 +687,20 @@
       "ytjobs_id": "637434"
     },
     {
+      "title": "Atom: The Editor That Accidentally Built Its Own Killer",
+      "youtube_id": "QsTYFsmCL5E",
+      "youtube_url": "https://www.youtube.com/watch?v=QsTYFsmCL5E",
+      "thumbnail": "https://i.ytimg.com/vi/QsTYFsmCL5E/mqdefault.jpg",
+      "views": 300469,
+      "views_formatted": "300.47K",
+      "likes_formatted": "8.17K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "2396676"
+    },
+    {
       "title": "The BRAINROT programming language 💀 #software #programming #technology #code #development #memes",
       "youtube_id": "5ZJpm2J4Gmw",
       "youtube_url": "https://www.youtube.com/watch?v=5ZJpm2J4Gmw",
@@ -699,20 +713,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "1080529"
-    },
-    {
-      "title": "Atom: The Editor That Accidentally Built Its Own Killer",
-      "youtube_id": "QsTYFsmCL5E",
-      "youtube_url": "https://www.youtube.com/watch?v=QsTYFsmCL5E",
-      "thumbnail": "https://i.ytimg.com/vi/QsTYFsmCL5E/mqdefault.jpg",
-      "views": 293132,
-      "views_formatted": "293.13K",
-      "likes_formatted": "8K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "750K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "2396676"
     },
     {
       "title": "Open Source Alternatives to PAID Apps 👩‍💻 #software #technology #code #programming",
@@ -2805,8 +2805,8 @@
       "youtube_id": "07YLWTDdStg",
       "youtube_url": "https://www.youtube.com/watch?v=07YLWTDdStg",
       "thumbnail": "https://i.ytimg.com/vi/07YLWTDdStg/mqdefault.jpg",
-      "views": 27057,
-      "views_formatted": "27.06K",
+      "views": 27393,
+      "views_formatted": "27.39K",
       "likes_formatted": "1.03K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "750K",
@@ -2885,6 +2885,20 @@
       "ytjobs_id": "576634"
     },
     {
+      "title": "I Opened a Coffee Shop Run by Claude",
+      "youtube_id": "R7bC46BUEok",
+      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
+      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
+      "views": 23812,
+      "views_formatted": "23.81K",
+      "likes_formatted": "966",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3275868"
+    },
+    {
       "title": "Training an AI on the STRANGEST data 💀 #ad #programming #tech #software #code #ai #chatgpt",
       "youtube_id": "mk5EpRSCv30",
       "youtube_url": "https://www.youtube.com/watch?v=mk5EpRSCv30",
@@ -2925,20 +2939,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "2836555"
-    },
-    {
-      "title": "I Opened a Coffee Shop Run by Claude",
-      "youtube_id": "R7bC46BUEok",
-      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
-      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
-      "views": 22523,
-      "views_formatted": "22.52K",
-      "likes_formatted": "875",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "750K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3275868"
     },
     {
       "title": "I Brought Your Terrible App Ideas to Life",
@@ -2997,6 +2997,20 @@
       "ytjobs_id": "1026842"
     },
     {
+      "title": "I Built a Robot Arm to Run My Coffee Shop",
+      "youtube_id": "fB3K0D5G6mg",
+      "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
+      "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
+      "views": 12564,
+      "views_formatted": "12.56K",
+      "likes_formatted": "661",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3280416"
+    },
+    {
       "title": "5 Ways Hackers Break your Software",
       "youtube_id": "ZnccRc4ZtQI",
       "youtube_url": "https://www.youtube.com/watch?v=ZnccRc4ZtQI",
@@ -3009,20 +3023,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "576636"
-    },
-    {
-      "title": "I Built a Robot Arm to Run My Coffee Shop",
-      "youtube_id": "fB3K0D5G6mg",
-      "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
-      "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
-      "views": 10298,
-      "views_formatted": "10.3K",
-      "likes_formatted": "543",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "750K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3280416"
     },
     {
       "title": "I Gave This Fish $10,000 to Trade Stocks",
@@ -3271,7 +3271,7 @@
       "views_formatted": "31.78K",
       "likes_formatted": "1.35K",
       "channel_name": "Nicholas Renotte",
-      "channel_subscribers": "327K",
+      "channel_subscribers": "328K",
       "channel_yt_link": "https://youtube.com/@nicholasrenotte",
       "channel_verified": false,
       "ytjobs_id": "837264"
@@ -3285,7 +3285,7 @@
       "views_formatted": "18.17K",
       "likes_formatted": "1.35K",
       "channel_name": "Nicholas Renotte",
-      "channel_subscribers": "327K",
+      "channel_subscribers": "328K",
       "channel_yt_link": "https://youtube.com/@nicholasrenotte",
       "channel_verified": false,
       "ytjobs_id": "837261"
