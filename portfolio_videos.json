@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
     "total_videos": 286,
-    "total_views": "58.29M",
+    "total_views": "58.33M",
     "total_likes": "1.39M",
     "total_comments": "52.64K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 213,
-      "total_views": 52984264,
+      "total_views": 53022561,
       "subscribers": "750K",
       "verified": true
     },
@@ -33,7 +33,7 @@
     "Debug with Lewis": {
       "video_count": 2,
       "total_views": 12419,
-      "subscribers": "3.23K",
+      "subscribers": "3.25K",
       "verified": false
     },
     "GitKraken": {
@@ -45,7 +45,7 @@
     "TheSassJacket": {
       "video_count": 1,
       "total_views": 419,
-      "subscribers": "6.13K",
+      "subscribers": "6.16K",
       "verified": true
     },
     "Fast Forward": {
@@ -211,6 +211,20 @@
       "ytjobs_id": "842101"
     },
     {
+      "title": "Beginner Programming Project Tier List 👩‍💻 #software #programming #technology #code",
+      "youtube_id": "h2KD4kiCRAc",
+      "youtube_url": "https://www.youtube.com/watch?v=h2KD4kiCRAc",
+      "thumbnail": "https://i.ytimg.com/vi/h2KD4kiCRAc/mqdefault.jpg",
+      "views": 763713,
+      "views_formatted": "763.71K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "1095191"
+    },
+    {
       "title": "TypeScript has SWITCHED to Go Lang 💻 #software #coding #tech #javascript #programming",
       "youtube_id": "ltjr4LN04dU",
       "youtube_url": "https://www.youtube.com/watch?v=ltjr4LN04dU",
@@ -223,20 +237,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "1346838"
-    },
-    {
-      "title": "Beginner Programming Project Tier List 👩‍💻 #software #programming #technology #code",
-      "youtube_id": "h2KD4kiCRAc",
-      "youtube_url": "https://www.youtube.com/watch?v=h2KD4kiCRAc",
-      "thumbnail": "https://i.ytimg.com/vi/h2KD4kiCRAc/mqdefault.jpg",
-      "views": 733095,
-      "views_formatted": "733.1K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "750K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "1095191"
     },
     {
       "title": "You can code in MINECRAFT!? 👩‍💻 #programming #technology #software #gaming #minecraft #tech",
@@ -897,6 +897,20 @@
       "ytjobs_id": "637423"
     },
     {
+      "title": "Using Python to Control your GPU 💻🐍",
+      "youtube_id": "fChjiW9wW0c",
+      "youtube_url": "https://www.youtube.com/watch?v=fChjiW9wW0c",
+      "thumbnail": "https://i.ytimg.com/vi/fChjiW9wW0c/mqdefault.jpg",
+      "views": 226086,
+      "views_formatted": "226.09K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "1487704"
+    },
+    {
       "title": "What JavaScript framework you should learn 👩‍💻 #programming #technology #software #code #tech",
       "youtube_id": "H6wI9oi7eBE",
       "youtube_url": "https://www.youtube.com/watch?v=H6wI9oi7eBE",
@@ -923,20 +937,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "637429"
-    },
-    {
-      "title": "Using Python to Control your GPU 💻🐍",
-      "youtube_id": "fChjiW9wW0c",
-      "youtube_url": "https://www.youtube.com/watch?v=fChjiW9wW0c",
-      "thumbnail": "https://i.ytimg.com/vi/fChjiW9wW0c/mqdefault.jpg",
-      "views": 220871,
-      "views_formatted": "220.87K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "750K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "1487704"
     },
     {
       "title": "What is “Vibe Coding”!? 💻 #software #chatgpt #technology #programming #tech #code",
@@ -2871,6 +2871,20 @@
       "ytjobs_id": "2741648"
     },
     {
+      "title": "I Opened a Coffee Shop Run by Claude",
+      "youtube_id": "R7bC46BUEok",
+      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
+      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
+      "views": 24678,
+      "views_formatted": "24.68K",
+      "likes_formatted": "1.03K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "750K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_id": "3275868"
+    },
+    {
       "title": "The Shuffle Button is a Lie. Here's Why.",
       "youtube_id": "DypJmsL1s0o",
       "youtube_url": "https://www.youtube.com/watch?v=DypJmsL1s0o",
@@ -2883,20 +2897,6 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "576634"
-    },
-    {
-      "title": "I Opened a Coffee Shop Run by Claude",
-      "youtube_id": "R7bC46BUEok",
-      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
-      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
-      "views": 23812,
-      "views_formatted": "23.81K",
-      "likes_formatted": "966",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "750K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_id": "3275868"
     },
     {
       "title": "Training an AI on the STRANGEST data 💀 #ad #programming #tech #software #code #ai #chatgpt",
@@ -3001,9 +3001,9 @@
       "youtube_id": "fB3K0D5G6mg",
       "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
       "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
-      "views": 12564,
-      "views_formatted": "12.56K",
-      "likes_formatted": "661",
+      "views": 14162,
+      "views_formatted": "14.16K",
+      "likes_formatted": "737",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "750K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -3047,7 +3047,7 @@
       "views_formatted": "6.93K",
       "likes_formatted": "263",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.23K",
+      "channel_subscribers": "3.25K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_id": "837297"
@@ -3061,7 +3061,7 @@
       "views_formatted": "5.49K",
       "likes_formatted": "139",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.23K",
+      "channel_subscribers": "3.25K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_id": "837296"
@@ -3299,7 +3299,7 @@
       "views_formatted": "419",
       "likes_formatted": "25",
       "channel_name": "TheSassJacket",
-      "channel_subscribers": "6.13K",
+      "channel_subscribers": "6.16K",
       "channel_yt_link": "https://youtube.com/@thesassjacket",
       "channel_verified": true,
       "ytjobs_id": "837266"
