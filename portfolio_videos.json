@@ -1,14 +1,14 @@
 {
   "portfolio_stats": {
-    "total_videos": 286,
-    "total_views": "58.33M",
+    "total_videos": 287,
+    "total_views": "58.34M",
     "total_likes": "1.39M",
-    "total_comments": "52.64K"
+    "total_comments": "52.68K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 213,
-      "total_views": 53022561,
+      "total_views": 53024129,
       "subscribers": "750K",
       "verified": true
     },
@@ -31,8 +31,8 @@
       "verified": false
     },
     "Debug with Lewis": {
-      "video_count": 2,
-      "total_views": 12419,
+      "video_count": 3,
+      "total_views": 21557,
       "subscribers": "3.25K",
       "verified": false
     },
@@ -2875,9 +2875,9 @@
       "youtube_id": "R7bC46BUEok",
       "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
       "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
-      "views": 24678,
-      "views_formatted": "24.68K",
-      "likes_formatted": "1.03K",
+      "views": 25333,
+      "views_formatted": "25.33K",
+      "likes_formatted": "1.06K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "750K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -3001,9 +3001,9 @@
       "youtube_id": "fB3K0D5G6mg",
       "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
       "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
-      "views": 14162,
-      "views_formatted": "14.16K",
-      "likes_formatted": "737",
+      "views": 15075,
+      "views_formatted": "15.08K",
+      "likes_formatted": "764",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "750K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -3037,6 +3037,20 @@
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_id": "2320464"
+    },
+    {
+      "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
+      "youtube_id": "x8_ZZhRL3YU",
+      "youtube_url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU",
+      "thumbnail": "https://i.ytimg.com/vi/x8_ZZhRL3YU/mqdefault.jpg",
+      "views": 9138,
+      "views_formatted": "9.14K",
+      "likes_formatted": "302",
+      "channel_name": "Debug with Lewis",
+      "channel_subscribers": "3.25K",
+      "channel_yt_link": "",
+      "channel_verified": false,
+      "ytjobs_id": "3302548"
     },
     {
       "title": "Why I Stopped Using LangChain",

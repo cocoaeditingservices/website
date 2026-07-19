@@ -1,13 +1,24 @@
 {
- "total": 75,
+ "total": 76,
  "videos": [
+  {
+   "id": "3302548",
+   "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
+   "youtube_id": "x8_ZZhRL3YU",
+   "youtube_url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU",
+   "thumbnail": "https://i.ytimg.com/vi/x8_ZZhRL3YU/mqdefault.jpg",
+   "views_formatted": "9.14K",
+   "channel_title": "Debug with Lewis",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3280416",
    "title": "I Built a Robot Arm to Run My Coffee Shop",
    "youtube_id": "fB3K0D5G6mg",
    "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
    "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
-   "views_formatted": "14.16K",
+   "views_formatted": "15.08K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null
@@ -18,7 +29,7 @@
    "youtube_id": "R7bC46BUEok",
    "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
    "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
-   "views_formatted": "24.68K",
+   "views_formatted": "25.33K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null
