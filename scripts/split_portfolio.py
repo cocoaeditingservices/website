@@ -3,7 +3,9 @@
 The /watch?v=<id> page carries an authoritative canonical link: real Shorts
 canonicalise to /shorts/<id>, long-form videos to /watch?v=<id>. (The
 /shorts/<id> URL itself returns a JS shell with no canonical at all, so it
-can't be used.) Classify every portfolio video that way, then write:
+can't be used.) Classify every portfolio video that way. If YouTube cannot
+confirm a video temporarily, show it provisionally under Shorts and retry it
+on the next refresh. Then write:
   - portfolio_longform.json / portfolio_shorts.json  (fetched by portfolio.html)
   - portfolio_data.js  (same data as window globals, so the page still works
     when opened via file:// where fetch() is blocked)
@@ -27,6 +29,8 @@ HEADERS = {
 }
 CANONICAL = re.compile(r'<link rel="canonical" href="([^"]+)"')
 LENGTH = re.compile(r'"lengthSeconds":"(\d+)"')
+CONFIRMED_KINDS = {"short", "long"}
+SHORT_KINDS = {"short", "provisional_short"}
 
 # Successful lookups are cached so reruns only fetch new videos —
 # YouTube rate-limits aggressive full sweeps with 429s.
@@ -35,11 +39,13 @@ try:
 except (FileNotFoundError, json.JSONDecodeError):
     CACHE = {}
 
-# Purge poisoned entries: a real classification always has a duration, so a
-# cached entry with duration None is a failed lookup that an older classifier
-# wrongly persisted (it would otherwise stay misclassified forever, since
-# cached videos are never re-fetched). Drop them so they get re-classified.
-_poisoned = [vid for vid, e in CACHE.items() if e.get("duration") is None]
+# Purge poisoned or malformed entries. Older versions cached failed lookups as
+# long-form with no duration, which made a transient request failure permanent.
+_poisoned = [
+    vid for vid, entry in CACHE.items()
+    if entry.get("kind") not in CONFIRMED_KINDS
+    or not isinstance(entry.get("duration"), int)
+]
 for vid in _poisoned:
     del CACHE[vid]
 if _poisoned:
@@ -65,16 +71,19 @@ def fetch_watch_page(vid):
 
 
 def classify(video):
-    """Return ('short'|'long', duration_seconds|None); 'long' on any failure.
+    """Return a classification and duration in seconds, when available.
 
-    Only confirmed results are cached, so failed lookups get retried on
-    the next run.
+    Confirmed canonical results are cached. A video with a usable ID but an
+    inconclusive lookup is returned as provisional_short, displayed under
+    Shorts, and retried next run because provisional results are never cached.
+    Only a video without a usable ID remains unknown and omitted.
     """
     vid = video.get("youtube_id")
     if not vid:
-        return "long", None
+        return "unknown", None
     cached = CACHE.get(vid)
-    if cached and cached.get("duration") is not None:
+    if (cached and cached.get("kind") in CONFIRMED_KINDS
+            and isinstance(cached.get("duration"), int)):
         return cached["kind"], cached["duration"]
     time.sleep(0.8)  # stay under YouTube's rate limit
     try:
@@ -84,20 +93,21 @@ def classify(video):
         m = CANONICAL.search(html)
         if m:
             kind = "short" if "/shorts/" in m.group(1) else "long"
-            CACHE[vid] = {"kind": kind, "duration": duration}
+            if duration is not None:
+                CACHE[vid] = {"kind": kind, "duration": duration}
             return kind, duration
-        print(f"  ? {vid}: no canonical found -> defaulting to long-form (uncached)")
-        return "long", duration
+        print(f"  ? {vid}: no canonical found -> provisional Short")
+        return "provisional_short", duration
     except Exception as e:
-        print(f"  ! {vid}: {e} -> defaulting to long-form (uncached)")
-        return "long", None
+        print(f"  ! {vid}: {e} -> provisional Short")
+        return "provisional_short", None
 
 
 def page_entry(v, duration, kind):
     """Schema consumed by portfolio.html. Shorts get their portrait
     thumbnail (oar2.jpg) and a /shorts/ URL."""
     vid = v.get("youtube_id")
-    if kind == "short" and vid:
+    if kind in SHORT_KINDS and vid:
         url = f"https://www.youtube.com/shorts/{vid}"
         thumb = f"https://i.ytimg.com/vi/{vid}/oar2.jpg"
     else:
@@ -135,8 +145,17 @@ def main():
     print(f"  cache now holds {confirmed}/{len(videos)} confirmed classifications")
 
     longform = [page_entry(v, d, k) for v, (k, d) in zip(videos, results) if k == "long"]
-    shorts = [page_entry(v, d, k) for v, (k, d) in zip(videos, results) if k == "short"]
-    print(f"  long-form: {len(longform)}  shorts: {len(shorts)}")
+    shorts = [page_entry(v, d, k) for v, (k, d) in zip(videos, results) if k in SHORT_KINDS]
+    provisional = [v for v, (k, _) in zip(videos, results) if k == "provisional_short"]
+    unknown = [v for v, (k, _) in zip(videos, results) if k == "unknown"]
+    print(
+        f"  long-form: {len(longform)}  shorts: {len(shorts)} "
+        f"(provisional: {len(provisional)})  omitted: {len(unknown)}"
+    )
+    for v in provisional:
+        print(f"    provisional Short, retry next run: {v.get('title', '')[:60]}")
+    for v in unknown:
+        print(f"    omitted (missing YouTube ID): {v.get('title', '')[:60]}")
     for s in shorts[:20]:
         print(f"    short: {s['title'][:60]}")
 

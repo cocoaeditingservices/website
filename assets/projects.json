@@ -3,40 +3,40 @@
   "source": "https://ytjobs.co/talent/profile/48926",
   "videos": [
     {
+      "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
+      "url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU",
+      "views": "9.14K",
+      "thumbnail": "https://i.ytimg.com/vi/x8_ZZhRL3YU/hqdefault.jpg"
+    },
+    {
+      "title": "I Opened a Coffee Shop Run by Claude",
+      "url": "https://www.youtube.com/watch?v=R7bC46BUEok",
+      "views": "26.31K",
+      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/hqdefault.jpg"
+    },
+    {
+      "title": "The Database That Should Be Dead but Runs the Internet",
+      "url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+      "views": "148.92K",
+      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/hqdefault.jpg"
+    },
+    {
       "title": "How Meta Went From Open Source Hero to AI's Biggest Villain",
-      "url": "https://youtube.com/watch?v=8Ddjy1nlOWA",
+      "url": "https://www.youtube.com/watch?v=8Ddjy1nlOWA",
       "views": "130.01K",
       "thumbnail": "https://i.ytimg.com/vi/8Ddjy1nlOWA/hqdefault.jpg"
     },
     {
       "title": "The Code Inside Everything (That Gets Zero Credit)",
-      "url": "https://youtube.com/watch?v=lSVgeMoXJTs",
+      "url": "https://www.youtube.com/watch?v=lSVgeMoXJTs",
       "views": "192.17K",
       "thumbnail": "https://i.ytimg.com/vi/lSVgeMoXJTs/hqdefault.jpg"
     },
     {
-      "title": "The Humble History of 7Zip",
-      "url": "https://youtube.com/watch?v=dhbOscdU6IY",
-      "views": "76.91K",
-      "thumbnail": "https://i.ytimg.com/vi/dhbOscdU6IY/hqdefault.jpg"
-    },
-    {
-      "title": "GitHub has a malware problem",
-      "url": "https://youtube.com/watch?v=w2ID4YLbzMo",
-      "views": "61.31K",
-      "thumbnail": "https://i.ytimg.com/vi/w2ID4YLbzMo/hqdefault.jpg"
-    },
-    {
-      "title": "5 Things Developers Can Automate with AI #ad",
-      "url": "https://youtube.com/watch?v=9pOXGoaJ2w0",
-      "views": "22.86K",
-      "thumbnail": "https://i.ytimg.com/vi/9pOXGoaJ2w0/hqdefault.jpg"
-    },
-    {
-      "title": "The most INSANE attack in JavaScript history?",
-      "url": "https://youtube.com/watch?v=I_EehEQ3sYI",
-      "views": "89.75K",
-      "thumbnail": "https://i.ytimg.com/vi/I_EehEQ3sYI/hqdefault.jpg"
+      "title": "GitHub's Code Was Breaking Every 8 Hours. Here's Why.",
+      "url": "https://www.youtube.com/watch?v=JJZQr2AuEI0",
+      "views": "46.41K",
+      "thumbnail": "https://i.ytimg.com/vi/JJZQr2AuEI0/hqdefault.jpg"
     }
   ]
 }

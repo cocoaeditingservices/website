@@ -1,13 +1,13 @@
 """Daily website data refresh — run by the CocoaWebsite_RefreshStats task.
 
 Runs, in order:
-  1. scripts/refresh_stats.py   -> assets/stats.json + assets/projects.json
-  2. scrape_portfolio.py        -> portfolio_videos.json (YTJobs API)
-  3. scripts/split_portfolio.py -> portfolio_longform.json,
+  1. scrape_portfolio.py        -> portfolio_videos.json (YTJobs API)
+  2. scripts/split_portfolio.py -> portfolio_longform.json,
                                    portfolio_shorts.json, portfolio_data.js
+  3. scripts/refresh_stats.py   -> assets/stats.json + assets/projects.json
 
 Steps are isolated: if one fails the rest still run, and the site keeps
-yesterday's JSON for whatever failed. Step 3 only fetches videos missing
+yesterday's JSON for whatever failed. Step 2 only fetches videos missing
 from scripts/shorts_cache.json, so a normal day touches a handful of URLs.
 """
 import os
@@ -16,9 +16,9 @@ import sys
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STEPS = [
-    os.path.join(BASE, "scripts", "refresh_stats.py"),
     os.path.join(BASE, "scrape_portfolio.py"),
     os.path.join(BASE, "scripts", "split_portfolio.py"),
+    os.path.join(BASE, "scripts", "refresh_stats.py"),
 ]
 
 # Child scripts print video titles containing emoji; force UTF-8 so they

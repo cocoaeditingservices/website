@@ -1,5 +1,5 @@
 {
- "total": 76,
+ "total": 75,
  "videos": [
   {
    "id": "3302548",
@@ -10,18 +10,7 @@
    "views_formatted": "9.14K",
    "channel_title": "Debug with Lewis",
    "channel_id": null,
-   "duration": null
-  },
-  {
-   "id": "3280416",
-   "title": "I Built a Robot Arm to Run My Coffee Shop",
-   "youtube_id": "fB3K0D5G6mg",
-   "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
-   "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
-   "views_formatted": "15.44K",
-   "channel_title": "Coding with Lewis",
-   "channel_id": null,
-   "duration": null
+   "duration": 3982
   },
   {
    "id": "3275868",
@@ -32,7 +21,7 @@
    "views_formatted": "26.31K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
-   "duration": null
+   "duration": 919
   },
   {
    "id": "3186370",
@@ -43,7 +32,7 @@
    "views_formatted": "148.92K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
-   "duration": null
+   "duration": 1353
   },
   {
    "id": "3024069",
