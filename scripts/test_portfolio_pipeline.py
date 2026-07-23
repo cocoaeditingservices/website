@@ -2,8 +2,10 @@
 import json
 import os
 import unittest
+import urllib.error
 from unittest import mock
 
+import scrape_portfolio
 from scripts import refresh_stats, split_portfolio
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,13 +28,62 @@ class FeaturedProjectsTests(unittest.TestCase):
         self.assertEqual([p["title"] for p in projects], [f"Work {n}" for n in range(8, 2, -1)])
         self.assertEqual(projects[0]["views"], "8K")
 
-    @mock.patch.object(refresh_stats, "fetch_html", side_effect=SystemExit(1))
-    @mock.patch.object(refresh_stats, "write_projects")
-    def test_featured_projects_write_before_stats_fetch(self, write_projects, _fetch):
-        with self.assertRaises(SystemExit):
-            refresh_stats.main()
+    def test_stats_come_from_portfolio_api_data(self):
+        data = refresh_stats.stats_payload(
+            {
+                "updated": "2026-07-23",
+                "total_views_raw": 58_365_592,
+                "total_videos": 287,
+            },
+            {},
+            "2026-07-23",
+        )
 
-        write_projects.assert_called_once()
+        self.assertEqual(data["audience_reached"], "58M+")
+        self.assertEqual(data["videos_delivered"], "287+")
+
+    def test_stats_keep_previous_raw_values_for_older_portfolio_data(self):
+        data = refresh_stats.stats_payload(
+            {"total_videos": 287},
+            {"views_raw": 58_365_349, "updated": "2026-07-22"},
+            "2026-07-23",
+        )
+
+        self.assertEqual(data["views_raw"], 58_365_349)
+        self.assertEqual(data["updated"], "2026-07-22")
+
+
+class PortfolioScraperTests(unittest.TestCase):
+    @mock.patch.object(scrape_portfolio, "api_get", side_effect=RuntimeError("HTTP 500"))
+    def test_channel_endpoint_failure_uses_fallback(self, _api_get):
+        self.assertEqual(scrape_portfolio.fetch_channel_map(), {})
+
+    def test_existing_videos_restore_channel_metadata(self):
+        channel_map = scrape_portfolio.add_existing_channel_fallbacks(
+            {},
+            [{"channelId": 42, "url": "https://youtube.com/watch?v=fB3K0D5G6mg"}],
+            [{
+                "youtube_id": "fB3K0D5G6mg",
+                "channel_name": "Coding with Lewis",
+                "channel_subscribers": "782K",
+                "channel_verified": True,
+            }],
+        )
+
+        self.assertEqual(channel_map["42"]["name"], "Coding with Lewis")
+
+    @mock.patch.object(scrape_portfolio.time, "sleep", return_value=None)
+    @mock.patch.object(scrape_portfolio.urllib.request, "urlopen")
+    def test_transient_api_failure_is_retried(self, urlopen, sleep):
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = b'{"ok": true}'
+        urlopen.side_effect = [
+            urllib.error.HTTPError("https://example.test", 500, "error", {}, None),
+            response,
+        ]
+
+        self.assertEqual(scrape_portfolio.api_get("https://example.test"), {"ok": True})
+        sleep.assert_called_once_with(2)
 
 
 class ShortsClassificationTests(unittest.TestCase):

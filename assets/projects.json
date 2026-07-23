@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-22",
-  "source": "https://ytjobs.co/talent/profile/48926",
+  "updated": "2026-07-23",
+  "source": "https://app.ytjobs.co/api/talents/48926/videos",
   "videos": [
     {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
@@ -11,7 +11,7 @@
     {
       "title": "I Opened a Coffee Shop Run by Claude",
       "url": "https://www.youtube.com/watch?v=R7bC46BUEok",
-      "views": "26.31K",
+      "views": "26.48K",
       "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/hqdefault.jpg"
     },
     {

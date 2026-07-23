@@ -1,11 +1,15 @@
+import datetime
 import json
-import re
-import urllib.request
 import math
+import re
+import time
+import urllib.error
+import urllib.request
 
 API_VIDEOS = "https://app.ytjobs.co/api/talents/48926/videos"
 API_TALENT = "https://app.ytjobs.co/api/talents/48926?showAll=true"
 LIMIT = 15
+MAX_ATTEMPTS = 4
 HEADERS = {
     "Accept": "application/json",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -15,9 +19,22 @@ HEADERS = {
 
 
 def api_get(url):
+    """Fetch JSON with bounded retries for transient YTJobs failures."""
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except (urllib.error.HTTPError, urllib.error.URLError,
+                TimeoutError, json.JSONDecodeError) as exc:
+            status = getattr(exc, "code", None)
+            transient = status is None or status == 429 or status >= 500
+            if not transient or attempt == MAX_ATTEMPTS:
+                raise
+            wait = 2 ** attempt
+            print(f"  YTJobs request failed ({exc}); retrying in {wait}s "
+                  f"[{attempt}/{MAX_ATTEMPTS}]", flush=True)
+            time.sleep(wait)
 
 
 def extract_yt_id(url_or_thumb):
@@ -36,25 +53,67 @@ def extract_yt_id(url_or_thumb):
     return None
 
 
-def main():
-    print("Fetching talent profile for channel mapping...")
-    talent = api_get(API_TALENT)
+def channel_key(value):
+    return str(value) if value is not None else None
 
-    channel_map = {}
-    channels_info = talent.get("youtubeVideos", {}).get("channels", [])
-    for ch in channels_info:
-        channel_map[int(ch["id"])] = {
-            "name": ch["name"],
-            "subscribers": ch.get("abvSubscribers", ""),
-            "yt_link": ch.get("company", {}).get("ytLink", "") if ch.get("company") else "",
-            "status": ch.get("status", ""),
-            "avatar": ch.get("avatar", ""),
+
+def load_existing_videos():
+    """Return yesterday's videos for channel-name fallback."""
+    try:
+        with open("portfolio_videos.json", encoding="utf-8-sig") as f:
+            return json.load(f).get("all_videos", [])
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
+def add_existing_channel_fallbacks(channel_map, raw_videos, existing_videos):
+    """Recover channel metadata when the optional talent endpoint is down."""
+    existing_by_ytid = {
+        video.get("youtube_id"): video
+        for video in existing_videos
+        if video.get("youtube_id")
+    }
+    for raw in raw_videos:
+        key = channel_key(raw.get("channelId"))
+        if key is None or key in channel_map:
+            continue
+        yt_id = extract_yt_id(raw.get("url")) or extract_yt_id(raw.get("thumbnail"))
+        previous = existing_by_ytid.get(yt_id)
+        if not previous or previous.get("channel_name") in {None, "", "Unknown"}:
+            continue
+        channel_map[key] = {
+            "name": previous["channel_name"],
+            "subscribers": previous.get("channel_subscribers", ""),
+            "yt_link": previous.get("channel_yt_link", ""),
+            "status": "verified" if previous.get("channel_verified") else "",
+            "avatar": "",
         }
+    return channel_map
 
-    print(f"Found {len(channel_map)} channels:")
-    for cid, info in sorted(channel_map.items(), key=lambda x: x[1]["name"]):
-        status_tag = " [VERIFIED]" if info["status"] == "verified" else ""
-        print(f"  {info['name']} ({info['subscribers']} subs){status_tag}")
+
+def fetch_channel_map():
+    """Fetch optional channel metadata, returning an empty map on failure."""
+    print("Fetching talent profile for channel mapping...")
+    channel_map = {}
+    try:
+        talent = api_get(API_TALENT)
+        channels_info = talent.get("youtubeVideos", {}).get("channels", [])
+        for ch in channels_info:
+            channel_map[channel_key(ch["id"])] = {
+                "name": ch["name"],
+                "subscribers": ch.get("abvSubscribers", ""),
+                "yt_link": ch.get("company", {}).get("ytLink", "") if ch.get("company") else "",
+                "status": ch.get("status", ""),
+                "avatar": ch.get("avatar", ""),
+            }
+    except Exception as exc:
+        print(f"  Warning: channel mapping unavailable ({exc}); "
+              "using yesterday's metadata.", flush=True)
+    return channel_map
+
+
+def main():
+    channel_map = fetch_channel_map()
 
     print("\nFetching all portfolio videos...")
     first_page = api_get(f"{API_VIDEOS}?limit={LIMIT}&search=&page=1")
@@ -72,11 +131,17 @@ def main():
 
     print(f"  Total raw entries: {len(raw_videos)}")
 
+    add_existing_channel_fallbacks(channel_map, raw_videos, load_existing_videos())
+    print(f"Found metadata for {len(channel_map)} channels:")
+    for _, info in sorted(channel_map.items(), key=lambda x: x[1]["name"]):
+        status_tag = " [VERIFIED]" if info["status"] == "verified" else ""
+        print(f"  {info['name']} ({info['subscribers']} subs){status_tag}")
+
     videos = []
     for v in raw_videos:
         yt_id = extract_yt_id(v.get("url")) or extract_yt_id(v.get("thumbnail"))
         ch_id = v.get("channelId")
-        ch_info = channel_map.get(ch_id, {})
+        ch_info = channel_map.get(channel_key(ch_id), {})
 
         videos.append({
             "title": v.get("title", ""),
@@ -90,6 +155,7 @@ def main():
             "channel_subscribers": ch_info.get("subscribers", ""),
             "channel_yt_link": ch_info.get("yt_link", ""),
             "channel_verified": ch_info.get("status") == "verified",
+            "ytjobs_channel_id": ch_id,
             "ytjobs_id": v.get("id"),
         })
 
@@ -108,7 +174,9 @@ def main():
 
     output = {
         "portfolio_stats": {
+            "updated": datetime.date.today().isoformat(),
             "total_videos": len(videos),
+            "total_views_raw": stats.get("views"),
             "total_views": stats["abvViews"],
             "total_likes": stats["abvLikes"],
             "total_comments": stats["abvComments"],
@@ -159,4 +227,5 @@ def main():
     print(f"Saved {len(yt_urls)} YouTube URLs to youtube_urls.txt")
 
 
-main()
+if __name__ == "__main__":
+    main()
