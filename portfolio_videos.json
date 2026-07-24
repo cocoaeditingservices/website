@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-07-23",
+    "updated": "2026-07-24",
     "total_videos": 287,
-    "total_views_raw": 58365592,
-    "total_views": "58.37M",
+    "total_views_raw": 58400632,
+    "total_views": "58.4M",
     "total_likes": "1.39M",
-    "total_comments": "52.7K"
+    "total_comments": "52.67K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 213,
-      "total_views": 53048195,
+      "total_views": 53083235,
       "subscribers": "751K",
       "verified": true
     },
@@ -123,8 +123,8 @@
       "youtube_id": "gFEfIWUa8jg",
       "youtube_url": "https://www.youtube.com/watch?v=gFEfIWUa8jg",
       "thumbnail": "https://i.ytimg.com/vi/gFEfIWUa8jg/mqdefault.jpg",
-      "views": 1280307,
-      "views_formatted": "1.28M",
+      "views": 1310215,
+      "views_formatted": "1.31M",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
@@ -1008,8 +1008,8 @@
       "youtube_id": "z4Jv2PE0wkU",
       "youtube_url": "https://www.youtube.com/watch?v=z4Jv2PE0wkU",
       "thumbnail": "https://i.ytimg.com/vi/z4Jv2PE0wkU/mqdefault.jpg",
-      "views": 212443,
-      "views_formatted": "212.44K",
+      "views": 214030,
+      "views_formatted": "214.03K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
@@ -2208,8 +2208,8 @@
       "youtube_id": "YCV5MClAze4",
       "youtube_url": "https://www.youtube.com/watch?v=YCV5MClAze4",
       "thumbnail": "https://i.ytimg.com/vi/YCV5MClAze4/mqdefault.jpg",
-      "views": 88352,
-      "views_formatted": "88.35K",
+      "views": 88513,
+      "views_formatted": "88.51K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
@@ -2613,8 +2613,8 @@
       "youtube_id": "kORQK5NyXqo",
       "youtube_url": "https://www.youtube.com/watch?v=kORQK5NyXqo",
       "thumbnail": "https://i.ytimg.com/vi/kORQK5NyXqo/mqdefault.jpg",
-      "views": 60350,
-      "views_formatted": "60.35K",
+      "views": 60524,
+      "views_formatted": "60.52K",
       "likes_formatted": "3.27K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
@@ -2729,6 +2729,21 @@
       "ytjobs_id": "212322"
     },
     {
+      "title": "GitHub's Code Was Breaking Every 8 Hours. Here's Why.",
+      "youtube_id": "JJZQr2AuEI0",
+      "youtube_url": "https://www.youtube.com/watch?v=JJZQr2AuEI0",
+      "thumbnail": "https://i.ytimg.com/vi/JJZQr2AuEI0/mqdefault.jpg",
+      "views": 49297,
+      "views_formatted": "49.3K",
+      "likes_formatted": "1.81K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2661917"
+    },
+    {
       "title": "INSIDE a Data Center with 90,000+ Servers 💻",
       "youtube_id": "1jGdRjkhOYE",
       "youtube_url": "https://www.youtube.com/watch?v=1jGdRjkhOYE",
@@ -2772,21 +2787,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2071508"
-    },
-    {
-      "title": "GitHub's Code Was Breaking Every 8 Hours. Here's Why.",
-      "youtube_id": "JJZQr2AuEI0",
-      "youtube_url": "https://www.youtube.com/watch?v=JJZQr2AuEI0",
-      "thumbnail": "https://i.ytimg.com/vi/JJZQr2AuEI0/mqdefault.jpg",
-      "views": 46409,
-      "views_formatted": "46.41K",
-      "likes_formatted": "1.72K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2661917"
     },
     {
       "title": "How Programmers SAVED the Wii 👩‍💻 #gaming #developer #tech #coder #technology #nintendo #wii",
@@ -3044,6 +3044,21 @@
       "ytjobs_id": "3275868"
     },
     {
+      "title": "My favourite desk accessory for long night coding #ad",
+      "youtube_id": "ZcYQD8NVCDw",
+      "youtube_url": "https://www.youtube.com/watch?v=ZcYQD8NVCDw",
+      "thumbnail": "https://i.ytimg.com/vi/ZcYQD8NVCDw/mqdefault.jpg",
+      "views": 26324,
+      "views_formatted": "26.32K",
+      "likes_formatted": "906",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2418205"
+    },
+    {
       "title": "Don’t Use Python Without These 8 Tools",
       "youtube_id": "RU_ZcKzFdG0",
       "youtube_url": "https://www.youtube.com/watch?v=RU_ZcKzFdG0",
@@ -3057,21 +3072,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2244987"
-    },
-    {
-      "title": "My favourite desk accessory for long night coding #ad",
-      "youtube_id": "ZcYQD8NVCDw",
-      "youtube_url": "https://www.youtube.com/watch?v=ZcYQD8NVCDw",
-      "thumbnail": "https://i.ytimg.com/vi/ZcYQD8NVCDw/mqdefault.jpg",
-      "views": 26063,
-      "views_formatted": "26.06K",
-      "likes_formatted": "903",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2418205"
     },
     {
       "title": "How Spotify predicts what you want to listen to",
@@ -3213,9 +3213,9 @@
       "youtube_id": "fB3K0D5G6mg",
       "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
       "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/mqdefault.jpg",
-      "views": 15513,
-      "views_formatted": "15.51K",
-      "likes_formatted": "774",
+      "views": 15574,
+      "views_formatted": "15.57K",
+      "likes_formatted": "776",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
