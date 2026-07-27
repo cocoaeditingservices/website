@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-07-26",
+    "updated": "2026-07-27",
     "total_videos": 287,
-    "total_views_raw": 58400675,
+    "total_views_raw": 58403080,
     "total_views": "58.4M",
     "total_likes": "1.39M",
     "total_comments": "52.67K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 213,
-      "total_views": 53083278,
+      "total_views": 53085683,
       "subscribers": "751K",
       "verified": true
     },
@@ -1079,6 +1079,21 @@
       "ytjobs_id": "637441"
     },
     {
+      "title": "The Most Downvoted Stack Overflow Posts of All Time",
+      "youtube_id": "wBOW86q1Vlo",
+      "youtube_url": "https://www.youtube.com/watch?v=wBOW86q1Vlo",
+      "thumbnail": "https://i.ytimg.com/vi/wBOW86q1Vlo/mqdefault.jpg",
+      "views": 198675,
+      "views_formatted": "198.68K",
+      "likes_formatted": "10.28K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2244988"
+    },
+    {
       "title": "The STACKING Workflow EXPLAINED 👩‍💻#ad #technology #programmer #code #tech #engineering #software",
       "youtube_id": "TEiCaGowINc",
       "youtube_url": "https://www.youtube.com/watch?v=TEiCaGowINc",
@@ -1107,21 +1122,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2086059"
-    },
-    {
-      "title": "The Most Downvoted Stack Overflow Posts of All Time",
-      "youtube_id": "wBOW86q1Vlo",
-      "youtube_url": "https://www.youtube.com/watch?v=wBOW86q1Vlo",
-      "thumbnail": "https://i.ytimg.com/vi/wBOW86q1Vlo/mqdefault.jpg",
-      "views": 196270,
-      "views_formatted": "196.27K",
-      "likes_formatted": "10.22K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2244988"
     },
     {
       "title": "Is this even programming!? 💀 #softwaretech #technology #programming #developer #gamedev #software",
