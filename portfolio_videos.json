@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-07-27",
+    "updated": "2026-07-28",
     "total_videos": 287,
-    "total_views_raw": 58403080,
-    "total_views": "58.4M",
+    "total_views_raw": 58519073,
+    "total_views": "58.52M",
     "total_likes": "1.39M",
-    "total_comments": "52.67K"
+    "total_comments": "52.84K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 213,
-      "total_views": 53085683,
+      "total_views": 53201676,
       "subscribers": "751K",
       "verified": true
     },
@@ -588,8 +588,8 @@
       "youtube_id": "luW4tp88QvI",
       "youtube_url": "https://www.youtube.com/watch?v=luW4tp88QvI",
       "thumbnail": "https://i.ytimg.com/vi/luW4tp88QvI/mqdefault.jpg",
-      "views": 376945,
-      "views_formatted": "376.95K",
+      "views": 377228,
+      "views_formatted": "377.23K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
@@ -717,6 +717,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1042673"
+    },
+    {
+      "title": "The Code Inside Everything (That Gets Zero Credit)",
+      "youtube_id": "lSVgeMoXJTs",
+      "youtube_url": "https://www.youtube.com/watch?v=lSVgeMoXJTs",
+      "thumbnail": "https://i.ytimg.com/vi/lSVgeMoXJTs/mqdefault.jpg",
+      "views": 307835,
+      "views_formatted": "307.84K",
+      "likes_formatted": "13.04K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2956383"
     },
     {
       "title": "These Devs won $20,000 by Building THIS🧑‍💻#technology #developer #code #software #engineering",
@@ -1137,21 +1152,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1021348"
-    },
-    {
-      "title": "The Code Inside Everything (That Gets Zero Credit)",
-      "youtube_id": "lSVgeMoXJTs",
-      "youtube_url": "https://www.youtube.com/watch?v=lSVgeMoXJTs",
-      "thumbnail": "https://i.ytimg.com/vi/lSVgeMoXJTs/mqdefault.jpg",
-      "views": 192173,
-      "views_formatted": "192.17K",
-      "likes_formatted": "9.25K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2956383"
     },
     {
       "title": "Discord Stores BILLIONS of messages using this database",
@@ -2418,8 +2418,8 @@
       "youtube_id": "BL5BBXAFQJk",
       "youtube_url": "https://www.youtube.com/watch?v=BL5BBXAFQJk",
       "thumbnail": "https://i.ytimg.com/vi/BL5BBXAFQJk/mqdefault.jpg",
-      "views": 73767,
-      "views_formatted": "73.77K",
+      "views": 73815,
+      "views_formatted": "73.82K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
