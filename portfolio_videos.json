@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-07-28",
-    "total_videos": 287,
-    "total_views_raw": 58519073,
+    "updated": "2026-07-29",
+    "total_videos": 288,
+    "total_views_raw": 58519630,
     "total_views": "58.52M",
     "total_likes": "1.39M",
-    "total_comments": "52.84K"
+    "total_comments": "52.86K"
   },
   "channels": {
     "Coding with Lewis": {
-      "video_count": 213,
-      "total_views": 53201676,
+      "video_count": 214,
+      "total_views": 53202233,
       "subscribers": "751K",
       "verified": true
     },
@@ -3252,6 +3252,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2320464"
+    },
+    {
+      "title": "The E-Ink Monopoly",
+      "youtube_id": "3QbJ7pnc1Lc",
+      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
+      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
+      "views": 557,
+      "views_formatted": "557",
+      "likes_formatted": "62",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3344344"
     },
     {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",

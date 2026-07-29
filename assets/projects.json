@@ -1,7 +1,13 @@
 {
-  "updated": "2026-07-28",
+  "updated": "2026-07-29",
   "source": "https://app.ytjobs.co/api/talents/48926/videos",
   "videos": [
+    {
+      "title": "The E-Ink Monopoly",
+      "url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
+      "views": "557",
+      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/hqdefault.jpg"
+    },
     {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
       "url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU",
@@ -31,12 +37,6 @@
       "url": "https://www.youtube.com/watch?v=lSVgeMoXJTs",
       "views": "307.84K",
       "thumbnail": "https://i.ytimg.com/vi/lSVgeMoXJTs/hqdefault.jpg"
-    },
-    {
-      "title": "GitHub's Code Was Breaking Every 8 Hours. Here's Why.",
-      "url": "https://www.youtube.com/watch?v=JJZQr2AuEI0",
-      "views": "49.3K",
-      "thumbnail": "https://i.ytimg.com/vi/JJZQr2AuEI0/hqdefault.jpg"
     }
   ]
 }
