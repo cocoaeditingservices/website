@@ -95,8 +95,9 @@ class ShortsClassificationTests(unittest.TestCase):
         self.cache.stop()
 
     @mock.patch.object(split_portfolio.time, "sleep", return_value=None)
+    @mock.patch.object(split_portfolio, "fetch_shorts_thumbnail_state", return_value=None)
     @mock.patch.object(split_portfolio, "fetch_watch_page", side_effect=RuntimeError("rate limited"))
-    def test_lookup_failure_is_a_provisional_short(self, _fetch, _sleep):
+    def test_lookup_failure_is_a_provisional_short(self, _fetch, _thumbnail, _sleep):
         kind, duration = split_portfolio.classify({"youtube_id": "fB3K0D5G6mg"})
 
         self.assertEqual((kind, duration), ("provisional_short", None))
@@ -107,8 +108,9 @@ class ShortsClassificationTests(unittest.TestCase):
         self.assertIn("/shorts/fB3K0D5G6mg", entry["youtube_url"])
 
     @mock.patch.object(split_portfolio.time, "sleep", return_value=None)
+    @mock.patch.object(split_portfolio, "fetch_shorts_thumbnail_state", return_value=None)
     @mock.patch.object(split_portfolio, "fetch_watch_page", side_effect=RuntimeError("rate limited"))
-    def test_poisoned_cache_entry_is_not_trusted(self, _fetch, _sleep):
+    def test_poisoned_cache_entry_is_not_trusted(self, _fetch, _thumbnail, _sleep):
         split_portfolio.CACHE["fB3K0D5G6mg"] = {"kind": "long", "duration": None}
 
         kind, _ = split_portfolio.classify({"youtube_id": "fB3K0D5G6mg"})
@@ -119,16 +121,76 @@ class ShortsClassificationTests(unittest.TestCase):
         self.assertEqual(split_portfolio.classify({}), ("unknown", None))
 
     @mock.patch.object(split_portfolio.time, "sleep", return_value=None)
+    @mock.patch.object(split_portfolio, "fetch_shorts_thumbnail_state", return_value=None)
     @mock.patch.object(
         split_portfolio,
         "fetch_watch_page",
         return_value='<link rel="canonical" href="https://www.youtube.com/shorts/fB3K0D5G6mg"><script>"lengthSeconds":"78"</script>',
     )
-    def test_robot_arm_is_confirmed_as_short(self, _fetch, _sleep):
+    def test_robot_arm_is_confirmed_as_short(self, _fetch, _thumbnail, _sleep):
         kind, duration = split_portfolio.classify({"youtube_id": "fB3K0D5G6mg"})
 
         self.assertEqual((kind, duration), ("short", 78))
         self.assertEqual(split_portfolio.CACHE["fB3K0D5G6mg"]["kind"], "short")
+
+    @mock.patch.object(split_portfolio.time, "sleep", return_value=None)
+    @mock.patch.object(split_portfolio, "fetch_shorts_thumbnail_state", return_value=True)
+    @mock.patch.object(
+        split_portfolio,
+        "fetch_watch_page",
+        return_value='<link rel="canonical" href="https://www.youtube.com/watch?v=CtO3ChufJT8">',
+    )
+    def test_shorts_thumbnail_overrides_incomplete_watch_canonical(
+        self, _fetch, _thumbnail, _sleep
+    ):
+        kind, duration = split_portfolio.classify({"youtube_id": "CtO3ChufJT8"})
+
+        self.assertEqual((kind, duration), ("short", None))
+        self.assertEqual(
+            split_portfolio.CACHE["CtO3ChufJT8"]["source"],
+            "shorts_thumbnail",
+        )
+
+    @mock.patch.object(split_portfolio.time, "sleep", return_value=None)
+    @mock.patch.object(split_portfolio, "fetch_shorts_thumbnail_state", return_value=False)
+    @mock.patch.object(
+        split_portfolio,
+        "fetch_watch_page",
+        return_value='<link rel="canonical" href="https://www.youtube.com/watch?v=3QbJ7pnc1Lc">',
+    )
+    def test_normal_video_requires_two_agreeing_signals(
+        self, _fetch, _thumbnail, _sleep
+    ):
+        kind, duration = split_portfolio.classify({"youtube_id": "3QbJ7pnc1Lc"})
+
+        self.assertEqual((kind, duration), ("long", None))
+        self.assertEqual(
+            split_portfolio.CACHE["3QbJ7pnc1Lc"]["source"],
+            "canonical+shorts_thumbnail_absent",
+        )
+
+    @mock.patch.object(split_portfolio.time, "sleep", return_value=None)
+    @mock.patch.object(split_portfolio, "fetch_shorts_thumbnail_state", return_value=None)
+    @mock.patch.object(
+        split_portfolio,
+        "fetch_watch_page",
+        return_value='<link rel="canonical" href="https://www.youtube.com/watch?v=CtO3ChufJT8"><script>"lengthSeconds":"107"</script>',
+    )
+    def test_watch_canonical_alone_never_promotes_to_long_form(
+        self, _fetch, _thumbnail, _sleep
+    ):
+        kind, duration = split_portfolio.classify({"youtube_id": "CtO3ChufJT8"})
+
+        self.assertEqual((kind, duration), ("provisional_short", 107))
+        self.assertNotIn("CtO3ChufJT8", split_portfolio.CACHE)
+
+    @mock.patch.object(split_portfolio.urllib.request, "urlopen")
+    def test_missing_shorts_thumbnail_is_a_definitive_negative(self, urlopen):
+        urlopen.side_effect = urllib.error.HTTPError(
+            "https://example.test", 404, "not found", {}, None
+        )
+
+        self.assertFalse(split_portfolio.fetch_shorts_thumbnail_state("video-id"))
 
 
 class GeneratedDataTests(unittest.TestCase):

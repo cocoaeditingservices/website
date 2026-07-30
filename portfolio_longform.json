@@ -1,28 +1,6 @@
 {
- "total": 78,
+ "total": 76,
  "videos": [
-  {
-   "id": "3349019",
-   "title": "I Built a Winamp Clone on a 20-Year-old Mac",
-   "youtube_id": "CtO3ChufJT8",
-   "youtube_url": "https://www.youtube.com/watch?v=CtO3ChufJT8",
-   "thumbnail": "https://i.ytimg.com/vi/CtO3ChufJT8/mqdefault.jpg",
-   "views_formatted": "8.08K",
-   "channel_title": "Coding with Lewis",
-   "channel_id": null,
-   "duration": null
-  },
-  {
-   "id": "3349018",
-   "title": "I Built an App That Finds if Your App Already Exists",
-   "youtube_id": "6LHHOBXNmUw",
-   "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
-   "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
-   "views_formatted": "1.4K",
-   "channel_title": "Coding with Lewis",
-   "channel_id": null,
-   "duration": null
-  },
   {
    "id": "3344344",
    "title": "The E-Ink Monopoly",
@@ -32,7 +10,7 @@
    "views_formatted": "26.12K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
-   "duration": null
+   "duration": 926
   },
   {
    "id": "3302548",

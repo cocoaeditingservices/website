@@ -1,11 +1,11 @@
 """Split portfolio_videos.json into long-form vs Shorts.
 
-The /watch?v=<id> page carries an authoritative canonical link: real Shorts
-canonicalise to /shorts/<id>, long-form videos to /watch?v=<id>. (The
-/shorts/<id> URL itself returns a JS shell with no canonical at all, so it
-can't be used.) Classify every portfolio video that way. If YouTube cannot
-confirm a video temporarily, show it provisionally under Shorts and retry it
-on the next refresh. Then write:
+YouTube's /watch page canonical is not sufficient on its own: newly published
+Shorts sometimes temporarily canonicalise to /watch. Combine it with the
+Shorts-only ``oar2.jpg`` portrait thumbnail. A video is long-form only when a
+normal watch canonical and an absent Shorts thumbnail agree. If YouTube cannot
+confirm both signals temporarily, show the video provisionally under Shorts
+and retry it on the next refresh. Then write:
   - portfolio_longform.json / portfolio_shorts.json  (fetched by portfolio.html)
   - portfolio_data.js  (same data as window globals, so the page still works
     when opened via file:// where fetch() is blocked)
@@ -31,6 +31,11 @@ CANONICAL = re.compile(r'<link rel="canonical" href="([^"]+)"')
 LENGTH = re.compile(r'"lengthSeconds":"(\d+)"')
 CONFIRMED_KINDS = {"short", "long"}
 SHORT_KINDS = {"short", "provisional_short"}
+TRUSTED_SOURCES = {
+    "canonical",
+    "shorts_thumbnail",
+    "canonical+shorts_thumbnail_absent",
+}
 
 # Successful lookups are cached so reruns only fetch new videos —
 # YouTube rate-limits aggressive full sweeps with 429s.
@@ -41,10 +46,20 @@ except (FileNotFoundError, json.JSONDecodeError):
 
 # Purge poisoned or malformed entries. Older versions cached failed lookups as
 # long-form with no duration, which made a transient request failure permanent.
+def trusted_cache_entry(entry):
+    """Accept legacy entries with a duration and new entries with proof."""
+    return (
+        entry.get("kind") in CONFIRMED_KINDS
+        and (
+            isinstance(entry.get("duration"), int)
+            or entry.get("source") in TRUSTED_SOURCES
+        )
+    )
+
+
 _poisoned = [
     vid for vid, entry in CACHE.items()
-    if entry.get("kind") not in CONFIRMED_KINDS
-    or not isinstance(entry.get("duration"), int)
+    if not trusted_cache_entry(entry)
 ]
 for vid in _poisoned:
     del CACHE[vid]
@@ -70,6 +85,31 @@ def fetch_watch_page(vid):
             raise
 
 
+def fetch_shorts_thumbnail_state(vid):
+    """Return True for a Shorts-only portrait thumbnail, False for 404.
+
+    YouTube serves ``oar2.jpg`` for Shorts but returns 404 for standard
+    videos. Other failures are inconclusive and must not promote a video to
+    long-form.
+    """
+    req = urllib.request.Request(
+        f"https://i.ytimg.com/vi/{vid}/oar2.jpg",
+        headers=HEADERS,
+        method="HEAD",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30):
+            return True
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return False
+        print(f"  ? {vid}: Shorts thumbnail returned HTTP {e.code}")
+        return None
+    except (urllib.error.URLError, TimeoutError) as e:
+        print(f"  ? {vid}: Shorts thumbnail check failed: {e}")
+        return None
+
+
 def classify(video):
     """Return a classification and duration in seconds, when available.
 
@@ -82,25 +122,38 @@ def classify(video):
     if not vid:
         return "unknown", None
     cached = CACHE.get(vid)
-    if (cached and cached.get("kind") in CONFIRMED_KINDS
-            and isinstance(cached.get("duration"), int)):
+    if cached and trusted_cache_entry(cached):
         return cached["kind"], cached["duration"]
     time.sleep(0.8)  # stay under YouTube's rate limit
+
+    html = None
     try:
         html = fetch_watch_page(vid)
-        dm = LENGTH.search(html)
-        duration = int(dm.group(1)) if dm else None
-        m = CANONICAL.search(html)
-        if m:
-            kind = "short" if "/shorts/" in m.group(1) else "long"
-            if duration is not None:
-                CACHE[vid] = {"kind": kind, "duration": duration}
-            return kind, duration
-        print(f"  ? {vid}: no canonical found -> provisional Short")
-        return "provisional_short", duration
     except Exception as e:
-        print(f"  ! {vid}: {e} -> provisional Short")
-        return "provisional_short", None
+        print(f"  ? {vid}: watch-page check failed: {e}")
+
+    dm = LENGTH.search(html) if html else None
+    duration = int(dm.group(1)) if dm else None
+    m = CANONICAL.search(html) if html else None
+    canonical = m.group(1) if m else None
+    thumbnail_state = fetch_shorts_thumbnail_state(vid)
+
+    # A Shorts canonical or Shorts-only portrait thumbnail is affirmative
+    # evidence. The thumbnail check deliberately overrides a normal watch
+    # canonical because YouTube now emits that incomplete combination for
+    # some newly published Shorts.
+    if canonical and "/shorts/" in canonical:
+        kind, source = "short", "canonical"
+    elif thumbnail_state is True:
+        kind, source = "short", "shorts_thumbnail"
+    elif canonical and thumbnail_state is False:
+        kind, source = "long", "canonical+shorts_thumbnail_absent"
+    else:
+        print(f"  ? {vid}: incomplete YouTube signals -> provisional Short")
+        return "provisional_short", duration
+
+    CACHE[vid] = {"kind": kind, "duration": duration, "source": source}
+    return kind, duration
 
 
 def page_entry(v, duration, kind):
@@ -135,7 +188,7 @@ def main():
     videos.sort(key=lambda v: int(v.get("ytjobs_id") or 0), reverse=True)
 
     cached = sum(1 for v in videos if v.get("youtube_id") in CACHE)
-    print(f"Classifying {len(videos)} videos via canonical link ({cached} cached)...")
+    print(f"Classifying {len(videos)} videos via YouTube signals ({cached} cached)...")
     with ThreadPoolExecutor(max_workers=2) as pool:
         results = list(pool.map(classify, videos))
 
