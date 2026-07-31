@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-07-30",
+    "updated": "2026-07-31",
     "total_videos": 290,
-    "total_views_raw": 58555535,
-    "total_views": "58.56M",
+    "total_views_raw": 58582521,
+    "total_views": "58.58M",
     "total_likes": "1.4M",
-    "total_comments": "52.98K"
+    "total_comments": "53.07K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53238138,
+      "total_views": 53265124,
       "subscribers": "751K",
       "verified": true
     },
@@ -2804,6 +2804,21 @@
       "ytjobs_id": "637431"
     },
     {
+      "title": "The E-Ink Monopoly",
+      "youtube_id": "3QbJ7pnc1Lc",
+      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
+      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
+      "views": 41267,
+      "views_formatted": "41.27K",
+      "likes_formatted": "2.37K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3344344"
+    },
+    {
       "title": "Can AI Make an App from JUST my Drawings?",
       "youtube_id": "nz0_wi1T578",
       "youtube_url": "https://www.youtube.com/watch?v=nz0_wi1T578",
@@ -3074,21 +3089,6 @@
       "ytjobs_id": "2244987"
     },
     {
-      "title": "The E-Ink Monopoly",
-      "youtube_id": "3QbJ7pnc1Lc",
-      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
-      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
-      "views": 26116,
-      "views_formatted": "26.12K",
-      "likes_formatted": "1.51K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3344344"
-    },
-    {
       "title": "How Spotify predicts what you want to listen to",
       "youtube_id": "lIf4g_5XmMQ",
       "youtube_url": "https://www.youtube.com/watch?v=lIf4g_5XmMQ",
@@ -3239,6 +3239,21 @@
       "ytjobs_id": "3280416"
     },
     {
+      "title": "I Built an App That Finds if Your App Already Exists",
+      "youtube_id": "6LHHOBXNmUw",
+      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
+      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
+      "views": 11998,
+      "views_formatted": "12K",
+      "likes_formatted": "734",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3349018"
+    },
+    {
       "title": "5 Ways Hackers Break your Software",
       "youtube_id": "ZnccRc4ZtQI",
       "youtube_url": "https://www.youtube.com/watch?v=ZnccRc4ZtQI",
@@ -3254,6 +3269,21 @@
       "ytjobs_id": "576636"
     },
     {
+      "title": "I Built a Winamp Clone on a 20-Year-old Mac",
+      "youtube_id": "CtO3ChufJT8",
+      "youtube_url": "https://www.youtube.com/watch?v=CtO3ChufJT8",
+      "thumbnail": "https://i.ytimg.com/vi/CtO3ChufJT8/mqdefault.jpg",
+      "views": 9315,
+      "views_formatted": "9.32K",
+      "likes_formatted": "619",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3349019"
+    },
+    {
       "title": "I Gave This Fish $10,000 to Trade Stocks",
       "youtube_id": "cjoYPSbzHV0",
       "youtube_url": "https://www.youtube.com/watch?v=cjoYPSbzHV0",
@@ -3267,36 +3297,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2320464"
-    },
-    {
-      "title": "I Built a Winamp Clone on a 20-Year-old Mac",
-      "youtube_id": "CtO3ChufJT8",
-      "youtube_url": "https://www.youtube.com/watch?v=CtO3ChufJT8",
-      "thumbnail": "https://i.ytimg.com/vi/CtO3ChufJT8/mqdefault.jpg",
-      "views": 8076,
-      "views_formatted": "8.08K",
-      "likes_formatted": "558",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3349019"
-    },
-    {
-      "title": "I Built an App That Finds if Your App Already Exists",
-      "youtube_id": "6LHHOBXNmUw",
-      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
-      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
-      "views": 1402,
-      "views_formatted": "1.4K",
-      "likes_formatted": "113",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3349018"
     },
     {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
