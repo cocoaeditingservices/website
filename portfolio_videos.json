@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-07-31",
+    "updated": "2026-08-01",
     "total_videos": 290,
-    "total_views_raw": 58582521,
-    "total_views": "58.58M",
+    "total_views_raw": 58597554,
+    "total_views": "58.6M",
     "total_likes": "1.4M",
-    "total_comments": "53.07K"
+    "total_comments": "53.11K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53265124,
+      "total_views": 53280157,
       "subscribers": "751K",
       "verified": true
     },
@@ -2669,6 +2669,21 @@
       "ytjobs_id": "868664"
     },
     {
+      "title": "The E-Ink Monopoly",
+      "youtube_id": "3QbJ7pnc1Lc",
+      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
+      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
+      "views": 53704,
+      "views_formatted": "53.7K",
+      "likes_formatted": "2.89K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3344344"
+    },
+    {
       "title": "A programming language for DOGS!? 💻🐕 #programming #tech #code #software #technology #developer",
       "youtube_id": "SyMnotwVf54",
       "youtube_url": "https://www.youtube.com/watch?v=SyMnotwVf54",
@@ -2802,21 +2817,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "637431"
-    },
-    {
-      "title": "The E-Ink Monopoly",
-      "youtube_id": "3QbJ7pnc1Lc",
-      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
-      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
-      "views": 41267,
-      "views_formatted": "41.27K",
-      "likes_formatted": "2.37K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3344344"
     },
     {
       "title": "Can AI Make an App from JUST my Drawings?",
@@ -3243,9 +3243,9 @@
       "youtube_id": "6LHHOBXNmUw",
       "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
       "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
-      "views": 11998,
-      "views_formatted": "12K",
-      "likes_formatted": "734",
+      "views": 14337,
+      "views_formatted": "14.34K",
+      "likes_formatted": "824",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -3273,9 +3273,9 @@
       "youtube_id": "CtO3ChufJT8",
       "youtube_url": "https://www.youtube.com/watch?v=CtO3ChufJT8",
       "thumbnail": "https://i.ytimg.com/vi/CtO3ChufJT8/mqdefault.jpg",
-      "views": 9315,
-      "views_formatted": "9.32K",
-      "likes_formatted": "619",
+      "views": 9572,
+      "views_formatted": "9.57K",
+      "likes_formatted": "623",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
