@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-02",
+    "updated": "2026-08-03",
     "total_videos": 290,
-    "total_views_raw": 58609545,
-    "total_views": "58.61M",
+    "total_views_raw": 58620407,
+    "total_views": "58.62M",
     "total_likes": "1.4M",
-    "total_comments": "53.14K"
+    "total_comments": "53.16K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53292148,
+      "total_views": 53303010,
       "subscribers": "751K",
       "verified": true
     },
@@ -2148,9 +2148,9 @@
       "youtube_id": "lIiDgPxruEA",
       "youtube_url": "https://www.youtube.com/watch?v=lIiDgPxruEA",
       "thumbnail": "https://i.ytimg.com/vi/lIiDgPxruEA/mqdefault.jpg",
-      "views": 91444,
-      "views_formatted": "91.44K",
-      "likes_formatted": "4.29K",
+      "views": 91514,
+      "views_formatted": "91.51K",
+      "likes_formatted": "4.28K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -2474,6 +2474,21 @@
       "ytjobs_id": "868696"
     },
     {
+      "title": "The E-Ink Monopoly",
+      "youtube_id": "3QbJ7pnc1Lc",
+      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
+      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
+      "views": 68025,
+      "views_formatted": "68.03K",
+      "likes_formatted": "3.46K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3344344"
+    },
+    {
       "title": "40 Programming Projects That Will Make You a Better Developer",
       "youtube_id": "0MEHvqbgTWc",
       "youtube_url": "https://www.youtube.com/watch?v=0MEHvqbgTWc",
@@ -2577,21 +2592,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1859055"
-    },
-    {
-      "title": "The E-Ink Monopoly",
-      "youtube_id": "3QbJ7pnc1Lc",
-      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
-      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
-      "views": 61552,
-      "views_formatted": "61.55K",
-      "likes_formatted": "3.2K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3344344"
     },
     {
       "title": "GitHub has a malware problem",
@@ -3179,6 +3179,21 @@
       "ytjobs_id": "212324"
     },
     {
+      "title": "I Built an App That Finds if Your App Already Exists",
+      "youtube_id": "6LHHOBXNmUw",
+      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
+      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
+      "views": 21808,
+      "views_formatted": "21.81K",
+      "likes_formatted": "1.43K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3349018"
+    },
+    {
       "title": "I Overengineered a CI/CD Pipeline with 69 Absurd Steps",
       "youtube_id": "a373C7KLrj4",
       "youtube_url": "https://www.youtube.com/watch?v=a373C7KLrj4",
@@ -3224,21 +3239,6 @@
       "ytjobs_id": "1026842"
     },
     {
-      "title": "I Built an App That Finds if Your App Already Exists",
-      "youtube_id": "6LHHOBXNmUw",
-      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
-      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
-      "views": 17637,
-      "views_formatted": "17.64K",
-      "likes_formatted": "1.12K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3349018"
-    },
-    {
       "title": "I Built a Robot Arm to Run My Coffee Shop",
       "youtube_id": "fB3K0D5G6mg",
       "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
@@ -3273,9 +3273,9 @@
       "youtube_id": "CtO3ChufJT8",
       "youtube_url": "https://www.youtube.com/watch?v=CtO3ChufJT8",
       "thumbnail": "https://i.ytimg.com/vi/CtO3ChufJT8/mqdefault.jpg",
-      "views": 9809,
-      "views_formatted": "9.81K",
-      "likes_formatted": "623",
+      "views": 9957,
+      "views_formatted": "9.96K",
+      "likes_formatted": "631",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
