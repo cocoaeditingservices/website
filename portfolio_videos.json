@@ -1,22 +1,22 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-04",
+    "updated": "2026-08-05",
     "total_videos": 290,
-    "total_views_raw": 58629373,
-    "total_views": "58.63M",
+    "total_views_raw": 58636203,
+    "total_views": "58.64M",
     "total_likes": "1.4M",
-    "total_comments": "53.16K"
+    "total_comments": "53.17K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53311029,
+      "total_views": 53316843,
       "subscribers": "751K",
       "verified": true
     },
     "Warp": {
       "video_count": 54,
-      "total_views": 5215375,
+      "total_views": 5216391,
       "subscribers": "112K",
       "verified": true
     },
@@ -35,7 +35,7 @@
     "Debug with Lewis": {
       "video_count": 3,
       "total_views": 21557,
-      "subscribers": "3.25K",
+      "subscribers": "3.26K",
       "verified": false
     },
     "GitKraken": {
@@ -2339,6 +2339,21 @@
       "ytjobs_id": "1291468"
     },
     {
+      "title": "The E-Ink Monopoly",
+      "youtube_id": "3QbJ7pnc1Lc",
+      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
+      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
+      "views": 78193,
+      "views_formatted": "78.19K",
+      "likes_formatted": "3.86K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3344344"
+    },
+    {
       "title": "The Humble History of 7Zip",
       "youtube_id": "dhbOscdU6IY",
       "youtube_url": "https://www.youtube.com/watch?v=dhbOscdU6IY",
@@ -2427,21 +2442,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1175265"
-    },
-    {
-      "title": "The E-Ink Monopoly",
-      "youtube_id": "3QbJ7pnc1Lc",
-      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
-      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
-      "views": 73320,
-      "views_formatted": "73.32K",
-      "likes_formatted": "3.67K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3344344"
     },
     {
       "title": "Infrastructure as Code EXPLAINED 👩‍💻 (in 30 seconds) #programming #technology #software #devops",
@@ -3104,6 +3104,21 @@
       "ytjobs_id": "2741648"
     },
     {
+      "title": "I Built an App That Finds if Your App Already Exists",
+      "youtube_id": "6LHHOBXNmUw",
+      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
+      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
+      "views": 24174,
+      "views_formatted": "24.17K",
+      "likes_formatted": "1.5K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3349018"
+    },
+    {
       "title": "The Shuffle Button is a Lie. Here's Why.",
       "youtube_id": "DypJmsL1s0o",
       "youtube_url": "https://www.youtube.com/watch?v=DypJmsL1s0o",
@@ -3132,21 +3147,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1020514"
-    },
-    {
-      "title": "I Built an App That Finds if Your App Already Exists",
-      "youtube_id": "6LHHOBXNmUw",
-      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
-      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
-      "views": 23285,
-      "views_formatted": "23.29K",
-      "likes_formatted": "1.47K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3349018"
     },
     {
       "title": "We Need to Talk about Developer Influencers",
@@ -3273,9 +3273,9 @@
       "youtube_id": "CtO3ChufJT8",
       "youtube_url": "https://www.youtube.com/watch?v=CtO3ChufJT8",
       "thumbnail": "https://i.ytimg.com/vi/CtO3ChufJT8/mqdefault.jpg",
-      "views": 10072,
-      "views_formatted": "10.07K",
-      "likes_formatted": "635",
+      "views": 10124,
+      "views_formatted": "10.12K",
+      "likes_formatted": "637",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -3307,7 +3307,7 @@
       "views_formatted": "9.14K",
       "likes_formatted": "302",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.25K",
+      "channel_subscribers": "3.26K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 211502,
@@ -3322,7 +3322,7 @@
       "views_formatted": "6.93K",
       "likes_formatted": "263",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.25K",
+      "channel_subscribers": "3.26K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 211502,
@@ -3337,7 +3337,7 @@
       "views_formatted": "5.49K",
       "likes_formatted": "139",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.25K",
+      "channel_subscribers": "3.26K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 211502,
@@ -4169,6 +4169,21 @@
       "ytjobs_id": "869229"
     },
     {
+      "title": "10 Coding Features (you should know) in Warp",
+      "youtube_id": "oeonZ-jtzhA",
+      "youtube_url": "https://www.youtube.com/watch?v=oeonZ-jtzhA",
+      "thumbnail": "https://i.ytimg.com/vi/oeonZ-jtzhA/mqdefault.jpg",
+      "views": 11732,
+      "views_formatted": "11.73K",
+      "likes_formatted": "319",
+      "channel_name": "Warp",
+      "channel_subscribers": "112K",
+      "channel_yt_link": "https://youtube.com/@warpdotdev",
+      "channel_verified": true,
+      "ytjobs_channel_id": 211499,
+      "ytjobs_id": "2046041"
+    },
+    {
       "title": "3 Reasons you should learn RUST 🦀👩‍💻 #coding #developer #codingandprogramming #programmer",
       "youtube_id": "HRQJ9mpYS7o",
       "youtube_url": "https://www.youtube.com/watch?v=HRQJ9mpYS7o",
@@ -4182,21 +4197,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 211499,
       "ytjobs_id": "869247"
-    },
-    {
-      "title": "10 Coding Features (you should know) in Warp",
-      "youtube_id": "oeonZ-jtzhA",
-      "youtube_url": "https://www.youtube.com/watch?v=oeonZ-jtzhA",
-      "thumbnail": "https://i.ytimg.com/vi/oeonZ-jtzhA/mqdefault.jpg",
-      "views": 10824,
-      "views_formatted": "10.82K",
-      "likes_formatted": "308",
-      "channel_name": "Warp",
-      "channel_subscribers": "112K",
-      "channel_yt_link": "https://youtube.com/@warpdotdev",
-      "channel_verified": true,
-      "ytjobs_channel_id": 211499,
-      "ytjobs_id": "2046041"
     },
     {
       "title": "This terminal command will save you HOURS 👩‍💻 #developer #software #programming #tech #software",
@@ -4304,6 +4304,21 @@
       "ytjobs_id": "2005080"
     },
     {
+      "title": "Master Warp's Code Review Panel",
+      "youtube_id": "4JlN0rvoZA8",
+      "youtube_url": "https://www.youtube.com/watch?v=4JlN0rvoZA8",
+      "thumbnail": "https://i.ytimg.com/vi/4JlN0rvoZA8/mqdefault.jpg",
+      "views": 4286,
+      "views_formatted": "4.29K",
+      "likes_formatted": "107",
+      "channel_name": "Warp",
+      "channel_subscribers": "112K",
+      "channel_yt_link": "https://youtube.com/@warpdotdev",
+      "channel_verified": true,
+      "ytjobs_channel_id": 211499,
+      "ytjobs_id": "2046040"
+    },
+    {
       "title": "Why ALL programmers should use THIS editor 👩‍💻 #software #developer #programming #tech #opensource",
       "youtube_id": "zJgNcEJJ0gQ",
       "youtube_url": "https://www.youtube.com/watch?v=zJgNcEJJ0gQ",
@@ -4317,21 +4332,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 211499,
       "ytjobs_id": "869253"
-    },
-    {
-      "title": "Master Warp's Code Review Panel",
-      "youtube_id": "4JlN0rvoZA8",
-      "youtube_url": "https://www.youtube.com/watch?v=4JlN0rvoZA8",
-      "thumbnail": "https://i.ytimg.com/vi/4JlN0rvoZA8/mqdefault.jpg",
-      "views": 4178,
-      "views_formatted": "4.18K",
-      "likes_formatted": "107",
-      "channel_name": "Warp",
-      "channel_subscribers": "112K",
-      "channel_yt_link": "https://youtube.com/@warpdotdev",
-      "channel_verified": true,
-      "ytjobs_channel_id": 211499,
-      "ytjobs_id": "2046040"
     },
     {
       "title": "This Open Source tool fixes your ERRORS 👩‍💻 #software #developer #programming #tech #opensource",
