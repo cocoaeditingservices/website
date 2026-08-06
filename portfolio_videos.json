@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-05",
+    "updated": "2026-08-06",
     "total_videos": 290,
-    "total_views_raw": 58636203,
+    "total_views_raw": 58643639,
     "total_views": "58.64M",
     "total_likes": "1.4M",
-    "total_comments": "53.17K"
+    "total_comments": "53.18K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53316843,
+      "total_views": 53324279,
       "subscribers": "751K",
       "verified": true
     },
@@ -47,7 +47,7 @@
     "TheSassJacket": {
       "video_count": 1,
       "total_views": 419,
-      "subscribers": "6.16K",
+      "subscribers": "6.19K",
       "verified": true
     },
     "Fast Forward": {
@@ -1713,9 +1713,9 @@
       "youtube_id": "lg1inngHGqQ",
       "youtube_url": "https://www.youtube.com/watch?v=lg1inngHGqQ",
       "thumbnail": "https://i.ytimg.com/vi/lg1inngHGqQ/mqdefault.jpg",
-      "views": 117766,
-      "views_formatted": "117.77K",
-      "likes_formatted": "4.8K",
+      "views": 118775,
+      "views_formatted": "118.78K",
+      "likes_formatted": "4.83K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -2264,6 +2264,21 @@
       "ytjobs_id": "1087536"
     },
     {
+      "title": "The E-Ink Monopoly",
+      "youtube_id": "3QbJ7pnc1Lc",
+      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
+      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
+      "views": 83001,
+      "views_formatted": "83K",
+      "likes_formatted": "4.04K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3344344"
+    },
+    {
       "title": "FTP Explained in 60 Seconds 💻👩‍💻 #software #technology #code #coding #programming #programmer",
       "youtube_id": "qwov5F-_4ws",
       "youtube_url": "https://www.youtube.com/watch?v=qwov5F-_4ws",
@@ -2337,21 +2352,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1291468"
-    },
-    {
-      "title": "The E-Ink Monopoly",
-      "youtube_id": "3QbJ7pnc1Lc",
-      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
-      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
-      "views": 78193,
-      "views_formatted": "78.19K",
-      "likes_formatted": "3.86K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3344344"
     },
     {
       "title": "The Humble History of 7Zip",
@@ -3089,6 +3089,21 @@
       "ytjobs_id": "2244987"
     },
     {
+      "title": "I Built an App That Finds if Your App Already Exists",
+      "youtube_id": "6LHHOBXNmUw",
+      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
+      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
+      "views": 25652,
+      "views_formatted": "25.65K",
+      "likes_formatted": "1.55K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3349018"
+    },
+    {
       "title": "How Spotify predicts what you want to listen to",
       "youtube_id": "lIf4g_5XmMQ",
       "youtube_url": "https://www.youtube.com/watch?v=lIf4g_5XmMQ",
@@ -3102,21 +3117,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2741648"
-    },
-    {
-      "title": "I Built an App That Finds if Your App Already Exists",
-      "youtube_id": "6LHHOBXNmUw",
-      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
-      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
-      "views": 24174,
-      "views_formatted": "24.17K",
-      "likes_formatted": "1.5K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3349018"
     },
     {
       "title": "The Shuffle Button is a Lie. Here's Why.",
@@ -3228,8 +3228,8 @@
       "youtube_id": "Tyw5bZMSCp4",
       "youtube_url": "https://www.youtube.com/watch?v=Tyw5bZMSCp4",
       "thumbnail": "https://i.ytimg.com/vi/Tyw5bZMSCp4/mqdefault.jpg",
-      "views": 19096,
-      "views_formatted": "19.1K",
+      "views": 19163,
+      "views_formatted": "19.16K",
       "likes_formatted": "853",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
@@ -3273,9 +3273,9 @@
       "youtube_id": "CtO3ChufJT8",
       "youtube_url": "https://www.youtube.com/watch?v=CtO3ChufJT8",
       "thumbnail": "https://i.ytimg.com/vi/CtO3ChufJT8/mqdefault.jpg",
-      "views": 10124,
-      "views_formatted": "10.12K",
-      "likes_formatted": "637",
+      "views": 10198,
+      "views_formatted": "10.2K",
+      "likes_formatted": "641",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -3592,7 +3592,7 @@
       "views_formatted": "419",
       "likes_formatted": "25",
       "channel_name": "TheSassJacket",
-      "channel_subscribers": "6.16K",
+      "channel_subscribers": "6.19K",
       "channel_yt_link": "https://youtube.com/@thesassjacket",
       "channel_verified": true,
       "ytjobs_channel_id": 211498,
