@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-06",
+    "updated": "2026-08-07",
     "total_videos": 290,
-    "total_views_raw": 58643639,
-    "total_views": "58.64M",
+    "total_views_raw": 58652512,
+    "total_views": "58.65M",
     "total_likes": "1.4M",
     "total_comments": "53.18K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53324279,
+      "total_views": 53333152,
       "subscribers": "751K",
       "verified": true
     },
@@ -288,8 +288,8 @@
       "youtube_id": "GDdDYMkUILQ",
       "youtube_url": "https://www.youtube.com/watch?v=GDdDYMkUILQ",
       "thumbnail": "https://i.ytimg.com/vi/GDdDYMkUILQ/mqdefault.jpg",
-      "views": 662150,
-      "views_formatted": "662.15K",
+      "views": 663034,
+      "views_formatted": "663.03K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
@@ -783,8 +783,8 @@
       "youtube_id": "dbPQgzDNFqg",
       "youtube_url": "https://www.youtube.com/watch?v=dbPQgzDNFqg",
       "thumbnail": "https://i.ytimg.com/vi/dbPQgzDNFqg/mqdefault.jpg",
-      "views": 289173,
-      "views_formatted": "289.17K",
+      "views": 290565,
+      "views_formatted": "290.57K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
@@ -2189,6 +2189,21 @@
       "ytjobs_id": "868667"
     },
     {
+      "title": "The E-Ink Monopoly",
+      "youtube_id": "3QbJ7pnc1Lc",
+      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
+      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
+      "views": 88710,
+      "views_formatted": "88.71K",
+      "likes_formatted": "4.35K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3344344"
+    },
+    {
       "title": "My Software Engineering Journey (Zero to Hero)",
       "youtube_id": "dcs7-ovRpkA",
       "youtube_url": "https://www.youtube.com/watch?v=dcs7-ovRpkA",
@@ -2264,21 +2279,6 @@
       "ytjobs_id": "1087536"
     },
     {
-      "title": "The E-Ink Monopoly",
-      "youtube_id": "3QbJ7pnc1Lc",
-      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
-      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
-      "views": 83001,
-      "views_formatted": "83K",
-      "likes_formatted": "4.04K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3344344"
-    },
-    {
       "title": "FTP Explained in 60 Seconds 💻👩‍💻 #software #technology #code #coding #programming #programmer",
       "youtube_id": "qwov5F-_4ws",
       "youtube_url": "https://www.youtube.com/watch?v=qwov5F-_4ws",
@@ -2298,8 +2298,8 @@
       "youtube_id": "P5jhzWlkDr8",
       "youtube_url": "https://www.youtube.com/watch?v=P5jhzWlkDr8",
       "thumbnail": "https://i.ytimg.com/vi/P5jhzWlkDr8/mqdefault.jpg",
-      "views": 80266,
-      "views_formatted": "80.27K",
+      "views": 80320,
+      "views_formatted": "80.32K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
@@ -3044,6 +3044,21 @@
       "ytjobs_id": "931654"
     },
     {
+      "title": "I Built an App That Finds if Your App Already Exists",
+      "youtube_id": "6LHHOBXNmUw",
+      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
+      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
+      "views": 26486,
+      "views_formatted": "26.49K",
+      "likes_formatted": "1.57K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3349018"
+    },
+    {
       "title": "I Opened a Coffee Shop Run by Claude",
       "youtube_id": "R7bC46BUEok",
       "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
@@ -3087,21 +3102,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2244987"
-    },
-    {
-      "title": "I Built an App That Finds if Your App Already Exists",
-      "youtube_id": "6LHHOBXNmUw",
-      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
-      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
-      "views": 25652,
-      "views_formatted": "25.65K",
-      "likes_formatted": "1.55K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3349018"
     },
     {
       "title": "How Spotify predicts what you want to listen to",
