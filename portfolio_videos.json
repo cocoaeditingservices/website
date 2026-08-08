@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-07",
+    "updated": "2026-08-08",
     "total_videos": 290,
-    "total_views_raw": 58652512,
+    "total_views_raw": 58653135,
     "total_views": "58.65M",
     "total_likes": "1.4M",
     "total_comments": "53.18K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53333152,
+      "total_views": 53333775,
       "subscribers": "751K",
       "verified": true
     },
@@ -2868,8 +2868,8 @@
       "youtube_id": "P7nBTUKaRec",
       "youtube_url": "https://www.youtube.com/watch?v=P7nBTUKaRec",
       "thumbnail": "https://i.ytimg.com/vi/P7nBTUKaRec/mqdefault.jpg",
-      "views": 34796,
-      "views_formatted": "34.8K",
+      "views": 34947,
+      "views_formatted": "34.95K",
       "likes_formatted": "1.48K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "751K",
@@ -3029,6 +3029,21 @@
       "ytjobs_id": "2195088"
     },
     {
+      "title": "I Built an App That Finds if Your App Already Exists",
+      "youtube_id": "6LHHOBXNmUw",
+      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
+      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
+      "views": 26958,
+      "views_formatted": "26.96K",
+      "likes_formatted": "1.59K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "751K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3349018"
+    },
+    {
       "title": "I Asked My Subscribers To Make The WORST Apps Possible",
       "youtube_id": "1hgN3mwE7jc",
       "youtube_url": "https://www.youtube.com/watch?v=1hgN3mwE7jc",
@@ -3042,21 +3057,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "931654"
-    },
-    {
-      "title": "I Built an App That Finds if Your App Already Exists",
-      "youtube_id": "6LHHOBXNmUw",
-      "youtube_url": "https://www.youtube.com/watch?v=6LHHOBXNmUw",
-      "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/mqdefault.jpg",
-      "views": 26486,
-      "views_formatted": "26.49K",
-      "likes_formatted": "1.57K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "751K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3349018"
     },
     {
       "title": "I Opened a Coffee Shop Run by Claude",
