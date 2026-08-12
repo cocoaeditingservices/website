@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-11",
+    "updated": "2026-08-12",
     "total_videos": 290,
-    "total_views_raw": 58956934,
+    "total_views_raw": 58958478,
     "total_views": "58.96M",
     "total_likes": "1.4M",
     "total_comments": "53.16K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53595393,
+      "total_views": 53596937,
       "subscribers": "753K",
       "verified": true
     },
@@ -2219,6 +2219,21 @@
       "ytjobs_id": "198011"
     },
     {
+      "title": "How Much Does it Cost to Scale an App to 100,000 Users?",
+      "youtube_id": "AuodUoWEWw0",
+      "youtube_url": "https://www.youtube.com/watch?v=AuodUoWEWw0",
+      "thumbnail": "https://i.ytimg.com/vi/AuodUoWEWw0/mqdefault.jpg",
+      "views": 88535,
+      "views_formatted": "88.54K",
+      "likes_formatted": "3.79K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "753K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1683925"
+    },
+    {
       "title": "Is Google Silently Winning the AI Race?",
       "youtube_id": "YCV5MClAze4",
       "youtube_url": "https://www.youtube.com/watch?v=YCV5MClAze4",
@@ -2247,21 +2262,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1207862"
-    },
-    {
-      "title": "How Much Does it Cost to Scale an App to 100,000 Users?",
-      "youtube_id": "AuodUoWEWw0",
-      "youtube_url": "https://www.youtube.com/watch?v=AuodUoWEWw0",
-      "thumbnail": "https://i.ytimg.com/vi/AuodUoWEWw0/mqdefault.jpg",
-      "views": 86991,
-      "views_formatted": "86.99K",
-      "likes_formatted": "3.74K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "753K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1683925"
     },
     {
       "title": "My 2025 Programming Predictions 👩‍💻 #software #softwaredeveloper #programming #javascript",
