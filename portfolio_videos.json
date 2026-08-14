@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-13",
+    "updated": "2026-08-14",
     "total_videos": 290,
-    "total_views_raw": 58958586,
-    "total_views": "58.96M",
-    "total_likes": "1.4M",
-    "total_comments": "53.16K"
+    "total_views_raw": 59057832,
+    "total_views": "59.06M",
+    "total_likes": "1.41M",
+    "total_comments": "53.24K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53597045,
+      "total_views": 53696291,
       "subscribers": "753K",
       "verified": true
     },
@@ -1004,6 +1004,21 @@
       "ytjobs_id": "1487704"
     },
     {
+      "title": "How Meta Went From Open Source Hero to AI's Biggest Villain",
+      "youtube_id": "8Ddjy1nlOWA",
+      "youtube_url": "https://www.youtube.com/watch?v=8Ddjy1nlOWA",
+      "thumbnail": "https://i.ytimg.com/vi/8Ddjy1nlOWA/mqdefault.jpg",
+      "views": 225107,
+      "views_formatted": "225.11K",
+      "likes_formatted": "5.93K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "753K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3024069"
+    },
+    {
       "title": "Every web developer needs this tool 👩‍💻 #developer #coder #tech #webdev #coding #software",
       "youtube_id": "mKKFvj6loAA",
       "youtube_url": "https://www.youtube.com/watch?v=mKKFvj6loAA",
@@ -1214,6 +1229,21 @@
       "ytjobs_id": "576629"
     },
     {
+      "title": "What is .xml!? 💻 #software #technology #code #programming #tech #sofrwaredevelopment",
+      "youtube_id": "LR8qHY5tThQ",
+      "youtube_url": "https://www.youtube.com/watch?v=LR8qHY5tThQ",
+      "thumbnail": "https://i.ytimg.com/vi/LR8qHY5tThQ/mqdefault.jpg",
+      "views": 181333,
+      "views_formatted": "181.33K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "753K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1414125"
+    },
+    {
       "title": "Inside a Data Center with 90,000 Servers",
       "youtube_id": "SJ-ibLJoCFM",
       "youtube_url": "https://www.youtube.com/watch?v=SJ-ibLJoCFM",
@@ -1242,21 +1272,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868690"
-    },
-    {
-      "title": "What is .xml!? 💻 #software #technology #code #programming #tech #sofrwaredevelopment",
-      "youtube_id": "LR8qHY5tThQ",
-      "youtube_url": "https://www.youtube.com/watch?v=LR8qHY5tThQ",
-      "thumbnail": "https://i.ytimg.com/vi/LR8qHY5tThQ/mqdefault.jpg",
-      "views": 178169,
-      "views_formatted": "178.17K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "753K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1414125"
     },
     {
       "title": "Dev Tools Announced by Apple at WWDC25 👨‍💻🍎",
@@ -1473,8 +1488,8 @@
       "youtube_id": "MTrBANpkFR4",
       "youtube_url": "https://www.youtube.com/watch?v=MTrBANpkFR4",
       "thumbnail": "https://i.ytimg.com/vi/MTrBANpkFR4/mqdefault.jpg",
-      "views": 151602,
-      "views_formatted": "151.6K",
+      "views": 152590,
+      "views_formatted": "152.59K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "753K",
@@ -1662,21 +1677,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868677"
-    },
-    {
-      "title": "How Meta Went From Open Source Hero to AI's Biggest Villain",
-      "youtube_id": "8Ddjy1nlOWA",
-      "youtube_url": "https://www.youtube.com/watch?v=8Ddjy1nlOWA",
-      "thumbnail": "https://i.ytimg.com/vi/8Ddjy1nlOWA/mqdefault.jpg",
-      "views": 130013,
-      "views_formatted": "130.01K",
-      "likes_formatted": "3.7K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "753K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3024069"
     },
     {
       "title": "35 Things Every Programmer Should Know",
