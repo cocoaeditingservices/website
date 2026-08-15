@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-14",
+    "updated": "2026-08-15",
     "total_videos": 290,
-    "total_views_raw": 59057832,
+    "total_views_raw": 59058760,
     "total_views": "59.06M",
     "total_likes": "1.41M",
     "total_comments": "53.24K"
@@ -10,13 +10,13 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53696291,
+      "total_views": 53696951,
       "subscribers": "753K",
       "verified": true
     },
     "Warp": {
       "video_count": 54,
-      "total_views": 5257818,
+      "total_views": 5258086,
       "subscribers": "112K",
       "verified": true
     },
@@ -2373,8 +2373,8 @@
       "youtube_id": "-BOUeVqgb8s",
       "youtube_url": "https://www.youtube.com/watch?v=-BOUeVqgb8s",
       "thumbnail": "https://i.ytimg.com/vi/-BOUeVqgb8s/mqdefault.jpg",
-      "views": 76425,
-      "views_formatted": "76.43K",
+      "views": 76543,
+      "views_formatted": "76.54K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "753K",
@@ -2793,8 +2793,8 @@
       "youtube_id": "UdAwrQF-LPk",
       "youtube_url": "https://www.youtube.com/watch?v=UdAwrQF-LPk",
       "thumbnail": "https://i.ytimg.com/vi/UdAwrQF-LPk/mqdefault.jpg",
-      "views": 46962,
-      "views_formatted": "46.96K",
+      "views": 47504,
+      "views_formatted": "47.5K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "753K",
@@ -4263,9 +4263,9 @@
       "youtube_id": "1GKsIT8FSsE",
       "youtube_url": "https://www.youtube.com/watch?v=1GKsIT8FSsE",
       "thumbnail": "https://i.ytimg.com/vi/1GKsIT8FSsE/mqdefault.jpg",
-      "views": 5529,
-      "views_formatted": "5.53K",
-      "likes_formatted": "184",
+      "views": 5797,
+      "views_formatted": "5.8K",
+      "likes_formatted": "188",
       "channel_name": "Warp",
       "channel_subscribers": "112K",
       "channel_yt_link": "https://youtube.com/@warpdotdev",
