@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-15",
+    "updated": "2026-08-16",
     "total_videos": 290,
-    "total_views_raw": 59058760,
+    "total_views_raw": 59059282,
     "total_views": "59.06M",
     "total_likes": "1.41M",
-    "total_comments": "53.24K"
+    "total_comments": "53.23K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53696951,
+      "total_views": 53697473,
       "subscribers": "753K",
       "verified": true
     },
@@ -1964,6 +1964,21 @@
       "ytjobs_id": "637424"
     },
     {
+      "title": "Is Firefox… Dying!?",
+      "youtube_id": "uw5dZ04D3cw",
+      "youtube_url": "https://www.youtube.com/watch?v=uw5dZ04D3cw",
+      "thumbnail": "https://i.ytimg.com/vi/uw5dZ04D3cw/mqdefault.jpg",
+      "views": 106344,
+      "views_formatted": "106.34K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "753K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1887334"
+    },
+    {
       "title": "How to become a 10X PROGRAMMER 👩‍💻 #programming #technology #software #code #business #career",
       "youtube_id": "dEI6OqDOIB0",
       "youtube_url": "https://www.youtube.com/watch?v=dEI6OqDOIB0",
@@ -1977,21 +1992,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868695"
-    },
-    {
-      "title": "Is Firefox… Dying!?",
-      "youtube_id": "uw5dZ04D3cw",
-      "youtube_url": "https://www.youtube.com/watch?v=uw5dZ04D3cw",
-      "thumbnail": "https://i.ytimg.com/vi/uw5dZ04D3cw/mqdefault.jpg",
-      "views": 105822,
-      "views_formatted": "105.82K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "753K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1887334"
     },
     {
       "title": "The BEST free software ever!? 👩‍💻 #blender #programming #technology #software #tech #3d",
