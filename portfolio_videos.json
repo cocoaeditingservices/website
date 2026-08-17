@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-16",
+    "updated": "2026-08-17",
     "total_videos": 290,
-    "total_views_raw": 59059282,
-    "total_views": "59.06M",
+    "total_views_raw": 59072157,
+    "total_views": "59.07M",
     "total_likes": "1.41M",
-    "total_comments": "53.23K"
+    "total_comments": "53.25K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53697473,
+      "total_views": 53710348,
       "subscribers": "753K",
       "verified": true
     },
@@ -644,6 +644,21 @@
       "ytjobs_id": "1014246"
     },
     {
+      "title": "10 Sorting Algorithms Easily Explained",
+      "youtube_id": "rbbTd-gkajw",
+      "youtube_url": "https://www.youtube.com/watch?v=rbbTd-gkajw",
+      "thumbnail": "https://i.ytimg.com/vi/rbbTd-gkajw/mqdefault.jpg",
+      "views": 327694,
+      "views_formatted": "327.69K",
+      "likes_formatted": "8.62K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "753K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "637408"
+    },
+    {
       "title": "I Trained an AI with 10,000 Memes",
       "youtube_id": "5GfgrYz9z9A",
       "youtube_url": "https://www.youtube.com/watch?v=5GfgrYz9z9A",
@@ -687,21 +702,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "914761"
-    },
-    {
-      "title": "10 Sorting Algorithms Easily Explained",
-      "youtube_id": "rbbTd-gkajw",
-      "youtube_url": "https://www.youtube.com/watch?v=rbbTd-gkajw",
-      "thumbnail": "https://i.ytimg.com/vi/rbbTd-gkajw/mqdefault.jpg",
-      "views": 314963,
-      "views_formatted": "314.96K",
-      "likes_formatted": "8.36K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "753K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "637408"
     },
     {
       "title": "The software that changed Linux FOREVER 💻 #linux #software #technology #code #tech",
@@ -2073,8 +2073,8 @@
       "youtube_id": "I1-XEpaTxvY",
       "youtube_url": "https://www.youtube.com/watch?v=I1-XEpaTxvY",
       "thumbnail": "https://i.ytimg.com/vi/I1-XEpaTxvY/mqdefault.jpg",
-      "views": 94053,
-      "views_formatted": "94.05K",
+      "views": 94197,
+      "views_formatted": "94.2K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "753K",
