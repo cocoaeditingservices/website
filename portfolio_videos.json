@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-21",
+    "updated": "2026-08-22",
     "total_videos": 290,
-    "total_views_raw": 59073033,
-    "total_views": "59.07M",
+    "total_views_raw": 59076810,
+    "total_views": "59.08M",
     "total_likes": "1.41M",
     "total_comments": "53.25K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53711224,
+      "total_views": 53715001,
       "subscribers": "753K",
       "verified": true
     },
@@ -1109,6 +1109,21 @@
       "ytjobs_id": "637441"
     },
     {
+      "title": "PostgreSQL: A Short History 👨‍💻",
+      "youtube_id": "uvthClm8gmc",
+      "youtube_url": "https://www.youtube.com/watch?v=uvthClm8gmc",
+      "thumbnail": "https://i.ytimg.com/vi/uvthClm8gmc/mqdefault.jpg",
+      "views": 201045,
+      "views_formatted": "201.05K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "753K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2086059"
+    },
+    {
       "title": "The Most Downvoted Stack Overflow Posts of All Time",
       "youtube_id": "wBOW86q1Vlo",
       "youtube_url": "https://www.youtube.com/watch?v=wBOW86q1Vlo",
@@ -1137,21 +1152,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868662"
-    },
-    {
-      "title": "PostgreSQL: A Short History 👨‍💻",
-      "youtube_id": "uvthClm8gmc",
-      "youtube_url": "https://www.youtube.com/watch?v=uvthClm8gmc",
-      "thumbnail": "https://i.ytimg.com/vi/uvthClm8gmc/mqdefault.jpg",
-      "views": 197268,
-      "views_formatted": "197.27K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "753K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2086059"
     },
     {
       "title": "Is this even programming!? 💀 #softwaretech #technology #programming #developer #gamedev #software",
