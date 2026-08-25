@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-24",
+    "updated": "2026-08-25",
     "total_videos": 290,
-    "total_views_raw": 59078365,
+    "total_views_raw": 59080564,
     "total_views": "59.08M",
     "total_likes": "1.41M",
-    "total_comments": "53.23K"
+    "total_comments": "53.24K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53716556,
+      "total_views": 53718755,
       "subscribers": "754K",
       "verified": true
     },
@@ -2294,6 +2294,21 @@
       "ytjobs_id": "975961"
     },
     {
+      "title": "You can play DOOM ANYWHERE 🙃 #software #gaming #code #programming #technology #developer",
+      "youtube_id": "ftkTndS1eZc",
+      "youtube_url": "https://www.youtube.com/watch?v=ftkTndS1eZc",
+      "thumbnail": "https://i.ytimg.com/vi/ftkTndS1eZc/mqdefault.jpg",
+      "views": 80724,
+      "views_formatted": "80.72K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "754K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1291468"
+    },
+    {
       "title": "The WORST Code I’ve ever written…. 💻 #technology #programming #softwaredevelopment #code #python",
       "youtube_id": "P5jhzWlkDr8",
       "youtube_url": "https://www.youtube.com/watch?v=P5jhzWlkDr8",
@@ -2337,21 +2352,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868681"
-    },
-    {
-      "title": "You can play DOOM ANYWHERE 🙃 #software #gaming #code #programming #technology #developer",
-      "youtube_id": "ftkTndS1eZc",
-      "youtube_url": "https://www.youtube.com/watch?v=ftkTndS1eZc",
-      "thumbnail": "https://i.ytimg.com/vi/ftkTndS1eZc/mqdefault.jpg",
-      "views": 78571,
-      "views_formatted": "78.57K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "754K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1291468"
     },
     {
       "title": "The Humble History of 7Zip",
@@ -2924,6 +2924,21 @@
       "ytjobs_id": "2606211"
     },
     {
+      "title": "The BEST Way to Stay Ahead of AI 🤖",
+      "youtube_id": "ilyppm2yhm0",
+      "youtube_url": "https://www.youtube.com/watch?v=ilyppm2yhm0",
+      "thumbnail": "https://i.ytimg.com/vi/ilyppm2yhm0/mqdefault.jpg",
+      "views": 30779,
+      "views_formatted": "30.78K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "754K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1910806"
+    },
+    {
       "title": "What even is the METAVERSE!? 🤔👩‍💻 #programming #technology #software #gaming #metaverse #vr",
       "youtube_id": "YT2CcCxvLGU",
       "youtube_url": "https://www.youtube.com/watch?v=YT2CcCxvLGU",
@@ -2937,21 +2952,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868674"
-    },
-    {
-      "title": "The BEST Way to Stay Ahead of AI 🤖",
-      "youtube_id": "ilyppm2yhm0",
-      "youtube_url": "https://www.youtube.com/watch?v=ilyppm2yhm0",
-      "thumbnail": "https://i.ytimg.com/vi/ilyppm2yhm0/mqdefault.jpg",
-      "views": 30733,
-      "views_formatted": "30.73K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "754K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1910806"
     },
     {
       "title": "What Happens When 20 AI Models Play Wordle?",
