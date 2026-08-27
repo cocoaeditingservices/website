@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-26",
+    "updated": "2026-08-27",
     "total_videos": 290,
-    "total_views_raw": 59080564,
+    "total_views_raw": 59080647,
     "total_views": "59.08M",
     "total_likes": "1.41M",
     "total_comments": "53.24K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53718755,
+      "total_views": 53718838,
       "subscribers": "754K",
       "verified": true
     },
@@ -3003,8 +3003,8 @@
       "youtube_id": "9j7c7UusaEs",
       "youtube_url": "https://www.youtube.com/watch?v=9j7c7UusaEs",
       "thumbnail": "https://i.ytimg.com/vi/9j7c7UusaEs/mqdefault.jpg",
-      "views": 28199,
-      "views_formatted": "28.2K",
+      "views": 28282,
+      "views_formatted": "28.28K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "754K",
