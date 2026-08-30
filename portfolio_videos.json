@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-08-29",
+    "updated": "2026-08-30",
     "total_videos": 290,
-    "total_views_raw": 59080647,
+    "total_views_raw": 59082344,
     "total_views": "59.08M",
     "total_likes": "1.41M",
-    "total_comments": "53.24K"
+    "total_comments": "53.23K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 216,
-      "total_views": 53718838,
+      "total_views": 53720535,
       "subscribers": "754K",
       "verified": true
     },
@@ -1368,9 +1368,9 @@
       "youtube_id": "fv_MPosiINw",
       "youtube_url": "https://www.youtube.com/watch?v=fv_MPosiINw",
       "thumbnail": "https://i.ytimg.com/vi/fv_MPosiINw/mqdefault.jpg",
-      "views": 165213,
-      "views_formatted": "165.21K",
-      "likes_formatted": "8.81K",
+      "views": 166852,
+      "views_formatted": "166.85K",
+      "likes_formatted": "8.85K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "754K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -1818,8 +1818,8 @@
       "youtube_id": "k3CJB_az3_M",
       "youtube_url": "https://www.youtube.com/watch?v=k3CJB_az3_M",
       "thumbnail": "https://i.ytimg.com/vi/k3CJB_az3_M/mqdefault.jpg",
-      "views": 111237,
-      "views_formatted": "111.24K",
+      "views": 111295,
+      "views_formatted": "111.3K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "754K",
