@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-01",
-    "total_videos": 290,
-    "total_views_raw": 59082344,
+    "updated": "2026-09-02",
+    "total_videos": 291,
+    "total_views_raw": 59082684,
     "total_views": "59.08M",
     "total_likes": "1.41M",
-    "total_comments": "53.23K"
+    "total_comments": "53.24K"
   },
   "channels": {
     "Coding with Lewis": {
-      "video_count": 216,
-      "total_views": 53720535,
+      "video_count": 217,
+      "total_views": 53720875,
       "subscribers": "754K",
       "verified": true
     },
@@ -2133,8 +2133,8 @@
       "youtube_id": "m5RAf4oRyWU",
       "youtube_url": "https://www.youtube.com/watch?v=m5RAf4oRyWU",
       "thumbnail": "https://i.ytimg.com/vi/m5RAf4oRyWU/mqdefault.jpg",
-      "views": 92212,
-      "views_formatted": "92.21K",
+      "views": 92437,
+      "views_formatted": "92.44K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "754K",
@@ -3297,6 +3297,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2320464"
+    },
+    {
+      "title": "WordPress vs. the Man Who Built It",
+      "youtube_id": "AC8zIESRyVs",
+      "youtube_url": "https://www.youtube.com/watch?v=AC8zIESRyVs",
+      "thumbnail": "https://i.ytimg.com/vi/AC8zIESRyVs/mqdefault.jpg",
+      "views": 115,
+      "views_formatted": "115",
+      "likes_formatted": "12",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "754K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3514123"
     },
     {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",

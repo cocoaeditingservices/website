@@ -1,7 +1,13 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "source": "https://app.ytjobs.co/api/talents/48926/videos",
   "videos": [
+    {
+      "title": "WordPress vs. the Man Who Built It",
+      "url": "https://www.youtube.com/watch?v=AC8zIESRyVs",
+      "views": "115",
+      "thumbnail": "https://i.ytimg.com/vi/AC8zIESRyVs/hqdefault.jpg"
+    },
     {
       "title": "The E-Ink Monopoly",
       "url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
@@ -31,12 +37,6 @@
       "url": "https://www.youtube.com/watch?v=8Ddjy1nlOWA",
       "views": "225.11K",
       "thumbnail": "https://i.ytimg.com/vi/8Ddjy1nlOWA/hqdefault.jpg"
-    },
-    {
-      "title": "The Code Inside Everything (That Gets Zero Credit)",
-      "url": "https://www.youtube.com/watch?v=lSVgeMoXJTs",
-      "views": "307.84K",
-      "thumbnail": "https://i.ytimg.com/vi/lSVgeMoXJTs/hqdefault.jpg"
     }
   ]
 }
