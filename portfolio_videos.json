@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-03",
-    "total_videos": 291,
-    "total_views_raw": 59165189,
-    "total_views": "59.17M",
+    "updated": "2026-09-04",
+    "total_videos": 292,
+    "total_views_raw": 59202427,
+    "total_views": "59.2M",
     "total_likes": "1.41M",
-    "total_comments": "53.45K"
+    "total_comments": "53.53K"
   },
   "channels": {
     "Coding with Lewis": {
-      "video_count": 217,
-      "total_views": 53803380,
+      "video_count": 218,
+      "total_views": 53840618,
       "subscribers": "754K",
       "verified": true
     },
@@ -35,7 +35,7 @@
     "Debug with Lewis": {
       "video_count": 3,
       "total_views": 21993,
-      "subscribers": "3.27K",
+      "subscribers": "3.28K",
       "verified": false
     },
     "GitKraken": {
@@ -47,7 +47,7 @@
     "TheSassJacket": {
       "video_count": 1,
       "total_views": 422,
-      "subscribers": "6.22K",
+      "subscribers": "6.26K",
       "verified": true
     },
     "Fast Forward": {
@@ -1739,6 +1739,21 @@
       "ytjobs_id": "1067357"
     },
     {
+      "title": "WordPress Is Eating Itself Alive",
+      "youtube_id": "AC8zIESRyVs",
+      "youtube_url": "https://www.youtube.com/watch?v=AC8zIESRyVs",
+      "thumbnail": "https://i.ytimg.com/vi/AC8zIESRyVs/mqdefault.jpg",
+      "views": 118240,
+      "views_formatted": "118.24K",
+      "likes_formatted": "2.25K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "754K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3514123"
+    },
+    {
       "title": "How to become a DevOps Engineer 👩‍💻 #programming #technology #software #code #career #devops",
       "youtube_id": "gAj1r7vC_VU",
       "youtube_url": "https://www.youtube.com/watch?v=gAj1r7vC_VU",
@@ -2294,21 +2309,6 @@
       "ytjobs_id": "975961"
     },
     {
-      "title": "WordPress Is Eating Itself Alive",
-      "youtube_id": "AC8zIESRyVs",
-      "youtube_url": "https://www.youtube.com/watch?v=AC8zIESRyVs",
-      "thumbnail": "https://i.ytimg.com/vi/AC8zIESRyVs/mqdefault.jpg",
-      "views": 81627,
-      "views_formatted": "81.63K",
-      "likes_formatted": "1.53K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "754K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3514123"
-    },
-    {
       "title": "You can play DOOM ANYWHERE 🙃 #software #gaming #code #programming #technology #developer",
       "youtube_id": "ftkTndS1eZc",
       "youtube_url": "https://www.youtube.com/watch?v=ftkTndS1eZc",
@@ -2433,8 +2433,8 @@
       "youtube_id": "lhjgj45x66Y",
       "youtube_url": "https://www.youtube.com/watch?v=lhjgj45x66Y",
       "thumbnail": "https://i.ytimg.com/vi/lhjgj45x66Y/mqdefault.jpg",
-      "views": 74642,
-      "views_formatted": "74.64K",
+      "views": 75172,
+      "views_formatted": "75.17K",
       "likes_formatted": "2.75K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "754K",
@@ -3314,6 +3314,21 @@
       "ytjobs_id": "2320464"
     },
     {
+      "title": "5 Agent Skills Every Developer Should Use",
+      "youtube_id": "OMnAJt9x7VY",
+      "youtube_url": "https://www.youtube.com/watch?v=OMnAJt9x7VY",
+      "thumbnail": "https://i.ytimg.com/vi/OMnAJt9x7VY/mqdefault.jpg",
+      "views": 95,
+      "views_formatted": "95",
+      "likes_formatted": "13",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "754K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3525223"
+    },
+    {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
       "youtube_id": "x8_ZZhRL3YU",
       "youtube_url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU",
@@ -3322,7 +3337,7 @@
       "views_formatted": "9.14K",
       "likes_formatted": "302",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.27K",
+      "channel_subscribers": "3.28K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 211502,
@@ -3337,7 +3352,7 @@
       "views_formatted": "7.07K",
       "likes_formatted": "267",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.27K",
+      "channel_subscribers": "3.28K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 211502,
@@ -3352,7 +3367,7 @@
       "views_formatted": "5.79K",
       "likes_formatted": "142",
       "channel_name": "Debug with Lewis",
-      "channel_subscribers": "3.27K",
+      "channel_subscribers": "3.28K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 211502,
@@ -3607,7 +3622,7 @@
       "views_formatted": "422",
       "likes_formatted": "25",
       "channel_name": "TheSassJacket",
-      "channel_subscribers": "6.22K",
+      "channel_subscribers": "6.26K",
       "channel_yt_link": "https://youtube.com/@thesassjacket",
       "channel_verified": true,
       "ytjobs_channel_id": 211498,
