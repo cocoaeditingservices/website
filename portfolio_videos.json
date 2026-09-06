@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-05",
+    "updated": "2026-09-06",
     "total_videos": 292,
-    "total_views_raw": 59258369,
-    "total_views": "59.26M",
+    "total_views_raw": 59292225,
+    "total_views": "59.29M",
     "total_likes": "1.41M",
-    "total_comments": "53.67K"
+    "total_comments": "53.72K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 218,
-      "total_views": 53896560,
+      "total_views": 53930416,
       "subscribers": "754K",
       "verified": true
     },
@@ -1169,6 +1169,21 @@
       "ytjobs_id": "1021348"
     },
     {
+      "title": "WordPress Is Eating Itself Alive",
+      "youtube_id": "AC8zIESRyVs",
+      "youtube_url": "https://www.youtube.com/watch?v=AC8zIESRyVs",
+      "thumbnail": "https://i.ytimg.com/vi/AC8zIESRyVs/mqdefault.jpg",
+      "views": 195797,
+      "views_formatted": "195.8K",
+      "likes_formatted": "3.48K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "754K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3514123"
+    },
+    {
       "title": "Functional Programming in 60 Seconds 👩‍💻 #tech #programming #software #python #javascript",
       "youtube_id": "r3YUoVRraJ4",
       "youtube_url": "https://www.youtube.com/watch?v=r3YUoVRraJ4",
@@ -1377,21 +1392,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1291469"
-    },
-    {
-      "title": "WordPress Is Eating Itself Alive",
-      "youtube_id": "AC8zIESRyVs",
-      "youtube_url": "https://www.youtube.com/watch?v=AC8zIESRyVs",
-      "thumbnail": "https://i.ytimg.com/vi/AC8zIESRyVs/mqdefault.jpg",
-      "views": 163764,
-      "views_formatted": "163.76K",
-      "likes_formatted": "3.08K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "754K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3514123"
     },
     {
       "title": "This JavaScript update is Incredible 💻 #technology #software #programming #code #javascript",
@@ -3269,6 +3269,21 @@
       "ytjobs_id": "3280416"
     },
     {
+      "title": "5 Agent Skills Every Developer Should Use",
+      "youtube_id": "OMnAJt9x7VY",
+      "youtube_url": "https://www.youtube.com/watch?v=OMnAJt9x7VY",
+      "thumbnail": "https://i.ytimg.com/vi/OMnAJt9x7VY/mqdefault.jpg",
+      "views": 11884,
+      "views_formatted": "11.88K",
+      "likes_formatted": "573",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "754K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3525223"
+    },
+    {
       "title": "5 Ways Hackers Break your Software",
       "youtube_id": "ZnccRc4ZtQI",
       "youtube_url": "https://www.youtube.com/watch?v=ZnccRc4ZtQI",
@@ -3297,21 +3312,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "3349019"
-    },
-    {
-      "title": "5 Agent Skills Every Developer Should Use",
-      "youtube_id": "OMnAJt9x7VY",
-      "youtube_url": "https://www.youtube.com/watch?v=OMnAJt9x7VY",
-      "thumbnail": "https://i.ytimg.com/vi/OMnAJt9x7VY/mqdefault.jpg",
-      "views": 10061,
-      "views_formatted": "10.06K",
-      "likes_formatted": "513",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "754K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3525223"
     },
     {
       "title": "I Gave This Fish $10,000 to Trade Stocks",
