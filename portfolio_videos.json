@@ -1,22 +1,22 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-06",
+    "updated": "2026-09-07",
     "total_videos": 292,
-    "total_views_raw": 59292225,
-    "total_views": "59.29M",
+    "total_views_raw": 59316917,
+    "total_views": "59.32M",
     "total_likes": "1.41M",
-    "total_comments": "53.72K"
+    "total_comments": "53.76K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 218,
-      "total_views": 53930416,
+      "total_views": 53954830,
       "subscribers": "754K",
       "verified": true
     },
     "Warp": {
       "video_count": 54,
-      "total_views": 5258086,
+      "total_views": 5258364,
       "subscribers": "113K",
       "verified": true
     },
@@ -1034,6 +1034,21 @@
       "ytjobs_id": "637429"
     },
     {
+      "title": "WordPress Is Eating Itself Alive",
+      "youtube_id": "AC8zIESRyVs",
+      "youtube_url": "https://www.youtube.com/watch?v=AC8zIESRyVs",
+      "thumbnail": "https://i.ytimg.com/vi/AC8zIESRyVs/mqdefault.jpg",
+      "views": 218089,
+      "views_formatted": "218.09K",
+      "likes_formatted": "3.85K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "754K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3514123"
+    },
+    {
       "title": "What is “Vibe Coding”!? 💻 #software #chatgpt #technology #programming #tech #code",
       "youtube_id": "z4Jv2PE0wkU",
       "youtube_url": "https://www.youtube.com/watch?v=z4Jv2PE0wkU",
@@ -1167,21 +1182,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1021348"
-    },
-    {
-      "title": "WordPress Is Eating Itself Alive",
-      "youtube_id": "AC8zIESRyVs",
-      "youtube_url": "https://www.youtube.com/watch?v=AC8zIESRyVs",
-      "thumbnail": "https://i.ytimg.com/vi/AC8zIESRyVs/mqdefault.jpg",
-      "views": 195797,
-      "views_formatted": "195.8K",
-      "likes_formatted": "3.48K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "754K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3514123"
     },
     {
       "title": "Functional Programming in 60 Seconds 👩‍💻 #tech #programming #software #python #javascript",
@@ -1428,8 +1428,8 @@
       "youtube_id": "M-qMklGGFLU",
       "youtube_url": "https://www.youtube.com/watch?v=M-qMklGGFLU",
       "thumbnail": "https://i.ytimg.com/vi/M-qMklGGFLU/mqdefault.jpg",
-      "views": 159177,
-      "views_formatted": "159.18K",
+      "views": 159887,
+      "views_formatted": "159.89K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "754K",
@@ -1908,8 +1908,8 @@
       "youtube_id": "YosOtEcYw48",
       "youtube_url": "https://www.youtube.com/watch?v=YosOtEcYw48",
       "thumbnail": "https://i.ytimg.com/vi/YosOtEcYw48/mqdefault.jpg",
-      "views": 109458,
-      "views_formatted": "109.46K",
+      "views": 109557,
+      "views_formatted": "109.56K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "754K",
@@ -2283,8 +2283,8 @@
       "youtube_id": "JRF_e2Egom4",
       "youtube_url": "https://www.youtube.com/watch?v=JRF_e2Egom4",
       "thumbnail": "https://i.ytimg.com/vi/JRF_e2Egom4/mqdefault.jpg",
-      "views": 86119,
-      "views_formatted": "86.12K",
+      "views": 86133,
+      "views_formatted": "86.13K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "754K",
@@ -3273,9 +3273,9 @@
       "youtube_id": "OMnAJt9x7VY",
       "youtube_url": "https://www.youtube.com/watch?v=OMnAJt9x7VY",
       "thumbnail": "https://i.ytimg.com/vi/OMnAJt9x7VY/mqdefault.jpg",
-      "views": 11884,
-      "views_formatted": "11.88K",
-      "likes_formatted": "573",
+      "views": 12886,
+      "views_formatted": "12.89K",
+      "likes_formatted": "610",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "754K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -3318,9 +3318,9 @@
       "youtube_id": "cjoYPSbzHV0",
       "youtube_url": "https://www.youtube.com/watch?v=cjoYPSbzHV0",
       "thumbnail": "https://i.ytimg.com/vi/cjoYPSbzHV0/mqdefault.jpg",
-      "views": 9291,
-      "views_formatted": "9.29K",
-      "likes_formatted": "511",
+      "views": 9588,
+      "views_formatted": "9.59K",
+      "likes_formatted": "514",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "754K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -4124,6 +4124,21 @@
       "ytjobs_id": "869227"
     },
     {
+      "title": "Introducing Warp CLI (Beta)",
+      "youtube_id": "hV6UdEf3C1I",
+      "youtube_url": "https://www.youtube.com/watch?v=hV6UdEf3C1I",
+      "thumbnail": "https://i.ytimg.com/vi/hV6UdEf3C1I/mqdefault.jpg",
+      "views": 18838,
+      "views_formatted": "18.84K",
+      "likes_formatted": "598",
+      "channel_name": "Warp",
+      "channel_subscribers": "113K",
+      "channel_yt_link": "https://youtube.com/@warpdotdev",
+      "channel_verified": true,
+      "ytjobs_channel_id": 211499,
+      "ytjobs_id": "2121346"
+    },
+    {
       "title": "The EASIEST way to build terminal apps 👩‍💻 #softwaredeveloper #tech #developer #technology #coding",
       "youtube_id": "VSBiuEcI-hg",
       "youtube_url": "https://www.youtube.com/watch?v=VSBiuEcI-hg",
@@ -4152,21 +4167,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 211499,
       "ytjobs_id": "869233"
-    },
-    {
-      "title": "Introducing Warp CLI (Beta)",
-      "youtube_id": "hV6UdEf3C1I",
-      "youtube_url": "https://www.youtube.com/watch?v=hV6UdEf3C1I",
-      "thumbnail": "https://i.ytimg.com/vi/hV6UdEf3C1I/mqdefault.jpg",
-      "views": 18560,
-      "views_formatted": "18.56K",
-      "likes_formatted": "594",
-      "channel_name": "Warp",
-      "channel_subscribers": "113K",
-      "channel_yt_link": "https://youtube.com/@warpdotdev",
-      "channel_verified": true,
-      "ytjobs_channel_id": 211499,
-      "ytjobs_id": "2121346"
     },
     {
       "title": "MS Paint in the command line!? 👩‍💻 #developer #softwaredeveloper #tech #programmer #code",
