@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-10",
+    "updated": "2026-09-11",
     "total_videos": 292,
-    "total_views_raw": 59397720,
-    "total_views": "59.4M",
+    "total_views_raw": 59411083,
+    "total_views": "59.41M",
     "total_likes": "1.41M",
-    "total_comments": "53.93K"
+    "total_comments": "53.94K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 218,
-      "total_views": 54035633,
+      "total_views": 54048996,
       "subscribers": "756K",
       "verified": true
     },
@@ -749,6 +749,21 @@
       "ytjobs_id": "637434"
     },
     {
+      "title": "WordPress Is Eating Itself Alive",
+      "youtube_id": "AC8zIESRyVs",
+      "youtube_url": "https://www.youtube.com/watch?v=AC8zIESRyVs",
+      "thumbnail": "https://i.ytimg.com/vi/AC8zIESRyVs/mqdefault.jpg",
+      "views": 306833,
+      "views_formatted": "306.83K",
+      "likes_formatted": "5.29K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "756K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3514123"
+    },
+    {
       "title": "Atom: The Editor That Accidentally Built Its Own Killer",
       "youtube_id": "QsTYFsmCL5E",
       "youtube_url": "https://www.youtube.com/watch?v=QsTYFsmCL5E",
@@ -762,21 +777,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2396676"
-    },
-    {
-      "title": "WordPress Is Eating Itself Alive",
-      "youtube_id": "AC8zIESRyVs",
-      "youtube_url": "https://www.youtube.com/watch?v=AC8zIESRyVs",
-      "thumbnail": "https://i.ytimg.com/vi/AC8zIESRyVs/mqdefault.jpg",
-      "views": 294431,
-      "views_formatted": "294.43K",
-      "likes_formatted": "5.1K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "756K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3514123"
     },
     {
       "title": "The BRAINROT programming language 💀 #software #programming #technology #code #development #memes",
@@ -2838,8 +2838,8 @@
       "youtube_id": "nz0_wi1T578",
       "youtube_url": "https://www.youtube.com/watch?v=nz0_wi1T578",
       "thumbnail": "https://i.ytimg.com/vi/nz0_wi1T578/mqdefault.jpg",
-      "views": 41240,
-      "views_formatted": "41.24K",
+      "views": 41279,
+      "views_formatted": "41.28K",
       "likes_formatted": "1.31K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "756K",
@@ -3258,9 +3258,9 @@
       "youtube_id": "OMnAJt9x7VY",
       "youtube_url": "https://www.youtube.com/watch?v=OMnAJt9x7VY",
       "thumbnail": "https://i.ytimg.com/vi/OMnAJt9x7VY/mqdefault.jpg",
-      "views": 17347,
-      "views_formatted": "17.35K",
-      "likes_formatted": "758",
+      "views": 18269,
+      "views_formatted": "18.27K",
+      "likes_formatted": "792",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "756K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
