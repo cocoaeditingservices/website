@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-11",
+    "updated": "2026-09-12",
     "total_videos": 292,
-    "total_views_raw": 59411083,
+    "total_views_raw": 59412240,
     "total_views": "59.41M",
     "total_likes": "1.41M",
     "total_comments": "53.94K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 218,
-      "total_views": 54048996,
+      "total_views": 54050153,
       "subscribers": "756K",
       "verified": true
     },
@@ -1634,6 +1634,21 @@
       "ytjobs_id": "868693"
     },
     {
+      "title": "Web Frameworks for 5 Different Programming Languages 👩‍💻 #software #technology #coding #code",
+      "youtube_id": "18D5ENolDF8",
+      "youtube_url": "https://www.youtube.com/watch?v=18D5ENolDF8",
+      "thumbnail": "https://i.ytimg.com/vi/18D5ENolDF8/mqdefault.jpg",
+      "views": 138423,
+      "views_formatted": "138.42K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "756K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1054384"
+    },
+    {
       "title": "This game HACKED its console 👾👩‍💻 #programming #technology #software #code #tech #gaming",
       "youtube_id": "QiEnt_yOXic",
       "youtube_url": "https://www.youtube.com/watch?v=QiEnt_yOXic",
@@ -1647,21 +1662,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868680"
-    },
-    {
-      "title": "Web Frameworks for 5 Different Programming Languages 👩‍💻 #software #technology #coding #code",
-      "youtube_id": "18D5ENolDF8",
-      "youtube_url": "https://www.youtube.com/watch?v=18D5ENolDF8",
-      "thumbnail": "https://i.ytimg.com/vi/18D5ENolDF8/mqdefault.jpg",
-      "views": 138296,
-      "views_formatted": "138.3K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "756K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1054384"
     },
     {
       "title": "This programmer is LEGENDARY 👩‍💻 #programming #technology #software #code #tech #opensource",
@@ -1923,8 +1923,8 @@
       "youtube_id": "OGKn8Zj2FkI",
       "youtube_url": "https://www.youtube.com/watch?v=OGKn8Zj2FkI",
       "thumbnail": "https://i.ytimg.com/vi/OGKn8Zj2FkI/mqdefault.jpg",
-      "views": 108918,
-      "views_formatted": "108.92K",
+      "views": 108960,
+      "views_formatted": "108.96K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "756K",
@@ -2913,8 +2913,8 @@
       "youtube_id": "rBKRTtV6en0",
       "youtube_url": "https://www.youtube.com/watch?v=rBKRTtV6en0",
       "thumbnail": "https://i.ytimg.com/vi/rBKRTtV6en0/mqdefault.jpg",
-      "views": 32973,
-      "views_formatted": "32.97K",
+      "views": 33099,
+      "views_formatted": "33.1K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "756K",
@@ -3258,9 +3258,9 @@
       "youtube_id": "OMnAJt9x7VY",
       "youtube_url": "https://www.youtube.com/watch?v=OMnAJt9x7VY",
       "thumbnail": "https://i.ytimg.com/vi/OMnAJt9x7VY/mqdefault.jpg",
-      "views": 18269,
-      "views_formatted": "18.27K",
-      "likes_formatted": "792",
+      "views": 19131,
+      "views_formatted": "19.13K",
+      "likes_formatted": "843",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "756K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
