@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-12",
+    "updated": "2026-09-13",
     "total_videos": 292,
-    "total_views_raw": 59412240,
-    "total_views": "59.41M",
+    "total_views_raw": 59418321,
+    "total_views": "59.42M",
     "total_likes": "1.41M",
     "total_comments": "53.94K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 218,
-      "total_views": 54050153,
+      "total_views": 54056234,
       "subscribers": "756K",
       "verified": true
     },
@@ -2178,8 +2178,8 @@
       "youtube_id": "I_EehEQ3sYI",
       "youtube_url": "https://www.youtube.com/watch?v=I_EehEQ3sYI",
       "thumbnail": "https://i.ytimg.com/vi/I_EehEQ3sYI/mqdefault.jpg",
-      "views": 89753,
-      "views_formatted": "89.75K",
+      "views": 90201,
+      "views_formatted": "90.2K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "756K",
@@ -2699,6 +2699,21 @@
       "ytjobs_id": "939503"
     },
     {
+      "title": "INSIDE a Data Center with 90,000+ Servers 💻",
+      "youtube_id": "1jGdRjkhOYE",
+      "youtube_url": "https://www.youtube.com/watch?v=1jGdRjkhOYE",
+      "thumbnail": "https://i.ytimg.com/vi/1jGdRjkhOYE/mqdefault.jpg",
+      "views": 53989,
+      "views_formatted": "53.99K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "756K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2132968"
+    },
+    {
       "title": "A programming language for DOGS!? 💻🐕 #programming #tech #code #software #technology #developer",
       "youtube_id": "SyMnotwVf54",
       "youtube_url": "https://www.youtube.com/watch?v=SyMnotwVf54",
@@ -2772,21 +2787,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2661917"
-    },
-    {
-      "title": "INSIDE a Data Center with 90,000+ Servers 💻",
-      "youtube_id": "1jGdRjkhOYE",
-      "youtube_url": "https://www.youtube.com/watch?v=1jGdRjkhOYE",
-      "thumbnail": "https://i.ytimg.com/vi/1jGdRjkhOYE/mqdefault.jpg",
-      "views": 49074,
-      "views_formatted": "49.07K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "756K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2132968"
     },
     {
       "title": "The iconic “Keygen” Software 👩‍💻💀 #software #technology #code #programming #developer #retrotech",
@@ -3239,6 +3239,21 @@
       "ytjobs_id": "954079"
     },
     {
+      "title": "5 Agent Skills Every Developer Should Use",
+      "youtube_id": "OMnAJt9x7VY",
+      "youtube_url": "https://www.youtube.com/watch?v=OMnAJt9x7VY",
+      "thumbnail": "https://i.ytimg.com/vi/OMnAJt9x7VY/mqdefault.jpg",
+      "views": 19849,
+      "views_formatted": "19.85K",
+      "likes_formatted": "864",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "756K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3525223"
+    },
+    {
       "title": "5 Software Errors That Will Destroy Your Code",
       "youtube_id": "Tyw5bZMSCp4",
       "youtube_url": "https://www.youtube.com/watch?v=Tyw5bZMSCp4",
@@ -3252,21 +3267,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1026842"
-    },
-    {
-      "title": "5 Agent Skills Every Developer Should Use",
-      "youtube_id": "OMnAJt9x7VY",
-      "youtube_url": "https://www.youtube.com/watch?v=OMnAJt9x7VY",
-      "thumbnail": "https://i.ytimg.com/vi/OMnAJt9x7VY/mqdefault.jpg",
-      "views": 19131,
-      "views_formatted": "19.13K",
-      "likes_formatted": "843",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "756K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3525223"
     },
     {
       "title": "I Built a Robot Arm to Run My Coffee Shop",
