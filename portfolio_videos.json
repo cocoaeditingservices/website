@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-13",
-    "total_videos": 292,
-    "total_views_raw": 59418321,
+    "updated": "2026-09-14",
+    "total_videos": 293,
+    "total_views_raw": 59418673,
     "total_views": "59.42M",
     "total_likes": "1.41M",
     "total_comments": "53.94K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 218,
-      "total_views": 54056234,
+      "total_views": 54056583,
       "subscribers": "756K",
       "verified": true
     },
@@ -55,6 +55,12 @@
       "total_views": 194,
       "subscribers": "773",
       "verified": false
+    },
+    "Will.": {
+      "video_count": 1,
+      "total_views": 3,
+      "subscribers": "442",
+      "verified": true
     }
   },
   "all_videos": [
@@ -2654,6 +2660,21 @@
       "ytjobs_id": "1643760"
     },
     {
+      "title": "The CRAZIEST Redemption Arc in Gaming History 💻🕹️",
+      "youtube_id": "KjEhjA-1fGY",
+      "youtube_url": "https://www.youtube.com/watch?v=KjEhjA-1fGY",
+      "thumbnail": "https://i.ytimg.com/vi/KjEhjA-1fGY/mqdefault.jpg",
+      "views": 59804,
+      "views_formatted": "59.8K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "756K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1482866"
+    },
+    {
       "title": "Why Programmers use Rubber Ducks 👩‍💻#technology #programmer #computerprogrammer #softwaredeveloper",
       "youtube_id": "1IHN3IseP2E",
       "youtube_url": "https://www.youtube.com/watch?v=1IHN3IseP2E",
@@ -2667,21 +2688,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868664"
-    },
-    {
-      "title": "The CRAZIEST Redemption Arc in Gaming History 💻🕹️",
-      "youtube_id": "KjEhjA-1fGY",
-      "youtube_url": "https://www.youtube.com/watch?v=KjEhjA-1fGY",
-      "thumbnail": "https://i.ytimg.com/vi/KjEhjA-1fGY/mqdefault.jpg",
-      "views": 59455,
-      "views_formatted": "59.46K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "756K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1482866"
     },
     {
       "title": "How developers built FORUMS back in the day 👩‍💻 #tech #software #programming #code #technology",
@@ -4437,6 +4443,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 211499,
       "ytjobs_id": "2005081"
+    },
+    {
+      "title": "The Company On Every Bus Stop You've Ever Seen",
+      "youtube_id": "jDcpU1PznGg",
+      "youtube_url": "https://www.youtube.com/watch?v=jDcpU1PznGg",
+      "thumbnail": "https://i.ytimg.com/vi/jDcpU1PznGg/mqdefault.jpg",
+      "views": 3,
+      "views_formatted": "3",
+      "likes_formatted": "1",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3571131"
     }
   ]
 }
