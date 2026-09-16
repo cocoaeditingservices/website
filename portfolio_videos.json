@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-15",
+    "updated": "2026-09-16",
     "total_videos": 293,
-    "total_views_raw": 59418926,
+    "total_views_raw": 59422420,
     "total_views": "59.42M",
     "total_likes": "1.41M",
-    "total_comments": "53.94K"
+    "total_comments": "53.95K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 218,
-      "total_views": 54056831,
+      "total_views": 54059802,
       "subscribers": "756K",
       "verified": true
     },
@@ -44,6 +44,12 @@
       "subscribers": "34.6K",
       "verified": false
     },
+    "Will.": {
+      "video_count": 1,
+      "total_views": 531,
+      "subscribers": "442",
+      "verified": true
+    },
     "TheSassJacket": {
       "video_count": 1,
       "total_views": 422,
@@ -55,12 +61,6 @@
       "total_views": 194,
       "subscribers": "773",
       "verified": false
-    },
-    "Will.": {
-      "video_count": 1,
-      "total_views": 8,
-      "subscribers": "442",
-      "verified": true
     }
   },
   "all_videos": [
@@ -2720,6 +2720,21 @@
       "ytjobs_id": "2132968"
     },
     {
+      "title": "$1.7 billion website. 6 people enrolled.",
+      "youtube_id": "dyO7142L-_E",
+      "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
+      "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
+      "views": 52710,
+      "views_formatted": "52.71K",
+      "likes_formatted": "2.68K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "756K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3164612"
+    },
+    {
       "title": "A programming language for DOGS!? 💻🐕 #programming #tech #code #software #technology #developer",
       "youtube_id": "SyMnotwVf54",
       "youtube_url": "https://www.youtube.com/watch?v=SyMnotwVf54",
@@ -2748,21 +2763,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "212323"
-    },
-    {
-      "title": "$1.7 billion website. 6 people enrolled.",
-      "youtube_id": "dyO7142L-_E",
-      "youtube_url": "https://www.youtube.com/watch?v=dyO7142L-_E",
-      "thumbnail": "https://i.ytimg.com/vi/dyO7142L-_E/mqdefault.jpg",
-      "views": 49739,
-      "views_formatted": "49.74K",
-      "likes_formatted": "2.56K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "756K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3164612"
     },
     {
       "title": "you NEED these to build your AI app",
@@ -4449,9 +4449,9 @@
       "youtube_id": "jDcpU1PznGg",
       "youtube_url": "https://www.youtube.com/watch?v=jDcpU1PznGg",
       "thumbnail": "https://i.ytimg.com/vi/jDcpU1PznGg/mqdefault.jpg",
-      "views": 8,
-      "views_formatted": "8",
-      "likes_formatted": "3",
+      "views": 531,
+      "views_formatted": "531",
+      "likes_formatted": "10",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
