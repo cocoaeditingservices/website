@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-17",
-    "total_videos": 293,
-    "total_views_raw": 59422443,
+    "updated": "2026-09-18",
+    "total_videos": 295,
+    "total_views_raw": 59423046,
     "total_views": "59.42M",
     "total_likes": "1.41M",
-    "total_comments": "53.95K"
+    "total_comments": "53.96K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 218,
-      "total_views": 54059840,
+      "total_views": 54059951,
       "subscribers": "756K",
       "verified": true
     },
@@ -45,8 +45,8 @@
       "verified": false
     },
     "Will.": {
-      "video_count": 1,
-      "total_views": 516,
+      "video_count": 3,
+      "total_views": 1008,
       "subscribers": "442",
       "verified": true
     },
@@ -2979,8 +2979,8 @@
       "youtube_id": "Stcqh4BqlIY",
       "youtube_url": "https://www.youtube.com/watch?v=Stcqh4BqlIY",
       "thumbnail": "https://i.ytimg.com/vi/Stcqh4BqlIY/mqdefault.jpg",
-      "views": 30272,
-      "views_formatted": "30.27K",
+      "views": 30383,
+      "views_formatted": "30.38K",
       "likes_formatted": "966",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "756K",
@@ -4449,15 +4449,45 @@
       "youtube_id": "jDcpU1PznGg",
       "youtube_url": "https://www.youtube.com/watch?v=jDcpU1PznGg",
       "thumbnail": "https://i.ytimg.com/vi/jDcpU1PznGg/mqdefault.jpg",
-      "views": 516,
-      "views_formatted": "516",
-      "likes_formatted": "10",
+      "views": 530,
+      "views_formatted": "530",
+      "likes_formatted": "11",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3571131"
+    },
+    {
+      "title": "Everyone Suddenly Thinks AI Will Kill Us",
+      "youtube_id": "XVv5dYnkXE8",
+      "youtube_url": "https://www.youtube.com/watch?v=XVv5dYnkXE8",
+      "thumbnail": "https://i.ytimg.com/vi/XVv5dYnkXE8/mqdefault.jpg",
+      "views": 476,
+      "views_formatted": "476",
+      "likes_formatted": "38",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3588540"
+    },
+    {
+      "title": "Scientists Just Unlocked \"Quantum Teleportation\"",
+      "youtube_id": "OR1SdNy7MyE",
+      "youtube_url": "https://www.youtube.com/watch?v=OR1SdNy7MyE",
+      "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/mqdefault.jpg",
+      "views": 2,
+      "views_formatted": "2",
+      "likes_formatted": "0",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3589223"
     }
   ]
 }
