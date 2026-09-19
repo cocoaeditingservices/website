@@ -1,9 +1,9 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-18",
+    "updated": "2026-09-19",
     "total_videos": 295,
-    "total_views_raw": 59423046,
-    "total_views": "59.42M",
+    "total_views_raw": 59425604,
+    "total_views": "59.43M",
     "total_likes": "1.41M",
     "total_comments": "53.96K"
   },
@@ -41,12 +41,12 @@
     "GitKraken": {
       "video_count": 1,
       "total_views": 7510,
-      "subscribers": "34.6K",
+      "subscribers": "34.7K",
       "verified": false
     },
     "Will.": {
       "video_count": 3,
-      "total_views": 1008,
+      "total_views": 3566,
       "subscribers": "442",
       "verified": true
     },
@@ -59,7 +59,7 @@
     "Fast Forward": {
       "video_count": 1,
       "total_views": 194,
-      "subscribers": "773",
+      "subscribers": "772",
       "verified": false
     }
   },
@@ -3388,7 +3388,7 @@
       "views_formatted": "194",
       "likes_formatted": "4",
       "channel_name": "Fast Forward",
-      "channel_subscribers": "773",
+      "channel_subscribers": "772",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163947,
@@ -3403,7 +3403,7 @@
       "views_formatted": "7.51K",
       "likes_formatted": "388",
       "channel_name": "GitKraken",
-      "channel_subscribers": "34.6K",
+      "channel_subscribers": "34.7K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163946,
@@ -4445,28 +4445,28 @@
       "ytjobs_id": "2005081"
     },
     {
-      "title": "The Company On Every Bus Stop You've Ever Seen",
-      "youtube_id": "jDcpU1PznGg",
-      "youtube_url": "https://www.youtube.com/watch?v=jDcpU1PznGg",
-      "thumbnail": "https://i.ytimg.com/vi/jDcpU1PznGg/mqdefault.jpg",
-      "views": 530,
-      "views_formatted": "530",
-      "likes_formatted": "11",
+      "title": "Scientists Just Unlocked \"Quantum Teleportation\"",
+      "youtube_id": "OR1SdNy7MyE",
+      "youtube_url": "https://www.youtube.com/watch?v=OR1SdNy7MyE",
+      "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/mqdefault.jpg",
+      "views": 1677,
+      "views_formatted": "1.68K",
+      "likes_formatted": "44",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3571131"
+      "ytjobs_id": "3589223"
     },
     {
       "title": "Everyone Suddenly Thinks AI Will Kill Us",
       "youtube_id": "XVv5dYnkXE8",
       "youtube_url": "https://www.youtube.com/watch?v=XVv5dYnkXE8",
       "thumbnail": "https://i.ytimg.com/vi/XVv5dYnkXE8/mqdefault.jpg",
-      "views": 476,
-      "views_formatted": "476",
-      "likes_formatted": "38",
+      "views": 1358,
+      "views_formatted": "1.36K",
+      "likes_formatted": "39",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4475,19 +4475,19 @@
       "ytjobs_id": "3588540"
     },
     {
-      "title": "Scientists Just Unlocked \"Quantum Teleportation\"",
-      "youtube_id": "OR1SdNy7MyE",
-      "youtube_url": "https://www.youtube.com/watch?v=OR1SdNy7MyE",
-      "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/mqdefault.jpg",
-      "views": 2,
-      "views_formatted": "2",
-      "likes_formatted": "0",
+      "title": "The Company On Every Bus Stop You've Ever Seen",
+      "youtube_id": "jDcpU1PznGg",
+      "youtube_url": "https://www.youtube.com/watch?v=jDcpU1PznGg",
+      "thumbnail": "https://i.ytimg.com/vi/jDcpU1PznGg/mqdefault.jpg",
+      "views": 531,
+      "views_formatted": "531",
+      "likes_formatted": "11",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3589223"
+      "ytjobs_id": "3571131"
     }
   ]
 }
