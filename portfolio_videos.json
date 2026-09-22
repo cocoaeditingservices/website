@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-21",
-    "total_videos": 296,
-    "total_views_raw": 59427624,
-    "total_views": "59.43M",
-    "total_likes": "1.41M",
-    "total_comments": "53.96K"
+    "updated": "2026-09-22",
+    "total_videos": 297,
+    "total_views_raw": 59620388,
+    "total_views": "59.62M",
+    "total_likes": "1.42M",
+    "total_comments": "54.18K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 218,
-      "total_views": 54060299,
+      "total_views": 54253112,
       "subscribers": "756K",
       "verified": true
     },
@@ -45,8 +45,8 @@
       "verified": false
     },
     "Will.": {
-      "video_count": 4,
-      "total_views": 5238,
+      "video_count": 5,
+      "total_views": 5189,
       "subscribers": "442",
       "verified": true
     },
@@ -650,6 +650,21 @@
       "ytjobs_id": "1014246"
     },
     {
+      "title": "The Database That Should Be Dead but Runs the Internet",
+      "youtube_id": "_CB_Aa2ODeM",
+      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
+      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
+      "views": 340137,
+      "views_formatted": "340.14K",
+      "likes_formatted": "10.79K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "756K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3186370"
+    },
+    {
       "title": "10 Sorting Algorithms Easily Explained",
       "youtube_id": "rbbTd-gkajw",
       "youtube_url": "https://www.youtube.com/watch?v=rbbTd-gkajw",
@@ -1074,8 +1089,8 @@
       "youtube_id": "AJRGxd9cVaY",
       "youtube_url": "https://www.youtube.com/watch?v=AJRGxd9cVaY",
       "thumbnail": "https://i.ytimg.com/vi/AJRGxd9cVaY/mqdefault.jpg",
-      "views": 207406,
-      "views_formatted": "207.41K",
+      "views": 208841,
+      "views_formatted": "208.84K",
       "likes_formatted": "6.74K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "756K",
@@ -1533,21 +1548,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868668"
-    },
-    {
-      "title": "The Database That Should Be Dead but Runs the Internet",
-      "youtube_id": "_CB_Aa2ODeM",
-      "youtube_url": "https://www.youtube.com/watch?v=_CB_Aa2ODeM",
-      "thumbnail": "https://i.ytimg.com/vi/_CB_Aa2ODeM/mqdefault.jpg",
-      "views": 148923,
-      "views_formatted": "148.92K",
-      "likes_formatted": "6.24K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "756K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3186370"
     },
     {
       "title": "JavaScript is overly complex 👩‍💻 #programming #technology #software #code #business #javascript",
@@ -2934,8 +2934,8 @@
       "youtube_id": "wAZvPXEp3ug",
       "youtube_url": "https://www.youtube.com/watch?v=wAZvPXEp3ug",
       "thumbnail": "https://i.ytimg.com/vi/wAZvPXEp3ug/mqdefault.jpg",
-      "views": 31787,
-      "views_formatted": "31.79K",
+      "views": 31951,
+      "views_formatted": "31.95K",
       "likes_formatted": "1.15K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "756K",
@@ -4449,9 +4449,9 @@
       "youtube_id": "OR1SdNy7MyE",
       "youtube_url": "https://www.youtube.com/watch?v=OR1SdNy7MyE",
       "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/mqdefault.jpg",
-      "views": 1824,
-      "views_formatted": "1.82K",
-      "likes_formatted": "46",
+      "views": 1740,
+      "views_formatted": "1.74K",
+      "likes_formatted": "47",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4464,9 +4464,9 @@
       "youtube_id": "FfPjm9Dnf-E",
       "youtube_url": "https://www.youtube.com/watch?v=FfPjm9Dnf-E",
       "thumbnail": "https://i.ytimg.com/vi/FfPjm9Dnf-E/mqdefault.jpg",
-      "views": 1570,
-      "views_formatted": "1.57K",
-      "likes_formatted": "34",
+      "views": 1586,
+      "views_formatted": "1.59K",
+      "likes_formatted": "36",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4494,8 +4494,8 @@
       "youtube_id": "jDcpU1PznGg",
       "youtube_url": "https://www.youtube.com/watch?v=jDcpU1PznGg",
       "thumbnail": "https://i.ytimg.com/vi/jDcpU1PznGg/mqdefault.jpg",
-      "views": 531,
-      "views_formatted": "531",
+      "views": 534,
+      "views_formatted": "534",
       "likes_formatted": "13",
       "channel_name": "Will.",
       "channel_subscribers": "442",
@@ -4503,6 +4503,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3571131"
+    },
+    {
+      "title": "Nobody Actually Chose Gold As Money",
+      "youtube_id": "QC2pbLfLXOw",
+      "youtube_url": "https://www.youtube.com/watch?v=QC2pbLfLXOw",
+      "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/mqdefault.jpg",
+      "views": 16,
+      "views_formatted": "16",
+      "likes_formatted": "0",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3610017"
     }
   ]
 }

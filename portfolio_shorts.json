@@ -1,13 +1,24 @@
 {
- "total": 219,
+ "total": 220,
  "videos": [
+  {
+   "id": "3610017",
+   "title": "Nobody Actually Chose Gold As Money",
+   "youtube_id": "QC2pbLfLXOw",
+   "youtube_url": "https://www.youtube.com/shorts/QC2pbLfLXOw",
+   "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/oar2.jpg",
+   "views_formatted": "16",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3600373",
    "title": "Why Don't Games Look Like This Anymore?",
    "youtube_id": "FfPjm9Dnf-E",
    "youtube_url": "https://www.youtube.com/shorts/FfPjm9Dnf-E",
    "thumbnail": "https://i.ytimg.com/vi/FfPjm9Dnf-E/oar2.jpg",
-   "views_formatted": "1.57K",
+   "views_formatted": "1.59K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -18,7 +29,7 @@
    "youtube_id": "OR1SdNy7MyE",
    "youtube_url": "https://www.youtube.com/shorts/OR1SdNy7MyE",
    "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/oar2.jpg",
-   "views_formatted": "1.82K",
+   "views_formatted": "1.74K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -40,7 +51,7 @@
    "youtube_id": "jDcpU1PznGg",
    "youtube_url": "https://www.youtube.com/shorts/jDcpU1PznGg",
    "thumbnail": "https://i.ytimg.com/vi/jDcpU1PznGg/oar2.jpg",
-   "views_formatted": "531",
+   "views_formatted": "534",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -161,7 +172,7 @@
    "youtube_id": "wAZvPXEp3ug",
    "youtube_url": "https://www.youtube.com/shorts/wAZvPXEp3ug",
    "thumbnail": "https://i.ytimg.com/vi/wAZvPXEp3ug/oar2.jpg",
-   "views_formatted": "31.79K",
+   "views_formatted": "31.95K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 72
