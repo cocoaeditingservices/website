@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-25",
-    "total_videos": 299,
-    "total_views_raw": 59680765,
-    "total_views": "59.68M",
+    "updated": "2026-09-26",
+    "total_videos": 300,
+    "total_views_raw": 59840732,
+    "total_views": "59.84M",
     "total_likes": "1.42M",
-    "total_comments": "54.23K"
+    "total_comments": "54.45K"
   },
   "channels": {
     "Coding with Lewis": {
-      "video_count": 219,
-      "total_views": 54308124,
+      "video_count": 220,
+      "total_views": 54465141,
       "subscribers": "758K",
       "verified": true
     },
@@ -40,7 +40,7 @@
     },
     "Will.": {
       "video_count": 6,
-      "total_views": 10554,
+      "total_views": 13504,
       "subscribers": "442",
       "verified": true
     },
@@ -1610,6 +1610,21 @@
       "ytjobs_id": "868658"
     },
     {
+      "title": "WTF is going on at GitHub?",
+      "youtube_id": "WqtqmseDgNw",
+      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
+      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
+      "views": 144140,
+      "views_formatted": "144.14K",
+      "likes_formatted": "3.79K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3630356"
+    },
+    {
       "title": "These microcomputers are IMPOSSIBLE to find 💻 #programming #technology #software #tech #business",
       "youtube_id": "StznyxY8Bwo",
       "youtube_url": "https://www.youtube.com/watch?v=StznyxY8Bwo",
@@ -2525,6 +2540,21 @@
       "ytjobs_id": "868696"
     },
     {
+      "title": "Every Developer needs a screen like this",
+      "youtube_id": "g35VnTUNQic",
+      "youtube_url": "https://www.youtube.com/watch?v=g35VnTUNQic",
+      "thumbnail": "https://i.ytimg.com/vi/g35VnTUNQic/mqdefault.jpg",
+      "views": 67304,
+      "views_formatted": "67.3K",
+      "likes_formatted": "1.5K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3615699"
+    },
+    {
       "title": "8 Techs I'm Learning to Stay Ahead of the Game",
       "youtube_id": "Hl3NFOpP68g",
       "youtube_url": "https://www.youtube.com/watch?v=Hl3NFOpP68g",
@@ -2703,21 +2733,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "939503"
-    },
-    {
-      "title": "Every Developer needs a screen like this",
-      "youtube_id": "g35VnTUNQic",
-      "youtube_url": "https://www.youtube.com/watch?v=g35VnTUNQic",
-      "thumbnail": "https://i.ytimg.com/vi/g35VnTUNQic/mqdefault.jpg",
-      "views": 54427,
-      "views_formatted": "54.43K",
-      "likes_formatted": "1.23K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3615699"
     },
     {
       "title": "INSIDE a Data Center with 90,000+ Servers 💻",
@@ -4464,9 +4479,9 @@
       "youtube_id": "QC2pbLfLXOw",
       "youtube_url": "https://www.youtube.com/watch?v=QC2pbLfLXOw",
       "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/mqdefault.jpg",
-      "views": 4070,
-      "views_formatted": "4.07K",
-      "likes_formatted": "154",
+      "views": 6870,
+      "views_formatted": "6.87K",
+      "likes_formatted": "293",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4479,7 +4494,7 @@
       "youtube_id": "OR1SdNy7MyE",
       "youtube_url": "https://www.youtube.com/watch?v=OR1SdNy7MyE",
       "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/mqdefault.jpg",
-      "views": 1760,
+      "views": 1764,
       "views_formatted": "1.76K",
       "likes_formatted": "47",
       "channel_name": "Will.",
@@ -4494,9 +4509,9 @@
       "youtube_id": "FfPjm9Dnf-E",
       "youtube_url": "https://www.youtube.com/watch?v=FfPjm9Dnf-E",
       "thumbnail": "https://i.ytimg.com/vi/FfPjm9Dnf-E/mqdefault.jpg",
-      "views": 1566,
+      "views": 1573,
       "views_formatted": "1.57K",
-      "likes_formatted": "36",
+      "likes_formatted": "38",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4505,11 +4520,26 @@
       "ytjobs_id": "3600373"
     },
     {
+      "title": "This Guy Made $2 Million Drawing Boxes",
+      "youtube_id": "BtehhblZVq4",
+      "youtube_url": "https://www.youtube.com/watch?v=BtehhblZVq4",
+      "thumbnail": "https://i.ytimg.com/vi/BtehhblZVq4/mqdefault.jpg",
+      "views": 1437,
+      "views_formatted": "1.44K",
+      "likes_formatted": "39",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3625565"
+    },
+    {
       "title": "Everyone Suddenly Thinks AI Will Kill Us",
       "youtube_id": "XVv5dYnkXE8",
       "youtube_url": "https://www.youtube.com/watch?v=XVv5dYnkXE8",
       "thumbnail": "https://i.ytimg.com/vi/XVv5dYnkXE8/mqdefault.jpg",
-      "views": 1318,
+      "views": 1323,
       "views_formatted": "1.32K",
       "likes_formatted": "40",
       "channel_name": "Will.",
@@ -4518,21 +4548,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3588540"
-    },
-    {
-      "title": "This Guy Made $2 Million Drawing Boxes",
-      "youtube_id": "BtehhblZVq4",
-      "youtube_url": "https://www.youtube.com/watch?v=BtehhblZVq4",
-      "thumbnail": "https://i.ytimg.com/vi/BtehhblZVq4/mqdefault.jpg",
-      "views": 1303,
-      "views_formatted": "1.3K",
-      "likes_formatted": "31",
-      "channel_name": "Will.",
-      "channel_subscribers": "442",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3625565"
     },
     {
       "title": "The Company On Every Bus Stop You've Ever Seen",
