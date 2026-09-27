@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-26",
+    "updated": "2026-09-27",
     "total_videos": 300,
-    "total_views_raw": 59840732,
-    "total_views": "59.84M",
+    "total_views_raw": 59947911,
+    "total_views": "59.95M",
     "total_likes": "1.42M",
-    "total_comments": "54.45K"
+    "total_comments": "54.52K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 220,
-      "total_views": 54465141,
+      "total_views": 54571934,
       "subscribers": "758K",
       "verified": true
     },
@@ -40,7 +40,7 @@
     },
     "Will.": {
       "video_count": 6,
-      "total_views": 13504,
+      "total_views": 13890,
       "subscribers": "442",
       "verified": true
     },
@@ -140,6 +140,21 @@
       "ytjobs_id": "1657031"
     },
     {
+      "title": "Developers are OBSESSED with this 💻",
+      "youtube_id": "If2qFGAMtXg",
+      "youtube_url": "https://www.youtube.com/watch?v=If2qFGAMtXg",
+      "thumbnail": "https://i.ytimg.com/vi/If2qFGAMtXg/mqdefault.jpg",
+      "views": 1273595,
+      "views_formatted": "1.27M",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2186553"
+    },
+    {
       "title": "Why is Python SO slow!? 💀 #developer #tech #coder #softwareengineer #software #technology #tech",
       "youtube_id": "6ifc8RC4F3A",
       "youtube_url": "https://www.youtube.com/watch?v=6ifc8RC4F3A",
@@ -153,21 +168,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868657"
-    },
-    {
-      "title": "Developers are OBSESSED with this 💻",
-      "youtube_id": "If2qFGAMtXg",
-      "youtube_url": "https://www.youtube.com/watch?v=If2qFGAMtXg",
-      "thumbnail": "https://i.ytimg.com/vi/If2qFGAMtXg/mqdefault.jpg",
-      "views": 1236308,
-      "views_formatted": "1.24M",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2186553"
     },
     {
       "title": "These Game Developers are EXPERTS 👩‍💻 #technology #programmer #softwareengineer #coder #software",
@@ -1160,6 +1160,21 @@
       "ytjobs_id": "2086059"
     },
     {
+      "title": "WTF is going on at GitHub?",
+      "youtube_id": "WqtqmseDgNw",
+      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
+      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
+      "views": 199890,
+      "views_formatted": "199.89K",
+      "likes_formatted": "5.24K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3630356"
+    },
+    {
       "title": "The Most Downvoted Stack Overflow Posts of All Time",
       "youtube_id": "wBOW86q1Vlo",
       "youtube_url": "https://www.youtube.com/watch?v=wBOW86q1Vlo",
@@ -1608,21 +1623,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868658"
-    },
-    {
-      "title": "WTF is going on at GitHub?",
-      "youtube_id": "WqtqmseDgNw",
-      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
-      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
-      "views": 144140,
-      "views_formatted": "144.14K",
-      "likes_formatted": "3.79K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3630356"
     },
     {
       "title": "These microcomputers are IMPOSSIBLE to find 💻 #programming #technology #software #tech #business",
@@ -2330,6 +2330,21 @@
       "ytjobs_id": "975961"
     },
     {
+      "title": "Every Developer needs a screen like this",
+      "youtube_id": "g35VnTUNQic",
+      "youtube_url": "https://www.youtube.com/watch?v=g35VnTUNQic",
+      "thumbnail": "https://i.ytimg.com/vi/g35VnTUNQic/mqdefault.jpg",
+      "views": 81060,
+      "views_formatted": "81.06K",
+      "likes_formatted": "1.7K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3615699"
+    },
+    {
       "title": "You can play DOOM ANYWHERE 🙃 #software #gaming #code #programming #technology #developer",
       "youtube_id": "ftkTndS1eZc",
       "youtube_url": "https://www.youtube.com/watch?v=ftkTndS1eZc",
@@ -2538,21 +2553,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868696"
-    },
-    {
-      "title": "Every Developer needs a screen like this",
-      "youtube_id": "g35VnTUNQic",
-      "youtube_url": "https://www.youtube.com/watch?v=g35VnTUNQic",
-      "thumbnail": "https://i.ytimg.com/vi/g35VnTUNQic/mqdefault.jpg",
-      "views": 67304,
-      "views_formatted": "67.3K",
-      "likes_formatted": "1.5K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3615699"
     },
     {
       "title": "8 Techs I'm Learning to Stay Ahead of the Game",
@@ -4479,9 +4479,9 @@
       "youtube_id": "QC2pbLfLXOw",
       "youtube_url": "https://www.youtube.com/watch?v=QC2pbLfLXOw",
       "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/mqdefault.jpg",
-      "views": 6870,
-      "views_formatted": "6.87K",
-      "likes_formatted": "293",
+      "views": 7125,
+      "views_formatted": "7.13K",
+      "likes_formatted": "291",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4494,8 +4494,8 @@
       "youtube_id": "OR1SdNy7MyE",
       "youtube_url": "https://www.youtube.com/watch?v=OR1SdNy7MyE",
       "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/mqdefault.jpg",
-      "views": 1764,
-      "views_formatted": "1.76K",
+      "views": 1767,
+      "views_formatted": "1.77K",
       "likes_formatted": "47",
       "channel_name": "Will.",
       "channel_subscribers": "442",
@@ -4524,9 +4524,9 @@
       "youtube_id": "BtehhblZVq4",
       "youtube_url": "https://www.youtube.com/watch?v=BtehhblZVq4",
       "thumbnail": "https://i.ytimg.com/vi/BtehhblZVq4/mqdefault.jpg",
-      "views": 1437,
-      "views_formatted": "1.44K",
-      "likes_formatted": "39",
+      "views": 1565,
+      "views_formatted": "1.57K",
+      "likes_formatted": "44",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
