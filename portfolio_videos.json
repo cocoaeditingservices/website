@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-27",
-    "total_videos": 300,
-    "total_views_raw": 59947911,
-    "total_views": "59.95M",
-    "total_likes": "1.42M",
-    "total_comments": "54.52K"
+    "updated": "2026-09-28",
+    "total_videos": 302,
+    "total_views_raw": 60000469,
+    "total_views": "60M",
+    "total_likes": "1.43M",
+    "total_comments": "54.6K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 220,
-      "total_views": 54571934,
+      "total_views": 54619983,
       "subscribers": "758K",
       "verified": true
     },
@@ -39,8 +39,8 @@
       "verified": false
     },
     "Will.": {
-      "video_count": 6,
-      "total_views": 13890,
+      "video_count": 8,
+      "total_views": 18399,
       "subscribers": "442",
       "verified": true
     },
@@ -965,6 +965,21 @@
       "ytjobs_id": "1224790"
     },
     {
+      "title": "WTF is going on at GitHub?",
+      "youtube_id": "WqtqmseDgNw",
+      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
+      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
+      "views": 239383,
+      "views_formatted": "239.38K",
+      "likes_formatted": "6.59K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3630356"
+    },
+    {
       "title": "Why jQuery is the BEST JavaScript framework 👩‍💻 #developer #softwaredeveloper #coder #programming",
       "youtube_id": "4I-RQvsBSXY",
       "youtube_url": "https://www.youtube.com/watch?v=4I-RQvsBSXY",
@@ -1158,21 +1173,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2086059"
-    },
-    {
-      "title": "WTF is going on at GitHub?",
-      "youtube_id": "WqtqmseDgNw",
-      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
-      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
-      "views": 199890,
-      "views_formatted": "199.89K",
-      "likes_formatted": "5.24K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3630356"
     },
     {
       "title": "The Most Downvoted Stack Overflow Posts of All Time",
@@ -2225,6 +2225,21 @@
       "ytjobs_id": "868667"
     },
     {
+      "title": "Every Developer needs a screen like this",
+      "youtube_id": "g35VnTUNQic",
+      "youtube_url": "https://www.youtube.com/watch?v=g35VnTUNQic",
+      "thumbnail": "https://i.ytimg.com/vi/g35VnTUNQic/mqdefault.jpg",
+      "views": 89616,
+      "views_formatted": "89.62K",
+      "likes_formatted": "1.81K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3615699"
+    },
+    {
       "title": "The E-Ink Monopoly",
       "youtube_id": "3QbJ7pnc1Lc",
       "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
@@ -2328,21 +2343,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "975961"
-    },
-    {
-      "title": "Every Developer needs a screen like this",
-      "youtube_id": "g35VnTUNQic",
-      "youtube_url": "https://www.youtube.com/watch?v=g35VnTUNQic",
-      "thumbnail": "https://i.ytimg.com/vi/g35VnTUNQic/mqdefault.jpg",
-      "views": 81060,
-      "views_formatted": "81.06K",
-      "likes_formatted": "1.7K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3615699"
     },
     {
       "title": "You can play DOOM ANYWHERE 🙃 #software #gaming #code #programming #technology #developer",
@@ -4479,8 +4479,8 @@
       "youtube_id": "QC2pbLfLXOw",
       "youtube_url": "https://www.youtube.com/watch?v=QC2pbLfLXOw",
       "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/mqdefault.jpg",
-      "views": 7125,
-      "views_formatted": "7.13K",
+      "views": 7065,
+      "views_formatted": "7.07K",
       "likes_formatted": "291",
       "channel_name": "Will.",
       "channel_subscribers": "442",
@@ -4488,6 +4488,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3610017"
+    },
+    {
+      "title": "In 50 Years, No Ape Has Ever Asked Us A Question",
+      "youtube_id": "UloUYTnrceo",
+      "youtube_url": "https://www.youtube.com/watch?v=UloUYTnrceo",
+      "thumbnail": "https://i.ytimg.com/vi/UloUYTnrceo/mqdefault.jpg",
+      "views": 4198,
+      "views_formatted": "4.2K",
+      "likes_formatted": "126",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3643206"
     },
     {
       "title": "Scientists Just Unlocked \"Quantum Teleportation\"",
@@ -4505,11 +4520,26 @@
       "ytjobs_id": "3589223"
     },
     {
+      "title": "This Guy Made $2 Million Drawing Boxes",
+      "youtube_id": "BtehhblZVq4",
+      "youtube_url": "https://www.youtube.com/watch?v=BtehhblZVq4",
+      "thumbnail": "https://i.ytimg.com/vi/BtehhblZVq4/mqdefault.jpg",
+      "views": 1746,
+      "views_formatted": "1.75K",
+      "likes_formatted": "49",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3625565"
+    },
+    {
       "title": "Why Don't Games Look Like This Anymore?",
       "youtube_id": "FfPjm9Dnf-E",
       "youtube_url": "https://www.youtube.com/watch?v=FfPjm9Dnf-E",
       "thumbnail": "https://i.ytimg.com/vi/FfPjm9Dnf-E/mqdefault.jpg",
-      "views": 1573,
+      "views": 1574,
       "views_formatted": "1.57K",
       "likes_formatted": "38",
       "channel_name": "Will.",
@@ -4518,21 +4548,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3600373"
-    },
-    {
-      "title": "This Guy Made $2 Million Drawing Boxes",
-      "youtube_id": "BtehhblZVq4",
-      "youtube_url": "https://www.youtube.com/watch?v=BtehhblZVq4",
-      "thumbnail": "https://i.ytimg.com/vi/BtehhblZVq4/mqdefault.jpg",
-      "views": 1565,
-      "views_formatted": "1.57K",
-      "likes_formatted": "44",
-      "channel_name": "Will.",
-      "channel_subscribers": "442",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3625565"
     },
     {
       "title": "Everyone Suddenly Thinks AI Will Kill Us",
@@ -4563,6 +4578,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3571131"
+    },
+    {
+      "title": "Mark Zuckerberg Won't Stop Trying To Sell Me His Glasses",
+      "youtube_id": "J9B8sVOM4C8",
+      "youtube_url": "https://www.youtube.com/watch?v=J9B8sVOM4C8",
+      "thumbnail": "https://i.ytimg.com/vi/J9B8sVOM4C8/mqdefault.jpg",
+      "views": 189,
+      "views_formatted": "189",
+      "likes_formatted": "4",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3643208"
     }
   ]
 }
