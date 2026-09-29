@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-28",
-    "total_videos": 302,
-    "total_views_raw": 60000469,
-    "total_views": "60M",
+    "updated": "2026-09-29",
+    "total_videos": 303,
+    "total_views_raw": 60053010,
+    "total_views": "60.05M",
     "total_likes": "1.43M",
-    "total_comments": "54.6K"
+    "total_comments": "54.66K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 220,
-      "total_views": 54619983,
+      "total_views": 54672664,
       "subscribers": "758K",
       "verified": true
     },
@@ -39,8 +39,8 @@
       "verified": false
     },
     "Will.": {
-      "video_count": 8,
-      "total_views": 18399,
+      "video_count": 9,
+      "total_views": 18259,
       "subscribers": "442",
       "verified": true
     },
@@ -815,6 +815,21 @@
       "ytjobs_id": "1080529"
     },
     {
+      "title": "WTF is going on at GitHub?",
+      "youtube_id": "WqtqmseDgNw",
+      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
+      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
+      "views": 292064,
+      "views_formatted": "292.06K",
+      "likes_formatted": "8.03K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3630356"
+    },
+    {
       "title": "Open Source Alternatives to PAID Apps 👩‍💻 #software #technology #code #programming",
       "youtube_id": "dbPQgzDNFqg",
       "youtube_url": "https://www.youtube.com/watch?v=dbPQgzDNFqg",
@@ -963,21 +978,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1224790"
-    },
-    {
-      "title": "WTF is going on at GitHub?",
-      "youtube_id": "WqtqmseDgNw",
-      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
-      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
-      "views": 239383,
-      "views_formatted": "239.38K",
-      "likes_formatted": "6.59K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3630356"
     },
     {
       "title": "Why jQuery is the BEST JavaScript framework 👩‍💻 #developer #softwaredeveloper #coder #programming",
@@ -4479,8 +4479,8 @@
       "youtube_id": "QC2pbLfLXOw",
       "youtube_url": "https://www.youtube.com/watch?v=QC2pbLfLXOw",
       "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/mqdefault.jpg",
-      "views": 7065,
-      "views_formatted": "7.07K",
+      "views": 6922,
+      "views_formatted": "6.92K",
       "likes_formatted": "291",
       "channel_name": "Will.",
       "channel_subscribers": "442",
@@ -4539,8 +4539,8 @@
       "youtube_id": "FfPjm9Dnf-E",
       "youtube_url": "https://www.youtube.com/watch?v=FfPjm9Dnf-E",
       "thumbnail": "https://i.ytimg.com/vi/FfPjm9Dnf-E/mqdefault.jpg",
-      "views": 1574,
-      "views_formatted": "1.57K",
+      "views": 1575,
+      "views_formatted": "1.58K",
       "likes_formatted": "38",
       "channel_name": "Will.",
       "channel_subscribers": "442",
@@ -4593,6 +4593,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3643208"
+    },
+    {
+      "title": "3D Movies Were A Cash Grab, And We Fell For It",
+      "youtube_id": "aj_-P137dVw",
+      "youtube_url": "https://www.youtube.com/watch?v=aj_-P137dVw",
+      "thumbnail": "https://i.ytimg.com/vi/aj_-P137dVw/mqdefault.jpg",
+      "views": 2,
+      "views_formatted": "2",
+      "likes_formatted": "1",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3648194"
     }
   ]
 }
