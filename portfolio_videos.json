@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "total_videos": 303,
-    "total_views_raw": 60053010,
-    "total_views": "60.05M",
+    "total_views_raw": 60100261,
+    "total_views": "60.1M",
     "total_likes": "1.43M",
-    "total_comments": "54.66K"
+    "total_comments": "54.71K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 220,
-      "total_views": 54672664,
+      "total_views": 54717295,
       "subscribers": "758K",
       "verified": true
     },
@@ -40,7 +40,7 @@
     },
     "Will.": {
       "video_count": 9,
-      "total_views": 18259,
+      "total_views": 20879,
       "subscribers": "442",
       "verified": true
     },
@@ -665,6 +665,21 @@
       "ytjobs_id": "3186370"
     },
     {
+      "title": "WTF is going on at GitHub?",
+      "youtube_id": "WqtqmseDgNw",
+      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
+      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
+      "views": 334445,
+      "views_formatted": "334.45K",
+      "likes_formatted": "9.04K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3630356"
+    },
+    {
       "title": "10 Sorting Algorithms Easily Explained",
       "youtube_id": "rbbTd-gkajw",
       "youtube_url": "https://www.youtube.com/watch?v=rbbTd-gkajw",
@@ -813,21 +828,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1080529"
-    },
-    {
-      "title": "WTF is going on at GitHub?",
-      "youtube_id": "WqtqmseDgNw",
-      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
-      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
-      "views": 292064,
-      "views_formatted": "292.06K",
-      "likes_formatted": "8.03K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3630356"
     },
     {
       "title": "Open Source Alternatives to PAID Apps 👩‍💻 #software #technology #code #programming",
@@ -2180,6 +2180,21 @@
       "ytjobs_id": "2540812"
     },
     {
+      "title": "Every Developer needs a screen like this",
+      "youtube_id": "g35VnTUNQic",
+      "youtube_url": "https://www.youtube.com/watch?v=g35VnTUNQic",
+      "thumbnail": "https://i.ytimg.com/vi/g35VnTUNQic/mqdefault.jpg",
+      "views": 91866,
+      "views_formatted": "91.87K",
+      "likes_formatted": "1.86K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3615699"
+    },
+    {
       "title": "Game Developers Reveal WHY Your Games Lag",
       "youtube_id": "lIiDgPxruEA",
       "youtube_url": "https://www.youtube.com/watch?v=lIiDgPxruEA",
@@ -2223,21 +2238,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868667"
-    },
-    {
-      "title": "Every Developer needs a screen like this",
-      "youtube_id": "g35VnTUNQic",
-      "youtube_url": "https://www.youtube.com/watch?v=g35VnTUNQic",
-      "thumbnail": "https://i.ytimg.com/vi/g35VnTUNQic/mqdefault.jpg",
-      "views": 89616,
-      "views_formatted": "89.62K",
-      "likes_formatted": "1.81K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3615699"
     },
     {
       "title": "The E-Ink Monopoly",
@@ -4479,8 +4479,8 @@
       "youtube_id": "QC2pbLfLXOw",
       "youtube_url": "https://www.youtube.com/watch?v=QC2pbLfLXOw",
       "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/mqdefault.jpg",
-      "views": 6922,
-      "views_formatted": "6.92K",
+      "views": 6839,
+      "views_formatted": "6.84K",
       "likes_formatted": "291",
       "channel_name": "Will.",
       "channel_subscribers": "442",
@@ -4494,9 +4494,9 @@
       "youtube_id": "UloUYTnrceo",
       "youtube_url": "https://www.youtube.com/watch?v=UloUYTnrceo",
       "thumbnail": "https://i.ytimg.com/vi/UloUYTnrceo/mqdefault.jpg",
-      "views": 4198,
-      "views_formatted": "4.2K",
-      "likes_formatted": "126",
+      "views": 5037,
+      "views_formatted": "5.04K",
+      "likes_formatted": "145",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4524,7 +4524,7 @@
       "youtube_id": "BtehhblZVq4",
       "youtube_url": "https://www.youtube.com/watch?v=BtehhblZVq4",
       "thumbnail": "https://i.ytimg.com/vi/BtehhblZVq4/mqdefault.jpg",
-      "views": 1746,
+      "views": 1750,
       "views_formatted": "1.75K",
       "likes_formatted": "49",
       "channel_name": "Will.",
@@ -4565,6 +4565,36 @@
       "ytjobs_id": "3588540"
     },
     {
+      "title": "Mark Zuckerberg Won't Stop Trying To Sell Me His Glasses",
+      "youtube_id": "J9B8sVOM4C8",
+      "youtube_url": "https://www.youtube.com/watch?v=J9B8sVOM4C8",
+      "thumbnail": "https://i.ytimg.com/vi/J9B8sVOM4C8/mqdefault.jpg",
+      "views": 1190,
+      "views_formatted": "1.19K",
+      "likes_formatted": "33",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3643208"
+    },
+    {
+      "title": "3D Movies Were A Cash Grab, And We Fell For It",
+      "youtube_id": "aj_-P137dVw",
+      "youtube_url": "https://www.youtube.com/watch?v=aj_-P137dVw",
+      "thumbnail": "https://i.ytimg.com/vi/aj_-P137dVw/mqdefault.jpg",
+      "views": 861,
+      "views_formatted": "861",
+      "likes_formatted": "26",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3648194"
+    },
+    {
       "title": "The Company On Every Bus Stop You've Ever Seen",
       "youtube_id": "jDcpU1PznGg",
       "youtube_url": "https://www.youtube.com/watch?v=jDcpU1PznGg",
@@ -4578,36 +4608,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3571131"
-    },
-    {
-      "title": "Mark Zuckerberg Won't Stop Trying To Sell Me His Glasses",
-      "youtube_id": "J9B8sVOM4C8",
-      "youtube_url": "https://www.youtube.com/watch?v=J9B8sVOM4C8",
-      "thumbnail": "https://i.ytimg.com/vi/J9B8sVOM4C8/mqdefault.jpg",
-      "views": 189,
-      "views_formatted": "189",
-      "likes_formatted": "4",
-      "channel_name": "Will.",
-      "channel_subscribers": "442",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3643208"
-    },
-    {
-      "title": "3D Movies Were A Cash Grab, And We Fell For It",
-      "youtube_id": "aj_-P137dVw",
-      "youtube_url": "https://www.youtube.com/watch?v=aj_-P137dVw",
-      "thumbnail": "https://i.ytimg.com/vi/aj_-P137dVw/mqdefault.jpg",
-      "views": 2,
-      "views_formatted": "2",
-      "likes_formatted": "1",
-      "channel_name": "Will.",
-      "channel_subscribers": "442",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3648194"
     }
   ]
 }
