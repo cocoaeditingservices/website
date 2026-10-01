@@ -1,22 +1,22 @@
 {
   "portfolio_stats": {
-    "updated": "2026-09-30",
+    "updated": "2026-10-01",
     "total_videos": 303,
-    "total_views_raw": 60100261,
-    "total_views": "60.1M",
+    "total_views_raw": 60129449,
+    "total_views": "60.13M",
     "total_likes": "1.43M",
-    "total_comments": "54.71K"
+    "total_comments": "54.77K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 220,
-      "total_views": 54717295,
+      "total_views": 54745036,
       "subscribers": "758K",
       "verified": true
     },
     "Warp": {
       "video_count": 54,
-      "total_views": 5258364,
+      "total_views": 5259138,
       "subscribers": "113K",
       "verified": true
     },
@@ -40,7 +40,7 @@
     },
     "Will.": {
       "video_count": 9,
-      "total_views": 20879,
+      "total_views": 21552,
       "subscribers": "442",
       "verified": true
     },
@@ -620,6 +620,21 @@
       "ytjobs_id": "868685"
     },
     {
+      "title": "WTF is going on at GitHub?",
+      "youtube_id": "WqtqmseDgNw",
+      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
+      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
+      "views": 360220,
+      "views_formatted": "360.22K",
+      "likes_formatted": "9.68K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3630356"
+    },
+    {
       "title": "These code comments are HILARIOUS 👩‍💻 #programming #technology #software #code #tech #business",
       "youtube_id": "gqIkTMtgpmY",
       "youtube_url": "https://www.youtube.com/watch?v=gqIkTMtgpmY",
@@ -663,21 +678,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "3186370"
-    },
-    {
-      "title": "WTF is going on at GitHub?",
-      "youtube_id": "WqtqmseDgNw",
-      "youtube_url": "https://www.youtube.com/watch?v=WqtqmseDgNw",
-      "thumbnail": "https://i.ytimg.com/vi/WqtqmseDgNw/mqdefault.jpg",
-      "views": 334445,
-      "views_formatted": "334.45K",
-      "likes_formatted": "9.04K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3630356"
     },
     {
       "title": "10 Sorting Algorithms Easily Explained",
@@ -2135,6 +2135,21 @@
       "ytjobs_id": "637426"
     },
     {
+      "title": "Every Developer needs a screen like this",
+      "youtube_id": "g35VnTUNQic",
+      "youtube_url": "https://www.youtube.com/watch?v=g35VnTUNQic",
+      "thumbnail": "https://i.ytimg.com/vi/g35VnTUNQic/mqdefault.jpg",
+      "views": 93832,
+      "views_formatted": "93.83K",
+      "likes_formatted": "1.9K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3615699"
+    },
+    {
       "title": "What is Linux!? (In 30 seconds) 🐧 #programming #tech #code #software #technology #developer #career",
       "youtube_id": "nbAzi-F5v6E",
       "youtube_url": "https://www.youtube.com/watch?v=nbAzi-F5v6E",
@@ -2178,21 +2193,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2540812"
-    },
-    {
-      "title": "Every Developer needs a screen like this",
-      "youtube_id": "g35VnTUNQic",
-      "youtube_url": "https://www.youtube.com/watch?v=g35VnTUNQic",
-      "thumbnail": "https://i.ytimg.com/vi/g35VnTUNQic/mqdefault.jpg",
-      "views": 91866,
-      "views_formatted": "91.87K",
-      "likes_formatted": "1.86K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3615699"
     },
     {
       "title": "Game Developers Reveal WHY Your Games Lag",
@@ -4325,6 +4325,21 @@
       "ytjobs_id": "837281"
     },
     {
+      "title": "Customize Warp",
+      "youtube_id": "fzb1JcZ0fFA",
+      "youtube_url": "https://www.youtube.com/watch?v=fzb1JcZ0fFA",
+      "thumbnail": "https://i.ytimg.com/vi/fzb1JcZ0fFA/mqdefault.jpg",
+      "views": 5810,
+      "views_formatted": "5.81K",
+      "likes_formatted": "82",
+      "channel_name": "Warp",
+      "channel_subscribers": "113K",
+      "channel_yt_link": "https://youtube.com/@warpdotdev",
+      "channel_verified": true,
+      "ytjobs_channel_id": 211499,
+      "ytjobs_id": "2005080"
+    },
+    {
       "title": "How to Make Warp's UI More Minimal",
       "youtube_id": "1GKsIT8FSsE",
       "youtube_url": "https://www.youtube.com/watch?v=1GKsIT8FSsE",
@@ -4353,21 +4368,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 211499,
       "ytjobs_id": "869244"
-    },
-    {
-      "title": "Customize Warp",
-      "youtube_id": "fzb1JcZ0fFA",
-      "youtube_url": "https://www.youtube.com/watch?v=fzb1JcZ0fFA",
-      "thumbnail": "https://i.ytimg.com/vi/fzb1JcZ0fFA/mqdefault.jpg",
-      "views": 5049,
-      "views_formatted": "5.05K",
-      "likes_formatted": "79",
-      "channel_name": "Warp",
-      "channel_subscribers": "113K",
-      "channel_yt_link": "https://youtube.com/@warpdotdev",
-      "channel_verified": true,
-      "ytjobs_channel_id": 211499,
-      "ytjobs_id": "2005080"
     },
     {
       "title": "Master Warp's Code Review Panel",
@@ -4464,8 +4464,8 @@
       "youtube_id": "pE15zjJmB4E",
       "youtube_url": "https://www.youtube.com/watch?v=pE15zjJmB4E",
       "thumbnail": "https://i.ytimg.com/vi/pE15zjJmB4E/mqdefault.jpg",
-      "views": 1275,
-      "views_formatted": "1.28K",
+      "views": 1288,
+      "views_formatted": "1.29K",
       "likes_formatted": "33",
       "channel_name": "Warp",
       "channel_subscribers": "113K",
@@ -4479,7 +4479,7 @@
       "youtube_id": "QC2pbLfLXOw",
       "youtube_url": "https://www.youtube.com/watch?v=QC2pbLfLXOw",
       "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/mqdefault.jpg",
-      "views": 6839,
+      "views": 6844,
       "views_formatted": "6.84K",
       "likes_formatted": "291",
       "channel_name": "Will.",
@@ -4494,9 +4494,9 @@
       "youtube_id": "UloUYTnrceo",
       "youtube_url": "https://www.youtube.com/watch?v=UloUYTnrceo",
       "thumbnail": "https://i.ytimg.com/vi/UloUYTnrceo/mqdefault.jpg",
-      "views": 5037,
-      "views_formatted": "5.04K",
-      "likes_formatted": "145",
+      "views": 5075,
+      "views_formatted": "5.08K",
+      "likes_formatted": "148",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4550,6 +4550,21 @@
       "ytjobs_id": "3600373"
     },
     {
+      "title": "3D Movies Were A Cash Grab, And We Fell For It",
+      "youtube_id": "aj_-P137dVw",
+      "youtube_url": "https://www.youtube.com/watch?v=aj_-P137dVw",
+      "thumbnail": "https://i.ytimg.com/vi/aj_-P137dVw/mqdefault.jpg",
+      "views": 1409,
+      "views_formatted": "1.41K",
+      "likes_formatted": "43",
+      "channel_name": "Will.",
+      "channel_subscribers": "442",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3648194"
+    },
+    {
       "title": "Everyone Suddenly Thinks AI Will Kill Us",
       "youtube_id": "XVv5dYnkXE8",
       "youtube_url": "https://www.youtube.com/watch?v=XVv5dYnkXE8",
@@ -4569,30 +4584,15 @@
       "youtube_id": "J9B8sVOM4C8",
       "youtube_url": "https://www.youtube.com/watch?v=J9B8sVOM4C8",
       "thumbnail": "https://i.ytimg.com/vi/J9B8sVOM4C8/mqdefault.jpg",
-      "views": 1190,
-      "views_formatted": "1.19K",
-      "likes_formatted": "33",
+      "views": 1272,
+      "views_formatted": "1.27K",
+      "likes_formatted": "36",
       "channel_name": "Will.",
       "channel_subscribers": "442",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3643208"
-    },
-    {
-      "title": "3D Movies Were A Cash Grab, And We Fell For It",
-      "youtube_id": "aj_-P137dVw",
-      "youtube_url": "https://www.youtube.com/watch?v=aj_-P137dVw",
-      "thumbnail": "https://i.ytimg.com/vi/aj_-P137dVw/mqdefault.jpg",
-      "views": 861,
-      "views_formatted": "861",
-      "likes_formatted": "26",
-      "channel_name": "Will.",
-      "channel_subscribers": "442",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3648194"
     },
     {
       "title": "The Company On Every Bus Stop You've Ever Seen",
