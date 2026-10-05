@@ -1,13 +1,35 @@
 {
- "total": 227,
+ "total": 229,
  "videos": [
+  {
+   "id": "3674877",
+   "title": "The US Definitely Owes Me $12 Trillion",
+   "youtube_id": "wLdZsuxBDEg",
+   "youtube_url": "https://www.youtube.com/shorts/wLdZsuxBDEg",
+   "thumbnail": "https://i.ytimg.com/vi/wLdZsuxBDEg/oar2.jpg",
+   "views_formatted": "357",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
+  {
+   "id": "3674875",
+   "title": "We Don't Know How Many Species There Are",
+   "youtube_id": "c_uPtMC5ewQ",
+   "youtube_url": "https://www.youtube.com/shorts/c_uPtMC5ewQ",
+   "thumbnail": "https://i.ytimg.com/vi/c_uPtMC5ewQ/oar2.jpg",
+   "views_formatted": "195",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3660371",
    "title": "The Nvidia Truck Heist Nobody Saw Coming...",
    "youtube_id": "lzN4vhwUghE",
    "youtube_url": "https://www.youtube.com/shorts/lzN4vhwUghE",
    "thumbnail": "https://i.ytimg.com/vi/lzN4vhwUghE/oar2.jpg",
-   "views_formatted": "58",
+   "views_formatted": "65",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null

@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-04",
-    "total_videos": 304,
-    "total_views_raw": 60175583,
+    "updated": "2026-10-05",
+    "total_videos": 306,
+    "total_views_raw": 60176150,
     "total_views": "60.18M",
     "total_likes": "1.43M",
     "total_comments": "54.85K"
@@ -32,17 +32,17 @@
       "subscribers": "86",
       "verified": false
     },
+    "Will.": {
+      "video_count": 12,
+      "total_views": 22281,
+      "subscribers": "476",
+      "verified": true
+    },
     "Debug with Lewis": {
       "video_count": 3,
       "total_views": 21993,
       "subscribers": "3.28K",
       "verified": false
-    },
-    "Will.": {
-      "video_count": 10,
-      "total_views": 21714,
-      "subscribers": "476",
-      "verified": true
     },
     "GitKraken": {
       "video_count": 1,
@@ -4494,7 +4494,7 @@
       "youtube_id": "UloUYTnrceo",
       "youtube_url": "https://www.youtube.com/watch?v=UloUYTnrceo",
       "thumbnail": "https://i.ytimg.com/vi/UloUYTnrceo/mqdefault.jpg",
-      "views": 5076,
+      "views": 5082,
       "views_formatted": "5.08K",
       "likes_formatted": "148",
       "channel_name": "Will.",
@@ -4554,7 +4554,7 @@
       "youtube_id": "aj_-P137dVw",
       "youtube_url": "https://www.youtube.com/watch?v=aj_-P137dVw",
       "thumbnail": "https://i.ytimg.com/vi/aj_-P137dVw/mqdefault.jpg",
-      "views": 1532,
+      "views": 1534,
       "views_formatted": "1.53K",
       "likes_formatted": "45",
       "channel_name": "Will.",
@@ -4610,12 +4610,42 @@
       "ytjobs_id": "3571131"
     },
     {
+      "title": "The US Definitely Owes Me $12 Trillion",
+      "youtube_id": "wLdZsuxBDEg",
+      "youtube_url": "https://www.youtube.com/watch?v=wLdZsuxBDEg",
+      "thumbnail": "https://i.ytimg.com/vi/wLdZsuxBDEg/mqdefault.jpg",
+      "views": 357,
+      "views_formatted": "357",
+      "likes_formatted": "9",
+      "channel_name": "Will.",
+      "channel_subscribers": "476",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3674877"
+    },
+    {
+      "title": "We Don't Know How Many Species There Are",
+      "youtube_id": "c_uPtMC5ewQ",
+      "youtube_url": "https://www.youtube.com/watch?v=c_uPtMC5ewQ",
+      "thumbnail": "https://i.ytimg.com/vi/c_uPtMC5ewQ/mqdefault.jpg",
+      "views": 195,
+      "views_formatted": "195",
+      "likes_formatted": "10",
+      "channel_name": "Will.",
+      "channel_subscribers": "476",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3674875"
+    },
+    {
       "title": "The Nvidia Truck Heist Nobody Saw Coming...",
       "youtube_id": "lzN4vhwUghE",
       "youtube_url": "https://www.youtube.com/watch?v=lzN4vhwUghE",
       "thumbnail": "https://i.ytimg.com/vi/lzN4vhwUghE/mqdefault.jpg",
-      "views": 58,
-      "views_formatted": "58",
+      "views": 65,
+      "views_formatted": "65",
       "likes_formatted": "2",
       "channel_name": "Will.",
       "channel_subscribers": "476",
