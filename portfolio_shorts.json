@@ -1,13 +1,24 @@
 {
- "total": 229,
+ "total": 230,
  "videos": [
+  {
+   "id": "3684000",
+   "title": "Why Are Diamonds So Expensive?",
+   "youtube_id": "5Ht2taU_5qo",
+   "youtube_url": "https://www.youtube.com/shorts/5Ht2taU_5qo",
+   "thumbnail": "https://i.ytimg.com/vi/5Ht2taU_5qo/oar2.jpg",
+   "views_formatted": "84",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3674877",
    "title": "The US Definitely Owes Me $12 Trillion",
    "youtube_id": "wLdZsuxBDEg",
    "youtube_url": "https://www.youtube.com/shorts/wLdZsuxBDEg",
    "thumbnail": "https://i.ytimg.com/vi/wLdZsuxBDEg/oar2.jpg",
-   "views_formatted": "1.15K",
+   "views_formatted": "1.16K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -29,7 +40,7 @@
    "youtube_id": "lzN4vhwUghE",
    "youtube_url": "https://www.youtube.com/shorts/lzN4vhwUghE",
    "thumbnail": "https://i.ytimg.com/vi/lzN4vhwUghE/oar2.jpg",
-   "views_formatted": "77",
+   "views_formatted": "79",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
