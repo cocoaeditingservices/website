@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-08",
-    "total_videos": 307,
-    "total_views_raw": 60177167,
-    "total_views": "60.18M",
+    "updated": "2026-10-09",
+    "total_videos": 308,
+    "total_views_raw": 60216333,
+    "total_views": "60.22M",
     "total_likes": "1.43M",
-    "total_comments": "54.85K"
+    "total_comments": "54.87K"
   },
   "channels": {
     "Coding with Lewis": {
-      "video_count": 220,
-      "total_views": 54791008,
+      "video_count": 221,
+      "total_views": 54829999,
       "subscribers": "758K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 13,
-      "total_views": 23298,
+      "total_views": 23473,
       "subscribers": "476",
       "verified": true
     },
@@ -234,8 +234,8 @@
       "youtube_id": "h2KD4kiCRAc",
       "youtube_url": "https://www.youtube.com/watch?v=h2KD4kiCRAc",
       "thumbnail": "https://i.ytimg.com/vi/h2KD4kiCRAc/mqdefault.jpg",
-      "views": 763713,
-      "views_formatted": "763.71K",
+      "views": 787219,
+      "views_formatted": "787.22K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "758K",
@@ -755,6 +755,21 @@
       "ytjobs_id": "1042673"
     },
     {
+      "title": "Atom: The Editor That Accidentally Built Its Own Killer",
+      "youtube_id": "QsTYFsmCL5E",
+      "youtube_url": "https://www.youtube.com/watch?v=QsTYFsmCL5E",
+      "thumbnail": "https://i.ytimg.com/vi/QsTYFsmCL5E/mqdefault.jpg",
+      "views": 308679,
+      "views_formatted": "308.68K",
+      "likes_formatted": "8.31K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2396676"
+    },
+    {
       "title": "The Code Inside Everything (That Gets Zero Credit)",
       "youtube_id": "lSVgeMoXJTs",
       "youtube_url": "https://www.youtube.com/watch?v=lSVgeMoXJTs",
@@ -798,21 +813,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "3514123"
-    },
-    {
-      "title": "Atom: The Editor That Accidentally Built Its Own Killer",
-      "youtube_id": "QsTYFsmCL5E",
-      "youtube_url": "https://www.youtube.com/watch?v=QsTYFsmCL5E",
-      "thumbnail": "https://i.ytimg.com/vi/QsTYFsmCL5E/mqdefault.jpg",
-      "views": 300469,
-      "views_formatted": "300.47K",
-      "likes_formatted": "8.17K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2396676"
     },
     {
       "title": "The BRAINROT programming language 💀 #software #programming #technology #code #development #memes",
@@ -1025,6 +1025,21 @@
       "ytjobs_id": "868676"
     },
     {
+      "title": "Using Python to Control your GPU 💻🐍",
+      "youtube_id": "fChjiW9wW0c",
+      "youtube_url": "https://www.youtube.com/watch?v=fChjiW9wW0c",
+      "thumbnail": "https://i.ytimg.com/vi/fChjiW9wW0c/mqdefault.jpg",
+      "views": 229096,
+      "views_formatted": "229.1K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1487704"
+    },
+    {
       "title": "Internet Explorer 11. The WORST browser 🤦‍♂️ #technology #python #developer #coder #programming",
       "youtube_id": "opZLHS6Hrzo",
       "youtube_url": "https://www.youtube.com/watch?v=opZLHS6Hrzo",
@@ -1038,21 +1053,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "637423"
-    },
-    {
-      "title": "Using Python to Control your GPU 💻🐍",
-      "youtube_id": "fChjiW9wW0c",
-      "youtube_url": "https://www.youtube.com/watch?v=fChjiW9wW0c",
-      "thumbnail": "https://i.ytimg.com/vi/fChjiW9wW0c/mqdefault.jpg",
-      "views": 226086,
-      "views_formatted": "226.09K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1487704"
     },
     {
       "title": "How Meta Went From Open Source Hero to AI's Biggest Villain",
@@ -3069,8 +3069,8 @@
       "youtube_id": "07YLWTDdStg",
       "youtube_url": "https://www.youtube.com/watch?v=07YLWTDdStg",
       "thumbnail": "https://i.ytimg.com/vi/07YLWTDdStg/mqdefault.jpg",
-      "views": 27393,
-      "views_formatted": "27.39K",
+      "views": 27559,
+      "views_formatted": "27.56K",
       "likes_formatted": "1.03K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "758K",
@@ -3363,6 +3363,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2320464"
+    },
+    {
+      "title": "Is AI making developers slower?",
+      "youtube_id": "Ys9VBUSyfqY",
+      "youtube_url": "https://www.youtube.com/watch?v=Ys9VBUSyfqY",
+      "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/mqdefault.jpg",
+      "views": 4099,
+      "views_formatted": "4.1K",
+      "likes_formatted": "236",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3691525"
     },
     {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
@@ -4599,9 +4614,9 @@
       "youtube_id": "wLdZsuxBDEg",
       "youtube_url": "https://www.youtube.com/watch?v=wLdZsuxBDEg",
       "thumbnail": "https://i.ytimg.com/vi/wLdZsuxBDEg/mqdefault.jpg",
-      "views": 1155,
+      "views": 1161,
       "views_formatted": "1.16K",
-      "likes_formatted": "23",
+      "likes_formatted": "24",
       "channel_name": "Will.",
       "channel_subscribers": "476",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4629,9 +4644,9 @@
       "youtube_id": "c_uPtMC5ewQ",
       "youtube_url": "https://www.youtube.com/watch?v=c_uPtMC5ewQ",
       "thumbnail": "https://i.ytimg.com/vi/c_uPtMC5ewQ/mqdefault.jpg",
-      "views": 309,
-      "views_formatted": "309",
-      "likes_formatted": "11",
+      "views": 315,
+      "views_formatted": "315",
+      "likes_formatted": "12",
       "channel_name": "Will.",
       "channel_subscribers": "476",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4644,9 +4659,9 @@
       "youtube_id": "5Ht2taU_5qo",
       "youtube_url": "https://www.youtube.com/watch?v=5Ht2taU_5qo",
       "thumbnail": "https://i.ytimg.com/vi/5Ht2taU_5qo/mqdefault.jpg",
-      "views": 84,
-      "views_formatted": "84",
-      "likes_formatted": "1",
+      "views": 245,
+      "views_formatted": "245",
+      "likes_formatted": "9",
       "channel_name": "Will.",
       "channel_subscribers": "476",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4659,8 +4674,8 @@
       "youtube_id": "lzN4vhwUghE",
       "youtube_url": "https://www.youtube.com/watch?v=lzN4vhwUghE",
       "thumbnail": "https://i.ytimg.com/vi/lzN4vhwUghE/mqdefault.jpg",
-      "views": 79,
-      "views_formatted": "79",
+      "views": 81,
+      "views_formatted": "81",
       "likes_formatted": "2",
       "channel_name": "Will.",
       "channel_subscribers": "476",

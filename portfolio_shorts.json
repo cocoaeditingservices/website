@@ -1,13 +1,24 @@
 {
- "total": 230,
+ "total": 231,
  "videos": [
+  {
+   "id": "3691525",
+   "title": "Is AI making developers slower?",
+   "youtube_id": "Ys9VBUSyfqY",
+   "youtube_url": "https://www.youtube.com/shorts/Ys9VBUSyfqY",
+   "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/oar2.jpg",
+   "views_formatted": "4.1K",
+   "channel_title": "Coding with Lewis",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3684000",
    "title": "Why Are Diamonds So Expensive?",
    "youtube_id": "5Ht2taU_5qo",
    "youtube_url": "https://www.youtube.com/shorts/5Ht2taU_5qo",
    "thumbnail": "https://i.ytimg.com/vi/5Ht2taU_5qo/oar2.jpg",
-   "views_formatted": "84",
+   "views_formatted": "245",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -29,7 +40,7 @@
    "youtube_id": "c_uPtMC5ewQ",
    "youtube_url": "https://www.youtube.com/shorts/c_uPtMC5ewQ",
    "thumbnail": "https://i.ytimg.com/vi/c_uPtMC5ewQ/oar2.jpg",
-   "views_formatted": "309",
+   "views_formatted": "315",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -40,7 +51,7 @@
    "youtube_id": "lzN4vhwUghE",
    "youtube_url": "https://www.youtube.com/shorts/lzN4vhwUghE",
    "thumbnail": "https://i.ytimg.com/vi/lzN4vhwUghE/oar2.jpg",
-   "views_formatted": "79",
+   "views_formatted": "81",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -623,7 +634,7 @@
    "youtube_id": "fChjiW9wW0c",
    "youtube_url": "https://www.youtube.com/shorts/fChjiW9wW0c",
    "thumbnail": "https://i.ytimg.com/vi/fChjiW9wW0c/oar2.jpg",
-   "views_formatted": "226.09K",
+   "views_formatted": "229.1K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 59
@@ -799,7 +810,7 @@
    "youtube_id": "h2KD4kiCRAc",
    "youtube_url": "https://www.youtube.com/shorts/h2KD4kiCRAc",
    "thumbnail": "https://i.ytimg.com/vi/h2KD4kiCRAc/oar2.jpg",
-   "views_formatted": "763.71K",
+   "views_formatted": "787.22K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 60
