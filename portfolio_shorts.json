@@ -1,13 +1,24 @@
 {
- "total": 231,
+ "total": 232,
  "videos": [
+  {
+   "id": "3693835",
+   "title": "Getting Mirrors Into Versailles Was A Whole Thing",
+   "youtube_id": "-VehmePcfZQ",
+   "youtube_url": "https://www.youtube.com/shorts/-VehmePcfZQ",
+   "thumbnail": "https://i.ytimg.com/vi/-VehmePcfZQ/oar2.jpg",
+   "views_formatted": "2",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3691525",
    "title": "Is AI making developers slower?",
    "youtube_id": "Ys9VBUSyfqY",
    "youtube_url": "https://www.youtube.com/shorts/Ys9VBUSyfqY",
    "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/oar2.jpg",
-   "views_formatted": "4.1K",
+   "views_formatted": "15.65K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null
@@ -18,7 +29,7 @@
    "youtube_id": "5Ht2taU_5qo",
    "youtube_url": "https://www.youtube.com/shorts/5Ht2taU_5qo",
    "thumbnail": "https://i.ytimg.com/vi/5Ht2taU_5qo/oar2.jpg",
-   "views_formatted": "245",
+   "views_formatted": "372",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -51,7 +62,7 @@
    "youtube_id": "lzN4vhwUghE",
    "youtube_url": "https://www.youtube.com/shorts/lzN4vhwUghE",
    "thumbnail": "https://i.ytimg.com/vi/lzN4vhwUghE/oar2.jpg",
-   "views_formatted": "81",
+   "views_formatted": "82",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null

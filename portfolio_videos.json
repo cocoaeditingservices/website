@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-09",
-    "total_videos": 308,
-    "total_views_raw": 60216333,
-    "total_views": "60.22M",
+    "updated": "2026-10-10",
+    "total_videos": 309,
+    "total_views_raw": 60230281,
+    "total_views": "60.23M",
     "total_likes": "1.43M",
-    "total_comments": "54.87K"
+    "total_comments": "54.89K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 221,
-      "total_views": 54829999,
+      "total_views": 54841552,
       "subscribers": "758K",
       "verified": true
     },
@@ -26,9 +26,15 @@
       "subscribers": "329K",
       "verified": false
     },
+    "Debug with Lewis": {
+      "video_count": 3,
+      "total_views": 24258,
+      "subscribers": "3.29K",
+      "verified": false
+    },
     "Will.": {
-      "video_count": 13,
-      "total_views": 23473,
+      "video_count": 14,
+      "total_views": 23603,
       "subscribers": "476",
       "verified": true
     },
@@ -36,12 +42,6 @@
       "video_count": 12,
       "total_views": 22708,
       "subscribers": "86",
-      "verified": false
-    },
-    "Debug with Lewis": {
-      "video_count": 3,
-      "total_views": 21993,
-      "subscribers": "3.29K",
       "verified": false
     },
     "GitKraken": {
@@ -3305,6 +3305,21 @@
       "ytjobs_id": "1026842"
     },
     {
+      "title": "Is AI making developers slower?",
+      "youtube_id": "Ys9VBUSyfqY",
+      "youtube_url": "https://www.youtube.com/watch?v=Ys9VBUSyfqY",
+      "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/mqdefault.jpg",
+      "views": 15652,
+      "views_formatted": "15.65K",
+      "likes_formatted": "546",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "758K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3691525"
+    },
+    {
       "title": "I Built a Robot Arm to Run My Coffee Shop",
       "youtube_id": "fB3K0D5G6mg",
       "youtube_url": "https://www.youtube.com/watch?v=fB3K0D5G6mg",
@@ -3365,28 +3380,13 @@
       "ytjobs_id": "2320464"
     },
     {
-      "title": "Is AI making developers slower?",
-      "youtube_id": "Ys9VBUSyfqY",
-      "youtube_url": "https://www.youtube.com/watch?v=Ys9VBUSyfqY",
-      "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/mqdefault.jpg",
-      "views": 4099,
-      "views_formatted": "4.1K",
-      "likes_formatted": "236",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "758K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3691525"
-    },
-    {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
       "youtube_id": "x8_ZZhRL3YU",
       "youtube_url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU",
       "thumbnail": "https://i.ytimg.com/vi/x8_ZZhRL3YU/mqdefault.jpg",
-      "views": 9138,
-      "views_formatted": "9.14K",
-      "likes_formatted": "302",
+      "views": 11403,
+      "views_formatted": "11.4K",
+      "likes_formatted": "355",
       "channel_name": "Debug with Lewis",
       "channel_subscribers": "3.29K",
       "channel_yt_link": "",
@@ -4640,6 +4640,21 @@
       "ytjobs_id": "3571131"
     },
     {
+      "title": "Why Are Diamonds So Expensive?",
+      "youtube_id": "5Ht2taU_5qo",
+      "youtube_url": "https://www.youtube.com/watch?v=5Ht2taU_5qo",
+      "thumbnail": "https://i.ytimg.com/vi/5Ht2taU_5qo/mqdefault.jpg",
+      "views": 372,
+      "views_formatted": "372",
+      "likes_formatted": "15",
+      "channel_name": "Will.",
+      "channel_subscribers": "476",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3684000"
+    },
+    {
       "title": "We Don't Know How Many Species There Are",
       "youtube_id": "c_uPtMC5ewQ",
       "youtube_url": "https://www.youtube.com/watch?v=c_uPtMC5ewQ",
@@ -4655,27 +4670,12 @@
       "ytjobs_id": "3674875"
     },
     {
-      "title": "Why Are Diamonds So Expensive?",
-      "youtube_id": "5Ht2taU_5qo",
-      "youtube_url": "https://www.youtube.com/watch?v=5Ht2taU_5qo",
-      "thumbnail": "https://i.ytimg.com/vi/5Ht2taU_5qo/mqdefault.jpg",
-      "views": 245,
-      "views_formatted": "245",
-      "likes_formatted": "9",
-      "channel_name": "Will.",
-      "channel_subscribers": "476",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3684000"
-    },
-    {
       "title": "The Nvidia Truck Heist Nobody Saw Coming...",
       "youtube_id": "lzN4vhwUghE",
       "youtube_url": "https://www.youtube.com/watch?v=lzN4vhwUghE",
       "thumbnail": "https://i.ytimg.com/vi/lzN4vhwUghE/mqdefault.jpg",
-      "views": 81,
-      "views_formatted": "81",
+      "views": 82,
+      "views_formatted": "82",
       "likes_formatted": "2",
       "channel_name": "Will.",
       "channel_subscribers": "476",
@@ -4683,6 +4683,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3660371"
+    },
+    {
+      "title": "Getting Mirrors Into Versailles Was A Whole Thing",
+      "youtube_id": "-VehmePcfZQ",
+      "youtube_url": "https://www.youtube.com/watch?v=-VehmePcfZQ",
+      "thumbnail": "https://i.ytimg.com/vi/-VehmePcfZQ/mqdefault.jpg",
+      "views": 2,
+      "views_formatted": "2",
+      "likes_formatted": "1",
+      "channel_name": "Will.",
+      "channel_subscribers": "476",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3693835"
     }
   ]
 }
