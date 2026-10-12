@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-11",
-    "total_videos": 309,
-    "total_views_raw": 60234264,
-    "total_views": "60.23M",
+    "updated": "2026-10-12",
+    "total_videos": 310,
+    "total_views_raw": 60237392,
+    "total_views": "60.24M",
     "total_likes": "1.43M",
     "total_comments": "54.9K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 221,
-      "total_views": 54845510,
+      "total_views": 54847272,
       "subscribers": "759K",
       "verified": true
     },
@@ -26,17 +26,17 @@
       "subscribers": "329K",
       "verified": false
     },
+    "Will.": {
+      "video_count": 15,
+      "total_views": 24994,
+      "subscribers": "476",
+      "verified": true
+    },
     "Debug with Lewis": {
       "video_count": 3,
       "total_views": 24258,
       "subscribers": "3.29K",
       "verified": false
-    },
-    "Will.": {
-      "video_count": 14,
-      "total_views": 23628,
-      "subscribers": "476",
-      "verified": true
     },
     "Grow With Li": {
       "video_count": 12,
@@ -3260,6 +3260,21 @@
       "ytjobs_id": "1014066"
     },
     {
+      "title": "Is AI making developers slower?",
+      "youtube_id": "Ys9VBUSyfqY",
+      "youtube_url": "https://www.youtube.com/watch?v=Ys9VBUSyfqY",
+      "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/mqdefault.jpg",
+      "views": 20135,
+      "views_formatted": "20.14K",
+      "likes_formatted": "673",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3691525"
+    },
+    {
       "title": "A brief history of Instant Messaging 💻 #tech #software #code #technology #retrotech",
       "youtube_id": "-Pbc9V8u7SM",
       "youtube_url": "https://www.youtube.com/watch?v=-Pbc9V8u7SM",
@@ -3303,21 +3318,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1026842"
-    },
-    {
-      "title": "Is AI making developers slower?",
-      "youtube_id": "Ys9VBUSyfqY",
-      "youtube_url": "https://www.youtube.com/watch?v=Ys9VBUSyfqY",
-      "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/mqdefault.jpg",
-      "views": 18373,
-      "views_formatted": "18.37K",
-      "likes_formatted": "607",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3691525"
     },
     {
       "title": "I Built a Robot Arm to Run My Coffee Shop",
@@ -4580,6 +4580,21 @@
       "ytjobs_id": "3648194"
     },
     {
+      "title": "This Guy Has Been Selling The Moon For 40 Years",
+      "youtube_id": "opJUYKr03Tw",
+      "youtube_url": "https://www.youtube.com/watch?v=opJUYKr03Tw",
+      "thumbnail": "https://i.ytimg.com/vi/opJUYKr03Tw/mqdefault.jpg",
+      "views": 1352,
+      "views_formatted": "1.35K",
+      "likes_formatted": "31",
+      "channel_name": "Will.",
+      "channel_subscribers": "476",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3706843"
+    },
+    {
       "title": "Everyone Suddenly Thinks AI Will Kill Us",
       "youtube_id": "XVv5dYnkXE8",
       "youtube_url": "https://www.youtube.com/watch?v=XVv5dYnkXE8",
@@ -4614,9 +4629,9 @@
       "youtube_id": "wLdZsuxBDEg",
       "youtube_url": "https://www.youtube.com/watch?v=wLdZsuxBDEg",
       "thumbnail": "https://i.ytimg.com/vi/wLdZsuxBDEg/mqdefault.jpg",
-      "views": 1162,
-      "views_formatted": "1.16K",
-      "likes_formatted": "24",
+      "views": 1166,
+      "views_formatted": "1.17K",
+      "likes_formatted": "25",
       "channel_name": "Will.",
       "channel_subscribers": "476",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4644,9 +4659,9 @@
       "youtube_id": "5Ht2taU_5qo",
       "youtube_url": "https://www.youtube.com/watch?v=5Ht2taU_5qo",
       "thumbnail": "https://i.ytimg.com/vi/5Ht2taU_5qo/mqdefault.jpg",
-      "views": 374,
-      "views_formatted": "374",
-      "likes_formatted": "15",
+      "views": 378,
+      "views_formatted": "378",
+      "likes_formatted": "16",
       "channel_name": "Will.",
       "channel_subscribers": "476",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4689,9 +4704,9 @@
       "youtube_id": "-VehmePcfZQ",
       "youtube_url": "https://www.youtube.com/watch?v=-VehmePcfZQ",
       "thumbnail": "https://i.ytimg.com/vi/-VehmePcfZQ/mqdefault.jpg",
-      "views": 24,
-      "views_formatted": "24",
-      "likes_formatted": "1",
+      "views": 30,
+      "views_formatted": "30",
+      "likes_formatted": "3",
       "channel_name": "Will.",
       "channel_subscribers": "476",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
