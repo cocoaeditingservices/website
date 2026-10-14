@@ -1,13 +1,24 @@
 {
- "total": 233,
+ "total": 234,
  "videos": [
+  {
+   "id": "3717410",
+   "title": "The Most Cursed Colour In Art History...",
+   "youtube_id": "JVWi2n_RK7A",
+   "youtube_url": "https://www.youtube.com/shorts/JVWi2n_RK7A",
+   "thumbnail": "https://i.ytimg.com/vi/JVWi2n_RK7A/oar2.jpg",
+   "views_formatted": "1.26K",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3706843",
    "title": "This Guy Has Been Selling The Moon For 40 Years",
    "youtube_id": "opJUYKr03Tw",
    "youtube_url": "https://www.youtube.com/shorts/opJUYKr03Tw",
    "thumbnail": "https://i.ytimg.com/vi/opJUYKr03Tw/oar2.jpg",
-   "views_formatted": "1.35K",
+   "views_formatted": "1.36K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -18,7 +29,7 @@
    "youtube_id": "-VehmePcfZQ",
    "youtube_url": "https://www.youtube.com/shorts/-VehmePcfZQ",
    "thumbnail": "https://i.ytimg.com/vi/-VehmePcfZQ/oar2.jpg",
-   "views_formatted": "30",
+   "views_formatted": "40",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -29,7 +40,7 @@
    "youtube_id": "Ys9VBUSyfqY",
    "youtube_url": "https://www.youtube.com/shorts/Ys9VBUSyfqY",
    "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/oar2.jpg",
-   "views_formatted": "20.82K",
+   "views_formatted": "21.23K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null
