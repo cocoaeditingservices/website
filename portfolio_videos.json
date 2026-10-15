@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-14",
+    "updated": "2026-10-15",
     "total_videos": 311,
-    "total_views_raw": 60239760,
+    "total_views_raw": 60244824,
     "total_views": "60.24M",
     "total_likes": "1.43M",
-    "total_comments": "54.91K"
+    "total_comments": "54.92K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 221,
-      "total_views": 54848364,
+      "total_views": 54853271,
       "subscribers": "759K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 16,
-      "total_views": 26270,
+      "total_views": 26427,
       "subscribers": "476",
       "verified": true
     },
@@ -2975,6 +2975,21 @@
       "ytjobs_id": "2606211"
     },
     {
+      "title": "I Opened a Coffee Shop Run by Claude",
+      "youtube_id": "R7bC46BUEok",
+      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
+      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
+      "views": 31198,
+      "views_formatted": "31.2K",
+      "likes_formatted": "1.23K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3275868"
+    },
+    {
       "title": "The BEST Way to Stay Ahead of AI 🤖",
       "youtube_id": "ilyppm2yhm0",
       "youtube_url": "https://www.youtube.com/watch?v=ilyppm2yhm0",
@@ -3125,21 +3140,6 @@
       "ytjobs_id": "931654"
     },
     {
-      "title": "I Opened a Coffee Shop Run by Claude",
-      "youtube_id": "R7bC46BUEok",
-      "youtube_url": "https://www.youtube.com/watch?v=R7bC46BUEok",
-      "thumbnail": "https://i.ytimg.com/vi/R7bC46BUEok/mqdefault.jpg",
-      "views": 26481,
-      "views_formatted": "26.48K",
-      "likes_formatted": "1.12K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3275868"
-    },
-    {
       "title": "My favourite desk accessory for long night coding #ad",
       "youtube_id": "ZcYQD8NVCDw",
       "youtube_url": "https://www.youtube.com/watch?v=ZcYQD8NVCDw",
@@ -3249,9 +3249,9 @@
       "youtube_id": "Ys9VBUSyfqY",
       "youtube_url": "https://www.youtube.com/watch?v=Ys9VBUSyfqY",
       "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/mqdefault.jpg",
-      "views": 21227,
-      "views_formatted": "21.23K",
-      "likes_formatted": "696",
+      "views": 21417,
+      "views_formatted": "21.42K",
+      "likes_formatted": "709",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -4584,15 +4584,30 @@
       "youtube_id": "opJUYKr03Tw",
       "youtube_url": "https://www.youtube.com/watch?v=opJUYKr03Tw",
       "thumbnail": "https://i.ytimg.com/vi/opJUYKr03Tw/mqdefault.jpg",
-      "views": 1355,
-      "views_formatted": "1.36K",
-      "likes_formatted": "31",
+      "views": 1446,
+      "views_formatted": "1.45K",
+      "likes_formatted": "34",
       "channel_name": "Will.",
       "channel_subscribers": "476",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3706843"
+    },
+    {
+      "title": "The Most Cursed Colour In Art History...",
+      "youtube_id": "JVWi2n_RK7A",
+      "youtube_url": "https://www.youtube.com/watch?v=JVWi2n_RK7A",
+      "thumbnail": "https://i.ytimg.com/vi/JVWi2n_RK7A/mqdefault.jpg",
+      "views": 1330,
+      "views_formatted": "1.33K",
+      "likes_formatted": "26",
+      "channel_name": "Will.",
+      "channel_subscribers": "476",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3717410"
     },
     {
       "title": "Everyone Suddenly Thinks AI Will Kill Us",
@@ -4608,21 +4623,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3588540"
-    },
-    {
-      "title": "The Most Cursed Colour In Art History...",
-      "youtube_id": "JVWi2n_RK7A",
-      "youtube_url": "https://www.youtube.com/watch?v=JVWi2n_RK7A",
-      "thumbnail": "https://i.ytimg.com/vi/JVWi2n_RK7A/mqdefault.jpg",
-      "views": 1263,
-      "views_formatted": "1.26K",
-      "likes_formatted": "24",
-      "channel_name": "Will.",
-      "channel_subscribers": "476",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3717410"
     },
     {
       "title": "Mark Zuckerberg Won't Stop Trying To Sell Me His Glasses",
@@ -4719,8 +4719,8 @@
       "youtube_id": "-VehmePcfZQ",
       "youtube_url": "https://www.youtube.com/watch?v=-VehmePcfZQ",
       "thumbnail": "https://i.ytimg.com/vi/-VehmePcfZQ/mqdefault.jpg",
-      "views": 40,
-      "views_formatted": "40",
+      "views": 39,
+      "views_formatted": "39",
       "likes_formatted": "3",
       "channel_name": "Will.",
       "channel_subscribers": "476",
