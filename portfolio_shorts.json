@@ -1,13 +1,24 @@
 {
- "total": 234,
+ "total": 235,
  "videos": [
+  {
+   "id": "3726019",
+   "title": "IBM Paid Him £54,000 A Year To Stay Home",
+   "youtube_id": "cnEHGpgHLd0",
+   "youtube_url": "https://www.youtube.com/shorts/cnEHGpgHLd0",
+   "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/oar2.jpg",
+   "views_formatted": "337",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3717410",
    "title": "The Most Cursed Colour In Art History...",
    "youtube_id": "JVWi2n_RK7A",
    "youtube_url": "https://www.youtube.com/shorts/JVWi2n_RK7A",
    "thumbnail": "https://i.ytimg.com/vi/JVWi2n_RK7A/oar2.jpg",
-   "views_formatted": "1.33K",
+   "views_formatted": "1.37K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -18,7 +29,7 @@
    "youtube_id": "opJUYKr03Tw",
    "youtube_url": "https://www.youtube.com/shorts/opJUYKr03Tw",
    "thumbnail": "https://i.ytimg.com/vi/opJUYKr03Tw/oar2.jpg",
-   "views_formatted": "1.45K",
+   "views_formatted": "1.48K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -29,7 +40,7 @@
    "youtube_id": "-VehmePcfZQ",
    "youtube_url": "https://www.youtube.com/shorts/-VehmePcfZQ",
    "thumbnail": "https://i.ytimg.com/vi/-VehmePcfZQ/oar2.jpg",
-   "views_formatted": "39",
+   "views_formatted": "41",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -40,7 +51,7 @@
    "youtube_id": "Ys9VBUSyfqY",
    "youtube_url": "https://www.youtube.com/shorts/Ys9VBUSyfqY",
    "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/oar2.jpg",
-   "views_formatted": "21.42K",
+   "views_formatted": "22.18K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null
@@ -249,7 +260,7 @@
    "youtube_id": "fB3K0D5G6mg",
    "youtube_url": "https://www.youtube.com/shorts/fB3K0D5G6mg",
    "thumbnail": "https://i.ytimg.com/vi/fB3K0D5G6mg/oar2.jpg",
-   "views_formatted": "15.57K",
+   "views_formatted": "16.96K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 78
@@ -348,7 +359,7 @@
    "youtube_id": "ZcYQD8NVCDw",
    "youtube_url": "https://www.youtube.com/shorts/ZcYQD8NVCDw",
    "thumbnail": "https://i.ytimg.com/vi/ZcYQD8NVCDw/oar2.jpg",
-   "views_formatted": "26.32K",
+   "views_formatted": "26.37K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 54
@@ -612,7 +623,7 @@
    "youtube_id": "gFEfIWUa8jg",
    "youtube_url": "https://www.youtube.com/shorts/gFEfIWUa8jg",
    "thumbnail": "https://i.ytimg.com/vi/gFEfIWUa8jg/oar2.jpg",
-   "views_formatted": "1.31M",
+   "views_formatted": "1.33M",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 59
@@ -656,7 +667,7 @@
    "youtube_id": "YCV5MClAze4",
    "youtube_url": "https://www.youtube.com/shorts/YCV5MClAze4",
    "thumbnail": "https://i.ytimg.com/vi/YCV5MClAze4/oar2.jpg",
-   "views_formatted": "88.51K",
+   "views_formatted": "88.73K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 57
@@ -711,7 +722,7 @@
    "youtube_id": "z4Jv2PE0wkU",
    "youtube_url": "https://www.youtube.com/shorts/z4Jv2PE0wkU",
    "thumbnail": "https://i.ytimg.com/vi/z4Jv2PE0wkU/oar2.jpg",
-   "views_formatted": "214.03K",
+   "views_formatted": "214.93K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 60
