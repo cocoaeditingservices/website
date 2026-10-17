@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-16",
+    "updated": "2026-10-17",
     "total_videos": 312,
-    "total_views_raw": 60265467,
+    "total_views_raw": 60267075,
     "total_views": "60.27M",
     "total_likes": "1.43M",
-    "total_comments": "54.9K"
+    "total_comments": "54.91K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 221,
-      "total_views": 54873503,
+      "total_views": 54874118,
       "subscribers": "759K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 17,
-      "total_views": 26838,
+      "total_views": 27831,
       "subscribers": "476",
       "verified": true
     },
@@ -3230,6 +3230,21 @@
       "ytjobs_id": "2836555"
     },
     {
+      "title": "Is AI making developers slower?",
+      "youtube_id": "Ys9VBUSyfqY",
+      "youtube_url": "https://www.youtube.com/watch?v=Ys9VBUSyfqY",
+      "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/mqdefault.jpg",
+      "views": 22793,
+      "views_formatted": "22.79K",
+      "likes_formatted": "749",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3691525"
+    },
+    {
       "title": "I Brought Your Terrible App Ideas to Life",
       "youtube_id": "mJJyzUfu8Qc",
       "youtube_url": "https://www.youtube.com/watch?v=mJJyzUfu8Qc",
@@ -3243,21 +3258,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "212324"
-    },
-    {
-      "title": "Is AI making developers slower?",
-      "youtube_id": "Ys9VBUSyfqY",
-      "youtube_url": "https://www.youtube.com/watch?v=Ys9VBUSyfqY",
-      "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/mqdefault.jpg",
-      "views": 22178,
-      "views_formatted": "22.18K",
-      "likes_formatted": "731",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3691525"
     },
     {
       "title": "I Overengineered a CI/CD Pipeline with 69 Absurd Steps",
@@ -4584,9 +4584,9 @@
       "youtube_id": "opJUYKr03Tw",
       "youtube_url": "https://www.youtube.com/watch?v=opJUYKr03Tw",
       "thumbnail": "https://i.ytimg.com/vi/opJUYKr03Tw/mqdefault.jpg",
-      "views": 1477,
+      "views": 1481,
       "views_formatted": "1.48K",
-      "likes_formatted": "34",
+      "likes_formatted": "35",
       "channel_name": "Will.",
       "channel_subscribers": "476",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4599,8 +4599,8 @@
       "youtube_id": "JVWi2n_RK7A",
       "youtube_url": "https://www.youtube.com/watch?v=JVWi2n_RK7A",
       "thumbnail": "https://i.ytimg.com/vi/JVWi2n_RK7A/mqdefault.jpg",
-      "views": 1371,
-      "views_formatted": "1.37K",
+      "views": 1389,
+      "views_formatted": "1.39K",
       "likes_formatted": "30",
       "channel_name": "Will.",
       "channel_subscribers": "476",
@@ -4623,6 +4623,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3588540"
+    },
+    {
+      "title": "IBM Paid Him £54,000 A Year To Stay Home",
+      "youtube_id": "cnEHGpgHLd0",
+      "youtube_url": "https://www.youtube.com/watch?v=cnEHGpgHLd0",
+      "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/mqdefault.jpg",
+      "views": 1303,
+      "views_formatted": "1.3K",
+      "likes_formatted": "26",
+      "channel_name": "Will.",
+      "channel_subscribers": "476",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3726019"
     },
     {
       "title": "Mark Zuckerberg Won't Stop Trying To Sell Me His Glasses",
@@ -4685,21 +4700,6 @@
       "ytjobs_id": "3684000"
     },
     {
-      "title": "IBM Paid Him £54,000 A Year To Stay Home",
-      "youtube_id": "cnEHGpgHLd0",
-      "youtube_url": "https://www.youtube.com/watch?v=cnEHGpgHLd0",
-      "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/mqdefault.jpg",
-      "views": 337,
-      "views_formatted": "337",
-      "likes_formatted": "9",
-      "channel_name": "Will.",
-      "channel_subscribers": "476",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3726019"
-    },
-    {
       "title": "We Don't Know How Many Species There Are",
       "youtube_id": "c_uPtMC5ewQ",
       "youtube_url": "https://www.youtube.com/watch?v=c_uPtMC5ewQ",
@@ -4734,9 +4734,9 @@
       "youtube_id": "-VehmePcfZQ",
       "youtube_url": "https://www.youtube.com/watch?v=-VehmePcfZQ",
       "thumbnail": "https://i.ytimg.com/vi/-VehmePcfZQ/mqdefault.jpg",
-      "views": 41,
-      "views_formatted": "41",
-      "likes_formatted": "4",
+      "views": 46,
+      "views_formatted": "46",
+      "likes_formatted": "5",
       "channel_name": "Will.",
       "channel_subscribers": "476",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
