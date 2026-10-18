@@ -1,13 +1,24 @@
 {
- "total": 235,
+ "total": 236,
  "videos": [
+  {
+   "id": "3735466",
+   "title": "How To Make Lightning Strike Exactly Where You Want",
+   "youtube_id": "Ekon7xZlVPE",
+   "youtube_url": "https://www.youtube.com/shorts/Ekon7xZlVPE",
+   "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/oar2.jpg",
+   "views_formatted": "1.33K",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3726019",
    "title": "IBM Paid Him £54,000 A Year To Stay Home",
    "youtube_id": "cnEHGpgHLd0",
    "youtube_url": "https://www.youtube.com/shorts/cnEHGpgHLd0",
    "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/oar2.jpg",
-   "views_formatted": "1.3K",
+   "views_formatted": "1.42K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -51,7 +62,7 @@
    "youtube_id": "Ys9VBUSyfqY",
    "youtube_url": "https://www.youtube.com/shorts/Ys9VBUSyfqY",
    "thumbnail": "https://i.ytimg.com/vi/Ys9VBUSyfqY/oar2.jpg",
-   "views_formatted": "22.79K",
+   "views_formatted": "23.51K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null
