@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-18",
+    "updated": "2026-10-19",
     "total_videos": 313,
-    "total_views_raw": 60269235,
+    "total_views_raw": 60269645,
     "total_views": "60.27M",
     "total_likes": "1.43M",
-    "total_comments": "54.92K"
+    "total_comments": "54.91K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 221,
-      "total_views": 54874832,
+      "total_views": 54874906,
       "subscribers": "759K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 18,
-      "total_views": 29277,
+      "total_views": 29613,
       "subscribers": "489",
       "verified": true
     },
@@ -1359,8 +1359,8 @@
       "youtube_id": "46gOFHDzYtA",
       "youtube_url": "https://www.youtube.com/watch?v=46gOFHDzYtA",
       "thumbnail": "https://i.ytimg.com/vi/46gOFHDzYtA/mqdefault.jpg",
-      "views": 170671,
-      "views_formatted": "170.67K",
+      "views": 170745,
+      "views_formatted": "170.75K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -4565,6 +4565,21 @@
       "ytjobs_id": "3600373"
     },
     {
+      "title": "IBM Paid Him £54,000 A Year To Stay Home",
+      "youtube_id": "cnEHGpgHLd0",
+      "youtube_url": "https://www.youtube.com/watch?v=cnEHGpgHLd0",
+      "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/mqdefault.jpg",
+      "views": 1561,
+      "views_formatted": "1.56K",
+      "likes_formatted": "28",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3726019"
+    },
+    {
       "title": "3D Movies Were A Cash Grab, And We Fell For It",
       "youtube_id": "aj_-P137dVw",
       "youtube_url": "https://www.youtube.com/watch?v=aj_-P137dVw",
@@ -4578,6 +4593,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3648194"
+    },
+    {
+      "title": "How To Make Lightning Strike Exactly Where You Want",
+      "youtube_id": "Ekon7xZlVPE",
+      "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
+      "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
+      "views": 1522,
+      "views_formatted": "1.52K",
+      "likes_formatted": "32",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3735466"
     },
     {
       "title": "This Guy Has Been Selling The Moon For 40 Years",
@@ -4595,21 +4625,6 @@
       "ytjobs_id": "3706843"
     },
     {
-      "title": "IBM Paid Him £54,000 A Year To Stay Home",
-      "youtube_id": "cnEHGpgHLd0",
-      "youtube_url": "https://www.youtube.com/watch?v=cnEHGpgHLd0",
-      "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/mqdefault.jpg",
-      "views": 1422,
-      "views_formatted": "1.42K",
-      "likes_formatted": "27",
-      "channel_name": "Will.",
-      "channel_subscribers": "489",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3726019"
-    },
-    {
       "title": "The Most Cursed Colour In Art History...",
       "youtube_id": "JVWi2n_RK7A",
       "youtube_url": "https://www.youtube.com/watch?v=JVWi2n_RK7A",
@@ -4623,21 +4638,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3717410"
-    },
-    {
-      "title": "How To Make Lightning Strike Exactly Where You Want",
-      "youtube_id": "Ekon7xZlVPE",
-      "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
-      "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
-      "views": 1325,
-      "views_formatted": "1.33K",
-      "likes_formatted": "32",
-      "channel_name": "Will.",
-      "channel_subscribers": "489",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3735466"
     },
     {
       "title": "Everyone Suddenly Thinks AI Will Kill Us",
