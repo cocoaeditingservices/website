@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-19",
+    "updated": "2026-10-20",
     "total_videos": 313,
-    "total_views_raw": 60269645,
-    "total_views": "60.27M",
+    "total_views_raw": 60311738,
+    "total_views": "60.31M",
     "total_likes": "1.43M",
-    "total_comments": "54.91K"
+    "total_comments": "54.94K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 221,
-      "total_views": 54874906,
+      "total_views": 54916761,
       "subscribers": "759K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 18,
-      "total_views": 29613,
+      "total_views": 29851,
       "subscribers": "489",
       "verified": true
     },
@@ -609,8 +609,8 @@
       "youtube_id": "luW4tp88QvI",
       "youtube_url": "https://www.youtube.com/watch?v=luW4tp88QvI",
       "thumbnail": "https://i.ytimg.com/vi/luW4tp88QvI/mqdefault.jpg",
-      "views": 377228,
-      "views_formatted": "377.23K",
+      "views": 377415,
+      "views_formatted": "377.42K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -648,6 +648,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868687"
+    },
+    {
+      "title": "The Code Inside Everything (That Gets Zero Credit)",
+      "youtube_id": "lSVgeMoXJTs",
+      "youtube_url": "https://www.youtube.com/watch?v=lSVgeMoXJTs",
+      "thumbnail": "https://i.ytimg.com/vi/lSVgeMoXJTs/mqdefault.jpg",
+      "views": 345791,
+      "views_formatted": "345.79K",
+      "likes_formatted": "13.98K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2956383"
     },
     {
       "title": "5 Ways to Build a Desktop App in 2024 👩‍💻 #software #programming #technology #desktop  #code",
@@ -768,21 +783,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2396676"
-    },
-    {
-      "title": "The Code Inside Everything (That Gets Zero Credit)",
-      "youtube_id": "lSVgeMoXJTs",
-      "youtube_url": "https://www.youtube.com/watch?v=lSVgeMoXJTs",
-      "thumbnail": "https://i.ytimg.com/vi/lSVgeMoXJTs/mqdefault.jpg",
-      "views": 307835,
-      "views_formatted": "307.84K",
-      "likes_formatted": "13.04K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2956383"
     },
     {
       "title": "These Devs won $20,000 by Building THIS🧑‍💻#technology #developer #code #software #engineering",
@@ -1130,6 +1130,21 @@
       "ytjobs_id": "851617"
     },
     {
+      "title": "The Most Downvoted Stack Overflow Posts of All Time",
+      "youtube_id": "wBOW86q1Vlo",
+      "youtube_url": "https://www.youtube.com/watch?v=wBOW86q1Vlo",
+      "thumbnail": "https://i.ytimg.com/vi/wBOW86q1Vlo/mqdefault.jpg",
+      "views": 202358,
+      "views_formatted": "202.36K",
+      "likes_formatted": "10.33K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2244988"
+    },
+    {
       "title": "What is TypeScript!?👩‍💻 (in 30 Seconds) #programming #technology #software #code #javascript",
       "youtube_id": "iCs5C5wcYno",
       "youtube_url": "https://www.youtube.com/watch?v=iCs5C5wcYno",
@@ -1173,21 +1188,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2086059"
-    },
-    {
-      "title": "The Most Downvoted Stack Overflow Posts of All Time",
-      "youtube_id": "wBOW86q1Vlo",
-      "youtube_url": "https://www.youtube.com/watch?v=wBOW86q1Vlo",
-      "thumbnail": "https://i.ytimg.com/vi/wBOW86q1Vlo/mqdefault.jpg",
-      "views": 198675,
-      "views_formatted": "198.68K",
-      "likes_formatted": "10.28K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2244988"
     },
     {
       "title": "The STACKING Workflow EXPLAINED 👩‍💻#ad #technology #programmer #code #tech #engineering #software",
@@ -2484,8 +2484,8 @@
       "youtube_id": "BL5BBXAFQJk",
       "youtube_url": "https://www.youtube.com/watch?v=BL5BBXAFQJk",
       "thumbnail": "https://i.ytimg.com/vi/BL5BBXAFQJk/mqdefault.jpg",
-      "views": 73815,
-      "views_formatted": "73.82K",
+      "views": 73844,
+      "views_formatted": "73.84K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -4550,6 +4550,36 @@
       "ytjobs_id": "3625565"
     },
     {
+      "title": "How To Make Lightning Strike Exactly Where You Want",
+      "youtube_id": "Ekon7xZlVPE",
+      "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
+      "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
+      "views": 1719,
+      "views_formatted": "1.72K",
+      "likes_formatted": "34",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3735466"
+    },
+    {
+      "title": "IBM Paid Him £54,000 A Year To Stay Home",
+      "youtube_id": "cnEHGpgHLd0",
+      "youtube_url": "https://www.youtube.com/watch?v=cnEHGpgHLd0",
+      "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/mqdefault.jpg",
+      "views": 1597,
+      "views_formatted": "1.6K",
+      "likes_formatted": "28",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3726019"
+    },
+    {
       "title": "Why Don't Games Look Like This Anymore?",
       "youtube_id": "FfPjm9Dnf-E",
       "youtube_url": "https://www.youtube.com/watch?v=FfPjm9Dnf-E",
@@ -4563,21 +4593,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3600373"
-    },
-    {
-      "title": "IBM Paid Him £54,000 A Year To Stay Home",
-      "youtube_id": "cnEHGpgHLd0",
-      "youtube_url": "https://www.youtube.com/watch?v=cnEHGpgHLd0",
-      "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/mqdefault.jpg",
-      "views": 1561,
-      "views_formatted": "1.56K",
-      "likes_formatted": "28",
-      "channel_name": "Will.",
-      "channel_subscribers": "489",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3726019"
     },
     {
       "title": "3D Movies Were A Cash Grab, And We Fell For It",
@@ -4595,28 +4610,13 @@
       "ytjobs_id": "3648194"
     },
     {
-      "title": "How To Make Lightning Strike Exactly Where You Want",
-      "youtube_id": "Ekon7xZlVPE",
-      "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
-      "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
-      "views": 1522,
-      "views_formatted": "1.52K",
-      "likes_formatted": "32",
-      "channel_name": "Will.",
-      "channel_subscribers": "489",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3735466"
-    },
-    {
       "title": "This Guy Has Been Selling The Moon For 40 Years",
       "youtube_id": "opJUYKr03Tw",
       "youtube_url": "https://www.youtube.com/watch?v=opJUYKr03Tw",
       "thumbnail": "https://i.ytimg.com/vi/opJUYKr03Tw/mqdefault.jpg",
-      "views": 1481,
+      "views": 1484,
       "views_formatted": "1.48K",
-      "likes_formatted": "35",
+      "likes_formatted": "36",
       "channel_name": "Will.",
       "channel_subscribers": "489",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4629,9 +4629,9 @@
       "youtube_id": "JVWi2n_RK7A",
       "youtube_url": "https://www.youtube.com/watch?v=JVWi2n_RK7A",
       "thumbnail": "https://i.ytimg.com/vi/JVWi2n_RK7A/mqdefault.jpg",
-      "views": 1391,
+      "views": 1393,
       "views_formatted": "1.39K",
-      "likes_formatted": "30",
+      "likes_formatted": "31",
       "channel_name": "Will.",
       "channel_subscribers": "489",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
