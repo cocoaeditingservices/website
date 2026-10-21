@@ -1,13 +1,35 @@
 {
- "total": 236,
+ "total": 238,
  "videos": [
+  {
+   "id": "3747513",
+   "title": "The Logic Behind Your Loot Drop",
+   "youtube_id": "fHum_4gq4Co",
+   "youtube_url": "https://www.youtube.com/shorts/fHum_4gq4Co",
+   "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/oar2.jpg",
+   "views_formatted": "1.04K",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
+  {
+   "id": "3747509",
+   "title": "Giving my Giant Robot Arm a Camera Rig 👀 #ad",
+   "youtube_id": "hpXFS_ZsCjg",
+   "youtube_url": "https://www.youtube.com/shorts/hpXFS_ZsCjg",
+   "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/oar2.jpg",
+   "views_formatted": "2.57K",
+   "channel_title": "Coding with Lewis",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3735466",
    "title": "How To Make Lightning Strike Exactly Where You Want",
    "youtube_id": "Ekon7xZlVPE",
    "youtube_url": "https://www.youtube.com/shorts/Ekon7xZlVPE",
    "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/oar2.jpg",
-   "views_formatted": "1.72K",
+   "views_formatted": "1.82K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -40,7 +62,7 @@
    "youtube_id": "opJUYKr03Tw",
    "youtube_url": "https://www.youtube.com/shorts/opJUYKr03Tw",
    "thumbnail": "https://i.ytimg.com/vi/opJUYKr03Tw/oar2.jpg",
-   "views_formatted": "1.48K",
+   "views_formatted": "1.49K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null

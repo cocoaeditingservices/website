@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-20",
-    "total_videos": 313,
-    "total_views_raw": 60311738,
-    "total_views": "60.31M",
+    "updated": "2026-10-21",
+    "total_videos": 315,
+    "total_views_raw": 60315448,
+    "total_views": "60.32M",
     "total_likes": "1.43M",
-    "total_comments": "54.94K"
+    "total_comments": "54.95K"
   },
   "channels": {
     "Coding with Lewis": {
-      "video_count": 221,
-      "total_views": 54916761,
+      "video_count": 222,
+      "total_views": 54919334,
       "subscribers": "759K",
       "verified": true
     },
@@ -27,8 +27,8 @@
       "verified": false
     },
     "Will.": {
-      "video_count": 18,
-      "total_views": 29851,
+      "video_count": 19,
+      "total_views": 30988,
       "subscribers": "489",
       "verified": true
     },
@@ -41,13 +41,13 @@
     "Grow With Li": {
       "video_count": 12,
       "total_views": 22708,
-      "subscribers": "86",
+      "subscribers": "85",
       "verified": false
     },
     "GitKraken": {
       "video_count": 1,
       "total_views": 7510,
-      "subscribers": "34.7K",
+      "subscribers": "34.8K",
       "verified": false
     },
     "TheSassJacket": {
@@ -59,7 +59,7 @@
     "Fast Forward": {
       "video_count": 1,
       "total_views": 194,
-      "subscribers": "770",
+      "subscribers": "768",
       "verified": false
     }
   },
@@ -3380,6 +3380,21 @@
       "ytjobs_id": "2320464"
     },
     {
+      "title": "Giving my Giant Robot Arm a Camera Rig 👀 #ad",
+      "youtube_id": "hpXFS_ZsCjg",
+      "youtube_url": "https://www.youtube.com/watch?v=hpXFS_ZsCjg",
+      "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/mqdefault.jpg",
+      "views": 2573,
+      "views_formatted": "2.57K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3747509"
+    },
+    {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
       "youtube_id": "x8_ZZhRL3YU",
       "youtube_url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU",
@@ -3433,7 +3448,7 @@
       "views_formatted": "194",
       "likes_formatted": "4",
       "channel_name": "Fast Forward",
-      "channel_subscribers": "770",
+      "channel_subscribers": "768",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163947,
@@ -3448,7 +3463,7 @@
       "views_formatted": "7.51K",
       "likes_formatted": "388",
       "channel_name": "GitKraken",
-      "channel_subscribers": "34.7K",
+      "channel_subscribers": "34.8K",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163946,
@@ -3463,7 +3478,7 @@
       "views_formatted": "3.92K",
       "likes_formatted": "127",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3478,7 +3493,7 @@
       "views_formatted": "2.6K",
       "likes_formatted": "99",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3493,7 +3508,7 @@
       "views_formatted": "2.45K",
       "likes_formatted": "55",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3508,7 +3523,7 @@
       "views_formatted": "2.41K",
       "likes_formatted": "37",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3523,7 +3538,7 @@
       "views_formatted": "2.15K",
       "likes_formatted": "83",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3538,7 +3553,7 @@
       "views_formatted": "1.73K",
       "likes_formatted": "62",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3553,7 +3568,7 @@
       "views_formatted": "1.7K",
       "likes_formatted": "30",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3568,7 +3583,7 @@
       "views_formatted": "1.65K",
       "likes_formatted": "31",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3583,7 +3598,7 @@
       "views_formatted": "1.5K",
       "likes_formatted": "22",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3598,7 +3613,7 @@
       "views_formatted": "1.4K",
       "likes_formatted": "77",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3613,7 +3628,7 @@
       "views_formatted": "1.14K",
       "likes_formatted": "36",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -3628,7 +3643,7 @@
       "views_formatted": "52",
       "likes_formatted": "7",
       "channel_name": "Grow With Li",
-      "channel_subscribers": "86",
+      "channel_subscribers": "85",
       "channel_yt_link": "",
       "channel_verified": false,
       "ytjobs_channel_id": 163948,
@@ -4520,6 +4535,21 @@
       "ytjobs_id": "3643206"
     },
     {
+      "title": "How To Make Lightning Strike Exactly Where You Want",
+      "youtube_id": "Ekon7xZlVPE",
+      "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
+      "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
+      "views": 1817,
+      "views_formatted": "1.82K",
+      "likes_formatted": "35",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3735466"
+    },
+    {
       "title": "Scientists Just Unlocked \"Quantum Teleportation\"",
       "youtube_id": "OR1SdNy7MyE",
       "youtube_url": "https://www.youtube.com/watch?v=OR1SdNy7MyE",
@@ -4548,21 +4578,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3625565"
-    },
-    {
-      "title": "How To Make Lightning Strike Exactly Where You Want",
-      "youtube_id": "Ekon7xZlVPE",
-      "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
-      "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
-      "views": 1719,
-      "views_formatted": "1.72K",
-      "likes_formatted": "34",
-      "channel_name": "Will.",
-      "channel_subscribers": "489",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3735466"
     },
     {
       "title": "IBM Paid Him £54,000 A Year To Stay Home",
@@ -4614,8 +4629,8 @@
       "youtube_id": "opJUYKr03Tw",
       "youtube_url": "https://www.youtube.com/watch?v=opJUYKr03Tw",
       "thumbnail": "https://i.ytimg.com/vi/opJUYKr03Tw/mqdefault.jpg",
-      "views": 1484,
-      "views_formatted": "1.48K",
+      "views": 1485,
+      "views_formatted": "1.49K",
       "likes_formatted": "36",
       "channel_name": "Will.",
       "channel_subscribers": "489",
@@ -4683,6 +4698,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3674877"
+    },
+    {
+      "title": "The Logic Behind Your Loot Drop",
+      "youtube_id": "fHum_4gq4Co",
+      "youtube_url": "https://www.youtube.com/watch?v=fHum_4gq4Co",
+      "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/mqdefault.jpg",
+      "views": 1038,
+      "views_formatted": "1.04K",
+      "likes_formatted": "34",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3747513"
     },
     {
       "title": "The Company On Every Bus Stop You've Ever Seen",
