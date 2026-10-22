@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-21",
-    "total_videos": 315,
-    "total_views_raw": 60315448,
+    "updated": "2026-10-22",
+    "total_videos": 316,
+    "total_views_raw": 60320054,
     "total_views": "60.32M",
     "total_likes": "1.43M",
     "total_comments": "54.95K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 222,
-      "total_views": 54919334,
+      "total_views": 54923680,
       "subscribers": "759K",
       "verified": true
     },
@@ -27,8 +27,8 @@
       "verified": false
     },
     "Will.": {
-      "video_count": 19,
-      "total_views": 30988,
+      "video_count": 20,
+      "total_views": 31248,
       "subscribers": "489",
       "verified": true
     },
@@ -53,7 +53,7 @@
     "TheSassJacket": {
       "video_count": 1,
       "total_views": 422,
-      "subscribers": "6.33K",
+      "subscribers": "6.35K",
       "verified": true
     },
     "Fast Forward": {
@@ -1385,6 +1385,21 @@
       "ytjobs_id": "868705"
     },
     {
+      "title": "I Took a Basic Todo App and Made It Cost $2000/Month",
+      "youtube_id": "nYlv0I9Ips0",
+      "youtube_url": "https://www.youtube.com/watch?v=nYlv0I9Ips0",
+      "thumbnail": "https://i.ytimg.com/vi/nYlv0I9Ips0/mqdefault.jpg",
+      "views": 167370,
+      "views_formatted": "167.37K",
+      "likes_formatted": "6.83K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1078864"
+    },
+    {
       "title": "Follow this principle for BETTER code 👩‍💻 #code #coding #technology #programmer #programming",
       "youtube_id": "YfDurr5PmIU",
       "youtube_url": "https://www.youtube.com/watch?v=YfDurr5PmIU",
@@ -1398,21 +1413,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868665"
-    },
-    {
-      "title": "I Took a Basic Todo App and Made It Cost $2000/Month",
-      "youtube_id": "nYlv0I9Ips0",
-      "youtube_url": "https://www.youtube.com/watch?v=nYlv0I9Ips0",
-      "thumbnail": "https://i.ytimg.com/vi/nYlv0I9Ips0/mqdefault.jpg",
-      "views": 166857,
-      "views_formatted": "166.86K",
-      "likes_formatted": "6.84K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1078864"
     },
     {
       "title": "How Discord Handled the Worlds Largest Server",
@@ -1914,9 +1914,9 @@
       "youtube_id": "GCffvbfnnq0",
       "youtube_url": "https://www.youtube.com/watch?v=GCffvbfnnq0",
       "thumbnail": "https://i.ytimg.com/vi/GCffvbfnnq0/mqdefault.jpg",
-      "views": 110788,
-      "views_formatted": "110.79K",
-      "likes_formatted": "3.73K",
+      "views": 110980,
+      "views_formatted": "110.98K",
+      "likes_formatted": "3.72K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
@@ -3384,8 +3384,8 @@
       "youtube_id": "hpXFS_ZsCjg",
       "youtube_url": "https://www.youtube.com/watch?v=hpXFS_ZsCjg",
       "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/mqdefault.jpg",
-      "views": 2573,
-      "views_formatted": "2.57K",
+      "views": 6214,
+      "views_formatted": "6.21K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -3688,7 +3688,7 @@
       "views_formatted": "422",
       "likes_formatted": "25",
       "channel_name": "TheSassJacket",
-      "channel_subscribers": "6.33K",
+      "channel_subscribers": "6.35K",
       "channel_yt_link": "https://youtube.com/@thesassjacket",
       "channel_verified": true,
       "ytjobs_channel_id": 211498,
@@ -4539,9 +4539,9 @@
       "youtube_id": "Ekon7xZlVPE",
       "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
       "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
-      "views": 1817,
-      "views_formatted": "1.82K",
-      "likes_formatted": "35",
+      "views": 1926,
+      "views_formatted": "1.93K",
+      "likes_formatted": "38",
       "channel_name": "Will.",
       "channel_subscribers": "489",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4644,7 +4644,7 @@
       "youtube_id": "JVWi2n_RK7A",
       "youtube_url": "https://www.youtube.com/watch?v=JVWi2n_RK7A",
       "thumbnail": "https://i.ytimg.com/vi/JVWi2n_RK7A/mqdefault.jpg",
-      "views": 1393,
+      "views": 1394,
       "views_formatted": "1.39K",
       "likes_formatted": "31",
       "channel_name": "Will.",
@@ -4685,6 +4685,21 @@
       "ytjobs_id": "3643208"
     },
     {
+      "title": "The Logic Behind Your Loot Drop",
+      "youtube_id": "fHum_4gq4Co",
+      "youtube_url": "https://www.youtube.com/watch?v=fHum_4gq4Co",
+      "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/mqdefault.jpg",
+      "views": 1188,
+      "views_formatted": "1.19K",
+      "likes_formatted": "35",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3747513"
+    },
+    {
       "title": "The US Definitely Owes Me $12 Trillion",
       "youtube_id": "wLdZsuxBDEg",
       "youtube_url": "https://www.youtube.com/watch?v=wLdZsuxBDEg",
@@ -4698,21 +4713,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3674877"
-    },
-    {
-      "title": "The Logic Behind Your Loot Drop",
-      "youtube_id": "fHum_4gq4Co",
-      "youtube_url": "https://www.youtube.com/watch?v=fHum_4gq4Co",
-      "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/mqdefault.jpg",
-      "views": 1038,
-      "views_formatted": "1.04K",
-      "likes_formatted": "34",
-      "channel_name": "Will.",
-      "channel_subscribers": "489",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3747513"
     },
     {
       "title": "The Company On Every Bus Stop You've Ever Seen",
@@ -4788,6 +4788,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3693835"
+    },
+    {
+      "title": "How Breeders Flattened The Persian Cat",
+      "youtube_id": "wxcx0a5hEZ4",
+      "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
+      "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
+      "views": 0,
+      "views_formatted": "0",
+      "likes_formatted": "1",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3752792"
     }
   ]
 }
