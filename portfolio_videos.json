@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-22",
+    "updated": "2026-10-23",
     "total_videos": 316,
-    "total_views_raw": 60320054,
+    "total_views_raw": 60321890,
     "total_views": "60.32M",
     "total_likes": "1.43M",
     "total_comments": "54.95K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 222,
-      "total_views": 54923680,
+      "total_views": 54925245,
       "subscribers": "759K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 20,
-      "total_views": 31248,
+      "total_views": 31519,
       "subscribers": "489",
       "verified": true
     },
@@ -759,8 +759,8 @@
       "youtube_id": "hIp44TdYdkI",
       "youtube_url": "https://www.youtube.com/watch?v=hIp44TdYdkI",
       "thumbnail": "https://i.ytimg.com/vi/hIp44TdYdkI/mqdefault.jpg",
-      "views": 312295,
-      "views_formatted": "312.3K",
+      "views": 312439,
+      "views_formatted": "312.44K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -3384,8 +3384,8 @@
       "youtube_id": "hpXFS_ZsCjg",
       "youtube_url": "https://www.youtube.com/watch?v=hpXFS_ZsCjg",
       "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/mqdefault.jpg",
-      "views": 6214,
-      "views_formatted": "6.21K",
+      "views": 7635,
+      "views_formatted": "7.64K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -4584,7 +4584,7 @@
       "youtube_id": "cnEHGpgHLd0",
       "youtube_url": "https://www.youtube.com/watch?v=cnEHGpgHLd0",
       "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/mqdefault.jpg",
-      "views": 1597,
+      "views": 1598,
       "views_formatted": "1.6K",
       "likes_formatted": "28",
       "channel_name": "Will.",
@@ -4644,8 +4644,8 @@
       "youtube_id": "JVWi2n_RK7A",
       "youtube_url": "https://www.youtube.com/watch?v=JVWi2n_RK7A",
       "thumbnail": "https://i.ytimg.com/vi/JVWi2n_RK7A/mqdefault.jpg",
-      "views": 1394,
-      "views_formatted": "1.39K",
+      "views": 1395,
+      "views_formatted": "1.4K",
       "likes_formatted": "31",
       "channel_name": "Will.",
       "channel_subscribers": "489",
@@ -4653,6 +4653,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3717410"
+    },
+    {
+      "title": "The Logic Behind Your Loot Drop",
+      "youtube_id": "fHum_4gq4Co",
+      "youtube_url": "https://www.youtube.com/watch?v=fHum_4gq4Co",
+      "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/mqdefault.jpg",
+      "views": 1348,
+      "views_formatted": "1.35K",
+      "likes_formatted": "36",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3747513"
     },
     {
       "title": "Everyone Suddenly Thinks AI Will Kill Us",
@@ -4683,21 +4698,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3643208"
-    },
-    {
-      "title": "The Logic Behind Your Loot Drop",
-      "youtube_id": "fHum_4gq4Co",
-      "youtube_url": "https://www.youtube.com/watch?v=fHum_4gq4Co",
-      "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/mqdefault.jpg",
-      "views": 1188,
-      "views_formatted": "1.19K",
-      "likes_formatted": "35",
-      "channel_name": "Will.",
-      "channel_subscribers": "489",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3747513"
     },
     {
       "title": "The US Definitely Owes Me $12 Trillion",
@@ -4760,6 +4760,21 @@
       "ytjobs_id": "3674875"
     },
     {
+      "title": "How Breeders Flattened The Persian Cat",
+      "youtube_id": "wxcx0a5hEZ4",
+      "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
+      "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
+      "views": 109,
+      "views_formatted": "109",
+      "likes_formatted": "5",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3752792"
+    },
+    {
       "title": "The Nvidia Truck Heist Nobody Saw Coming...",
       "youtube_id": "lzN4vhwUghE",
       "youtube_url": "https://www.youtube.com/watch?v=lzN4vhwUghE",
@@ -4788,21 +4803,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3693835"
-    },
-    {
-      "title": "How Breeders Flattened The Persian Cat",
-      "youtube_id": "wxcx0a5hEZ4",
-      "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
-      "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
-      "views": 0,
-      "views_formatted": "0",
-      "likes_formatted": "1",
-      "channel_name": "Will.",
-      "channel_subscribers": "489",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3752792"
     }
   ]
 }
