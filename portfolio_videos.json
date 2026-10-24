@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "total_videos": 316,
-    "total_views_raw": 60321890,
+    "total_views_raw": 60323433,
     "total_views": "60.32M",
     "total_likes": "1.43M",
     "total_comments": "54.95K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 222,
-      "total_views": 54925245,
+      "total_views": 54926735,
       "subscribers": "759K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 20,
-      "total_views": 31519,
+      "total_views": 31572,
       "subscribers": "489",
       "verified": true
     },
@@ -3384,8 +3384,8 @@
       "youtube_id": "hpXFS_ZsCjg",
       "youtube_url": "https://www.youtube.com/watch?v=hpXFS_ZsCjg",
       "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/mqdefault.jpg",
-      "views": 7635,
-      "views_formatted": "7.64K",
+      "views": 9125,
+      "views_formatted": "9.13K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -4539,7 +4539,7 @@
       "youtube_id": "Ekon7xZlVPE",
       "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
       "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
-      "views": 1926,
+      "views": 1931,
       "views_formatted": "1.93K",
       "likes_formatted": "38",
       "channel_name": "Will.",
@@ -4584,7 +4584,7 @@
       "youtube_id": "cnEHGpgHLd0",
       "youtube_url": "https://www.youtube.com/watch?v=cnEHGpgHLd0",
       "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/mqdefault.jpg",
-      "views": 1598,
+      "views": 1599,
       "views_formatted": "1.6K",
       "likes_formatted": "28",
       "channel_name": "Will.",
@@ -4659,8 +4659,8 @@
       "youtube_id": "fHum_4gq4Co",
       "youtube_url": "https://www.youtube.com/watch?v=fHum_4gq4Co",
       "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/mqdefault.jpg",
-      "views": 1348,
-      "views_formatted": "1.35K",
+      "views": 1364,
+      "views_formatted": "1.36K",
       "likes_formatted": "36",
       "channel_name": "Will.",
       "channel_subscribers": "489",
@@ -4764,9 +4764,9 @@
       "youtube_id": "wxcx0a5hEZ4",
       "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
       "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
-      "views": 109,
-      "views_formatted": "109",
-      "likes_formatted": "5",
+      "views": 140,
+      "views_formatted": "140",
+      "likes_formatted": "6",
       "channel_name": "Will.",
       "channel_subscribers": "489",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
