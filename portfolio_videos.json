@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-24",
+    "updated": "2026-10-25",
     "total_videos": 316,
-    "total_views_raw": 60323433,
+    "total_views_raw": 60324767,
     "total_views": "60.32M",
     "total_likes": "1.43M",
     "total_comments": "54.95K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 222,
-      "total_views": 54926735,
+      "total_views": 54928034,
       "subscribers": "759K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 20,
-      "total_views": 31572,
+      "total_views": 31607,
       "subscribers": "489",
       "verified": true
     },
@@ -3335,6 +3335,21 @@
       "ytjobs_id": "3280416"
     },
     {
+      "title": "Giving my Giant Robot Arm a Camera Rig 👀 #ad",
+      "youtube_id": "hpXFS_ZsCjg",
+      "youtube_url": "https://www.youtube.com/watch?v=hpXFS_ZsCjg",
+      "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/mqdefault.jpg",
+      "views": 10424,
+      "views_formatted": "10.42K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3747509"
+    },
+    {
       "title": "5 Ways Hackers Break your Software",
       "youtube_id": "ZnccRc4ZtQI",
       "youtube_url": "https://www.youtube.com/watch?v=ZnccRc4ZtQI",
@@ -3378,21 +3393,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2320464"
-    },
-    {
-      "title": "Giving my Giant Robot Arm a Camera Rig 👀 #ad",
-      "youtube_id": "hpXFS_ZsCjg",
-      "youtube_url": "https://www.youtube.com/watch?v=hpXFS_ZsCjg",
-      "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/mqdefault.jpg",
-      "views": 9125,
-      "views_formatted": "9.13K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3747509"
     },
     {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
@@ -4584,7 +4584,7 @@
       "youtube_id": "cnEHGpgHLd0",
       "youtube_url": "https://www.youtube.com/watch?v=cnEHGpgHLd0",
       "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/mqdefault.jpg",
-      "views": 1599,
+      "views": 1600,
       "views_formatted": "1.6K",
       "likes_formatted": "28",
       "channel_name": "Will.",
@@ -4659,8 +4659,8 @@
       "youtube_id": "fHum_4gq4Co",
       "youtube_url": "https://www.youtube.com/watch?v=fHum_4gq4Co",
       "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/mqdefault.jpg",
-      "views": 1364,
-      "views_formatted": "1.36K",
+      "views": 1367,
+      "views_formatted": "1.37K",
       "likes_formatted": "36",
       "channel_name": "Will.",
       "channel_subscribers": "489",
@@ -4764,9 +4764,9 @@
       "youtube_id": "wxcx0a5hEZ4",
       "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
       "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
-      "views": 140,
-      "views_formatted": "140",
-      "likes_formatted": "6",
+      "views": 171,
+      "views_formatted": "171",
+      "likes_formatted": "7",
       "channel_name": "Will.",
       "channel_subscribers": "489",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
