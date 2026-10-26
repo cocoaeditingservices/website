@@ -1,13 +1,35 @@
 {
- "total": 239,
+ "total": 241,
  "videos": [
+  {
+   "id": "3771639",
+   "title": "The Dark Forest Hypothesis, Explained",
+   "youtube_id": "PMO9y1m2Fbw",
+   "youtube_url": "https://www.youtube.com/shorts/PMO9y1m2Fbw",
+   "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/oar2.jpg",
+   "views_formatted": "56",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
+  {
+   "id": "3771304",
+   "title": "Why Japan Has 2.6 Million Vending Machines",
+   "youtube_id": "Nh9H5k4egeI",
+   "youtube_url": "https://www.youtube.com/shorts/Nh9H5k4egeI",
+   "thumbnail": "https://i.ytimg.com/vi/Nh9H5k4egeI/oar2.jpg",
+   "views_formatted": "182",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3752792",
    "title": "How Breeders Flattened The Persian Cat",
    "youtube_id": "wxcx0a5hEZ4",
    "youtube_url": "https://www.youtube.com/shorts/wxcx0a5hEZ4",
    "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/oar2.jpg",
-   "views_formatted": "171",
+   "views_formatted": "180",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -29,7 +51,7 @@
    "youtube_id": "hpXFS_ZsCjg",
    "youtube_url": "https://www.youtube.com/shorts/hpXFS_ZsCjg",
    "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/oar2.jpg",
-   "views_formatted": "10.42K",
+   "views_formatted": "10.82K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null
@@ -821,7 +843,7 @@
    "youtube_id": "AEooLuJszLU",
    "youtube_url": "https://www.youtube.com/shorts/AEooLuJszLU",
    "thumbnail": "https://i.ytimg.com/vi/AEooLuJszLU/oar2.jpg",
-   "views_formatted": "243.14K",
+   "views_formatted": "243.26K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 55
@@ -920,7 +942,7 @@
    "youtube_id": "5ZJpm2J4Gmw",
    "youtube_url": "https://www.youtube.com/shorts/5ZJpm2J4Gmw",
    "thumbnail": "https://i.ytimg.com/vi/5ZJpm2J4Gmw/oar2.jpg",
-   "views_formatted": "293.99K",
+   "views_formatted": "294.25K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 60
