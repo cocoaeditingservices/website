@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "total_videos": 318,
-    "total_views_raw": 60325856,
+    "total_views_raw": 60328213,
     "total_views": "60.33M",
     "total_likes": "1.43M",
     "total_comments": "54.95K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 222,
-      "total_views": 54928869,
+      "total_views": 54928958,
       "subscribers": "759K",
       "verified": true
     },
@@ -22,13 +22,13 @@
     },
     "Nicholas Renotte": {
       "video_count": 2,
-      "total_views": 50896,
+      "total_views": 52025,
       "subscribers": "329K",
       "verified": false
     },
     "Will.": {
       "video_count": 22,
-      "total_views": 31861,
+      "total_views": 33000,
       "subscribers": "489",
       "verified": true
     },
@@ -2634,8 +2634,8 @@
       "youtube_id": "6PDX5uQbSRM",
       "youtube_url": "https://www.youtube.com/watch?v=6PDX5uQbSRM",
       "thumbnail": "https://i.ytimg.com/vi/6PDX5uQbSRM/mqdefault.jpg",
-      "views": 62760,
-      "views_formatted": "62.76K",
+      "views": 62825,
+      "views_formatted": "62.83K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -3339,8 +3339,8 @@
       "youtube_id": "hpXFS_ZsCjg",
       "youtube_url": "https://www.youtube.com/watch?v=hpXFS_ZsCjg",
       "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/mqdefault.jpg",
-      "views": 10821,
-      "views_formatted": "10.82K",
+      "views": 10845,
+      "views_formatted": "10.85K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -3654,8 +3654,8 @@
       "youtube_id": "bgqfxCVDU4Q",
       "youtube_url": "https://www.youtube.com/watch?v=bgqfxCVDU4Q",
       "thumbnail": "https://i.ytimg.com/vi/bgqfxCVDU4Q/mqdefault.jpg",
-      "views": 32440,
-      "views_formatted": "32.44K",
+      "views": 33271,
+      "views_formatted": "33.27K",
       "likes_formatted": "1.36K",
       "channel_name": "Nicholas Renotte",
       "channel_subscribers": "329K",
@@ -3669,9 +3669,9 @@
       "youtube_id": "hEyeVD_kKLQ",
       "youtube_url": "https://www.youtube.com/watch?v=hEyeVD_kKLQ",
       "thumbnail": "https://i.ytimg.com/vi/hEyeVD_kKLQ/mqdefault.jpg",
-      "views": 18456,
-      "views_formatted": "18.46K",
-      "likes_formatted": "1.36K",
+      "views": 18754,
+      "views_formatted": "18.75K",
+      "likes_formatted": "1.37K",
       "channel_name": "Nicholas Renotte",
       "channel_subscribers": "329K",
       "channel_yt_link": "https://youtube.com/@nicholasrenotte",
@@ -4539,7 +4539,7 @@
       "youtube_id": "Ekon7xZlVPE",
       "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
       "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
-      "views": 1931,
+      "views": 1933,
       "views_formatted": "1.93K",
       "likes_formatted": "38",
       "channel_name": "Will.",
@@ -4659,8 +4659,8 @@
       "youtube_id": "fHum_4gq4Co",
       "youtube_url": "https://www.youtube.com/watch?v=fHum_4gq4Co",
       "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/mqdefault.jpg",
-      "views": 1374,
-      "views_formatted": "1.37K",
+      "views": 1384,
+      "views_formatted": "1.38K",
       "likes_formatted": "36",
       "channel_name": "Will.",
       "channel_subscribers": "489",
@@ -4698,6 +4698,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3643208"
+    },
+    {
+      "title": "The Dark Forest Hypothesis, Explained",
+      "youtube_id": "PMO9y1m2Fbw",
+      "youtube_url": "https://www.youtube.com/watch?v=PMO9y1m2Fbw",
+      "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/mqdefault.jpg",
+      "views": 1176,
+      "views_formatted": "1.18K",
+      "likes_formatted": "22",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3771639"
     },
     {
       "title": "The US Definitely Owes Me $12 Trillion",
@@ -4760,6 +4775,21 @@
       "ytjobs_id": "3674875"
     },
     {
+      "title": "How Breeders Flattened The Persian Cat",
+      "youtube_id": "wxcx0a5hEZ4",
+      "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
+      "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
+      "views": 187,
+      "views_formatted": "187",
+      "likes_formatted": "8",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3752792"
+    },
+    {
       "title": "Why Japan Has 2.6 Million Vending Machines",
       "youtube_id": "Nh9H5k4egeI",
       "youtube_url": "https://www.youtube.com/watch?v=Nh9H5k4egeI",
@@ -4775,21 +4805,6 @@
       "ytjobs_id": "3771304"
     },
     {
-      "title": "How Breeders Flattened The Persian Cat",
-      "youtube_id": "wxcx0a5hEZ4",
-      "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
-      "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
-      "views": 180,
-      "views_formatted": "180",
-      "likes_formatted": "7",
-      "channel_name": "Will.",
-      "channel_subscribers": "489",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3752792"
-    },
-    {
       "title": "The Nvidia Truck Heist Nobody Saw Coming...",
       "youtube_id": "lzN4vhwUghE",
       "youtube_url": "https://www.youtube.com/watch?v=lzN4vhwUghE",
@@ -4803,21 +4818,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3660371"
-    },
-    {
-      "title": "The Dark Forest Hypothesis, Explained",
-      "youtube_id": "PMO9y1m2Fbw",
-      "youtube_url": "https://www.youtube.com/watch?v=PMO9y1m2Fbw",
-      "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/mqdefault.jpg",
-      "views": 56,
-      "views_formatted": "56",
-      "likes_formatted": "1",
-      "channel_name": "Will.",
-      "channel_subscribers": "489",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3771639"
     },
     {
       "title": "Getting Mirrors Into Versailles Was A Whole Thing",
