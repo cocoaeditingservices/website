@@ -1,13 +1,35 @@
 {
- "total": 241,
+ "total": 243,
  "videos": [
+  {
+   "id": "3785386",
+   "title": "Every Pac-Man Ghost Follows Its Own Rule",
+   "youtube_id": "gO-f8rxTF3M",
+   "youtube_url": "https://www.youtube.com/shorts/gO-f8rxTF3M",
+   "thumbnail": "https://i.ytimg.com/vi/gO-f8rxTF3M/oar2.jpg",
+   "views_formatted": "1.33K",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
+  {
+   "id": "3782168",
+   "title": "One of the Worst Weeks EVER for the Internet",
+   "youtube_id": "UYP94fslcbY",
+   "youtube_url": "https://www.youtube.com/shorts/UYP94fslcbY",
+   "thumbnail": "https://i.ytimg.com/vi/UYP94fslcbY/oar2.jpg",
+   "views_formatted": "2.99K",
+   "channel_title": "Coding with Lewis",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3771639",
    "title": "The Dark Forest Hypothesis, Explained",
    "youtube_id": "PMO9y1m2Fbw",
    "youtube_url": "https://www.youtube.com/shorts/PMO9y1m2Fbw",
    "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/oar2.jpg",
-   "views_formatted": "1.18K",
+   "views_formatted": "1.21K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -18,7 +40,7 @@
    "youtube_id": "Nh9H5k4egeI",
    "youtube_url": "https://www.youtube.com/shorts/Nh9H5k4egeI",
    "thumbnail": "https://i.ytimg.com/vi/Nh9H5k4egeI/oar2.jpg",
-   "views_formatted": "182",
+   "views_formatted": "185",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -29,7 +51,7 @@
    "youtube_id": "wxcx0a5hEZ4",
    "youtube_url": "https://www.youtube.com/shorts/wxcx0a5hEZ4",
    "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/oar2.jpg",
-   "views_formatted": "187",
+   "views_formatted": "191",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -40,7 +62,7 @@
    "youtube_id": "fHum_4gq4Co",
    "youtube_url": "https://www.youtube.com/shorts/fHum_4gq4Co",
    "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/oar2.jpg",
-   "views_formatted": "1.38K",
+   "views_formatted": "1.39K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -51,7 +73,7 @@
    "youtube_id": "hpXFS_ZsCjg",
    "youtube_url": "https://www.youtube.com/shorts/hpXFS_ZsCjg",
    "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/oar2.jpg",
-   "views_formatted": "10.85K",
+   "views_formatted": "11.02K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null
@@ -909,7 +931,7 @@
    "youtube_id": "K-MngFySpuc",
    "youtube_url": "https://www.youtube.com/shorts/K-MngFySpuc",
    "thumbnail": "https://i.ytimg.com/vi/K-MngFySpuc/oar2.jpg",
-   "views_formatted": "34.36K",
+   "views_formatted": "36.78K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 85
@@ -975,7 +997,7 @@
    "youtube_id": "cLRAAVJTH4Q",
    "youtube_url": "https://www.youtube.com/shorts/cLRAAVJTH4Q",
    "thumbnail": "https://i.ytimg.com/vi/cLRAAVJTH4Q/oar2.jpg",
-   "views_formatted": "94.65K",
+   "views_formatted": "94.66K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 60

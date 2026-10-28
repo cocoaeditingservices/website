@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-27",
-    "total_videos": 318,
-    "total_views_raw": 60328213,
-    "total_views": "60.33M",
+    "updated": "2026-10-28",
+    "total_videos": 320,
+    "total_views_raw": 60335194,
+    "total_views": "60.34M",
     "total_likes": "1.43M",
-    "total_comments": "54.95K"
+    "total_comments": "54.97K"
   },
   "channels": {
     "Coding with Lewis": {
-      "video_count": 222,
-      "total_views": 54928958,
+      "video_count": 223,
+      "total_views": 54934556,
       "subscribers": "759K",
       "verified": true
     },
@@ -27,8 +27,8 @@
       "verified": false
     },
     "Will.": {
-      "video_count": 22,
-      "total_views": 33000,
+      "video_count": 23,
+      "total_views": 34383,
       "subscribers": "489",
       "verified": true
     },
@@ -2109,8 +2109,8 @@
       "youtube_id": "cLRAAVJTH4Q",
       "youtube_url": "https://www.youtube.com/watch?v=cLRAAVJTH4Q",
       "thumbnail": "https://i.ytimg.com/vi/cLRAAVJTH4Q/mqdefault.jpg",
-      "views": 94649,
-      "views_formatted": "94.65K",
+      "views": 94655,
+      "views_formatted": "94.66K",
       "likes_formatted": "4.5K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -2915,6 +2915,21 @@
       "ytjobs_id": "1975398"
     },
     {
+      "title": "DON’T BUY a Super Ultrawide Monitor  💻 #technology #computer #tech #monitor #gaming #coding",
+      "youtube_id": "K-MngFySpuc",
+      "youtube_url": "https://www.youtube.com/watch?v=K-MngFySpuc",
+      "thumbnail": "https://i.ytimg.com/vi/K-MngFySpuc/mqdefault.jpg",
+      "views": 36781,
+      "views_formatted": "36.78K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1162033"
+    },
+    {
       "title": "Here are the winners for the NVIDIA Project G-Assist Hackathon! #ad",
       "youtube_id": "P7nBTUKaRec",
       "youtube_url": "https://www.youtube.com/watch?v=P7nBTUKaRec",
@@ -2928,21 +2943,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2058397"
-    },
-    {
-      "title": "DON’T BUY a Super Ultrawide Monitor  💻 #technology #computer #tech #monitor #gaming #coding",
-      "youtube_id": "K-MngFySpuc",
-      "youtube_url": "https://www.youtube.com/watch?v=K-MngFySpuc",
-      "thumbnail": "https://i.ytimg.com/vi/K-MngFySpuc/mqdefault.jpg",
-      "views": 34356,
-      "views_formatted": "34.36K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1162033"
     },
     {
       "title": "What is Edge Computing? (In 1 minute) #software #coding #programming #tech #technology #code",
@@ -3339,8 +3339,8 @@
       "youtube_id": "hpXFS_ZsCjg",
       "youtube_url": "https://www.youtube.com/watch?v=hpXFS_ZsCjg",
       "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/mqdefault.jpg",
-      "views": 10845,
-      "views_formatted": "10.85K",
+      "views": 11018,
+      "views_formatted": "11.02K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -3393,6 +3393,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2320464"
+    },
+    {
+      "title": "One of the Worst Weeks EVER for the Internet",
+      "youtube_id": "UYP94fslcbY",
+      "youtube_url": "https://www.youtube.com/watch?v=UYP94fslcbY",
+      "thumbnail": "https://i.ytimg.com/vi/UYP94fslcbY/mqdefault.jpg",
+      "views": 2994,
+      "views_formatted": "2.99K",
+      "likes_formatted": "211",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3782168"
     },
     {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
@@ -4659,8 +4674,8 @@
       "youtube_id": "fHum_4gq4Co",
       "youtube_url": "https://www.youtube.com/watch?v=fHum_4gq4Co",
       "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/mqdefault.jpg",
-      "views": 1384,
-      "views_formatted": "1.38K",
+      "views": 1389,
+      "views_formatted": "1.39K",
       "likes_formatted": "36",
       "channel_name": "Will.",
       "channel_subscribers": "489",
@@ -4668,6 +4683,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3747513"
+    },
+    {
+      "title": "Every Pac-Man Ghost Follows Its Own Rule",
+      "youtube_id": "gO-f8rxTF3M",
+      "youtube_url": "https://www.youtube.com/watch?v=gO-f8rxTF3M",
+      "thumbnail": "https://i.ytimg.com/vi/gO-f8rxTF3M/mqdefault.jpg",
+      "views": 1334,
+      "views_formatted": "1.33K",
+      "likes_formatted": "44",
+      "channel_name": "Will.",
+      "channel_subscribers": "489",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3785386"
     },
     {
       "title": "Everyone Suddenly Thinks AI Will Kill Us",
@@ -4704,9 +4734,9 @@
       "youtube_id": "PMO9y1m2Fbw",
       "youtube_url": "https://www.youtube.com/watch?v=PMO9y1m2Fbw",
       "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/mqdefault.jpg",
-      "views": 1176,
-      "views_formatted": "1.18K",
-      "likes_formatted": "22",
+      "views": 1213,
+      "views_formatted": "1.21K",
+      "likes_formatted": "23",
       "channel_name": "Will.",
       "channel_subscribers": "489",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4779,9 +4809,9 @@
       "youtube_id": "wxcx0a5hEZ4",
       "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
       "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
-      "views": 187,
-      "views_formatted": "187",
-      "likes_formatted": "8",
+      "views": 191,
+      "views_formatted": "191",
+      "likes_formatted": "9",
       "channel_name": "Will.",
       "channel_subscribers": "489",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4794,8 +4824,8 @@
       "youtube_id": "Nh9H5k4egeI",
       "youtube_url": "https://www.youtube.com/watch?v=Nh9H5k4egeI",
       "thumbnail": "https://i.ytimg.com/vi/Nh9H5k4egeI/mqdefault.jpg",
-      "views": 182,
-      "views_formatted": "182",
+      "views": 185,
+      "views_formatted": "185",
       "likes_formatted": "6",
       "channel_name": "Will.",
       "channel_subscribers": "489",
