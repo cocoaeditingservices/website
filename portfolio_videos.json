@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-10-29",
+    "updated": "2026-10-30",
     "total_videos": 320,
-    "total_views_raw": 60385819,
-    "total_views": "60.39M",
-    "total_likes": "1.43M",
-    "total_comments": "54.99K"
+    "total_views_raw": 60617559,
+    "total_views": "60.62M",
+    "total_likes": "1.44M",
+    "total_comments": "55.2K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 223,
-      "total_views": 54983273,
+      "total_views": 55214483,
       "subscribers": "759K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 23,
-      "total_views": 34983,
+      "total_views": 35513,
       "subscribers": "495",
       "verified": true
     },
@@ -294,8 +294,8 @@
       "youtube_id": "GDdDYMkUILQ",
       "youtube_url": "https://www.youtube.com/watch?v=GDdDYMkUILQ",
       "thumbnail": "https://i.ytimg.com/vi/GDdDYMkUILQ/mqdefault.jpg",
-      "views": 663034,
-      "views_formatted": "663.03K",
+      "views": 663257,
+      "views_formatted": "663.26K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -755,6 +755,21 @@
       "ytjobs_id": "914761"
     },
     {
+      "title": "The E-Ink Monopoly",
+      "youtube_id": "3QbJ7pnc1Lc",
+      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
+      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
+      "views": 312630,
+      "views_formatted": "312.63K",
+      "likes_formatted": "9.56K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3344344"
+    },
+    {
       "title": "The software that changed Linux FOREVER 💻 #linux #software #technology #code #tech",
       "youtube_id": "hIp44TdYdkI",
       "youtube_url": "https://www.youtube.com/watch?v=hIp44TdYdkI",
@@ -834,8 +849,8 @@
       "youtube_id": "dbPQgzDNFqg",
       "youtube_url": "https://www.youtube.com/watch?v=dbPQgzDNFqg",
       "thumbnail": "https://i.ytimg.com/vi/dbPQgzDNFqg/mqdefault.jpg",
-      "views": 290565,
-      "views_formatted": "290.57K",
+      "views": 291204,
+      "views_formatted": "291.2K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -2270,21 +2285,6 @@
       "ytjobs_id": "1498727"
     },
     {
-      "title": "The E-Ink Monopoly",
-      "youtube_id": "3QbJ7pnc1Lc",
-      "youtube_url": "https://www.youtube.com/watch?v=3QbJ7pnc1Lc",
-      "thumbnail": "https://i.ytimg.com/vi/3QbJ7pnc1Lc/mqdefault.jpg",
-      "views": 88710,
-      "views_formatted": "88.71K",
-      "likes_formatted": "4.35K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3344344"
-    },
-    {
       "title": "How Much Does it Cost to Scale an App to 100,000 Users?",
       "youtube_id": "AuodUoWEWw0",
       "youtube_url": "https://www.youtube.com/watch?v=AuodUoWEWw0",
@@ -2945,6 +2945,21 @@
       "ytjobs_id": "2058397"
     },
     {
+      "title": "One of the Worst Weeks EVER for the Internet",
+      "youtube_id": "UYP94fslcbY",
+      "youtube_url": "https://www.youtube.com/watch?v=UYP94fslcbY",
+      "thumbnail": "https://i.ytimg.com/vi/UYP94fslcbY/mqdefault.jpg",
+      "views": 34733,
+      "views_formatted": "34.73K",
+      "likes_formatted": "1.25K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3782168"
+    },
+    {
       "title": "What is Edge Computing? (In 1 minute) #software #coding #programming #tech #technology #code",
       "youtube_id": "rBKRTtV6en0",
       "youtube_url": "https://www.youtube.com/watch?v=rBKRTtV6en0",
@@ -3063,21 +3078,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "576627"
-    },
-    {
-      "title": "One of the Worst Weeks EVER for the Internet",
-      "youtube_id": "UYP94fslcbY",
-      "youtube_url": "https://www.youtube.com/watch?v=UYP94fslcbY",
-      "thumbnail": "https://i.ytimg.com/vi/UYP94fslcbY/mqdefault.jpg",
-      "views": 28444,
-      "views_formatted": "28.44K",
-      "likes_formatted": "1.1K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3782168"
     },
     {
       "title": "The END of AI Slop is here? 🤖",
@@ -3369,8 +3369,8 @@
       "youtube_id": "hpXFS_ZsCjg",
       "youtube_url": "https://www.youtube.com/watch?v=hpXFS_ZsCjg",
       "thumbnail": "https://i.ytimg.com/vi/hpXFS_ZsCjg/mqdefault.jpg",
-      "views": 11190,
-      "views_formatted": "11.19K",
+      "views": 11329,
+      "views_formatted": "11.33K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "759K",
@@ -4550,6 +4550,21 @@
       "ytjobs_id": "3643206"
     },
     {
+      "title": "Every Pac-Man Ghost Follows Its Own Rule",
+      "youtube_id": "gO-f8rxTF3M",
+      "youtube_url": "https://www.youtube.com/watch?v=gO-f8rxTF3M",
+      "thumbnail": "https://i.ytimg.com/vi/gO-f8rxTF3M/mqdefault.jpg",
+      "views": 2468,
+      "views_formatted": "2.47K",
+      "likes_formatted": "74",
+      "channel_name": "Will.",
+      "channel_subscribers": "495",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3785386"
+    },
+    {
       "title": "How To Make Lightning Strike Exactly Where You Want",
       "youtube_id": "Ekon7xZlVPE",
       "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
@@ -4563,21 +4578,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3735466"
-    },
-    {
-      "title": "Every Pac-Man Ghost Follows Its Own Rule",
-      "youtube_id": "gO-f8rxTF3M",
-      "youtube_url": "https://www.youtube.com/watch?v=gO-f8rxTF3M",
-      "thumbnail": "https://i.ytimg.com/vi/gO-f8rxTF3M/mqdefault.jpg",
-      "views": 1921,
-      "views_formatted": "1.92K",
-      "likes_formatted": "60",
-      "channel_name": "Will.",
-      "channel_subscribers": "495",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3785386"
     },
     {
       "title": "Scientists Just Unlocked \"Quantum Teleportation\"",
@@ -4734,8 +4734,8 @@
       "youtube_id": "PMO9y1m2Fbw",
       "youtube_url": "https://www.youtube.com/watch?v=PMO9y1m2Fbw",
       "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/mqdefault.jpg",
-      "views": 1224,
-      "views_formatted": "1.22K",
+      "views": 1205,
+      "views_formatted": "1.21K",
       "likes_formatted": "24",
       "channel_name": "Will.",
       "channel_subscribers": "495",
@@ -4809,8 +4809,8 @@
       "youtube_id": "wxcx0a5hEZ4",
       "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
       "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
-      "views": 192,
-      "views_formatted": "192",
+      "views": 193,
+      "views_formatted": "193",
       "likes_formatted": "9",
       "channel_name": "Will.",
       "channel_subscribers": "495",
@@ -4824,8 +4824,8 @@
       "youtube_id": "Nh9H5k4egeI",
       "youtube_url": "https://www.youtube.com/watch?v=Nh9H5k4egeI",
       "thumbnail": "https://i.ytimg.com/vi/Nh9H5k4egeI/mqdefault.jpg",
-      "views": 185,
-      "views_formatted": "185",
+      "views": 186,
+      "views_formatted": "186",
       "likes_formatted": "6",
       "channel_name": "Will.",
       "channel_subscribers": "495",
