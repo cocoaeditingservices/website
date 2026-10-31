@@ -1,6 +1,17 @@
 {
- "total": 243,
+ "total": 244,
  "videos": [
+  {
+   "id": "3799210",
+   "title": "How The Price Of Oil Went Negative",
+   "youtube_id": "y0w8URdR0go",
+   "youtube_url": "https://www.youtube.com/shorts/y0w8URdR0go",
+   "thumbnail": "https://i.ytimg.com/vi/y0w8URdR0go/oar2.jpg",
+   "views_formatted": "1.24K",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3785386",
    "title": "Every Pac-Man Ghost Follows Its Own Rule",
@@ -18,7 +29,7 @@
    "youtube_id": "UYP94fslcbY",
    "youtube_url": "https://www.youtube.com/shorts/UYP94fslcbY",
    "thumbnail": "https://i.ytimg.com/vi/UYP94fslcbY/oar2.jpg",
-   "views_formatted": "34.73K",
+   "views_formatted": "37.17K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null
@@ -51,7 +62,7 @@
    "youtube_id": "wxcx0a5hEZ4",
    "youtube_url": "https://www.youtube.com/shorts/wxcx0a5hEZ4",
    "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/oar2.jpg",
-   "views_formatted": "193",
+   "views_formatted": "194",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -238,7 +249,7 @@
    "youtube_id": "BtehhblZVq4",
    "youtube_url": "https://www.youtube.com/shorts/BtehhblZVq4",
    "thumbnail": "https://i.ytimg.com/vi/BtehhblZVq4/oar2.jpg",
-   "views_formatted": "1.75K",
+   "views_formatted": "1.76K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -260,7 +271,7 @@
    "youtube_id": "QC2pbLfLXOw",
    "youtube_url": "https://www.youtube.com/shorts/QC2pbLfLXOw",
    "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/oar2.jpg",
-   "views_formatted": "6.84K",
+   "views_formatted": "6.87K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -271,7 +282,7 @@
    "youtube_id": "FfPjm9Dnf-E",
    "youtube_url": "https://www.youtube.com/shorts/FfPjm9Dnf-E",
    "thumbnail": "https://i.ytimg.com/vi/FfPjm9Dnf-E/oar2.jpg",
-   "views_formatted": "1.58K",
+   "views_formatted": "1.6K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -282,7 +293,7 @@
    "youtube_id": "OR1SdNy7MyE",
    "youtube_url": "https://www.youtube.com/shorts/OR1SdNy7MyE",
    "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/oar2.jpg",
-   "views_formatted": "1.77K",
+   "views_formatted": "1.82K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -293,7 +304,7 @@
    "youtube_id": "XVv5dYnkXE8",
    "youtube_url": "https://www.youtube.com/shorts/XVv5dYnkXE8",
    "thumbnail": "https://i.ytimg.com/vi/XVv5dYnkXE8/oar2.jpg",
-   "views_formatted": "1.32K",
+   "views_formatted": "1.34K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -337,7 +348,7 @@
    "youtube_id": "6LHHOBXNmUw",
    "youtube_url": "https://www.youtube.com/shorts/6LHHOBXNmUw",
    "thumbnail": "https://i.ytimg.com/vi/6LHHOBXNmUw/oar2.jpg",
-   "views_formatted": "26.96K",
+   "views_formatted": "31.18K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 104
@@ -579,7 +590,7 @@
    "youtube_id": "P7nBTUKaRec",
    "youtube_url": "https://www.youtube.com/shorts/P7nBTUKaRec",
    "thumbnail": "https://i.ytimg.com/vi/P7nBTUKaRec/oar2.jpg",
-   "views_formatted": "34.95K",
+   "views_formatted": "35.06K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 78
@@ -920,7 +931,7 @@
    "youtube_id": "P5jhzWlkDr8",
    "youtube_url": "https://www.youtube.com/shorts/P5jhzWlkDr8",
    "thumbnail": "https://i.ytimg.com/vi/P5jhzWlkDr8/oar2.jpg",
-   "views_formatted": "80.32K",
+   "views_formatted": "80.37K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 59
