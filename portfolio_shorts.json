@@ -1,6 +1,28 @@
 {
- "total": 244,
+ "total": 246,
  "videos": [
+  {
+   "id": "3817920",
+   "title": "Billionaires Love The Pineapple Loophole",
+   "youtube_id": "OZFVg2VyUcc",
+   "youtube_url": "https://www.youtube.com/shorts/OZFVg2VyUcc",
+   "thumbnail": "https://i.ytimg.com/vi/OZFVg2VyUcc/oar2.jpg",
+   "views_formatted": "293",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
+  {
+   "id": "3817919",
+   "title": "We Owe The Ghoul An Apology...",
+   "youtube_id": "zAjMqv3SI2g",
+   "youtube_url": "https://www.youtube.com/shorts/zAjMqv3SI2g",
+   "thumbnail": "https://i.ytimg.com/vi/zAjMqv3SI2g/oar2.jpg",
+   "views_formatted": "1.4K",
+   "channel_title": "Will.",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3799210",
    "title": "How The Price Of Oil Went Negative",
@@ -18,7 +40,7 @@
    "youtube_id": "gO-f8rxTF3M",
    "youtube_url": "https://www.youtube.com/shorts/gO-f8rxTF3M",
    "thumbnail": "https://i.ytimg.com/vi/gO-f8rxTF3M/oar2.jpg",
-   "views_formatted": "3.87K",
+   "views_formatted": "3.88K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -29,7 +51,7 @@
    "youtube_id": "UYP94fslcbY",
    "youtube_url": "https://www.youtube.com/shorts/UYP94fslcbY",
    "thumbnail": "https://i.ytimg.com/vi/UYP94fslcbY/oar2.jpg",
-   "views_formatted": "41.1K",
+   "views_formatted": "41.34K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": null
@@ -62,7 +84,7 @@
    "youtube_id": "wxcx0a5hEZ4",
    "youtube_url": "https://www.youtube.com/shorts/wxcx0a5hEZ4",
    "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/oar2.jpg",
-   "views_formatted": "194",
+   "views_formatted": "200",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null

@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-03",
-    "total_videos": 321,
-    "total_views_raw": 60953213,
-    "total_views": "60.95M",
+    "updated": "2026-11-04",
+    "total_videos": 323,
+    "total_views_raw": 60958284,
+    "total_views": "60.96M",
     "total_likes": "1.44M",
-    "total_comments": "55.23K"
+    "total_comments": "55.24K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 223,
-      "total_views": 55492237,
+      "total_views": 55495602,
       "subscribers": "759K",
       "verified": true
     },
@@ -27,8 +27,8 @@
       "verified": false
     },
     "Will.": {
-      "video_count": 24,
-      "total_views": 38448,
+      "video_count": 26,
+      "total_views": 40154,
       "subscribers": "495",
       "verified": true
     },
@@ -2210,6 +2210,21 @@
       "ytjobs_id": "2540812"
     },
     {
+      "title": "How Much Does it Cost to Scale an App to 100,000 Users?",
+      "youtube_id": "AuodUoWEWw0",
+      "youtube_url": "https://www.youtube.com/watch?v=AuodUoWEWw0",
+      "thumbnail": "https://i.ytimg.com/vi/AuodUoWEWw0/mqdefault.jpg",
+      "views": 91654,
+      "views_formatted": "91.65K",
+      "likes_formatted": "3.81K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1683925"
+    },
+    {
       "title": "Game Developers Reveal WHY Your Games Lag",
       "youtube_id": "lIiDgPxruEA",
       "youtube_url": "https://www.youtube.com/watch?v=lIiDgPxruEA",
@@ -2283,21 +2298,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1498727"
-    },
-    {
-      "title": "How Much Does it Cost to Scale an App to 100,000 Users?",
-      "youtube_id": "AuodUoWEWw0",
-      "youtube_url": "https://www.youtube.com/watch?v=AuodUoWEWw0",
-      "thumbnail": "https://i.ytimg.com/vi/AuodUoWEWw0/mqdefault.jpg",
-      "views": 88535,
-      "views_formatted": "88.54K",
-      "likes_formatted": "3.79K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1683925"
     },
     {
       "title": "Must Have Tech Items for Programmers 💻 #tech #software #code #programming #technology",
@@ -2870,6 +2870,21 @@
       "ytjobs_id": "637431"
     },
     {
+      "title": "One of the Worst Weeks EVER for the Internet",
+      "youtube_id": "UYP94fslcbY",
+      "youtube_url": "https://www.youtube.com/watch?v=UYP94fslcbY",
+      "thumbnail": "https://i.ytimg.com/vi/UYP94fslcbY/mqdefault.jpg",
+      "views": 41341,
+      "views_formatted": "41.34K",
+      "likes_formatted": "1.43K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "759K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3782168"
+    },
+    {
       "title": "Can AI Make an App from JUST my Drawings?",
       "youtube_id": "nz0_wi1T578",
       "youtube_url": "https://www.youtube.com/watch?v=nz0_wi1T578",
@@ -2883,21 +2898,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1588032"
-    },
-    {
-      "title": "One of the Worst Weeks EVER for the Internet",
-      "youtube_id": "UYP94fslcbY",
-      "youtube_url": "https://www.youtube.com/watch?v=UYP94fslcbY",
-      "thumbnail": "https://i.ytimg.com/vi/UYP94fslcbY/mqdefault.jpg",
-      "views": 41095,
-      "views_formatted": "41.1K",
-      "likes_formatted": "1.42K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "759K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3782168"
     },
     {
       "title": "Deploy Kubernetes EASILY with this 👩‍💻 #ad #tech #coder #computerprogrammer #programmer #deploy",
@@ -4554,9 +4554,9 @@
       "youtube_id": "gO-f8rxTF3M",
       "youtube_url": "https://www.youtube.com/watch?v=gO-f8rxTF3M",
       "thumbnail": "https://i.ytimg.com/vi/gO-f8rxTF3M/mqdefault.jpg",
-      "views": 3873,
-      "views_formatted": "3.87K",
-      "likes_formatted": "99",
+      "views": 3877,
+      "views_formatted": "3.88K",
+      "likes_formatted": "100",
       "channel_name": "Will.",
       "channel_subscribers": "495",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4685,6 +4685,21 @@
       "ytjobs_id": "3747513"
     },
     {
+      "title": "We Owe The Ghoul An Apology...",
+      "youtube_id": "zAjMqv3SI2g",
+      "youtube_url": "https://www.youtube.com/watch?v=zAjMqv3SI2g",
+      "thumbnail": "https://i.ytimg.com/vi/zAjMqv3SI2g/mqdefault.jpg",
+      "views": 1398,
+      "views_formatted": "1.4K",
+      "likes_formatted": "37",
+      "channel_name": "Will.",
+      "channel_subscribers": "495",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3817919"
+    },
+    {
       "title": "The Most Cursed Colour In Art History...",
       "youtube_id": "JVWi2n_RK7A",
       "youtube_url": "https://www.youtube.com/watch?v=JVWi2n_RK7A",
@@ -4719,7 +4734,7 @@
       "youtube_id": "y0w8URdR0go",
       "youtube_url": "https://www.youtube.com/watch?v=y0w8URdR0go",
       "thumbnail": "https://i.ytimg.com/vi/y0w8URdR0go/mqdefault.jpg",
-      "views": 1261,
+      "views": 1262,
       "views_formatted": "1.26K",
       "likes_formatted": "26",
       "channel_name": "Will.",
@@ -4749,9 +4764,9 @@
       "youtube_id": "PMO9y1m2Fbw",
       "youtube_url": "https://www.youtube.com/watch?v=PMO9y1m2Fbw",
       "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/mqdefault.jpg",
-      "views": 1217,
+      "views": 1221,
       "views_formatted": "1.22K",
-      "likes_formatted": "25",
+      "likes_formatted": "26",
       "channel_name": "Will.",
       "channel_subscribers": "495",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4820,12 +4835,27 @@
       "ytjobs_id": "3674875"
     },
     {
+      "title": "Billionaires Love The Pineapple Loophole",
+      "youtube_id": "OZFVg2VyUcc",
+      "youtube_url": "https://www.youtube.com/watch?v=OZFVg2VyUcc",
+      "thumbnail": "https://i.ytimg.com/vi/OZFVg2VyUcc/mqdefault.jpg",
+      "views": 293,
+      "views_formatted": "293",
+      "likes_formatted": "15",
+      "channel_name": "Will.",
+      "channel_subscribers": "495",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3817920"
+    },
+    {
       "title": "How Breeders Flattened The Persian Cat",
       "youtube_id": "wxcx0a5hEZ4",
       "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
       "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
-      "views": 194,
-      "views_formatted": "194",
+      "views": 200,
+      "views_formatted": "200",
       "likes_formatted": "9",
       "channel_name": "Will.",
       "channel_subscribers": "495",
