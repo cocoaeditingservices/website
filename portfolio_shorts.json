@@ -1,13 +1,24 @@
 {
- "total": 246,
+ "total": 247,
  "videos": [
+  {
+   "id": "3835077",
+   "title": "The Legendary Programmer Iceberg",
+   "youtube_id": "WpmznZlrhvk",
+   "youtube_url": "https://www.youtube.com/shorts/WpmznZlrhvk",
+   "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/oar2.jpg",
+   "views_formatted": "2.52K",
+   "channel_title": "Coding with Lewis",
+   "channel_id": null,
+   "duration": null
+  },
   {
    "id": "3817920",
    "title": "Billionaires Love The Pineapple Loophole",
    "youtube_id": "OZFVg2VyUcc",
    "youtube_url": "https://www.youtube.com/shorts/OZFVg2VyUcc",
    "thumbnail": "https://i.ytimg.com/vi/OZFVg2VyUcc/oar2.jpg",
-   "views_formatted": "419",
+   "views_formatted": "420",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -18,7 +29,7 @@
    "youtube_id": "zAjMqv3SI2g",
    "youtube_url": "https://www.youtube.com/shorts/zAjMqv3SI2g",
    "thumbnail": "https://i.ytimg.com/vi/zAjMqv3SI2g/oar2.jpg",
-   "views_formatted": "1.46K",
+   "views_formatted": "1.47K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -73,7 +84,7 @@
    "youtube_id": "Nh9H5k4egeI",
    "youtube_url": "https://www.youtube.com/shorts/Nh9H5k4egeI",
    "thumbnail": "https://i.ytimg.com/vi/Nh9H5k4egeI/oar2.jpg",
-   "views_formatted": "186",
+   "views_formatted": "189",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -95,7 +106,7 @@
    "youtube_id": "fHum_4gq4Co",
    "youtube_url": "https://www.youtube.com/shorts/fHum_4gq4Co",
    "thumbnail": "https://i.ytimg.com/vi/fHum_4gq4Co/oar2.jpg",
-   "views_formatted": "1.41K",
+   "views_formatted": "1.43K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -117,7 +128,7 @@
    "youtube_id": "Ekon7xZlVPE",
    "youtube_url": "https://www.youtube.com/shorts/Ekon7xZlVPE",
    "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/oar2.jpg",
-   "views_formatted": "1.94K",
+   "views_formatted": "1.95K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -128,7 +139,7 @@
    "youtube_id": "cnEHGpgHLd0",
    "youtube_url": "https://www.youtube.com/shorts/cnEHGpgHLd0",
    "thumbnail": "https://i.ytimg.com/vi/cnEHGpgHLd0/oar2.jpg",
-   "views_formatted": "1.6K",
+   "views_formatted": "1.61K",
    "channel_title": "Will.",
    "channel_id": null,
    "duration": null
@@ -513,7 +524,7 @@
    "youtube_id": "-BOUeVqgb8s",
    "youtube_url": "https://www.youtube.com/shorts/-BOUeVqgb8s",
    "thumbnail": "https://i.ytimg.com/vi/-BOUeVqgb8s/oar2.jpg",
-   "views_formatted": "76.54K",
+   "views_formatted": "76.56K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 72
@@ -590,7 +601,7 @@
    "youtube_id": "UdAwrQF-LPk",
    "youtube_url": "https://www.youtube.com/shorts/UdAwrQF-LPk",
    "thumbnail": "https://i.ytimg.com/vi/UdAwrQF-LPk/oar2.jpg",
-   "views_formatted": "47.5K",
+   "views_formatted": "48.29K",
    "channel_title": "Coding with Lewis",
    "channel_id": null,
    "duration": 64
