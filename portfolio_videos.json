@@ -1,22 +1,22 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-07",
+    "updated": "2026-11-08",
     "total_videos": 324,
-    "total_views_raw": 60980582,
-    "total_views": "60.98M",
+    "total_views_raw": 61041816,
+    "total_views": "61.04M",
     "total_likes": "1.44M",
-    "total_comments": "55.26K"
+    "total_comments": "55.3K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 224,
-      "total_views": 55517591,
+      "total_views": 55578593,
       "subscribers": "761K",
       "verified": true
     },
     "Warp": {
       "video_count": 54,
-      "total_views": 5314675,
+      "total_views": 5314883,
       "subscribers": "114K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40460,
+      "total_views": 40484,
       "subscribers": "495",
       "verified": true
     },
@@ -2019,8 +2019,8 @@
       "youtube_id": "uw5dZ04D3cw",
       "youtube_url": "https://www.youtube.com/watch?v=uw5dZ04D3cw",
       "thumbnail": "https://i.ytimg.com/vi/uw5dZ04D3cw/mqdefault.jpg",
-      "views": 106344,
-      "views_formatted": "106.34K",
+      "views": 106710,
+      "views_formatted": "106.71K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "761K",
@@ -2628,6 +2628,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "552061"
+    },
+    {
+      "title": "The Legendary Programmer Iceberg",
+      "youtube_id": "WpmznZlrhvk",
+      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
+      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
+      "views": 63153,
+      "views_formatted": "63.15K",
+      "likes_formatted": "2.42K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "761K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3835077"
     },
     {
       "title": "Why Programmers use Rubber Ducks 👩‍💻#technology #programmer #computerprogrammer #softwaredeveloper",
@@ -3408,21 +3423,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2320464"
-    },
-    {
-      "title": "The Legendary Programmer Iceberg",
-      "youtube_id": "WpmznZlrhvk",
-      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
-      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
-      "views": 2517,
-      "views_formatted": "2.52K",
-      "likes_formatted": "180",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "761K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3835077"
     },
     {
       "title": "Creator of SQLite on Turso, AI, and 26 Years of Code",
@@ -4385,6 +4385,21 @@
       "ytjobs_id": "837281"
     },
     {
+      "title": "How to Make Warp's UI More Minimal",
+      "youtube_id": "1GKsIT8FSsE",
+      "youtube_url": "https://www.youtube.com/watch?v=1GKsIT8FSsE",
+      "thumbnail": "https://i.ytimg.com/vi/1GKsIT8FSsE/mqdefault.jpg",
+      "views": 6005,
+      "views_formatted": "6.01K",
+      "likes_formatted": "191",
+      "channel_name": "Warp",
+      "channel_subscribers": "114K",
+      "channel_yt_link": "https://youtube.com/@warpdotdev",
+      "channel_verified": true,
+      "ytjobs_channel_id": 211499,
+      "ytjobs_id": "2072801"
+    },
+    {
       "title": "Customize Warp",
       "youtube_id": "fzb1JcZ0fFA",
       "youtube_url": "https://www.youtube.com/watch?v=fzb1JcZ0fFA",
@@ -4398,21 +4413,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 211499,
       "ytjobs_id": "2005080"
-    },
-    {
-      "title": "How to Make Warp's UI More Minimal",
-      "youtube_id": "1GKsIT8FSsE",
-      "youtube_url": "https://www.youtube.com/watch?v=1GKsIT8FSsE",
-      "thumbnail": "https://i.ytimg.com/vi/1GKsIT8FSsE/mqdefault.jpg",
-      "views": 5797,
-      "views_formatted": "5.8K",
-      "likes_formatted": "188",
-      "channel_name": "Warp",
-      "channel_subscribers": "114K",
-      "channel_yt_link": "https://youtube.com/@warpdotdev",
-      "channel_verified": true,
-      "ytjobs_channel_id": 211499,
-      "ytjobs_id": "2072801"
     },
     {
       "title": "8 Common CLI Mistakes Programmers Make",
@@ -4689,9 +4689,9 @@
       "youtube_id": "zAjMqv3SI2g",
       "youtube_url": "https://www.youtube.com/watch?v=zAjMqv3SI2g",
       "thumbnail": "https://i.ytimg.com/vi/zAjMqv3SI2g/mqdefault.jpg",
-      "views": 1469,
-      "views_formatted": "1.47K",
-      "likes_formatted": "39",
+      "views": 1481,
+      "views_formatted": "1.48K",
+      "likes_formatted": "40",
       "channel_name": "Will.",
       "channel_subscribers": "495",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4749,7 +4749,7 @@
       "youtube_id": "y0w8URdR0go",
       "youtube_url": "https://www.youtube.com/watch?v=y0w8URdR0go",
       "thumbnail": "https://i.ytimg.com/vi/y0w8URdR0go/mqdefault.jpg",
-      "views": 1266,
+      "views": 1269,
       "views_formatted": "1.27K",
       "likes_formatted": "26",
       "channel_name": "Will.",
@@ -4779,8 +4779,8 @@
       "youtube_id": "PMO9y1m2Fbw",
       "youtube_url": "https://www.youtube.com/watch?v=PMO9y1m2Fbw",
       "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/mqdefault.jpg",
-      "views": 1221,
-      "views_formatted": "1.22K",
+      "views": 1229,
+      "views_formatted": "1.23K",
       "likes_formatted": "26",
       "channel_name": "Will.",
       "channel_subscribers": "495",
@@ -4824,8 +4824,8 @@
       "youtube_id": "OZFVg2VyUcc",
       "youtube_url": "https://www.youtube.com/watch?v=OZFVg2VyUcc",
       "thumbnail": "https://i.ytimg.com/vi/OZFVg2VyUcc/mqdefault.jpg",
-      "views": 420,
-      "views_formatted": "420",
+      "views": 421,
+      "views_formatted": "421",
       "likes_formatted": "17",
       "channel_name": "Will.",
       "channel_subscribers": "495",
