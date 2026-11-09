@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-08",
+    "updated": "2026-11-09",
     "total_videos": 324,
-    "total_views_raw": 61041816,
-    "total_views": "61.04M",
+    "total_views_raw": 61054219,
+    "total_views": "61.05M",
     "total_likes": "1.44M",
-    "total_comments": "55.3K"
+    "total_comments": "55.31K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 224,
-      "total_views": 55578593,
+      "total_views": 55590991,
       "subscribers": "761K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40484,
+      "total_views": 40489,
       "subscribers": "495",
       "verified": true
     },
@@ -2139,8 +2139,8 @@
       "youtube_id": "I1-XEpaTxvY",
       "youtube_url": "https://www.youtube.com/watch?v=I1-XEpaTxvY",
       "thumbnail": "https://i.ytimg.com/vi/I1-XEpaTxvY/mqdefault.jpg",
-      "views": 94197,
-      "views_formatted": "94.2K",
+      "views": 94245,
+      "views_formatted": "94.25K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "761K",
@@ -2480,6 +2480,21 @@
       "ytjobs_id": "1551409"
     },
     {
+      "title": "The Legendary Programmer Iceberg",
+      "youtube_id": "WpmznZlrhvk",
+      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
+      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
+      "views": 75503,
+      "views_formatted": "75.5K",
+      "likes_formatted": "2.78K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "761K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3835077"
+    },
+    {
       "title": "Google Refused to Add this Feature So I Did It Myself",
       "youtube_id": "lhjgj45x66Y",
       "youtube_url": "https://www.youtube.com/watch?v=lhjgj45x66Y",
@@ -2628,21 +2643,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "552061"
-    },
-    {
-      "title": "The Legendary Programmer Iceberg",
-      "youtube_id": "WpmznZlrhvk",
-      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
-      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
-      "views": 63153,
-      "views_formatted": "63.15K",
-      "likes_formatted": "2.42K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "761K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3835077"
     },
     {
       "title": "Why Programmers use Rubber Ducks 👩‍💻#technology #programmer #computerprogrammer #softwaredeveloper",
@@ -4869,8 +4869,8 @@
       "youtube_id": "wxcx0a5hEZ4",
       "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
       "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
-      "views": 200,
-      "views_formatted": "200",
+      "views": 205,
+      "views_formatted": "205",
       "likes_formatted": "9",
       "channel_name": "Will.",
       "channel_subscribers": "495",
