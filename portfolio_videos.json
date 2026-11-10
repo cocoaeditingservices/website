@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-09",
+    "updated": "2026-11-10",
     "total_videos": 324,
-    "total_views_raw": 61054219,
-    "total_views": "61.05M",
+    "total_views_raw": 61098041,
+    "total_views": "61.1M",
     "total_likes": "1.44M",
-    "total_comments": "55.31K"
+    "total_comments": "55.33K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 224,
-      "total_views": 55590991,
+      "total_views": 55634792,
       "subscribers": "761K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40489,
+      "total_views": 40510,
       "subscribers": "495",
       "verified": true
     },
@@ -635,6 +635,21 @@
       "ytjobs_id": "868685"
     },
     {
+      "title": "10 Sorting Algorithms Easily Explained",
+      "youtube_id": "rbbTd-gkajw",
+      "youtube_url": "https://www.youtube.com/watch?v=rbbTd-gkajw",
+      "thumbnail": "https://i.ytimg.com/vi/rbbTd-gkajw/mqdefault.jpg",
+      "views": 361139,
+      "views_formatted": "361.14K",
+      "likes_formatted": "8.91K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "761K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "637408"
+    },
+    {
       "title": "These code comments are HILARIOUS 👩‍💻 #programming #technology #software #code #tech #business",
       "youtube_id": "gqIkTMtgpmY",
       "youtube_url": "https://www.youtube.com/watch?v=gqIkTMtgpmY",
@@ -693,21 +708,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "3186370"
-    },
-    {
-      "title": "10 Sorting Algorithms Easily Explained",
-      "youtube_id": "rbbTd-gkajw",
-      "youtube_url": "https://www.youtube.com/watch?v=rbbTd-gkajw",
-      "thumbnail": "https://i.ytimg.com/vi/rbbTd-gkajw/mqdefault.jpg",
-      "views": 327694,
-      "views_formatted": "327.69K",
-      "likes_formatted": "8.62K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "761K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "637408"
     },
     {
       "title": "I Trained an AI with 10,000 Memes",
@@ -2345,6 +2345,21 @@
       "ytjobs_id": "975961"
     },
     {
+      "title": "The Legendary Programmer Iceberg",
+      "youtube_id": "WpmznZlrhvk",
+      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
+      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
+      "views": 85734,
+      "views_formatted": "85.73K",
+      "likes_formatted": "3.13K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "761K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3835077"
+    },
+    {
       "title": "You can play DOOM ANYWHERE 🙃 #software #gaming #code #programming #technology #developer",
       "youtube_id": "ftkTndS1eZc",
       "youtube_url": "https://www.youtube.com/watch?v=ftkTndS1eZc",
@@ -2469,30 +2484,15 @@
       "youtube_id": "eO1gxqzkeQw",
       "youtube_url": "https://www.youtube.com/watch?v=eO1gxqzkeQw",
       "thumbnail": "https://i.ytimg.com/vi/eO1gxqzkeQw/mqdefault.jpg",
-      "views": 75533,
-      "views_formatted": "75.53K",
-      "likes_formatted": "2.26K",
+      "views": 75557,
+      "views_formatted": "75.56K",
+      "likes_formatted": "2.25K",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "761K",
       "channel_yt_link": "https://youtube.com/@codingwithlewis",
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1551409"
-    },
-    {
-      "title": "The Legendary Programmer Iceberg",
-      "youtube_id": "WpmznZlrhvk",
-      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
-      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
-      "views": 75503,
-      "views_formatted": "75.5K",
-      "likes_formatted": "2.78K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "761K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3835077"
     },
     {
       "title": "Google Refused to Add this Feature So I Did It Myself",
@@ -3189,8 +3189,8 @@
       "youtube_id": "lIf4g_5XmMQ",
       "youtube_url": "https://www.youtube.com/watch?v=lIf4g_5XmMQ",
       "thumbnail": "https://i.ytimg.com/vi/lIf4g_5XmMQ/mqdefault.jpg",
-      "views": 26184,
-      "views_formatted": "26.18K",
+      "views": 26285,
+      "views_formatted": "26.29K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "761K",
@@ -4539,7 +4539,7 @@
       "youtube_id": "QC2pbLfLXOw",
       "youtube_url": "https://www.youtube.com/watch?v=QC2pbLfLXOw",
       "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/mqdefault.jpg",
-      "views": 6875,
+      "views": 6878,
       "views_formatted": "6.88K",
       "likes_formatted": "294",
       "channel_name": "Will.",
@@ -4554,8 +4554,8 @@
       "youtube_id": "UloUYTnrceo",
       "youtube_url": "https://www.youtube.com/watch?v=UloUYTnrceo",
       "thumbnail": "https://i.ytimg.com/vi/UloUYTnrceo/mqdefault.jpg",
-      "views": 5139,
-      "views_formatted": "5.14K",
+      "views": 5146,
+      "views_formatted": "5.15K",
       "likes_formatted": "149",
       "channel_name": "Will.",
       "channel_subscribers": "495",
@@ -4599,9 +4599,9 @@
       "youtube_id": "OR1SdNy7MyE",
       "youtube_url": "https://www.youtube.com/watch?v=OR1SdNy7MyE",
       "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/mqdefault.jpg",
-      "views": 1832,
-      "views_formatted": "1.83K",
-      "likes_formatted": "49",
+      "views": 1842,
+      "views_formatted": "1.84K",
+      "likes_formatted": "50",
       "channel_name": "Will.",
       "channel_subscribers": "495",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4614,7 +4614,7 @@
       "youtube_id": "BtehhblZVq4",
       "youtube_url": "https://www.youtube.com/watch?v=BtehhblZVq4",
       "thumbnail": "https://i.ytimg.com/vi/BtehhblZVq4/mqdefault.jpg",
-      "views": 1766,
+      "views": 1767,
       "views_formatted": "1.77K",
       "likes_formatted": "49",
       "channel_name": "Will.",
