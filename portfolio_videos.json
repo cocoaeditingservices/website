@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-12",
+    "updated": "2026-11-13",
     "total_videos": 324,
-    "total_views_raw": 61115657,
+    "total_views_raw": 61120414,
     "total_views": "61.12M",
     "total_likes": "1.44M",
     "total_comments": "55.34K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 224,
-      "total_views": 55652343,
+      "total_views": 55657089,
       "subscribers": "761K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40566,
+      "total_views": 40577,
       "subscribers": "496",
       "verified": true
     },
@@ -2000,6 +2000,21 @@
       "ytjobs_id": "868706"
     },
     {
+      "title": "The Legendary Programmer Iceberg",
+      "youtube_id": "WpmznZlrhvk",
+      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
+      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
+      "views": 107190,
+      "views_formatted": "107.19K",
+      "likes_formatted": "3.75K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "761K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3835077"
+    },
+    {
       "title": "5 INSANE Large Language Models you need to use 👩‍💻 #technology #coder #developer #tech #software",
       "youtube_id": "FZ3R7K4mpg4",
       "youtube_url": "https://www.youtube.com/watch?v=FZ3R7K4mpg4",
@@ -2088,21 +2103,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868669"
-    },
-    {
-      "title": "The Legendary Programmer Iceberg",
-      "youtube_id": "WpmznZlrhvk",
-      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
-      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
-      "views": 102444,
-      "views_formatted": "102.44K",
-      "likes_formatted": "3.6K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "761K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3835077"
     },
     {
       "title": "Let’s build a Web App 👩‍💻 #developer #tech #coder #python #javascript #software #technology",
@@ -4749,7 +4749,7 @@
       "youtube_id": "y0w8URdR0go",
       "youtube_url": "https://www.youtube.com/watch?v=y0w8URdR0go",
       "thumbnail": "https://i.ytimg.com/vi/y0w8URdR0go/mqdefault.jpg",
-      "views": 1269,
+      "views": 1271,
       "views_formatted": "1.27K",
       "likes_formatted": "26",
       "channel_name": "Will.",
@@ -4779,8 +4779,8 @@
       "youtube_id": "PMO9y1m2Fbw",
       "youtube_url": "https://www.youtube.com/watch?v=PMO9y1m2Fbw",
       "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/mqdefault.jpg",
-      "views": 1229,
-      "views_formatted": "1.23K",
+      "views": 1238,
+      "views_formatted": "1.24K",
       "likes_formatted": "26",
       "channel_name": "Will.",
       "channel_subscribers": "496",
