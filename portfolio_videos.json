@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-13",
+    "updated": "2026-11-14",
     "total_videos": 324,
-    "total_views_raw": 61120414,
-    "total_views": "61.12M",
+    "total_views_raw": 61129448,
+    "total_views": "61.13M",
     "total_likes": "1.44M",
-    "total_comments": "55.34K"
+    "total_comments": "55.35K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 224,
-      "total_views": 55657089,
+      "total_views": 55666119,
       "subscribers": "761K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40577,
+      "total_views": 40581,
       "subscribers": "496",
       "verified": true
     },
@@ -1130,6 +1130,21 @@
       "ytjobs_id": "1090116"
     },
     {
+      "title": "PostgreSQL: A Short History 👨‍💻",
+      "youtube_id": "uvthClm8gmc",
+      "youtube_url": "https://www.youtube.com/watch?v=uvthClm8gmc",
+      "thumbnail": "https://i.ytimg.com/vi/uvthClm8gmc/mqdefault.jpg",
+      "views": 204655,
+      "views_formatted": "204.66K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "761K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2086059"
+    },
+    {
       "title": "One of the BEST databases EVER 👩‍💻 #developer #code #coding #software #technology #tech #developer",
       "youtube_id": "_RMsxtWJHGY",
       "youtube_url": "https://www.youtube.com/watch?v=_RMsxtWJHGY",
@@ -1188,21 +1203,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "637441"
-    },
-    {
-      "title": "PostgreSQL: A Short History 👨‍💻",
-      "youtube_id": "uvthClm8gmc",
-      "youtube_url": "https://www.youtube.com/watch?v=uvthClm8gmc",
-      "thumbnail": "https://i.ytimg.com/vi/uvthClm8gmc/mqdefault.jpg",
-      "views": 201045,
-      "views_formatted": "201.05K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "761K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2086059"
     },
     {
       "title": "Functional Programming in 60 Seconds 👩‍💻 #tech #programming #software #python #javascript",
@@ -1865,6 +1865,21 @@
       "ytjobs_id": "868698"
     },
     {
+      "title": "The Legendary Programmer Iceberg",
+      "youtube_id": "WpmznZlrhvk",
+      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
+      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
+      "views": 112610,
+      "views_formatted": "112.61K",
+      "likes_formatted": "3.88K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "761K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3835077"
+    },
+    {
       "title": "Why Blender is the BEST Open Source Software #software #technology #code #3danimation #tech",
       "youtube_id": "TkYwmsiRgao",
       "youtube_url": "https://www.youtube.com/watch?v=TkYwmsiRgao",
@@ -1998,21 +2013,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868706"
-    },
-    {
-      "title": "The Legendary Programmer Iceberg",
-      "youtube_id": "WpmznZlrhvk",
-      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
-      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
-      "views": 107190,
-      "views_formatted": "107.19K",
-      "likes_formatted": "3.75K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "761K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3835077"
     },
     {
       "title": "5 INSANE Large Language Models you need to use 👩‍💻 #technology #coder #developer #tech #software",
@@ -4869,8 +4869,8 @@
       "youtube_id": "wxcx0a5hEZ4",
       "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
       "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
-      "views": 205,
-      "views_formatted": "205",
+      "views": 209,
+      "views_formatted": "209",
       "likes_formatted": "9",
       "channel_name": "Will.",
       "channel_subscribers": "496",
