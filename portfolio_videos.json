@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-14",
+    "updated": "2026-11-15",
     "total_videos": 324,
-    "total_views_raw": 61129448,
+    "total_views_raw": 61132435,
     "total_views": "61.13M",
     "total_likes": "1.44M",
-    "total_comments": "55.35K"
+    "total_comments": "55.34K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 224,
-      "total_views": 55666119,
+      "total_views": 55669095,
       "subscribers": "761K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40581,
+      "total_views": 40592,
       "subscribers": "496",
       "verified": true
     },
@@ -53,7 +53,7 @@
     "TheSassJacket": {
       "video_count": 1,
       "total_views": 424,
-      "subscribers": "6.36K",
+      "subscribers": "6.38K",
       "verified": true
     },
     "Fast Forward": {
@@ -729,8 +729,8 @@
       "youtube_id": "82pykpCtBfI",
       "youtube_url": "https://www.youtube.com/watch?v=82pykpCtBfI",
       "thumbnail": "https://i.ytimg.com/vi/82pykpCtBfI/mqdefault.jpg",
-      "views": 319945,
-      "views_formatted": "319.95K",
+      "views": 320064,
+      "views_formatted": "320.06K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "761K",
@@ -1344,8 +1344,8 @@
       "youtube_id": "HnRjGA4FXK8",
       "youtube_url": "https://www.youtube.com/watch?v=HnRjGA4FXK8",
       "thumbnail": "https://i.ytimg.com/vi/HnRjGA4FXK8/mqdefault.jpg",
-      "views": 177973,
-      "views_formatted": "177.97K",
+      "views": 178149,
+      "views_formatted": "178.15K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "761K",
@@ -1820,6 +1820,21 @@
       "ytjobs_id": "868666"
     },
     {
+      "title": "The Legendary Programmer Iceberg",
+      "youtube_id": "WpmznZlrhvk",
+      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
+      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
+      "views": 115275,
+      "views_formatted": "115.28K",
+      "likes_formatted": "3.97K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "761K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3835077"
+    },
+    {
       "title": "The BEST and WORST Hyped Technology 👩‍💻 #software #technology #code #programming #tech",
       "youtube_id": "LZxlfMoH2Uo",
       "youtube_url": "https://www.youtube.com/watch?v=LZxlfMoH2Uo",
@@ -1863,21 +1878,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868698"
-    },
-    {
-      "title": "The Legendary Programmer Iceberg",
-      "youtube_id": "WpmznZlrhvk",
-      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
-      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
-      "views": 112610,
-      "views_formatted": "112.61K",
-      "likes_formatted": "3.88K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "761K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3835077"
     },
     {
       "title": "Why Blender is the BEST Open Source Software #software #technology #code #3danimation #tech",
@@ -1989,8 +1989,8 @@
       "youtube_id": "OtWq6bXlvZE",
       "youtube_url": "https://www.youtube.com/watch?v=OtWq6bXlvZE",
       "thumbnail": "https://i.ytimg.com/vi/OtWq6bXlvZE/mqdefault.jpg",
-      "views": 108686,
-      "views_formatted": "108.69K",
+      "views": 108702,
+      "views_formatted": "108.7K",
       "likes_formatted": "0",
       "channel_name": "Coding with Lewis",
       "channel_subscribers": "761K",
@@ -3718,7 +3718,7 @@
       "views_formatted": "424",
       "likes_formatted": "25",
       "channel_name": "TheSassJacket",
-      "channel_subscribers": "6.36K",
+      "channel_subscribers": "6.38K",
       "channel_yt_link": "https://youtube.com/@thesassjacket",
       "channel_verified": true,
       "ytjobs_channel_id": 211498,
@@ -4539,7 +4539,7 @@
       "youtube_id": "QC2pbLfLXOw",
       "youtube_url": "https://www.youtube.com/watch?v=QC2pbLfLXOw",
       "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/mqdefault.jpg",
-      "views": 6878,
+      "views": 6879,
       "views_formatted": "6.88K",
       "likes_formatted": "294",
       "channel_name": "Will.",
@@ -4554,7 +4554,7 @@
       "youtube_id": "UloUYTnrceo",
       "youtube_url": "https://www.youtube.com/watch?v=UloUYTnrceo",
       "thumbnail": "https://i.ytimg.com/vi/UloUYTnrceo/mqdefault.jpg",
-      "views": 5146,
+      "views": 5152,
       "views_formatted": "5.15K",
       "likes_formatted": "149",
       "channel_name": "Will.",
@@ -4599,7 +4599,7 @@
       "youtube_id": "OR1SdNy7MyE",
       "youtube_url": "https://www.youtube.com/watch?v=OR1SdNy7MyE",
       "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/mqdefault.jpg",
-      "views": 1842,
+      "views": 1843,
       "views_formatted": "1.84K",
       "likes_formatted": "50",
       "channel_name": "Will.",
@@ -4644,7 +4644,7 @@
       "youtube_id": "FfPjm9Dnf-E",
       "youtube_url": "https://www.youtube.com/watch?v=FfPjm9Dnf-E",
       "thumbnail": "https://i.ytimg.com/vi/FfPjm9Dnf-E/mqdefault.jpg",
-      "views": 1609,
+      "views": 1610,
       "views_formatted": "1.61K",
       "likes_formatted": "39",
       "channel_name": "Will.",
@@ -4899,8 +4899,8 @@
       "youtube_id": "lzN4vhwUghE",
       "youtube_url": "https://www.youtube.com/watch?v=lzN4vhwUghE",
       "thumbnail": "https://i.ytimg.com/vi/lzN4vhwUghE/mqdefault.jpg",
-      "views": 115,
-      "views_formatted": "115",
+      "views": 117,
+      "views_formatted": "117",
       "likes_formatted": "3",
       "channel_name": "Will.",
       "channel_subscribers": "496",
