@@ -1,16 +1,16 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-15",
+    "updated": "2026-11-16",
     "total_videos": 324,
-    "total_views_raw": 61132435,
-    "total_views": "61.13M",
+    "total_views_raw": 61137224,
+    "total_views": "61.14M",
     "total_likes": "1.44M",
-    "total_comments": "55.34K"
+    "total_comments": "55.35K"
   },
   "channels": {
     "Coding with Lewis": {
       "video_count": 224,
-      "total_views": 55669095,
+      "total_views": 55673863,
       "subscribers": "761K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40592,
+      "total_views": 40613,
       "subscribers": "496",
       "verified": true
     },
@@ -1790,6 +1790,21 @@
       "ytjobs_id": "1067357"
     },
     {
+      "title": "The Legendary Programmer Iceberg",
+      "youtube_id": "WpmznZlrhvk",
+      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
+      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
+      "views": 119376,
+      "views_formatted": "119.38K",
+      "likes_formatted": "4.11K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "761K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "3835077"
+    },
+    {
       "title": "How to become a DevOps Engineer 👩‍💻 #programming #technology #software #code #career #devops",
       "youtube_id": "gAj1r7vC_VU",
       "youtube_url": "https://www.youtube.com/watch?v=gAj1r7vC_VU",
@@ -1818,21 +1833,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "868666"
-    },
-    {
-      "title": "The Legendary Programmer Iceberg",
-      "youtube_id": "WpmznZlrhvk",
-      "youtube_url": "https://www.youtube.com/watch?v=WpmznZlrhvk",
-      "thumbnail": "https://i.ytimg.com/vi/WpmznZlrhvk/mqdefault.jpg",
-      "views": 115275,
-      "views_formatted": "115.28K",
-      "likes_formatted": "3.97K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "761K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "3835077"
     },
     {
       "title": "The BEST and WORST Hyped Technology 👩‍💻 #software #technology #code #programming #tech",
@@ -3125,6 +3125,21 @@
       "ytjobs_id": "1910808"
     },
     {
+      "title": "Don’t Use Python Without These 8 Tools",
+      "youtube_id": "RU_ZcKzFdG0",
+      "youtube_url": "https://www.youtube.com/watch?v=RU_ZcKzFdG0",
+      "thumbnail": "https://i.ytimg.com/vi/RU_ZcKzFdG0/mqdefault.jpg",
+      "views": 27869,
+      "views_formatted": "27.87K",
+      "likes_formatted": "1.22K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "761K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2244987"
+    },
+    {
       "title": "9 AI Models Built the Same Game (Results Were Unexpected)",
       "youtube_id": "07YLWTDdStg",
       "youtube_url": "https://www.youtube.com/watch?v=07YLWTDdStg",
@@ -3138,21 +3153,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "2195088"
-    },
-    {
-      "title": "Don’t Use Python Without These 8 Tools",
-      "youtube_id": "RU_ZcKzFdG0",
-      "youtube_url": "https://www.youtube.com/watch?v=RU_ZcKzFdG0",
-      "thumbnail": "https://i.ytimg.com/vi/RU_ZcKzFdG0/mqdefault.jpg",
-      "views": 27202,
-      "views_formatted": "27.2K",
-      "likes_formatted": "1.21K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "761K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2244987"
     },
     {
       "title": "I Asked My Subscribers To Make The WORST Apps Possible",
@@ -4569,8 +4569,8 @@
       "youtube_id": "gO-f8rxTF3M",
       "youtube_url": "https://www.youtube.com/watch?v=gO-f8rxTF3M",
       "thumbnail": "https://i.ytimg.com/vi/gO-f8rxTF3M/mqdefault.jpg",
-      "views": 3898,
-      "views_formatted": "3.9K",
+      "views": 3911,
+      "views_formatted": "3.91K",
       "likes_formatted": "100",
       "channel_name": "Will.",
       "channel_subscribers": "496",
@@ -4584,8 +4584,8 @@
       "youtube_id": "Ekon7xZlVPE",
       "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
       "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
-      "views": 1950,
-      "views_formatted": "1.95K",
+      "views": 1955,
+      "views_formatted": "1.96K",
       "likes_formatted": "38",
       "channel_name": "Will.",
       "channel_subscribers": "496",
@@ -4719,7 +4719,7 @@
       "youtube_id": "JVWi2n_RK7A",
       "youtube_url": "https://www.youtube.com/watch?v=JVWi2n_RK7A",
       "thumbnail": "https://i.ytimg.com/vi/JVWi2n_RK7A/mqdefault.jpg",
-      "views": 1398,
+      "views": 1401,
       "views_formatted": "1.4K",
       "likes_formatted": "31",
       "channel_name": "Will.",
