@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-19",
+    "updated": "2026-11-20",
     "total_videos": 324,
-    "total_views_raw": 61139388,
+    "total_views_raw": 61139400,
     "total_views": "61.14M",
     "total_likes": "1.44M",
     "total_comments": "55.34K"
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40640,
+      "total_views": 40652,
       "subscribers": "496",
       "verified": true
     },
@@ -4554,8 +4554,8 @@
       "youtube_id": "UloUYTnrceo",
       "youtube_url": "https://www.youtube.com/watch?v=UloUYTnrceo",
       "thumbnail": "https://i.ytimg.com/vi/UloUYTnrceo/mqdefault.jpg",
-      "views": 5152,
-      "views_formatted": "5.15K",
+      "views": 5155,
+      "views_formatted": "5.16K",
       "likes_formatted": "149",
       "channel_name": "Will.",
       "channel_subscribers": "496",
@@ -4659,7 +4659,7 @@
       "youtube_id": "aj_-P137dVw",
       "youtube_url": "https://www.youtube.com/watch?v=aj_-P137dVw",
       "thumbnail": "https://i.ytimg.com/vi/aj_-P137dVw/mqdefault.jpg",
-      "views": 1550,
+      "views": 1551,
       "views_formatted": "1.55K",
       "likes_formatted": "46",
       "channel_name": "Will.",
@@ -4668,6 +4668,21 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3648194"
+    },
+    {
+      "title": "We Owe The Ghoul An Apology...",
+      "youtube_id": "zAjMqv3SI2g",
+      "youtube_url": "https://www.youtube.com/watch?v=zAjMqv3SI2g",
+      "thumbnail": "https://i.ytimg.com/vi/zAjMqv3SI2g/mqdefault.jpg",
+      "views": 1488,
+      "views_formatted": "1.49K",
+      "likes_formatted": "40",
+      "channel_name": "Will.",
+      "channel_subscribers": "496",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3817919"
     },
     {
       "title": "This Guy Has Been Selling The Moon For 40 Years",
@@ -4683,21 +4698,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3706843"
-    },
-    {
-      "title": "We Owe The Ghoul An Apology...",
-      "youtube_id": "zAjMqv3SI2g",
-      "youtube_url": "https://www.youtube.com/watch?v=zAjMqv3SI2g",
-      "thumbnail": "https://i.ytimg.com/vi/zAjMqv3SI2g/mqdefault.jpg",
-      "views": 1481,
-      "views_formatted": "1.48K",
-      "likes_formatted": "40",
-      "channel_name": "Will.",
-      "channel_subscribers": "496",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3817919"
     },
     {
       "title": "The Logic Behind Your Loot Drop",
@@ -4899,8 +4899,8 @@
       "youtube_id": "lzN4vhwUghE",
       "youtube_url": "https://www.youtube.com/watch?v=lzN4vhwUghE",
       "thumbnail": "https://i.ytimg.com/vi/lzN4vhwUghE/mqdefault.jpg",
-      "views": 117,
-      "views_formatted": "117",
+      "views": 118,
+      "views_formatted": "118",
       "likes_formatted": "3",
       "channel_name": "Will.",
       "channel_subscribers": "496",
