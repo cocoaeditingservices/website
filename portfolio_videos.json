@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-22",
+    "updated": "2026-11-23",
     "total_videos": 324,
-    "total_views_raw": 61141610,
+    "total_views_raw": 61141618,
     "total_views": "61.14M",
     "total_likes": "1.44M",
     "total_comments": "55.34K"
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40693,
+      "total_views": 40701,
       "subscribers": "497",
       "verified": true
     },
@@ -4599,8 +4599,8 @@
       "youtube_id": "OR1SdNy7MyE",
       "youtube_url": "https://www.youtube.com/watch?v=OR1SdNy7MyE",
       "thumbnail": "https://i.ytimg.com/vi/OR1SdNy7MyE/mqdefault.jpg",
-      "views": 1844,
-      "views_formatted": "1.84K",
+      "views": 1848,
+      "views_formatted": "1.85K",
       "likes_formatted": "50",
       "channel_name": "Will.",
       "channel_subscribers": "497",
@@ -4869,8 +4869,8 @@
       "youtube_id": "wxcx0a5hEZ4",
       "youtube_url": "https://www.youtube.com/watch?v=wxcx0a5hEZ4",
       "thumbnail": "https://i.ytimg.com/vi/wxcx0a5hEZ4/mqdefault.jpg",
-      "views": 213,
-      "views_formatted": "213",
+      "views": 217,
+      "views_formatted": "217",
       "likes_formatted": "9",
       "channel_name": "Will.",
       "channel_subscribers": "497",
