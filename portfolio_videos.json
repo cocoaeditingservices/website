@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "total_videos": 324,
-    "total_views_raw": 61141618,
+    "total_views_raw": 61141633,
     "total_views": "61.14M",
     "total_likes": "1.44M",
     "total_comments": "55.34K"
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40701,
+      "total_views": 40716,
       "subscribers": "497",
       "verified": true
     },
@@ -4539,7 +4539,7 @@
       "youtube_id": "QC2pbLfLXOw",
       "youtube_url": "https://www.youtube.com/watch?v=QC2pbLfLXOw",
       "thumbnail": "https://i.ytimg.com/vi/QC2pbLfLXOw/mqdefault.jpg",
-      "views": 6880,
+      "views": 6881,
       "views_formatted": "6.88K",
       "likes_formatted": "294",
       "channel_name": "Will.",
@@ -4554,7 +4554,7 @@
       "youtube_id": "UloUYTnrceo",
       "youtube_url": "https://www.youtube.com/watch?v=UloUYTnrceo",
       "thumbnail": "https://i.ytimg.com/vi/UloUYTnrceo/mqdefault.jpg",
-      "views": 5155,
+      "views": 5158,
       "views_formatted": "5.16K",
       "likes_formatted": "149",
       "channel_name": "Will.",
@@ -4674,9 +4674,9 @@
       "youtube_id": "zAjMqv3SI2g",
       "youtube_url": "https://www.youtube.com/watch?v=zAjMqv3SI2g",
       "thumbnail": "https://i.ytimg.com/vi/zAjMqv3SI2g/mqdefault.jpg",
-      "views": 1488,
+      "views": 1490,
       "views_formatted": "1.49K",
-      "likes_formatted": "40",
+      "likes_formatted": "41",
       "channel_name": "Will.",
       "channel_subscribers": "497",
       "channel_yt_link": "https://youtube.com/@cocoasulphur",
@@ -4760,6 +4760,21 @@
       "ytjobs_id": "3799210"
     },
     {
+      "title": "Mark Zuckerberg Won't Stop Trying To Sell Me His Glasses",
+      "youtube_id": "J9B8sVOM4C8",
+      "youtube_url": "https://www.youtube.com/watch?v=J9B8sVOM4C8",
+      "thumbnail": "https://i.ytimg.com/vi/J9B8sVOM4C8/mqdefault.jpg",
+      "views": 1264,
+      "views_formatted": "1.26K",
+      "likes_formatted": "39",
+      "channel_name": "Will.",
+      "channel_subscribers": "497",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3643208"
+    },
+    {
       "title": "The Dark Forest Hypothesis, Explained",
       "youtube_id": "PMO9y1m2Fbw",
       "youtube_url": "https://www.youtube.com/watch?v=PMO9y1m2Fbw",
@@ -4773,21 +4788,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3771639"
-    },
-    {
-      "title": "Mark Zuckerberg Won't Stop Trying To Sell Me His Glasses",
-      "youtube_id": "J9B8sVOM4C8",
-      "youtube_url": "https://www.youtube.com/watch?v=J9B8sVOM4C8",
-      "thumbnail": "https://i.ytimg.com/vi/J9B8sVOM4C8/mqdefault.jpg",
-      "views": 1263,
-      "views_formatted": "1.26K",
-      "likes_formatted": "39",
-      "channel_name": "Will.",
-      "channel_subscribers": "497",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3643208"
     },
     {
       "title": "The US Definitely Owes Me $12 Trillion",
@@ -4854,8 +4854,8 @@
       "youtube_id": "c_uPtMC5ewQ",
       "youtube_url": "https://www.youtube.com/watch?v=c_uPtMC5ewQ",
       "thumbnail": "https://i.ytimg.com/vi/c_uPtMC5ewQ/mqdefault.jpg",
-      "views": 325,
-      "views_formatted": "325",
+      "views": 333,
+      "views_formatted": "333",
       "likes_formatted": "13",
       "channel_name": "Will.",
       "channel_subscribers": "497",
