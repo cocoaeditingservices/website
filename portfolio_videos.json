@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "total_videos": 324,
-    "total_views_raw": 61141633,
+    "total_views_raw": 61142065,
     "total_views": "61.14M",
     "total_likes": "1.44M",
     "total_comments": "55.34K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 224,
-      "total_views": 55678159,
+      "total_views": 55678572,
       "subscribers": "762K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40716,
+      "total_views": 40735,
       "subscribers": "497",
       "verified": true
     },
@@ -2195,6 +2195,21 @@
       "ytjobs_id": "868670"
     },
     {
+      "title": "5 Awesome Open Source Projects 🧑‍💻",
+      "youtube_id": "m5RAf4oRyWU",
+      "youtube_url": "https://www.youtube.com/watch?v=m5RAf4oRyWU",
+      "thumbnail": "https://i.ytimg.com/vi/m5RAf4oRyWU/mqdefault.jpg",
+      "views": 92849,
+      "views_formatted": "92.85K",
+      "likes_formatted": "0",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "762K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "2540812"
+    },
+    {
       "title": "10 AWESOME Python packages 👩‍💻 #programming #tech #code #software #technology #developer #python",
       "youtube_id": "uYEupmylv1Y",
       "youtube_url": "https://www.youtube.com/watch?v=uYEupmylv1Y",
@@ -2208,21 +2223,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "637440"
-    },
-    {
-      "title": "5 Awesome Open Source Projects 🧑‍💻",
-      "youtube_id": "m5RAf4oRyWU",
-      "youtube_url": "https://www.youtube.com/watch?v=m5RAf4oRyWU",
-      "thumbnail": "https://i.ytimg.com/vi/m5RAf4oRyWU/mqdefault.jpg",
-      "views": 92437,
-      "views_formatted": "92.44K",
-      "likes_formatted": "0",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "762K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "2540812"
     },
     {
       "title": "How Much Does it Cost to Scale an App to 100,000 Users?",
@@ -2244,7 +2244,7 @@
       "youtube_id": "lIiDgPxruEA",
       "youtube_url": "https://www.youtube.com/watch?v=lIiDgPxruEA",
       "thumbnail": "https://i.ytimg.com/vi/lIiDgPxruEA/mqdefault.jpg",
-      "views": 91587,
+      "views": 91588,
       "views_formatted": "91.59K",
       "likes_formatted": "4.27K",
       "channel_name": "Coding with Lewis",
@@ -4569,8 +4569,8 @@
       "youtube_id": "gO-f8rxTF3M",
       "youtube_url": "https://www.youtube.com/watch?v=gO-f8rxTF3M",
       "thumbnail": "https://i.ytimg.com/vi/gO-f8rxTF3M/mqdefault.jpg",
-      "views": 3916,
-      "views_formatted": "3.92K",
+      "views": 3931,
+      "views_formatted": "3.93K",
       "likes_formatted": "99",
       "channel_name": "Will.",
       "channel_subscribers": "497",
@@ -4584,7 +4584,7 @@
       "youtube_id": "Ekon7xZlVPE",
       "youtube_url": "https://www.youtube.com/watch?v=Ekon7xZlVPE",
       "thumbnail": "https://i.ytimg.com/vi/Ekon7xZlVPE/mqdefault.jpg",
-      "views": 1958,
+      "views": 1961,
       "views_formatted": "1.96K",
       "likes_formatted": "38",
       "channel_name": "Will.",
@@ -4689,7 +4689,7 @@
       "youtube_id": "opJUYKr03Tw",
       "youtube_url": "https://www.youtube.com/watch?v=opJUYKr03Tw",
       "thumbnail": "https://i.ytimg.com/vi/opJUYKr03Tw/mqdefault.jpg",
-      "views": 1487,
+      "views": 1488,
       "views_formatted": "1.49K",
       "likes_formatted": "36",
       "channel_name": "Will.",
