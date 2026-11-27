@@ -1,8 +1,8 @@
 {
   "portfolio_stats": {
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "total_videos": 324,
-    "total_views_raw": 61143544,
+    "total_views_raw": 61144250,
     "total_views": "61.14M",
     "total_likes": "1.44M",
     "total_comments": "55.34K"
@@ -10,7 +10,7 @@
   "channels": {
     "Coding with Lewis": {
       "video_count": 224,
-      "total_views": 55680026,
+      "total_views": 55680731,
       "subscribers": "762K",
       "verified": true
     },
@@ -28,7 +28,7 @@
     },
     "Will.": {
       "video_count": 26,
-      "total_views": 40750,
+      "total_views": 40751,
       "subscribers": "497",
       "verified": true
     },
@@ -2480,6 +2480,21 @@
       "ytjobs_id": "2265444"
     },
     {
+      "title": "Google Refused to Add this Feature So I Did It Myself",
+      "youtube_id": "lhjgj45x66Y",
+      "youtube_url": "https://www.youtube.com/watch?v=lhjgj45x66Y",
+      "thumbnail": "https://i.ytimg.com/vi/lhjgj45x66Y/mqdefault.jpg",
+      "views": 75877,
+      "views_formatted": "75.88K",
+      "likes_formatted": "2.75K",
+      "channel_name": "Coding with Lewis",
+      "channel_subscribers": "762K",
+      "channel_yt_link": "https://youtube.com/@codingwithlewis",
+      "channel_verified": true,
+      "ytjobs_channel_id": 50058,
+      "ytjobs_id": "1442876"
+    },
+    {
       "title": "Revisiting my Viral GitHub Repository #ad",
       "youtube_id": "eO1gxqzkeQw",
       "youtube_url": "https://www.youtube.com/watch?v=eO1gxqzkeQw",
@@ -2493,21 +2508,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 50058,
       "ytjobs_id": "1551409"
-    },
-    {
-      "title": "Google Refused to Add this Feature So I Did It Myself",
-      "youtube_id": "lhjgj45x66Y",
-      "youtube_url": "https://www.youtube.com/watch?v=lhjgj45x66Y",
-      "thumbnail": "https://i.ytimg.com/vi/lhjgj45x66Y/mqdefault.jpg",
-      "views": 75172,
-      "views_formatted": "75.17K",
-      "likes_formatted": "2.75K",
-      "channel_name": "Coding with Lewis",
-      "channel_subscribers": "762K",
-      "channel_yt_link": "https://youtube.com/@codingwithlewis",
-      "channel_verified": true,
-      "ytjobs_channel_id": 50058,
-      "ytjobs_id": "1442876"
     },
     {
       "title": "How CSS Frameworks Evolved the Last 20 Years 💻#softwaredevelopment #programming #webdev #javascript",
@@ -4760,6 +4760,21 @@
       "ytjobs_id": "3799210"
     },
     {
+      "title": "The Dark Forest Hypothesis, Explained",
+      "youtube_id": "PMO9y1m2Fbw",
+      "youtube_url": "https://www.youtube.com/watch?v=PMO9y1m2Fbw",
+      "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/mqdefault.jpg",
+      "views": 1264,
+      "views_formatted": "1.26K",
+      "likes_formatted": "26",
+      "channel_name": "Will.",
+      "channel_subscribers": "497",
+      "channel_yt_link": "https://youtube.com/@cocoasulphur",
+      "channel_verified": true,
+      "ytjobs_channel_id": 218058,
+      "ytjobs_id": "3771639"
+    },
+    {
       "title": "Mark Zuckerberg Won't Stop Trying To Sell Me His Glasses",
       "youtube_id": "J9B8sVOM4C8",
       "youtube_url": "https://www.youtube.com/watch?v=J9B8sVOM4C8",
@@ -4773,21 +4788,6 @@
       "channel_verified": true,
       "ytjobs_channel_id": 218058,
       "ytjobs_id": "3643208"
-    },
-    {
-      "title": "The Dark Forest Hypothesis, Explained",
-      "youtube_id": "PMO9y1m2Fbw",
-      "youtube_url": "https://www.youtube.com/watch?v=PMO9y1m2Fbw",
-      "thumbnail": "https://i.ytimg.com/vi/PMO9y1m2Fbw/mqdefault.jpg",
-      "views": 1263,
-      "views_formatted": "1.26K",
-      "likes_formatted": "26",
-      "channel_name": "Will.",
-      "channel_subscribers": "497",
-      "channel_yt_link": "https://youtube.com/@cocoasulphur",
-      "channel_verified": true,
-      "ytjobs_channel_id": 218058,
-      "ytjobs_id": "3771639"
     },
     {
       "title": "The US Definitely Owes Me $12 Trillion",
